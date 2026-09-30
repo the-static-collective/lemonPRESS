@@ -1,0 +1,24 @@
+cut_id: lemonpress:another-clue:carrier-cut-001
+work_id: lemonpress:another-clue
+title: "Another Clue — Carrier Cut 001"
+status: admitted
+admitted_on: "2026-09-30"
+source:
+  carrier: google-doc
+  document_id: "17mo-QaxjzEFhOStMIghLP7t0lGOhR_TASQ4249AhvJE"
+  revision_id: "ANLCKQlUcrKZrW-6RLQlbUOUJ1NfxicAVMvXbgJXu0_2CIl_gDiSO4poRoh0ffw9JIsJUwX6Kg32S2p7deQPDWw3pkX3_xTVLqBqA-lNZu4"
+relationship_to_other_cuts: sibling
+editorial_law:
+  - "Compression by cutting before rewriting."
+  - "Prefer the original carrier of the original thought."
+production:
+  physical:
+    - "press/physical:works/another-clue/INTERIOR-CARRIER-001.txt"
+    - "press/physical:works/another-clue/PHYSICAL-001.md"
+  digital:
+    - "press/digital:works/another-clue/READER-001.txt"
+    - "press/digital:works/another-clue/ROUTES-001.md"
+  crawler:
+    - "press/crawler:works/another-clue/book.txt"
+    - "press/crawler:works/another-clue/fragments/"
+  archive: "press/archive:works/another-clue/admission-2026-09-30-carrier-cut-001/"
