@@ -1,0 +1,25 @@
+CHAPTER 4
+RELATION BIRTH
+4.1  Minimum arity
+Some relations are impossible below a minimum number of participants. A binary relation requires at least two argument positions; a nondegenerate triangle requires three vertices; a tetrahedral 3-simplex requires four. The number at which a relation first becomes admissible is a structural fact about the declared relation family.
+Definition 4.1 (Relation birthday). For a relation type ρ in a declared family W, its relation birthday is b_W(ρ) = min{n : ρ is admissible in Wₙ}, provided the minimum exists.
+b_W(ρ) = min { n : ρ ∈ Adm(Wₙ) }
+Remark 4.2. The birthday is a statement about admissibility or existence, not about discovery. If ρ is first noticed at m > b_W(ρ), the later observation does not backdate or redefine its minimum arity.
+4.2  Birth certificates
+Proposal 4.3 (Relation birth certificate). A birth certificate for ρ is a record B(ρ) = (S, b, σ, t, Π), where S is a participating set, b the established minimum arity, σ any orientation data earned by the relation, t the first attributable observed occurrence in the working corpus, and Π the positive formation receipt.
+Only b is intended as an intrinsic numerical coordinate of the relation type. The remaining fields are specimen-level information. Keeping them separate prevents a later discovery event from being confused with mathematical birth.
+Warning 4.4. A relation of arity k has no canonical projection to lower arity merely because all of its participants possess pairwise relations. In particular, ternary relation ≠ pairwise backprojection.
+4.3  Pairwise surfaces can hide higher-order change
+Consider two three-element vector matroids on the same labeled ground set {a,b,c}. In U₃,₃ every subset is independent. In U₂,₃ every singleton and every pair is independent, but the full triple is dependent. An observer restricted to singleton and pair queries cannot distinguish the two matroids.
+Proposition 4.5. Pairwise agreement does not determine ternary dependence.
+The proposition is elementary, but it is the cleanest finite witness for the rule GRAPH PROJECTION ≠ WHOLE. A graph records order-two adjacency. A hypergraph, matroid, simplicial complex, or other higher-order carrier may retain relations that disappear under pairwise projection.
+DGRAM 055 · VERIFIED FINITE SPECIMEN · SINGLETON/PAIR SURFACE IDENTICAL · TRIPLE DEPENDENCE CHANGED
+4.4  Orientation is additional structure
+Even when support and dependence agree, orientation may remain independent information. For an ordered basis in a real vector space, the sign of the determinant distinguishes two orientations while the underlying set of nonzero basis vectors remains the same.
+Observation 4.6. Support does not determine orientation. Therefore a projection that retains only participating elements can erase an orientation distinction without erasing the relation itself.
+DGRAM 056 · VERIFIED FINITE SPECIMEN · SUPPORT PRESERVED · ORIENTATION SIGN CHANGED
+Exercises
+4.1. Compute the relation birthday of a nondegenerate k-simplex in its natural vertex-count world.
+4.2. Give a ternary relation on three labels whose pairwise projections are all identical under two distinct ternary states.
+4.3. Construct two ordered bases of R² with the same support and opposite determinant signs.
+4.4. State a relation birthday that depends on the declared world rather than only on arity.
