@@ -1,0 +1,24 @@
+work_id: lemonpress:another-clue
+edition_id: lemonpress:another-clue:physical-proof-001
+lane: physical
+state: approved_print_proof
+title: "¿another clue?"
+subtitle: "an accidental book about apertures, receipts, and the things that survive becoming"
+source_revision: "gdoc:1LptnBKhbvjn_3w4kQJWoa96W1Cd0HlWmfbjMPXi0qkM@ANLCKQllOxkIlGxGU4Lm4IRUvxhdw1e7eY-C9mGYWSQM_RS-NYg-G3QLw79F6LIajWmp_2ByLxGv84rLpzLuNRiyL9wE0hmwYnERYWiIon8"
+admission_receipt: "main:works/another-clue/ADMISSION.md"
+
+production:
+  reading_cut: "001"
+  trim_inches: "6x9"
+  pages: 76
+  pdf_filename: "¿another clue? — Print Reading Cut 001.pdf"
+  pdf_bytes: 440334
+  pdf_sha256: "1fabc5d6770d410e0c5e9ab91c19e0867d786c8bcd7dd570804532bf5135696a"
+  drive_file_id: "1OX6j0Znxx3_9OK8w1HLUMzAV0-Iiy3aG"
+  rendered_qa: "all 76 exported pages rasterized and visually inspected after layout repair"
+
+publication:
+  house_status: "not_yet_declared_published"
+  note: "PROOF != PUBLICATION"
+
+rights: "All rights reserved by the respective rightsholders unless otherwise stated; repository publication grants no additional license."
