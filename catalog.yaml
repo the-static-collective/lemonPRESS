@@ -1,0 +1,13 @@
+house: lemonPRESS
+catalog_version: 0.1
+works:
+  - id: lemonpress:another-clue
+    title: "Another Clue"
+    status: forming
+    admission: pending
+    intended_lanes:
+      - physical
+      - digital
+      - crawler
+      - archive
+    note: "First intended multi-branch specimen."
