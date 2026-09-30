@@ -1,0 +1,23 @@
+{
+  "work_id": "lemonpress:another-clue",
+  "edition_id": "lemonpress:another-clue:crawler:001",
+  "title": "Another Clue",
+  "carrier_title": "Another Clue — Carrier Cut 001",
+  "status": "proof",
+  "source_revision": "google-docs-revision:ANLCKQlUcrKZrW-6RLQlbUOUJ1NfxicAVMvXbgJXu0_2CIl_gDiSO4poRoh0ffw9JIsJUwX6Kg32S2p7deQPDWw3pkX3_xTVLqBqA-lNZu4",
+  "retrieval_contract": {
+    "retrieved_is_read": false,
+    "chunk_is_book": false,
+    "fragment_is_context": false,
+    "source_is_projection": false
+  },
+  "entrypoints": [
+    "book.txt",
+    "fragments/001-edge-birthday.md",
+    "fragments/002-other-notebook.md",
+    "fragments/003-card-reader.md",
+    "fragments/004-knife-again.md",
+    "relations.jsonl"
+  ],
+  "rights": "Copyright retained; no open-content license declared."
+}
