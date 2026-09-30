@@ -1,13 +1,13 @@
 house: lemonPRESS
-catalog_version: 0.1
+catalog_version: 0.2
 works:
   - id: lemonpress:another-clue
     title: "Another Clue"
-    status: forming
-    admission: pending
-    intended_lanes:
+    status: admitted
+    admission: works/another-clue/admission-001.md
+    active_lanes:
       - physical
       - digital
       - crawler
       - archive
-    note: "First intended multi-branch specimen."
+    note: "First multi-branch WRENCH specimen."
