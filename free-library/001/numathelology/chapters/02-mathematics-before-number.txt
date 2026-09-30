@@ -1,0 +1,28 @@
+CHAPTER 2
+MATHEMATICS BEFORE NUMBER
+2.1  Distinction, relation, variation
+Counting is powerful because it compresses. It tells how many, but not automatically which, how related, in what order, or by what transformation a configuration arose. A relation-first treatment therefore begins one step earlier than arithmetic: with the possibility of drawing distinctions and relating distinguished particulars.
+The minimal pre-numerical kernel used in this volume has three possibility-side operations and one constitutive crossing. DISTINGUISH marks a difference; RELATE admits a typed connection; VARY proposes a descendant or changed configuration; COMPOSE orders compatible crossings. CONSTITUTE records that a proposal has entered the current world rather than remaining merely available.
+K = (D, R, V; ∘)  —H→  ⟦·⟧ω
+Proposal 2.1 (Constitutive kernel). Let D denote distinction, R relation, V variation, ∘ order-sensitive composition, H a constitutive crossing, and ω the retained trace. Generative possibility occurs on the left of H; constituted history is recorded on the right.
+The notation is intentionally schematic. Its value is the non-collapse it enforces: a proposed variation is not yet an adopted state, and a refused proposal may alter the event trace without altering the constituted body.
+Construction 2.2 (Refused crossing). Let a world have body C and lineage L. A proposal v is evaluated and refused. Then C′ = C and L′ = L may hold while the broader event trace Λ′ differs from Λ. No change of body is required for a change of world history.
+C′ = C,   L′ = L,   Λ′ ≠ Λ
+2.2  Number as a native dialect
+Once distinctions are stable enough to be counted, arithmetic becomes available as a particularly strong dialect. The important point is order of dependence. A count presupposes some criterion of individuation; it does not supply that criterion by itself.
+Proposition 2.3. If two declared worlds use different equivalence lenses for individuation, equal raw material may yield different counts. Therefore the map from material occurrence to number is mediated by a declaration of what counts as one.
+This is familiar in mathematics. Quotient sets count equivalence classes rather than raw elements. Connected components count regions under path connectivity. Orbits count positions under a group action. Rank counts independent directions rather than listed vectors. In each case number is native and exact, but the counted objects are constituted by prior relational structure.
+Remark 2.4. The phrase “number is native without necessarily being foundational” will be used throughout the text as a dependency statement, not as a claim against arithmetic foundations in logic or set theory.
+2.3  Same n, different worlds
+The integer n alone rarely determines the structural possibilities of an n-element or n-dimensional system. A simple finite comparison makes this visible. The subsets of a four-element set are counted by the ordinary binomial coefficients. The linear subspaces of the four-dimensional vector space over F₃ are counted by Gaussian binomial coefficients.
+(1, 4, 6, 4, 1)  versus  (1, 40, 130, 40, 1)
+Both tables are indexed by 4 and by k. They do not describe the same world. The example is elementary but methodologically decisive: repeated numerical labels do not license a shared structural interpretation unless the carrier and relation class are also declared.
+DGRAM 204 · COMPUTED · PASCAL(4) = 1,4,6,4,1 · Q-BINOMIAL(Q=3,N=4) = 1,40,130,40,1
+2.4  Relation before object
+A higher-order relation may become usable as an object in a later construction. Three points determine a triangle; that triangle may then be treated as one cell in a complex. A group operation is a relation on pairs whose entire law may be reified as an algebraic object. A path may be promoted to an edge in a quotient graph of paths. This repeated move motivates the phrase relation before object: some objects are stabilized relations from a previous level of description.
+Definition 2.5 (Relational promotion). Relational promotion is the admissible use of a constituted relation ρ on level j as an addressable object on level j+1. Promotion does not erase the formation data of ρ unless an equivalence lens explicitly authorizes that quotient.
+Exercises
+2.1. Give three examples in ordinary mathematics where a counted object is already an equivalence class or constituted relation.
+2.2. For a graph G, compare |V(G)|, |E(G)|, number of components, rank of its cycle space, and number of automorphism orbits. Explain which prior structure each count presupposes.
+2.3. Construct a refused transition in which endpoint state is unchanged but event trace differs.
+2.4. Compute the number of 1-dimensional subspaces of F₂⁴ and compare it with the number of singleton subsets of a four-element set.
