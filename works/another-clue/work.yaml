@@ -1,12 +1,12 @@
 work_id: lemonpress:another-clue
-title: "Another Clue"
+title: "¿another clue?"
+subtitle: "an accidental book about apertures, receipts, and the things that survive becoming"
 status: admitted
 
 admission:
   state: admitted
-  receipt: works/another-clue/admission-001.md
-  source_title: "Another Clue — Carrier Cut 001"
-  source_revision: "google-docs-revision:ANLCKQlUcrKZrW-6RLQlbUOUJ1NfxicAVMvXbgJXu0_2CIl_gDiSO4poRoh0ffw9JIsJUwX6Kg32S2p7deQPDWw3pkX3_xTVLqBqA-lNZu4"
+  receipt: "works/another-clue/ADMISSION.md"
+  source_revision: "gdoc:1LptnBKhbvjn_3w4kQJWoa96W1Cd0HlWmfbjMPXi0qkM@ANLCKQllOxkIlGxGU4Lm4IRUvxhdw1e7eY-C9mGYWSQM_RS-NYg-G3QLw79F6LIajWmp_2ByLxGv84rLpzLuNRiyL9wE0hmwYnERYWiIon8"
 
 lanes:
   - physical
@@ -14,17 +14,21 @@ lanes:
   - crawler
   - archive
 
-rights:
-  statement: "Copyright retained; no open-content license declared."
-  open_license: null
+rights: "All rights reserved by the respective rightsholders unless otherwise stated; repository publication grants no additional license."
+
+relations:
+  - type: "descendant-reading-of"
+    target: "github:the-static-collective/national-treasure@a6f1533537f88e837ba1560731d23645676a5b52"
 
 editorial_law:
   - "Compression by cutting before rewriting."
   - "Prefer the original carrier of the original thought."
   - "The source stays where it was. The reader does not."
   - "A later relation gets its own birthday."
+  - "A clue may change what comes next. It does not get to change what already happened."
 
 notes:
   - "Competing editions and cuts are allowed."
   - "No production lane becomes source authority."
-  - "Admission authorizes multi-branch production; each public release still gets its own release receipt."
+  - "Print Reading Cut 001 is the admitted source state for the first octopus crossing."
+  - "Formal house publication remains a later act; proof != publication."
