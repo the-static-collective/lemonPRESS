@@ -1,0 +1,1103 @@
+nunuMATH
+FOUNDATIONS OF ADMISSIVE AND RELATIONAL MATHEMATICS
+First Course in FIR Systems
+thestaticcollective
+LEMON PRESS  ·  TEXTS IN CONSTITUTIVE MATHEMATICS  ·  VOLUME I
+Everything else must earn its arrow.
+Publisher’s Cataloging Data
+The typesetting of this edition follows the house reference standard for compact mathematical courses. Computational specimens are finite and reproducible. Internal citations to NM1 are intentionally frequent: the present discipline claims descent by explicit comparison rather than by name alone.
+Preface
+A mathematical argument can fail before it makes a false inference. It can begin by placing a statement in the wrong role. A conjecture can be written as though admitted. A relation can be treated as though inherited from its endpoints. A result can be copied from one carrier into another without restating the operations that make it meaningful. A path can be collapsed to its endpoint before anyone has asked whether the route matters.
+First-generation nuMathelology made several of these collapses addressable. It required declared worlds, distinguished carriers from decoders, treated receipts as mathematical objects, and repeatedly insisted that equal endpoints need not imply equal paths or traces [NM1 §§1, 6–8]. Its own open problems then exposed a foundational pressure: if a mathal is to be a typed crossing, what makes the source and target well-typed before the crossing exists? [NM1 §12.2].
+This book takes that pressure literally. It begins with three primitive roles: F, I, and R. F records what is admitted. I records what is available without admission. R records typed participation. The triad is not a metaphysics of three kinds of things. It is a constitutional discipline for mathematical worlds. Facts may concern relations; ideas may concern facts; relations may connect ideas; higher-order relations may take relations as participants. The roles do not exhaust mathematical ontology. They prevent role laundering.
+The first half of the book develops the FIR floor slowly enough to be teachable. The second half reconstructs mathals, receipts, numathals, nunumathals, decoder theory, and experimental methods over that floor. The final chapters are deliberately destructive: they classify illegal promotions, receipt failures, relation smuggling, and other pathologies, then subject the proposed discipline itself to ablation and countermodel search.
+The intended habit is simple: before asking what follows, ask what has been admitted, what remains proposed, and what relation is actually licensed. Only then draw the arrow.
+Citation Convention
+NM1 refers to The Static Collective, nuMathelology: Number, Relation, and Structural Transition, 1st ed., Lemon Press, 2026. FIR0.2 refers to thestaticcollective, nunuMath v0.2: Primitive Corrections to First-Generation Mathelology, Lemon Press, 2026. Citations such as [NM1 §7.4] are section-level references. Where a first-generation statement is narrowed, the narrower formulation is stated explicitly rather than silently substituted.
+Contents
+Core Notation
+CHAPTER 1
+Addressability and Declared Mathematical Worlds
+Before a statement can be true, false, admitted, proposed, or related, it must be addressable in the language of the current problem.
+1.1 Addressability
+nunuMath begins neither with number nor with transformation. It begins with the ability to refer to a mathematical particular without yet deciding what status that particular has. An address may denote a proposition, object-description, construction, computation, relation-expression, proof obligation, or structured record. Addressability is a syntactic precondition of the FIR roles, not a fourth constitutional role.
+Definition 1.1 (Addressable particular). An addressable particular is any expression or structured object that can be referred to again under a stable identifier within the declared mathematical world.
+The stability requirement is local. A symbol may change meaning between worlds if the world change is declared. What is prohibited is an unannounced change of referent inside an argument. The problem is familiar: the same glyph may denote an integer, a residue class, a matrix over different fields, or an equivalence class. The notation is not the object.
+[NM1 §§1.1, 8.1] treats the same pressure through declared worlds and decoder state. nunuMath retains that machinery but places addressability before the first role assignment.
+1.2 Declared worlds
+Definition 1.2 (Declared world). A declared world is the smallest stated mathematical setting sufficient to type the current questions, operations, carriers, relation families, and observation rules.
+The phrase “smallest stated” is methodological rather than ontological. Larger ambient structures may exist. They do not automatically enter the proof. Loading unused structure increases the number of silent assumptions that can migrate across a crossing. This is the same economy expressed by the smallest-sufficient-world principle in NM1 §1.1, now interpreted constitutionally.
+Principle 1.3 (Local sufficiency). Declare enough structure to make the judgment and its admissible operations well-typed; do not import additional structure merely because it is available elsewhere.
+1.3 Role assignment is not object creation
+To assign F, I, or R is not to create the underlying expression. A proposition can exist syntactically before a world admits it. A relation-expression can be written before the relation is established. This separation allows a world to contain rejected, unresolved, or counterfactual material without laundering it into fact.
+addressable(x)  ⇏  F(x)   and   addressable(x)  ⇏  I(x)
+Addressability therefore prevents a false dilemma. Not every expression must immediately be factual or conjectural. Some objects serve only as carriers, parameters, or syntactic resources. FIR roles apply where the world makes a constitutional judgment.
+1.4 The meta-language boundary
+A primitive floor always risks an infinite regress: what admits the rule that defines admission? nunuMath handles this in the ordinary mathematical way. The FIR calculus is stated in a meta-language whose logic and syntax are not themselves claimed to be generated by FIR. The theory may later model portions of its own activity, but self-description is not confused with self-foundation.
+Exercises
+1.1. Give one expression whose mathematical meaning changes when the carrier changes while the printed tokens remain fixed. State both worlds explicitly.
+1.2. Construct an addressable object that is neither asserted as fact nor proposed as an idea in the current world. Explain why forcing it into F or I would be artificial.
+1.3. Identify a familiar proof in which an ambient structure is larger than the structure actually used. State a smallest sufficient world for the proof.
+1.4. Explain why addressability is treated as a syntactic precondition rather than a fourth FIR role.
+1.5. Find a silent change of referent in a deliberately ambiguous notation and repair it by declaring the world.
+CHAPTER 2
+Fact: Admission and Warrant
+A fact is not whatever is written declaratively. It is whatever the current world has admitted under a stated warrant.
+2.1 Fact as a role
+Definition 2.1 (Fact role). F_W(x)=1 means that x is admitted in world W under the current constitutional rules. The notation makes no claim that x is eternally or metaphysically true outside W.
+This local reading prevents two opposite errors. First, it prevents assumptions from masquerading as theorems merely because both are presently usable. Second, it prevents a world-relative admission from being mistaken for relativism about ordinary mathematical truth. The warrant remains available in the receipt even when the working role is simply F.
+2.2 Warrant classes
+Admission is parameterized by a warrant κ. Typical warrants include proof, computation, axiom, definition, direct observation in an empirical mathematical workflow, or imported result under a trusted source relation. nunuMath does not collapse these warrants merely because they all place a proposition into F.
+P_κ : I → F
+Definition 2.2 (Promotion operator). P_κ is a partial operator that promotes an idea x to admitted fact under warrant κ when the admission conditions of the current world are satisfied.
+Partiality is essential. The operator is not licensed for every x. A proof warrant requires a valid proof in the declared formal setting; a computational warrant requires a reproducible computation with an appropriate exactness regime; an assumption warrant requires explicit declaration that the item is assumed rather than proved.
+P_proof(x)  ≠_Π  P_compute(x)  ≠_Π  P_assume(x)
+The output role may agree while the receipts differ. This is a first example of signature equality without history equality.
+2.3 Admission is not inheritance
+Principle 2.3 (No status inheritance). If x and y are admitted, a relation R(x,y;τ) is not thereby admitted. If a relation is admitted, its endpoints do not thereby inherit any new factual status beyond what is separately warranted.
+This rule blocks a common informal move: two true statements are juxtaposed, and a causal, explanatory, or structural relation is allowed to enter without a separate warrant. The relation may be an excellent idea. That is not the same role.
+2.4 Reopening
+Definition 2.4 (Reopening). U_λ is a transition that removes current admission from x and returns x to proposal status under reopening reason λ, while preserving the fact that x was previously admitted.
+U_λ : F → I
+Reopening is not synonymous with falsification. A theorem can be reopened because its imported proof was found to use a stronger axiom set than the current world allows. A computed result can be reopened because the carrier or precision regime changed. An assumption can be reopened simply because the analysis no longer wishes to condition on it.
+The receipt must retain prior admission; otherwise revision rewrites history. This is the constitutional version of the historical pressure behind NM1 §7 and its insistence that endpoint closure does not erase path.
+2.5 Contradiction and strict worlds
+The first course adopts a strict FIR world in which the same judgment-token is not simultaneously in F and I. This is a convenience, not a universal requirement. Later systems may allow multiple authorities or paraconsistent states by indexing role assignment to source or jurisdiction. The strict rule keeps the introductory algebra readable.
+strict world:  F ∩ I = ∅
+Exercises
+2.1. Give one proposition that may be admitted by proof in one course and by assumption in another. Explain why the working F role can agree while the receipt differs.
+2.2. Construct an example in which a computation must be reopened after the scalar carrier changes.
+2.3. Give two admitted endpoints whose relation is not admitted. State the relation first as an idea.
+2.4. Explain the difference between reopening and asserting negation.
+2.5. Design an admission operator for a finite exhaustive search. State exactly what constitutes a successful warrant.
+CHAPTER 3
+Idea: Proposal Space and Refusal
+A mathematical system that cannot retain an unadmitted possibility must either erase conjecture or lie about it.
+3.1 Idea as available possibility
+Definition 3.1 (Idea role). I_W(x)=1 means that x is available for lawful consideration in W without current admission as fact.
+Ideas include conjectures, hypotheses, candidate constructions, proposed definitions, counterfactual states, unverified relations, and deliberately retained failed approaches. The role is positive: an idea is not merely “not a fact.” It is an addressable possibility admitted to the proposal space.
+¬F(x)  ⇏  I(x)
+This distinction matters because the universe of unadmitted expressions is enormous. A world is not obligated to treat every grammatical sentence as an active idea. Proposal status is itself a local act.
+3.2 Proposal operators
+Definition 3.2 (Generation operator). G produces an addressable proposal from admitted or proposed material without granting factual admission to its output.
+G(F,I,R) → I
+Examples include forming a conjecture from a pattern, generating a candidate invariant, proposing a missing edge, or hypothesizing a relation between two independently established threshold events. The generation operator is deliberately broad; its output is typed by what it does not claim.
+3.3 Refusal without erasure
+Definition 3.3 (Refusal). A refusal is an evaluation event in which a proposed crossing or promotion is not admitted. The proposal may remain in I, be withdrawn, or be marked failed according to the declared retention rule.
+Refusal is not a no-op when the world records event history. The constituted body may remain unchanged while the trace changes. This is the FIR rendering of the refused-crossing construction in NM1 §2.1.
+body(W′)=body(W)   while   Π(W′)≠Π(W)
+3.4 Counterfactual work
+Mathematics routinely reasons inside hypothetical extensions: assume a counterexample exists; adjoin a root; suppose a graph has a forbidden configuration; consider what follows if a proposed lemma were true. nunuMath treats these as lawful I-world work. Consequences derived under a hypothesis remain conditionally typed until the hypothesis is promoted or discharged.
+Principle 3.4 (Conditional containment). A fact established only inside a hypothetical extension does not automatically promote to the parent world when the hypothesis is withdrawn.
+This is ordinary proof discipline expressed constitutionally. The value of naming it is that the same rule can govern computational branches, simulation worlds, and experimental candidate structures.
+3.5 Idea death and archival retention
+Not every rejected idea deserves permanent retention. The receipt question is target-relative. A failed proposal may be discarded if no declared future question requires its existence. It may also be retained because the failure witnesses an obstruction, establishes a lower bound, or prevents repeated search. The discipline is not maximal memory; it is sufficient attributable memory.
+Exercises
+3.1. Give an example where ¬F(x) holds but I(x) should not hold.
+3.2. Formalize proof by contradiction as a temporary idea-world. Identify which statements return to the parent world.
+3.3. Construct a rejected conjecture whose failure should be retained because it supplies a useful obstruction.
+3.4. Give a rejected idea that can be safely discarded for a stated class of future questions.
+3.5. Explain why refusal history can matter even when the constituted mathematical object does not change.
+CHAPTER 4
+Relation: Typed Participation and Reification
+The most dangerous relation is the one that enters as punctuation.
+4.1 Typed participation
+Definition 4.1 (Relation role). R_W(x1,…,xk;τ) states that the listed participants stand in relation type τ in W. The relation type, arity, and participant order are part of the claim unless the world explicitly quotients them.
+Relations include equality, order, adjacency, dependence, incidence, derivation, ancestry, equivalence, causation, membership, transformation, and any other typed participation relevant to the declared world. nunuMath refuses the generic word “related” when the type is mathematically material.
+4.2 Relation does not inherit endpoint status
+F(x) ∧ F(y)  ⇏  F(⌜R(x,y;τ)⌝)
+The notation separates the existence of the participants from the status of the relation-expression. A relation can be proposed among admitted facts; a factual relation can connect ideas; a higher-order relation can compare other relations. Role and arity occupy different coordinates.
+4.3 Relation birth
+Definition 4.2 (Relation birthday). For relation type ρ in a declared cardinal family W_n, b_W(ρ)=min{n : ρ is admissible in W_n}, when the minimum exists.
+This retains NM1 §4 nearly unchanged. The FIR refinement is that “admissible” must specify whether the relation itself is available as an idea, admitted as a fact, or merely expressible in the syntax. A first possible relation and a first proved relation can have different dates if the decoder or proof system is incomplete.
+4.4 Reification
+Definition 4.3 (Relational reification). A relation r may be assigned a stable address ⌜r⌝ and thereafter participate as a higher-order particular in new FIR judgments. Reification does not erase the participants, type, or formation receipt of r unless an explicit quotient licenses the loss.
+R(a,b,c;τ)  →  ⌜R(a,b,c;τ)⌝  →  R(⌜R(a,b,c;τ)⌝,d;σ)
+This is the precise version of the phrase “relation before object.” The relation need not precede all objects; it may precede its own reification as a higher-order object. This correction narrows NM1 §2.4 without discarding the useful construction.
+4.5 Arity and projection
+Higher-order relations do not generally reduce to pairwise ones. A ternary dependence structure can agree on every singleton and pair while differing on the triple. The finite matroid specimen from NM1 §4.3 is canonical: U_3,3 and U_2,3 have the same singleton/pair independence surface but disagree on triple dependence.
+Proposition 4.4 (Pairwise insufficiency). There exist finite relational structures whose order-two projections are identical while an order-three relation differs.
+The proposition is not exotic. Hypergraphs, matroids, simplicial complexes, and database dependencies all provide natural higher-order structures. The constitutional lesson is simple: projection is a relation-changing operation and should leave a receipt when the lost order may matter later.
+Exercises
+4.1. Construct two ternary relations with identical pairwise projections.
+4.2. Give a familiar mathematical object that can be understood as a reified relation from a lower level.
+4.3. For a directed relation, explain which information is lost if participant order is quotiented away.
+4.4. State the relation birthday of a k-simplex in its natural vertex-count world.
+4.5. Give an example where a relation is factual while one or more of its participants are ideas in a hypothetical world.
+CHAPTER 5
+FIR Worlds and Constitutional Well-Formedness
+The triad becomes useful only when it can refuse malformed worlds.
+5.1 Strict FIR presentations
+Definition 5.1 (Strict FIR world). A strict FIR world W=<F,I,R> consists of a set F of admitted judgments, a disjoint set I of active unadmitted judgments, and a typed relation family R over addressable particulars, subject to the well-formedness rules declared below.
+F ∩ I = ∅
+The strict model is introductory. It assumes a single constitutional cut. Multi-authority worlds can index F and I by source, court, theory, branch, or observer; such systems may permit the same content to be admitted under one authority and disputed under another without contradiction at the meta-level.
+5.2 Constitutional well-formedness
+Rule 5.2 (Address rule). Every element of F or I and every participant in R must be addressable in the current world.
+Rule 5.3 (Role exclusivity). In a strict world, the same judgment-token cannot be simultaneously F and I.
+Rule 5.4 (Typed relation rule). Every relation instance records an arity and relation type sufficient to interpret its participants.
+Rule 5.5 (Warrant trace rule). Every promotion into F retains or references a warrant class even when the working notation suppresses it.
+Rule 5.6 (No inherited authority). A relation, endpoint, or imported representation does not silently grant authority to adjacent content.
+The rules are modest. Their purpose is not to define all mathematical truth; it is to make common role errors statable as violations rather than stylistic disagreements.
+5.3 World restriction and extension
+Definition 5.7 (Restriction). A restriction W|S limits the active address space, role sets, or relation families to a declared subproblem while preserving the inherited warrants and receipts relevant inside S.
+Definition 5.8 (Extension). An extension W⊆W′ adds addressables, roles, relations, operations, or observations without retroactively changing what W contained at its own cut.
+The last clause is crucial. Later extension may reveal that an earlier world was incomplete; it does not make the earlier state historically contain the new relation. This preserves the discovery-order discipline repeatedly emphasized in first-generation work.
+5.4 Equivalence of FIR worlds
+Two FIR worlds may be equivalent under a lens even when their raw representations differ. A useful equivalence must state which components it preserves: factual role assignment, proposal space, relation type, warrants, or receipts. Bare “same world” claims are therefore avoided.
+Definition 5.9 (Constitutional equivalence). W1 ≡_C W2 under constitutional lens C when C declares the FIR distinctions to be preserved and W1 and W2 agree on those distinctions.
+Exercises
+5.1. Construct a strict FIR world with at least two facts, two ideas, and two relation types. Verify Rules 5.2–5.6.
+5.2. Give a multi-authority scenario in which the same content should be F under one index and I under another.
+5.3. Construct an extension W⊆W′ in which a relation becomes visible later. Explain why the later visibility does not backdate the earlier world.
+5.4. Define a constitutional equivalence that preserves F and R but ignores I. Give two worlds equivalent under it but not under full FIR equality.
+5.5. Find a malformed FIR world and state the first rule it violates.
+CHAPTER 6
+Primitive Crossings
+Transformation enters only after the roles it can change have been typed.
+6.1 The primitive crossing family
+The first derived operations act directly on FIR roles. They are primitive as crossings, not as constitutional roles. The course uses five canonical forms: admission, reopening, proposal generation, relation birth, and relation withdrawal. More specialized operations are compositions or refinements of these.
+6.2 Fine constitutional delta
+Definition 6.1 (Fine FIR delta). For a crossing m:W→W′, define δ*(m)=(F+,F−,I+,I−,R+,R−), where each component records the addressable judgments or relation instances added to or removed from the corresponding role family.
+The fine delta preserves identity. A coarse signature may count only the sizes of these sets, but count equality does not imply delta equality.
+δ(m) = (|F+|,|F−|,|I+|,|I−|,|R+|,|R−|)
+The coarse signature is useful for classification and useless for some questions. Two promotions can both have signature (1,0,0,1,0,0) while concerning unrelated propositions and different warrants.
+6.3 Cancellation
+Sequential crossings can cancel at the coarse role level. An idea may be admitted and later reopened, returning the visible role occupancy to its starting state. The path is nevertheless nontrivial. Hence constitutional state equality does not imply constitutional history equality.
+W_0 = W_2   while   Π(m_2∘m_1) ≠ Π(id_W)
+Proposition 6.2 (Round-trip nontriviality). There exist finite FIR paths whose initial and final strict worlds are extensionally identical while their receipts distinguish the composite from the identity crossing.
+Proof. Begin with I(x). Promote x under P_κ and then reopen it under U_λ. If the final world again contains I(x) and not F(x), the extensional FIR state matches the start. A receipt retaining κ and λ distinguishes the path. ∎
+6.4 Conditional derivation
+A hypothesis world may add I(h), temporarily promote h under an assumption warrant, derive consequences, and then discharge the assumption. The resulting proof can promote a conditional statement in the parent world without promoting h itself. FIR notation makes the discharge visible as a crossing rather than as typography.
+Exercises
+6.1. Compute the fine and coarse FIR deltas for an admission followed by relation birth involving the newly admitted fact.
+6.2. Give two distinct crossings with the same coarse constitutional signature.
+6.3. Construct a round trip whose extensional start and end worlds agree but whose receipt cannot be discarded for a stated future question.
+6.4. Model the temporary assumption in a proof by contradiction as an FIR crossing sequence.
+6.5. Define a relation-withdrawal example in graph theory or algebra.
+CHAPTER 7
+Mathals as Derived Transitions
+The mathal survives the schism. It loses only its claim to primitiveness.
+7.1 Recovery of the mathal
+Definition 7.1 (Derived mathal). A mathal is a typed, attributable crossing m:W_t→W_{t+1} between declared FIR worlds for which the constitutional delta, admissibility conditions, and receipt semantics are addressable.
+m : <F,I,R>_t  →  <F,I,R>_{t+1}
+This definition preserves the operational force of NM1 §1.2 while adding a discrimination surface. A candidate transition that cannot say whether it changes admission, proposal availability, relation structure, or none of the above has not yet explained what kind of crossing it is.
+7.2 Three equivalences
+Definition 7.2 (Endpoint equivalence). m1 and m2 are endpoint-equivalent when they terminate in constitutionally equivalent worlds under the declared lens.
+Definition 7.3 (Delta equivalence). m1 and m2 are delta-equivalent when their chosen FIR delta representation agrees.
+Definition 7.4 (Receipt equivalence). m1 and m2 are receipt-equivalent when the active receipt lens identifies their retained crossing histories.
+same endpoint  ⇏  same delta  ⇏  same receipt
+The implications can fail in either direction depending on the lens. Two different deltas can land in the same world after cancellation; two identical deltas can carry different warrants; two paths with different fine histories can be receipt-equivalent if the current question has proved the extra distinction irrelevant.
+7.3 Composition
+Mathal composition is permitted when target and source worlds are compatible under the declared interface. The receipt of a composite must preserve enough ordering information to answer the current target class. It need not be a concatenation of full traces if a smaller sufficient receipt is known.
+Principle 7.5 (Lawful composition). Compose crossings only through an explicit compatibility relation on intermediate worlds. Do not infer composability from visual similarity of endpoint notation.
+7.4 Admission test for named mathals
+Protocol 7.6 (Named-mathal admission). A proposed named mathal begins in I. It may be promoted as reusable terminology only after: (1) a stable input/output typing is stated; (2) at least two nontrivial specimens support reuse; (3) at least one near-miss is refused for a stated reason; and (4) the name compresses explanation without erasing a distinction required by its target class.
+This protocol directly answers the strongest criticism of the NM1 casebook: a name that can absorb any interesting transformation is a rhetorical container, not a mathematical instrument. A definition that cannot refuse a near-miss has not finished defining.
+7.5 Neighbors in established mathematics
+Depending on additional axioms, a derived mathal may coincide with familiar objects: a morphism, transition, rewrite, path, labeled edge, proof step, program state transition, or relation instance. nunuMath does not rename these structures. The mathal vocabulary is useful only when receipt semantics and constitutional role changes are part of the question and are not already explicit in the native theory.
+Exercises
+7.1. Give two endpoint-equivalent mathals that are not delta-equivalent.
+7.2. Give two delta-equivalent mathals that are not receipt-equivalent.
+7.3. Take one named mathal from NM1 Chapter 11 and run Protocol 7.6 against it.
+7.4. Construct a transition that looks like a mathal informally but fails because no stable FIR delta can be stated.
+7.5. Identify conditions under which a mathal can safely be replaced by an ordinary morphism in a known category.
+CHAPTER 8
+Receipt Theory and Minimum Memory
+A receipt is not a shrine to history. It is a contract with future questions.
+8.1 Complete traces and receipts
+Definition 8.1 (Complete trace). T(m) is the maximally available attributable history of crossing m under the current instrumentation.
+Definition 8.2 (Receipt). Π(m) is a retained representation of T(m) chosen to preserve distinctions required by a declared class of questions.
+The receipt may equal the full trace. Often it should not. A system that stores every intermediate detail imposes unnecessary cost and may obscure the distinctions that matter. The first-generation slogan KEEP THE RECEIPT is therefore sharpened into a minimization problem.
+8.2 Query-relative sufficiency
+Definition 8.3 (Q-sufficient receipt). A receipt P is sufficient for question class Q if every q∈Q has the same correct answer when evaluated from P as when evaluated from the complete trace T, whenever q is defined.
+∀q∈Q,   q(P)=q(T)
+Definition 8.4 (Receipt-minimality). A Q-minimal receipt P*_Q has minimum declared cost among all Q-sufficient receipts.
+P*_Q = argmin_P cost(P)  subject to  P is Q-sufficient
+Minimum may fail to be unique. Cost may measure storage, query count, proof length, privacy exposure, energy, or another explicit resource. The important point is that sufficiency and cost are both declared.
+8.3 Information loss and impossible recovery
+If two complete traces map to the same receipt but require different answers to a target question, the receipt is insufficient for that target. No deterministic re-expression of the receipt can restore the erased distinction. This is the receipt form of the SSW lemma in NM1 §6.2.
+Lemma 8.5 (No recovery by re-expression). If c(T1)=c(T2) but q(T1)≠q(T2), then no deterministic f(c(T)) can correctly recover q for both traces without additional observation.
+Proof. Since c(T1)=c(T2), every deterministic f receives the same input on both traces and therefore returns the same output, contradicting the required distinct q-values. ∎
+8.4 Receipt starvation and receipt obesity
+Two symmetric failures follow. Receipt starvation discards a distinction needed by a declared target. Receipt obesity retains distinctions that no target in the declared class can use while imposing meaningful cost. Neither failure is moral. Both are engineering errors relative to a stated question family.
+8.5 Open futures
+Some systems cannot enumerate future questions. In that setting the receipt policy becomes a risk choice rather than an exact optimization. The correct response is not to pretend the future is known; it is to state the retention horizon and uncertainty. FIR receipts can therefore carry UNKNOWN as a legitimate field.
+Exercises
+8.1. For a path in a finite graph, define a question class that needs only the endpoint and find a minimal receipt.
+8.2. Enlarge the question class so that path length matters. Show why the previous receipt becomes insufficient.
+8.3. Give two traces collapsed by a receipt and a target question that proves the receipt insufficient.
+8.4. Propose a cost function under which a full trace is cheaper than a compressed receipt.
+8.5. Explain why receipt minimality is not equivalent to deleting every field unused by the current single query.
+CHAPTER 9
+Numathals and Cardinally Indexed FIR Change
+Number is a coordinate of structural possibility, not an automatic explanation of it.
+9.1 Numerically indexed worlds
+Definition 9.1 (Cardinal family). A cardinal family {W_n} is a sequence or system of FIR worlds indexed by a discrete quantity n under a declared construction rule.
+Definition 9.2 (Numathal). A numathal η_n is a mathal W_n→W_{n+1} for which the numerical index participates essentially in the admissibility, necessity, obstruction, or visibility of the FIR delta.
+A number appearing in a formula does not suffice. The transition must change because the indexed family changes. The definition therefore inherits NM1 §3 but requires the resulting structural change to be stated in FIR terms.
+9.2 Relation birthday revisited
+Suppose a relation type ρ becomes expressible at one cardinality, proposed at another, and proved at a third because the active decoder or proof method is incomplete. nunuMath distinguishes three birthdays if the distinctions matter: syntactic birth, idea birth, and factual admission. In ordinary finite examples these often coincide; the notation should not force them to.
+b_syn(ρ) ≤ b_I(ρ) ≤ b_F(ρ)   when the progression is monotone
+9.3 The five-field as a typed comparison
+Three standard transitions occur at five: K_5 is nonplanar while K_4 is planar; five points in R^3 are necessarily affinely dependent while four may be independent; S_5 is not solvable while S_4 is. Each fact is admitted independently. A shared-index relation may also be admitted. A common causal mechanism remains an idea until a stronger invariant is proved.
+9.4 Hidden lift and disclosure
+K_4 illustrates a useful two-level pattern. A tetrahedral realization requires a three-dimensional fine carrier, yet the complete pair-relation graph remains planar. The fine structure has lifted while the coarse pair projection remains in the old class. At K_5 the pair graph itself becomes nonplanar. NM1 calls this hidden lift followed by disclosure [NM1 §9.3]. FIR typing asks which relation or admission changed at each level rather than assigning the effect to the numeral alone.
+9.5 Controls
+Protocol 9.3 (Cardinal control). For a proposed numathal: hold the construction rule fixed; inspect adjacent n; vary the decoder without varying n; vary the world while holding n fixed; and state the smallest surviving FIR delta attributable to the numerical transition.
+Exercises
+9.1. Express K4→K5 nonplanarity as a numathal with an explicit FIR delta.
+9.2. Find a cardinal family in which 4→5 produces no qualitative change and use it as a control.
+9.3. Give a relation whose syntactic, idea, and factual birthdays could differ under an incomplete decoder.
+9.4. Construct a numathal at an index other than five and state its local mechanism.
+9.5. Explain why same birthday does not imply common parent mechanism.
+CHAPTER 10
+Nunumathals and Second-Order Transition Relations
+Once transitions are addressable, they can participate in relations without becoming the same transition.
+10.1 Second-order participants
+Definition 10.1 (Nunumathal). A nunumathal is a typed relation or crossing whose relevant participants are themselves numathals.
+N(η_1,…,η_k;τ)
+The definition is intentionally conservative. It does not promote every comparison among numathals into a new object. A nunumathal must state the relation type and survive the same admission discipline as any other relation.
+10.2 The numeral-removal control
+Protocol 10.2 (Numeral-removal control). Given a proposed relation among numathals that share a visible numerical index, anonymize or relabel the index while retaining the local mechanisms. Ask whether the proposed higher-order relation remains expressible and testable.
+If the relation disappears when the common numeral is hidden, the candidate likely encoded coincidence rather than mechanism. Survival is not proof; it is the first hostile control.
+shared index  ⇏  common mechanism
+10.3 Structural invariants of transitions
+A serious nunumathal should compare transition structure: type of obstruction, change in arity, saturation behavior, symmetry breaking, rank deficiency, decoder motion, or another declared invariant. The invariant need not be universal. It must be rich enough that the local proofs can map into it without being falsified.
+Definition 10.3 (Transition invariant). A transition invariant J assigns data to a numathal such that a proposed nunumathal relation is stated over J(η) rather than over the bare printed index alone.
+10.4 Nunumathal countermodels
+Countermodels are particularly cheap. Choose two transitions at the same n with obviously unrelated mechanisms, or choose the same mechanism at different n. A proposed higher-order grammar that cannot classify these controls is under-typed. The point is not to eliminate analogy; it is to force analogy to declare its carrier.
+10.5 Second-order composition
+Relations among transitions may themselves be reified and used as participants at a higher level. The recursion is ordinary mathematical reification, not evidence of an infinite hierarchy with metaphysical significance. The prefix “nunu” marks one step of descriptive recursion and earns no privilege beyond that.
+Exercises
+10.1. Propose a nunumathal relating two transitions from different mathematical domains, then run the numeral-removal control.
+10.2. Give two same-index numathals that should not be related beyond shared index.
+10.3. Give two different-index numathals that share a plausible structural invariant.
+10.4. Define a transition invariant for capacity saturation and test it on two finite examples.
+10.5. Construct a near-miss that should be refused by your proposed nunumathal.
+CHAPTER 11
+Decoder Theory and Observational Order
+A world can contain a distinction that its current decoder cannot see.
+11.1 Decoders
+Definition 11.1 (Decoder). A decoder D maps a declared world or trace into an observation space. The decoder specifies which distinctions are visible to the current question.
+A decoder is not the carrier. Changing the carrier can change which structures exist; changing the decoder changes which existing distinctions are observed. This preserves the carrier/decoder distinction of NM1 §8.4.
+11.2 Refinement preorder
+Definition 11.2 (Decoder refinement). D_2 refines D_1, written D_1 ⪯ D_2, if there exists a deterministic map f such that D_1=f∘D_2. Thus the finer decoder can reproduce every observation of the coarser decoder.
+D_1 ⪯ D_2  ⇔  ∃f : D_1 = f ∘ D_2
+This relation is reflexive and transitive, hence a preorder. Quotienting decoders that mutually refine one another yields a partial order of informational equivalence classes.
+Proposition 11.3 (Refinement monotonicity of visibility). If a relation is decidable from D_1 at a given world and D_1⪯D_2, then it is decidable from D_2 at that world by composition with f.
+Proof. D_2 supplies enough information to compute D_1, after which the D_1 decision procedure applies. ∎
+11.3 Birthday motion
+When a birthday is defined as first visibility under a decoder rather than first existence in the carrier, refinement can move the observed birthday earlier but cannot move it later under a fixed monotone decision rule.
+Corollary 11.4 (Visibility birthday monotonicity). Under fixed carrier family and relation predicate, if D_1⪯D_2 then b_{D_2}(ρ)≤b_{D_1}(ρ) whenever both birthdays exist and visibility under D_1 is computable from D_2.
+The assumptions matter. If the relation type itself changes with the decoder, there is no single birthday to compare. Decoder refinement must not be allowed to smuggle in a new world.
+11.4 Same state, different world
+Let O(G)=(|V|,|E|,sorted degree sequence). Then C_6 and C_3⊔C_3 share the same observation while differing in connectivity. Since any deterministic function of O receives identical inputs, re-expression alone cannot recover connectivity. Adding the Boolean predicate connected(G) refines the decoder and separates the worlds.
+O(C_6)=O(C_3⊔C_3)   but   connected(C_6)≠connected(C_3⊔C_3)
+11.5 Decoder lattices
+Some decoder families admit meets and joins under information inclusion, giving a genuine lattice; others provide only a preorder. The term “decoder lattice” should therefore be earned rather than assumed. The research problem is to identify useful finite families in which information combination and common coarsening are well-defined.
+Exercises
+11.1. Prove that decoder refinement is a preorder.
+11.2. Give two decoders that mutually refine one another but are not syntactically identical.
+11.3. Construct a three-decoder family and determine whether it forms a lattice under your chosen information order.
+11.4. Use the C6 versus 2C3 specimen to give one failed and one successful discriminator.
+11.5. Find a case where changing the decoder changes the apparent birthday while the carrier-level existence birthday remains fixed.
+CHAPTER 12
+FIR Dynamics and Composition
+A constitutional calculus becomes interesting when several lawful crossings interact.
+12.1 Paths of worlds
+An FIR process is a path W_0→W_1→⋯→W_k whose edges are admitted mathals. The path can be studied at several resolutions: endpoint world, cumulative fine delta, ordered sequence of deltas, warrant history, or compressed receipt. These resolutions form different equivalence lenses.
+12.2 Signature algebra
+Fine deltas compose by set update, not by naive integer addition. If one crossing adds F(x) and a later crossing removes F(x), the net endpoint delta cancels while the ordered path remains nontrivial. Coarse count signatures therefore form at best a lossy algebra of effects.
+Definition 12.1 (Net constitutional effect). The net effect of a path is the symmetric difference between start and end role sets together with any declared changes to relation typing. It is an endpoint summary, not a trace.
+12.3 Commutation
+Two crossings may commute at the endpoint and fail to commute at the receipt. For example, promoting x before establishing a relation involving x may carry a different warrant story from establishing the relation as a proposal and promoting both later. Whether the order matters is a question for the current equivalence lens.
+Definition 12.2 (Constitutional commutation). Mathals m and n commute under lens E when both composites are defined and E(n∘m)=E(m∘n).
+Commutation is therefore lens-relative. Endpoint commutation is weaker than receipt commutation.
+12.4 Fixed points and cycles
+Definition 12.3 (FIR fixed point). A world W is a fixed point of operator T under lens E when E(T(W))=E(W).
+A fixed point under a coarse lens may hide nontrivial receipt production. Repeated inference generation followed by refusal can leave F and I unchanged while accumulating a catalog of tested counterexamples. Thus dynamical stillness at the endpoint may coexist with epistemic work in the trace.
+12.5 Propagation
+Relations create dependency surfaces. Reopening a fact may force some derived facts to reopen while leaving unrelated facts intact. A mature FIR calculus therefore needs dependency-aware propagation rather than global invalidation. The present first course treats dependency as an explicit relation type DERIVES_FROM and defines propagation operationally rather than universally.
+Protocol 12.4 (Targeted reopening). When F(x) is reopened, inspect the transitive dependency relation declared for the current world; reopen only those admissions whose warrants require x and whose alternate warrants are absent.
+Exercises
+12.1. Construct two mathals that commute at endpoint but not under a receipt lens.
+12.2. Give a path with zero net constitutional effect and nonzero trace.
+12.3. Define a dependency graph for three admitted propositions and perform targeted reopening.
+12.4. Construct an FIR fixed point under a coarse lens that is not a trace fixed point.
+12.5. Explain why coarse count signatures do not form a complete algebra of constitutional change.
+CHAPTER 13
+Failure Theory
+A useful constitution is measured partly by the illegal moves it makes easy to name.
+13.1 Admission leakage
+Definition 13.1 (Admission leakage). Admission leakage occurs when content enters F without a warrant licensed by the current world.
+Typical cases include treating a plausible interpretation as a theorem, importing a result from an incompatible carrier, or silently upgrading a computational observation to a general proof.
+13.2 Idea erasure
+Definition 13.2 (Idea erasure). Idea erasure occurs when an unadmitted but active proposal is removed from the mathematical history in a way that destroys a declared future distinction, usually by rewriting the record as though the proposal never existed.
+13.3 Relation smuggling
+Definition 13.3 (Relation smuggling). Relation smuggling occurs when a typed relation is treated as admitted merely because its participants are admitted or juxtaposed.
+This is especially common in cross-domain analogy. Two independently valid facts share a number, diagram, or verbal description, and the similarity is allowed to function as a mechanism. FIR requires the relation itself to pass admission.
+13.4 Warrant collapse
+Definition 13.4 (Warrant collapse). Warrant collapse occurs when different promotion mechanisms are treated as interchangeable for a target question that actually depends on how admission was earned.
+13.5 Decoder substitution
+Definition 13.5 (Decoder substitution). Decoder substitution occurs when a conclusion established under one observation map is transported to another without proving that the required distinctions survive the change.
+13.6 Carrier laundering
+Definition 13.6 (Carrier laundering). Carrier laundering occurs when identical surface notation is used to conceal a change in the underlying algebraic or relational carrier.
+The matrix specimen from NM1 §8.2 is canonical: the same printed matrix is invertible over some carriers and singular over another. The notation is innocent; the undeclared carrier change is the error.
+13.7 Signature aliasing
+Definition 13.7 (Signature aliasing). Signature aliasing occurs when two crossings share a coarse FIR signature and are therefore treated as equivalent despite a target-relevant difference in identity, warrant, order, or receipt.
+13.8 Receipt starvation and obesity
+Receipt starvation and obesity were introduced in Chapter 8. Together they emphasize that preservation itself is not automatically virtuous. Too little trace makes future questions unanswerable; too much trace can make systems costly, invasive, or analytically opaque.
+13.9 Numeral fixation
+Definition 13.8 (Numeral fixation). Numeral fixation occurs when a repeated integer is treated as explanatory before local mechanisms have been preserved and hostile controls have been applied.
+Exercises
+13.1. Give one original example of each of the first four failure types.
+13.2. Use the same matrix over Z, F2, and F3 to illustrate carrier laundering.
+13.3. Construct two crossings with identical coarse signatures and show how signature aliasing would misclassify them.
+13.4. Take a same-number cross-domain analogy and diagnose whether numeral fixation is present.
+13.5. Design a failure not listed here and state a refusal boundary that distinguishes it from neighboring failures.
+CHAPTER 14
+Experimental nunuMath
+The discipline is not protected by its vocabulary. Every primitive and every named operation remains a target.
+14.1 Hostile testing
+Protocol 14.1 (Hostile-control cycle). For a proposed claim: declare the world; state FIR roles; identify the crossing; compute or prove the local effect; vary the decoder; vary the carrier where meaningful; test adjacent cardinalities if indexed; construct a near-miss; ablate proposed primitives; and report the smallest surviving claim.
+The protocol is intentionally adversarial. A claim that shrinks from an expansive slogan to a local proposition has improved if the remaining proposition is exact.
+14.2 Ablation of F, I, and R
+The triad is a minimality candidate, not a settled theorem. Delete F and the system loses explicit admission. Delete I and unresolved possibilities must disappear or masquerade as facts. Delete R and participation structure must be encoded inside object descriptions or smuggled into operations. These observations motivate the triad but do not prove that the roles are independent.
+Problem 14.2 (Primitive reconstruction). Determine whether any two of F, I, and R can reconstruct the third without implicitly importing the missing role into syntax, modality, or meta-level semantics.
+14.3 Mutation testing
+A useful formal system should fail visibly when its rules are mutated. Replace role exclusivity with unrestricted overlap; erase warrant classes; identify relation type with endpoint type; force every idea either to promote or disappear. Each mutation should generate counterexamples or loss of expressive power. Mutation testing turns philosophical commitments into falsifiable engineering expectations.
+14.4 Finite harvests
+nunuMath prefers finite, auditable specimens when developing a grammar. Graphs, finite groups, finite fields, matroids, Boolean cubes, automata, and small rewrite systems support exhaustive search and exact counterexample generation. Large examples are welcome after the local machinery survives small ones.
+14.5 Algorithmic nomination
+A program may scan finite families for abrupt changes, recurring delta signatures, or decoder-sensitive birthdays. Such a program nominates candidate numathals or nunumathals; it does not establish their mechanism. Every nomination should be emitted together with controls: nearby n, alternate decoders, counterexamples, and at least one same-index nonexample.
+Protocol 14.3 (Machine nomination packet). A candidate transition emitted by software should include family definition, local proof/computation, FIR delta, decoder, failed controls, surviving controls, and current status. Missing mechanism is reported as UNKNOWN rather than filled by analogy.
+14.6 Replication and external criticism
+An external review is itself an observation crossing. It may compress the theory, identify a failure mode, or propose a new invariant. External criticism is neither source authority nor noise. It enters as an idea or relation and must earn promotion by ordinary means. The first reviews of NM1 and FIR0.2 functioned exactly this way: they supplied the “disciplinary membrane” and “primitive correction” formulations that sharpened the next construction without retroactively becoming original authorial claims.
+Exercises
+14.1. Apply Protocol 14.1 to the claim that a chosen threshold has a common mechanism across two domains.
+14.2. Design an ablation experiment intended to eliminate I as a primitive.
+14.3. Write a mutation of Rule 5.5 and produce the first failure it causes.
+14.4. Propose a finite database from which software could nominate candidate numathals.
+14.5. Write a machine nomination packet for one specimen in this book.
+CHAPTER 15
+Relation to First-Generation nuMathelology
+A constitutional correction should explain why the earlier theory worked as often as it did.
+15.1 Continuity claim
+nunuMath is not a repudiation of NM1. It is a retyping of the floor. Declared worlds, mathals, receipts, target-relative sufficiency, relation birthday, carrier/decoder distinction, numathals, whole-number grammar, hostile controls, and the casebook method all survive in recognizable form. The principal change is that none of them is allowed to precede the F/I/R distinction they already presuppose.
+15.2 Crosswalk
+15.3 Why a small floor change is expensive
+If the FIR correction is right, several statements become illegal earlier than they did in NM1. A proposed relation cannot hide inside a mathal definition. A receipt cannot be requested before the target class is at least approximately stated. A named transition cannot be admitted merely because it is memorable. A decoder change must state which role assignments it affects. These are small formal requirements with large downstream consequences.
+15.4 Where NM1 remains the better language
+Some problems do not require FIR notation. When the factual/proposal distinction is settled and the relation type is native to an established mathematical theory, NM1’s lighter crossing language may be preferable. A good refinement does not force itself into problems where it adds no discrimination. The smallest-sufficient-world principle applies to nunuMath itself.
+Principle 15.1 (Self-ablation). If removing FIR notation from a problem loses no distinction required by the target class, do not retain the notation merely to display allegiance to the discipline.
+15.5 Constitutional test
+The rivalry between the two texts is therefore experimentally decidable at the local level. For each problem, ask whether FIR typing exposes a collapse, illegal promotion, or missing relation that the first-generation grammar leaves implicit. If not, NM1 may be sufficient. If yes, the correction earns its cost.
+Exercises
+15.1. Choose one chapter of NM1 and rewrite its central construction using the smallest FIR additions necessary.
+15.2. Find a problem for which FIR adds no useful distinction and justify self-ablation.
+15.3. Find a problem for which NM1 is ambiguous until an F/I/R role is supplied.
+15.4. Compare the old and new receipt principles on a concrete computational workflow.
+15.5. Write a one-page constitutional objection to one rule in this book and state how it could be tested.
+CHAPTER A
+Axiom and Rule Summary
+A compact reference floor for instructional and computational use.
+A.1 Primitive signature
+F(x)   I(x)   R(x1,…,xk;τ)
+F and I are unary role predicates over addressable judgments. R is a typed family of k-ary participation predicates. The underlying address space belongs to the meta-language of the chosen implementation and is not promoted to a fourth constitutional role.
+A.2 Strict-world axioms
+Axiom A1 (Addressability). Every role-bearing judgment and relation participant is addressable.
+Axiom A2 (Exclusivity). F and I are disjoint for the same judgment-token at a strict constitutional cut.
+Axiom A3 (Typed relations). Every R instance has declared arity and relation type.
+Axiom A4 (Warrant trace). Every promotion into F retains a warrant reference.
+Axiom A5 (No inherited status). Status does not transfer automatically across endpoints or relations.
+Axiom A6 (Declared projection). Every quotient or decoder that erases a potentially target-relevant distinction is addressable.
+A.3 Derived operators
+A.4 Non-collapse register
+F ≠ I ≠ R
+admitted endpoints ≠ admitted relation
+same endpoint ≠ same delta ≠ same receipt
+same coarse signature ≠ same crossing
+same numeral ≠ same mechanism
+same observation ≠ same world
+carrier ≠ decoder
+later discovery ≠ earlier existence
+receipt ≠ authority
+CHAPTER B
+Worked Finite Specimens
+Small worlds are where constitutional claims should first be forced to survive.
+B.1 Same observation, different graph world
+Let G1=C6 and G2=C3⊔C3. Under O(G)=(vertex count, edge count, sorted degree sequence), both return (6,6,[2,2,2,2,2,2]). Connectivity separates them. The observation can therefore be factual and exact while insufficient for a target question about connectedness.
+B.2 Same matrix, different carrier
+For A=[[1,1,0],[1,0,1],[0,1,1]], det(A)=-2 over Z. Modulo 2, the determinant vanishes and the rank is 2. Modulo 3, det(A)=1 and A is invertible. Surface equality of entries does not constitute carrier equality.
+B.3 Five-field transition
+K5 exceeds the simple planar edge bound at n=5 by one edge: C(5,2)=10 while 3n−6=9. Five points in R3 are affinely dependent. S5 is not solvable while S4 is. The local facts are independently admitted; shared index is an admitted relation; common mechanism remains unadmitted absent a stronger invariant.
+B.4 Pairwise surface, ternary difference
+Compare the rank-3 uniform matroid U3,3 with U2,3 on the same three labels. Every singleton and pair is independent in both; the triple is independent only in U3,3. Any decoder restricted to order at most two cannot distinguish the worlds by independence queries.
+B.5 Round-trip promotion
+Begin with I(x). Promote x under proof warrant κ, then reopen it under λ because the proof is discovered to use an inadmissible axiom. The final strict role state returns to I(x), but the receipt records an attempted and revoked admission. A future audit question distinguishes the round trip from inaction.
+CHAPTER C
+Research Problems
+The first course ends by making itself available for destruction.
+Problem C.1 (Primitive independence). Determine whether F, I, and R are independent primitives under a precise notion of definitional extension. Exhibit a reconstruction or a no-go result.
+Problem C.2 (Modal replacement of I). Replace I with a modal operator over possible extensions. Determine whether proposal identity, refusal history, and target-relative retention survive without hidden reintroduction of I.
+Problem C.3 (Relational encoding). Encode R entirely into structured objects plus operations. Identify exactly where typed participation reappears.
+Problem C.4 (Mathal algebra). Find the weakest axioms under which derived mathals form a category, double category, rewrite system, automaton, or another known structure while preserving receipt distinctions.
+Problem C.5 (Receipt complexity). For a finite question class Q and finite trace space, compute minimal sufficient receipts and characterize nonuniqueness.
+Problem C.6 (Decoder order). Classify finite decoder preorders that admit meets and joins; study visibility-birthday motion under refinement.
+Problem C.7 (Transition invariants). Define invariants strong enough to support nontrivial nunumathals across unrelated finite families without collapsing local mechanisms.
+Problem C.8 (Automated hostile controls). Build a search system that emits candidate transitions together with same-index controls, adjacent-index controls, alternate decoders, and counterexamples.
+Problem C.9 (Named-mathal purge). Re-evaluate the NM1 Chapter 11 casebook under Protocol 7.6. Promotion, demotion, merger, and deletion are all acceptable outcomes.
+Problem C.10 (Constitutional semantics). Give a model-theoretic semantics for FIR worlds and promotion operators, including strict and multi-authority variants.
+Problem C.11 (Proof assistants). Implement FIR role annotations in a proof assistant or typed programming language and test whether the annotations prevent real category errors rather than merely add syntax.
+Problem C.12 (Self-ablation). Identify a broad class of mathematical problems for which nunuMath provably adds no useful discrimination beyond established native notation.
+CHAPTER 
+Glossary
+Terms are listed by their technical use in this edition.
+addressable. capable of stable reference within the declared world.
+admission. promotion of an active idea into factual role under a warrant.
+admission leakage. entry into F without a licensed warrant.
+carrier. the mathematical substrate in which operations and relations are defined.
+constitutional delta. the change in F, I, and R across a crossing.
+decoder. an observation map determining which distinctions are visible.
+decoder refinement. an information order D1⪯D2 when D1 can be deterministically recovered from D2.
+fact. an admitted judgment in the current world.
+FIR world. a constitutional presentation <F,I,R>.
+idea. an active, addressable proposal without current factual admission.
+mathal. a derived typed crossing between FIR worlds with addressable delta and receipt.
+numathal. a mathal essentially indexed by a numerical transition.
+nunumathal. a typed relation or crossing among numathals.
+promotion. warranted I→F transition.
+receipt. a retained representation of crossing history chosen relative to future questions.
+reification. assignment of a stable address to a relation so it may participate at a higher level.
+relation. typed participation among addressable particulars.
+relation birthday. least index at which a relation becomes admissible under a declared sense of admissibility.
+reopening. withdrawal or suspension of admission F→I without erasing prior history.
+signature aliasing. mistaking equal coarse FIR signatures for equal crossings.
+strict world. FIR world in which the same judgment-token is not simultaneously F and I.
+target-relative sufficiency. adequacy of an observation or receipt for a declared question class.
+warrant. the mechanism under which admission into F is licensed.
+CHAPTER 
+References
+Internal authorities are listed first because this textbook is explicitly a constitutional descendant.
+[NM1] The Static Collective. nuMathelology: Number, Relation, and Structural Transition. First edition. Lemon Press Monographs in Structural Mathematics, Vol. I. 2026.
+[FIR0.2] thestaticcollective. nunuMath v0.2: Primitive Corrections to First-Generation Mathelology. Lemon Press, 2026.
+[Bollobás] Béla Bollobás. Modern Graph Theory. Springer, 1998.
+[Bondy–Murty] J. A. Bondy and U. S. R. Murty. Graph Theory. Springer, 2008.
+[Mac Lane] Saunders Mac Lane. Categories for the Working Mathematician. Second edition. Springer, 1998.
+[Munkres] James R. Munkres. Topology. Second edition. Prentice Hall, 2000.
+[Oxley] James Oxley. Matroid Theory. Second edition. Oxford University Press, 2011.
+[Rotman] Joseph J. Rotman. An Introduction to the Theory of Groups. Fourth edition. Springer, 1995.
+[Stanley] Richard P. Stanley. Enumerative Combinatorics, Vol. 1. Second edition. Cambridge University Press, 2012.
+Classical references are supplied as mathematical neighbors for standard examples. They do not establish the local nunuMath terminology, which is defined inside this volume.
+CHAPTER 
+Index by Section
+Section references are preferred to page references so the index survives future re-typesetting.
+LEMON PRESS
+TEXTS IN CONSTITUTIVE MATHEMATICS
+nunuMATH: Foundations of Admissive and Relational Mathematics was prepared as the first instructional standard of the FIR school.
+Edition LP-NNM-101-001 · constitutional baseline 0.3 · 2026
+Definitions are local unless otherwise stated.
+Everything else must earn its arrow.
+INSTRUCTIONAL STANDING
+This volume is written as a first course. Results marked THEOREM or PROPOSITION are established in the declared setting; CONSTRUCTION and PROTOCOL labels specify reusable procedures; PROPOSAL marks material that remains open to hostile testing. Definitions are local unless otherwise stated.
+Field
+Entry
+Title
+nunuMATH: Foundations of Admissive and Relational Mathematics — First Course in FIR Systems
+Author
+thestaticcollective
+Series
+Lemon Press Texts in Constitutive Mathematics, Volume I
+Instructional code
+NNM 101 / FIR Foundations
+Edition
+First edition; constitutional baseline 0.3
+Subjects
+mathematical foundations; relation systems; model theory; graph structure; information loss; path-sensitive transformation; provenance; finite experimental mathematics
+Prerequisite
+Mathematical maturity sufficient for elementary algebra, graph theory, finite sets, and proof
+Primary predecessor
+The Static Collective, nuMathelology: Number, Relation, and Structural Transition, 1st ed. (Lemon Press, 2026), cited as NM1
+Constitutional memorandum
+thestaticcollective, nunuMath v0.2: Primitive Corrections to First-Generation Mathelology (Lemon Press, 2026), cited as FIR0.2
+Edition identifier
+LP-NNM-101-001
+Part
+Title
+Page
+1
+Addressability and Declared Mathematical Worlds
+5
+2
+Fact: Admission and Warrant
+7
+3
+Idea: Proposal Space and Refusal
+9
+4
+Relation: Typed Participation and Reification
+11
+5
+FIR Worlds and Constitutional Well-Formedness
+13
+6
+Primitive Crossings
+15
+7
+Mathals as Derived Transitions
+17
+8
+Receipt Theory and Minimum Memory
+19
+9
+Numathals and Cardinally Indexed FIR Change
+21
+10
+Nunumathals and Second-Order Transition Relations
+23
+11
+Decoder Theory and Observational Order
+25
+12
+FIR Dynamics and Composition
+27
+13
+Failure Theory
+29
+14
+Experimental nunuMath
+32
+15
+Relation to First-Generation nuMathelology
+34
+A
+Axiom and Rule Summary
+36
+B
+Worked Finite Specimens
+38
+C
+Research Problems
+40
+Glossary
+41
+References
+42
+Index by Section
+43
+Symbol
+Meaning
+F_W(x)
+x is admitted as fact in world W
+I_W(x)
+x is available as idea in W without current admission
+R_W(x1,…,xk; τ)
+the tuple participates in relation type τ in W
+W = <F,I,R>
+constitutional FIR presentation of a world
+P_κ
+promotion/admission operator under warrant κ
+U_λ
+reopening operator under reason λ
+δ(m)
+constitutional delta of a mathal
+Π(m)
+receipt retained for a mathal
+D
+decoder / observation map
+E
+equivalence lens
+η_n
+numathal indexed by cardinal transition
+N(η1,…,ηk;τ)
+nunumathal relation among numathals
+STANDING NON-COLLAPSE
+F ≠ I ≠ R. Role equality is never inferred from shared content. Same endpoint ≠ same path ≠ same trace. Same numerical index ≠ common mechanism. Same observation ≠ same world. These are typing disciplines, not universal claims that every distinction matters to every question.
+METHODOLOGICAL BOUNDARY
+FIR is a local constitutional grammar for mathematical work. It is not claimed to replace set theory, type theory, category theory, logic, proof theory, or any other established foundation. It can be interpreted inside those frameworks.
+COMPARISON WITH FIRST-GENERATION NUMATHELOLOGY
+NM1 §§1.1–1.4. NM1 begins with declared worlds and mathals. nunuMath inserts stable addressability and role assignment before the mathal, while retaining the declared-world discipline unchanged.
+FIR RECEIPT 1-A
+FIR RECEIPT 1-A
+OBJECT
+matrix A
+ADDRESS
+A
+WORLD
+3×3 matrices over a declared scalar carrier
+ROLE
+none yet
+CLAIM
+addressable does not imply admitted
+STATUS
+CONSTITUTIONAL
+COMPARISON WITH FIRST-GENERATION NUMATHELOLOGY
+NM1 Editorial Note; §§2.1, 10.1. NM1 already distinguishes theorem, computation, construction, observation, proposal, and interpretation typographically. nunuMath interprets those marks as warrant information carried by a more primitive F/I distinction.
+ADMISSION RECEIPT 2-P
+ADMISSION RECEIPT 2-P
+INPUT
+I(x)
+OPERATOR
+P_proof
+OUTPUT
+F(x)
+WARRANT
+proof in declared world
+HISTORY
+proposal retained in receipt
+NON-COLLAPSE
+same F role ≠ same warrant
+COMPARISON WITH FIRST-GENERATION NUMATHELOLOGY
+NM1 §§2.1, 7.4, 10.4, 12.4. NM1 preserves failed crossings and deferred discriminators. nunuMath places those behaviors inside an explicit proposal space and separates active ideas from the indefinite complement of fact.
+REFUSAL RECEIPT 3-R
+REFUSAL RECEIPT 3-R
+PROPOSAL
+I(h)
+TEST
+hostile control C
+RESULT
+promotion refused
+BODY DELTA
+0
+TRACE DELTA
+nonzero
+RETENTION
+query-relative
+COMPARISON WITH FIRST-GENERATION NUMATHELOLOGY
+NM1 §§2.4, 4. nunuMath keeps relation birthday and higher-order projection, but replaces the broad slogan RELATION BEFORE OBJECT with a narrower reification claim.
+RELATION RECEIPT 4-T
+RELATION RECEIPT 4-T
+PARTICIPANTS
+a,b,c
+TYPE
+ternary dependence
+PAIR SURFACE
+unchanged
+TRIPLE STATE
+changed
+DECODER
+order ≤2
+CONCLUSION
+projection insufficient
+COMPARISON WITH FIRST-GENERATION NUMATHELOLOGY
+NM1 §§1.1, 6.3, 10. The declared-world apparatus of NM1 becomes a typed FIR presentation. Target-relative sufficiency remains essential: a coarse constitutional lens may be adequate for one question and destructive for another.
+WORLD RECEIPT 5-W
+WORLD RECEIPT 5-W
+WORLD
+W0
+F
+{f1,f2}
+I
+{h1}
+R
+{rτ(f1,h1)}
+RULE
+strict
+STATUS
+WELL-FORMED
+Crossing
+Schematic delta
+Interpretation
+Admission
+I → F
+proposal becomes admitted under warrant
+Reopening
+F → I
+admission withdrawn or suspended without historical erasure
+Generation
+· → I
+new active proposal becomes available
+Relation birth
+· → R
+typed participation becomes available or admitted
+Relation withdrawal
+R → ·
+relation no longer active under current cut
+COMPARISON WITH FIRST-GENERATION NUMATHELOLOGY
+NM1 §§2.1, 7. The refused and return-crossing phenomena of NM1 become ordinary consequences of FIR role transitions. Endpoint closure remains compatible with nontrivial constitutional history.
+DELTA RECEIPT 6-D
+DELTA RECEIPT 6-D
+START
+I(x)
+STEP 1
+P_κ: I→F
+STEP 2
+U_λ: F→I
+END
+I(x)
+VISIBLE STATE
+restored
+TRACE
+nonidentity
+COMPARISON WITH FIRST-GENERATION NUMATHELOLOGY
+NM1 §§1.2–1.4, 11, 12.2. The First Edition’s mathal is retained almost verbatim at the operational level but becomes derived from FIR worlds. The open problem of minimal mathal axioms is sharpened into a testable admission protocol.
+MATHAL RECEIPT 7-M
+MATHAL RECEIPT 7-M
+SOURCE
+W_t
+TARGET
+W_t+1
+DELTA
+δ*(m)
+WARRANT
+declared
+RECEIPT
+Π(m)
+ADMISSION
+near-miss refused
+COMPARISON WITH FIRST-GENERATION NUMATHELOLOGY
+NM1 §§6.3, 7.4–7.5, 10.4, 12.4. nunuMath converts the first-generation receipt principle into an explicit query-relative optimization problem and adds a symmetric failure class for unnecessary retention.
+MINIMUM RECEIPT 8-Q
+MINIMUM RECEIPT 8-Q
+TRACE
+T(m)
+QUESTION CLASS
+Q
+COMPRESSION
+c
+SUFFICIENCY
+q(c(T))=q(T)
+OBJECTIVE
+min cost
+UNKNOWN
+future Q may enlarge
+Specimen
+Admitted local fact
+Shared relation
+Not yet admitted
+Planarity
+K4 planar; K5 nonplanar
+transition index 5
+universal “five obstruction” mechanism
+Affine rank
+5 points in R3 dependent
+transition index 5
+planarity mechanism
+Group solvability
+S4 solvable; S5 not
+transition index 5
+common cause with graph or affine case
+COMPARISON WITH FIRST-GENERATION NUMATHELOLOGY
+NM1 §§3, 4, 5, 9. The whole-number grammar remains intact, but each threshold is retyped as a change in admitted facts, proposal availability, relation structure, or visibility. The integer remains an index, never an unaudited cause.
+NUMATHAL RECEIPT 9-N
+NUMATHAL RECEIPT 9-N
+FAMILY
+W_n
+INDEX
+n→n+1
+DELTA
+F/I/R change
+LOCAL MECHANISM
+required
+CONTROL
+same n / different world
+PROMOTION
+index ≠ cause
+COMPARISON WITH FIRST-GENERATION NUMATHELOLOGY
+NM1 §§3, 5, 9; FIR0.2 §§11–12. NM1 stops at numathals and whole-number transition grammar. nunuMath adds a controlled second-order layer whose first admission test is removal of the common numeral.
+NUNUMATHAL RECEIPT 10-2
+NUNUMATHAL RECEIPT 10-2
+PARTICIPANTS
+η1,η2,η3
+VISIBLE INDEX
+shared
+CONTROL
+index anonymized
+INVARIANT
+J
+NEAR-MISS
+required
+STATUS
+admit only if relation survives
+COMPARISON WITH FIRST-GENERATION NUMATHELOLOGY
+NM1 §§6, 8, 12.5. nunuMath formalizes the first-generation intuition that decoders can be ordered by informativeness and proves a simple monotonicity result for visibility birthdays under refinement.
+DECODER RECEIPT 11-D
+DECODER RECEIPT 11-D
+COARSE
+D1
+FINE
+D2
+RELATION
+D1=f∘D2
+PROPERTY
+visibility monotone
+CONTROL
+carrier fixed
+FAILURE MODE
+decoder change ≠ world change
+COMPARISON WITH FIRST-GENERATION NUMATHELOLOGY
+NM1 §§7–8, 11.6, 12.2. The path-sensitive machinery of NM1 becomes a dynamics of FIR worlds. The new distinction is between net constitutional effect and ordered constitutional history.
+DYNAMICS RECEIPT 12-C
+DYNAMICS RECEIPT 12-C
+PATH
+W0→W1→W2
+NET EFFECT
+possibly zero
+ORDER
+retained if target-sensitive
+COMMUTATION
+lens-relative
+DEPENDENCY
+typed
+REOPENING
+targeted
+Failure
+Illegal collapse
+Primary repair
+Admission leakage
+I → F without warrant
+require P_κ receipt
+Idea erasure
+failed proposal → nonexistent history
+retain target-relevant refusal
+Relation smuggling
+true endpoints → true relation
+type and warrant R separately
+Warrant collapse
+same F role → same support
+retain κ
+Decoder substitution
+same label → same visibility
+declare D and translation
+Carrier laundering
+same glyphs → same algebra
+declare carrier
+Signature aliasing
+same δ count → same crossing
+inspect fine delta/receipt
+Numeral fixation
+same n → same mechanism
+run numeral-removal/control worlds
+COMPARISON WITH FIRST-GENERATION NUMATHELOLOGY
+NM1 throughout; especially §§3, 5, 8, 10. Failure theory converts many first-generation warnings into named constitutional defects. The names are admitted only insofar as each has a repeatable refusal boundary.
+FAILURE RECEIPT 13-X
+FAILURE RECEIPT 13-X
+OBSERVED
+surface equality
+HIDDEN
+role/carrier/decoder/warrant
+ERROR
+premature collapse
+REPAIR
+restore missing type
+CONTROL
+near-miss
+STATUS
+diagnostic
+COMPARISON WITH FIRST-GENERATION NUMATHELOLOGY
+NM1 §10; §12 open problems. The experimental core of NM1 is preserved and expanded. The discipline is required to attack its own primitives, not only its applications.
+EXPERIMENT RECEIPT 14-H
+EXPERIMENT RECEIPT 14-H
+CLAIM
+candidate
+WORLD
+declared
+FIR DELTA
+explicit
+ABLATION
+performed
+NEAR-MISS
+required
+SURVIVOR
+smallest supported claim
+NM1 object
+nunuMath status
+Primary refinement
+Declared world
+retained
+world receives FIR constitutional presentation
+Mathal
+retained / demoted
+derived crossing between FIR worlds
+Receipt
+retained / sharpened
+query-relative minimum memory
+Relation birthday
+retained
+distinguish expression, idea, and factual admission when needed
+Decoder
+retained
+ordered by refinement preorder where possible
+Numathal
+retained
+cardinally indexed FIR delta
+Named mathal
+conditional
+must pass reusable admission protocol
+Whole-number grammar
+retained
+mechanism remains primary; number is index
+Relation before object
+narrowed
+relation may precede its own reification
+Keep the receipt
+narrowed
+keep sufficient attributable receipt for declared future
+CLOSING STATEMENT
+Before a thing may cross, there must already be something admitted, something possible, or something related. A mathematical constitution does not tell the world what to conclude. It states what the world is currently entitled to say it has. Everything else must earn its arrow.
+CONSTITUTIONAL RECEIPT 15-END
+CONSTITUTIONAL RECEIPT 15-END
+PREDECESSOR
+NM1
+CORRECTION
+F/I/R floor
+SURVIVES
+most downstream machinery
+COST
+additional typing
+BENEFIT
+earlier visibility of illegal collapse
+STATUS
+FIRST COURSE BASELINE
+Operator
+Type
+Meaning
+P_κ
+I→F
+promotion under warrant κ
+U_λ
+F→I
+reopening under reason λ
+G
+·→I
+proposal generation
+B_τ
+·→R_τ
+relation birth
+W_τ
+R_τ→·
+relation withdrawal
+m
+W→W′
+derived mathal
+c_Q
+T→Π_Q
+receipt compression for question class Q
+SPECIMEN B-1
+SPECIMEN B-1
+G1
+C6
+G2
+C3⊔C3
+O(G1)
+(6,6,2^6)
+O(G2)
+(6,6,2^6)
+DISCRIMINATOR
+connected?
+LESSON
+re-expression ≠ new observation
+SPECIMEN B-2
+SPECIMEN B-2
+OBJECT
+A
+Z
+det=-2
+F2
+rank=2; singular
+F3
+det=1; invertible
+FAILURE
+carrier laundering
+LESSON
+glyphs do not type algebra
+SPECIMEN B-3
+SPECIMEN B-3
+INDEX
+5
+GRAPH
+planar capacity obstruction
+AFFINE
+dimension/rank obstruction
+GROUP
+solvability obstruction
+RELATION
+shared transition index
+REFUSAL
+index alone is not mechanism
+SPECIMEN B-4
+SPECIMEN B-4
+GROUND
+{a,b,c}
+ORDER≤2
+identical
+TRIPLE
+different
+DECODER
+pairwise
+LESSON
+projection ≠ whole
+FIR
+relation delta hidden
+SPECIMEN B-5
+SPECIMEN B-5
+START
+I(x)
+PROMOTE
+P_κ
+REOPEN
+U_λ
+END
+I(x)
+NET FIR
+zero
+TRACE
+nonzero
+Term
+Sections
+admission
+2.1–2.4, 6.1, 13.1
+addressability
+1.1–1.4, A.1
+carrier
+1.2, 11.1, 13.6, B.2
+constitutional delta
+6.2, 7.1, 12.2
+decoder
+11.1–11.5, 13.5
+decoder refinement
+11.2–11.5
+fact
+2, 5, A
+failure theory
+13
+FIR world
+5, 6, 7
+idea
+3, 5, A
+mathal
+7, 12, C.4
+named mathal
+7.4, 15.2, C.9
+numathal
+9, 10
+nunumathal
+10, C.7
+numeral-removal control
+10.2, 13.9
+promotion operator
+2.2, 6.1, A.3
+receipt
+8, 12, 13.8
+receipt minimality
+8.2, C.5
+reification
+4.4
+relation
+4, 5, A
+relation birthday
+4.3, 9.2, 11.3
+reopening
+2.4, 6, 12.5
+role exclusivity
+2.5, 5.2, A.2
+same state, different world
+8.3, 11.4, B.1
+signature aliasing
+13.7
+target-relative sufficiency
+8.2, 15.2
+warrant
+2.2, 5.2, 13.4
+whole-number grammar
+9, 15.2
