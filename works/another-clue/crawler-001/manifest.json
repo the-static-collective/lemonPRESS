@@ -1,0 +1,132 @@
+{
+  "work_id": "lemonpress:another-clue",
+  "edition_id": "lemonpress:another-clue:crawler-001",
+  "lane": "crawler",
+  "status": "admitted-edition",
+  "title": "¿another clue?",
+  "subtitle": "an accidental book about apertures, receipts, and the things that survive becoming",
+  "source_revision": "gdoc:1LptnBKhbvjn_3w4kQJWoa96W1Cd0HlWmfbjMPXi0qkM@ANLCKQllOxkIlGxGU4Lm4IRUvxhdw1e7eY-C9mGYWSQM_RS-NYg-G3QLw79F6LIajWmp_2ByLxGv84rLpzLuNRiyL9wE0hmwYnERYWiIon8",
+  "admission_receipt": "main:works/another-clue/ADMISSION.md",
+  "files": {
+    "plain_text": "another-clue.txt"
+  },
+  "retrieval_laws": [
+    "RETRIEVED != READ",
+    "CHUNK != BOOK",
+    "FRAGMENT != CONTEXT",
+    "DISCOVERY != ENDORSEMENT",
+    "A SEVERED LIMB SHOULD STILL KNOW WHICH BODY IT CAME FROM."
+  ],
+  "sections": [
+    {
+      "id": "another-clue",
+      "label": "¿another clue?",
+      "role": "title"
+    },
+    {
+      "id": "a-note-to-the-reader",
+      "label": "A NOTE TO THE READER",
+      "role": "part-or-backmatter"
+    },
+    {
+      "id": "contents",
+      "label": "CONTENTS",
+      "role": "part-or-backmatter"
+    },
+    {
+      "id": "part-i-the-amp-was-still-on",
+      "label": "PART I — THE AMP WAS STILL ON",
+      "role": "part-or-backmatter"
+    },
+    {
+      "id": "1-wake-signal",
+      "label": "1 — WAKE SIGNAL",
+      "role": "chapter"
+    },
+    {
+      "id": "2-particulars",
+      "label": "2 — PARTICULARS",
+      "role": "chapter"
+    },
+    {
+      "id": "3-the-thirteenth-cup",
+      "label": "3 — THE THIRTEENTH CUP",
+      "role": "chapter"
+    },
+    {
+      "id": "part-ii-the-aperture",
+      "label": "PART II — THE APERTURE",
+      "role": "part-or-backmatter"
+    },
+    {
+      "id": "4-the-glyph-is-not-the-energy",
+      "label": "4 — THE GLYPH IS NOT THE ENERGY",
+      "role": "chapter"
+    },
+    {
+      "id": "5-peach",
+      "label": "5 — PEACH",
+      "role": "chapter"
+    },
+    {
+      "id": "6-little-yes",
+      "label": "6 — LITTLE YES",
+      "role": "chapter"
+    },
+    {
+      "id": "part-iii-no-new-state",
+      "label": "PART III — NO NEW STATE",
+      "role": "part-or-backmatter"
+    },
+    {
+      "id": "7-the-room-with-no-door",
+      "label": "7 — THE ROOM WITH NO DOOR",
+      "role": "chapter"
+    },
+    {
+      "id": "8-the-receipt-that-survives",
+      "label": "8 — THE RECEIPT THAT SURVIVES",
+      "role": "chapter"
+    },
+    {
+      "id": "9-today-in-your-ears",
+      "label": "9 — TODAY IN YOUR EARS",
+      "role": "chapter"
+    },
+    {
+      "id": "part-iv-the-book-reads-you-back",
+      "label": "PART IV — THE BOOK READS YOU BACK",
+      "role": "part-or-backmatter"
+    },
+    {
+      "id": "10-carry-reveal-projection-loss-hold",
+      "label": "10 — CARRY / REVEAL / PROJECTION / LOSS / HOLD",
+      "role": "chapter"
+    },
+    {
+      "id": "11-authority-does-not-live-in-the-sign",
+      "label": "11 — AUTHORITY DOES NOT LIVE IN THE SIGN",
+      "role": "chapter"
+    },
+    {
+      "id": "12-the-card-learns-to-carry-more",
+      "label": "12 — THE CARD LEARNS TO CARRY MORE",
+      "role": "chapter"
+    },
+    {
+      "id": "epilogue-another-clue",
+      "label": "EPILOGUE — ¿ANOTHER CLUE?",
+      "role": "part-or-backmatter"
+    },
+    {
+      "id": "source-road",
+      "label": "SOURCE ROAD",
+      "role": "part-or-backmatter"
+    },
+    {
+      "id": "greeceipt",
+      "label": "GREECEIPT",
+      "role": "part-or-backmatter"
+    }
+  ]
+}
