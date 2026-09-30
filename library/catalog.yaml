@@ -255,10 +255,10 @@ works:
     note: "Pre-chat handwritten/notebook story material; date unresolved."
   - work_id: "lemonpress:the-road-drew-itself"
     title: "THE ROAD DREW ITSELF"
-    shelf_status: ["manuscript"]
-    release_state: "held"
-    source_location: "held/private-or-external unless separately admitted"
-    note: "Source Edition 001 exists; built by compositional selection of found material with minimal connective tissue."
+    shelf_status: ["manuscript", "publication"]
+    release_state: "production-active"
+    source_location: "held source ancestor; public descendants are registered by lemonPRESS"
+    note: "LP-RD-001. Source Edition 001 exists; built by compositional selection of found Daily Slice material with minimal connective tissue. Admitted to Little Free Library Release 001."
   - work_id: "lemonpress:another-clue"
     title: "and THAT... will lead to another clue... / ¿another clue?"
     shelf_status: ["manuscript", "publication"]
@@ -266,8 +266,8 @@ works:
     source_location: "held/private-or-external unless separately admitted"
     note: "Source Edition 001 plus print-reading and carrier cuts exist; already crossing lemonPRESS production lanes."
   - work_id: "lemonpress:numathelology"
-    title: "nuMathelology"
-    shelf_status: ["proto-book"]
-    release_state: "held"
-    source_location: "held/private-or-external unless separately admitted"
-    note: "Serious deadpan reference/textbook project synthesized from maths, mathals, numathals, matherology, numatherology, mathalology, and numathalology; current source carrier not yet materialized in Drive."
+    title: "nuMATHELOLOGY"
+    shelf_status: ["manuscript", "publication"]
+    release_state: "production-active"
+    source_location: "held source ancestor; public descendants are registered by lemonPRESS"
+    note: "LP-NM-001. First Edition exists as a finished Lemon Press book. 7 × 10 text block; preferred citation and edition identifier are embedded in the book. Admitted to Little Free Library Release 001."
