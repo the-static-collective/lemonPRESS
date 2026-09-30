@@ -61,3 +61,9 @@ The house keeps enough receipt to tell those apart.
 Admitted on **2026-09-30** from a frozen Google Docs source revision, it immediately crossed into physical, digital, crawler, and archival production lanes. Those descendants are allowed to differ honestly while remaining attributable to the same admitted work.
 
 The physical arm begins as an approved 6 × 9 print proof; **proof is not publication**. A later release may name that proof as an ancestor without changing the work's admission birthday.
+
+## Little Free Library intake
+
+The recovered book shelf is registered under [`library/`](library/README.md). Registration gives a work a house address without automatically publishing its private source body.
+
+See [`library/catalog.yaml`](library/catalog.yaml) for the current machine-readable register.
