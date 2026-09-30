@@ -1,11 +1,12 @@
 work_id: lemonpress:another-clue
 title: "Another Clue"
-status: forming
+status: admitted
 
 admission:
-  state: pending
-  receipt: null
-  source_revision: null
+  state: admitted
+  receipt: works/another-clue/admission-001.md
+  source_title: "Another Clue — Carrier Cut 001"
+  source_revision: "google-docs-revision:ANLCKQlUcrKZrW-6RLQlbUOUJ1NfxicAVMvXbgJXu0_2CIl_gDiSO4poRoh0ffw9JIsJUwX6Kg32S2p7deQPDWw3pkX3_xTVLqBqA-lNZu4"
 
 lanes:
   - physical
@@ -13,7 +14,9 @@ lanes:
   - crawler
   - archive
 
-rights: null
+rights:
+  statement: "Copyright retained; no open-content license declared."
+  open_license: null
 
 editorial_law:
   - "Compression by cutting before rewriting."
@@ -24,4 +27,4 @@ editorial_law:
 notes:
   - "Competing editions and cuts are allowed."
   - "No production lane becomes source authority."
-  - "Public release waits on explicit admission and rights declaration."
+  - "Admission authorizes multi-branch production; each public release still gets its own release receipt."
