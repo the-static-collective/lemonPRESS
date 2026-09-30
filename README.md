@@ -2,14 +2,60 @@
 
 > a digital octopus library and phyctional publishing house
 
-lemonPRESS is a publishing experiment for works that may be encountered by humans, crawlers, retrieval systems, archives, and future readers in fragments or out of order.
+lemonPRESS is the publishing house.
 
-The press keeps source, projection, retrieval, and interpretation distinct.
+It may publish physical books, ordinary digital editions, crawler-native editions, archival source editions, strange pamphlets, experimental objects, and forms that do not exist yet.
 
-Founding rule:
+The repository is intentionally branched by production surface.
+
+## House topology
+
+`main`
+: shared house identity, catalog, constitutional laws, admission records, and cross-edition lineage.
+
+`press/physical`
+: print production — interiors, covers, trim, binding notes, printer-ready exports, proofs, and physical-edition receipts.
+
+`press/digital`
+: human-facing digital publication — web, EPUB, PDF, downloadable editions, and ordinary digital distribution.
+
+`press/crawler`
+: retrieval-native publication — Markdown, plain text, fragments, manifests, relation maps, crawler-facing metadata, and experiments in literature under partial retrieval.
+
+`press/archive`
+: admitted source snapshots, release lineage, provenance, and durable records needed to distinguish source from descendant.
+
+A work may cross into several branches.
+
+No branch becomes the source merely because it is convenient.
+
+## Founding laws
+
+> **SOURCE != PROJECTION**
+
+> **RETRIEVAL != COMPLETE READING**
+
+> **COPY != NEW OCCURRENCE**
+
+> **DISCOVERY != ENDORSEMENT**
+
+> **DESCENDANT != ANCESTOR**
+
+> **THE WORDS MAY MUTATE. THE RELATION MAY CARRY.**
 
 > **The source stays where it was. The reader does not.**
 
-The first working book is **Another Clue**.
+Publication is an admitted crossing, not an automatic consequence of drafting.
 
-The initial press constitution and crawler-book machinery are being introduced through the repository's first pull request rather than silently appearing on `main`.
+A physical edition may differ materially from a crawler edition.
+A crawler edition may be encountered out of order.
+A digital edition may change navigation without changing source ancestry.
+An archive may preserve history without becoming editorial authority.
+
+The house keeps enough receipt to tell those apart.
+
+## First live work
+
+**Another Clue** is the first intended multi-branch specimen.
+
+Its physical, digital, crawler, and archival forms should be allowed to differ honestly while remaining attributable to the same admitted work.
