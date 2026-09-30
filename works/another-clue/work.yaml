@@ -1,0 +1,27 @@
+work_id: lemonpress:another-clue
+title: "Another Clue"
+status: forming
+
+admission:
+  state: pending
+  receipt: null
+  source_revision: null
+
+lanes:
+  - physical
+  - digital
+  - crawler
+  - archive
+
+rights: null
+
+editorial_law:
+  - "Compression by cutting before rewriting."
+  - "Prefer the original carrier of the original thought."
+  - "The source stays where it was. The reader does not."
+  - "A later relation gets its own birthday."
+
+notes:
+  - "Competing editions and cuts are allowed."
+  - "No production lane becomes source authority."
+  - "Public release waits on explicit admission and rights declaration."
