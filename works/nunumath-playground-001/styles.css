@@ -1,0 +1,17 @@
+:root { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; color-scheme: light dark; }
+body { margin: 0; line-height: 1.45; }
+main { max-width: 1120px; margin: auto; padding: 2rem 1rem 4rem; }
+header { border-bottom: 2px solid currentColor; margin-bottom: 1.5rem; }
+.eyebrow { letter-spacing: .08em; font-size: .78rem; opacity: .7; }
+.law { font-weight: 700; }
+.controls, .worlds, .outputs { display: grid; gap: 1rem; }
+.controls { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); margin: 1rem 0; }
+.worlds { grid-template-columns: minmax(0,1fr) auto minmax(0,1fr); align-items: stretch; }
+.outputs { grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); }
+article, .lede, .experiment, section:not(.controls):not(.worlds):not(.outputs) { border: 1px solid color-mix(in srgb, currentColor 28%, transparent); padding: 1rem; margin-block: 1rem; }
+.worlds article, .outputs article { margin: 0; }
+.arrow { display: grid; place-items: center; font-size: 2rem; }
+pre { white-space: pre-wrap; overflow-wrap: anywhere; padding: .75rem; background: color-mix(in srgb, currentColor 7%, transparent); min-height: 2rem; }
+select, button { font: inherit; padding: .5rem; }
+label { display: grid; gap: .35rem; }
+@media (max-width: 760px) { .worlds { grid-template-columns: 1fr; } .arrow { transform: rotate(90deg); } }

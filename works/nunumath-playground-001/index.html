@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>nunuMATH Playground 001</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <main>
+    <header>
+      <p class="eyebrow">LEMON PRESS · LP-NNM-101-001 · DIGITAL DESCENDANT</p>
+      <h1>nunuMATH Playground 001</h1>
+      <p>FIR → world → mathal → delta → receipt.</p>
+      <p class="law">BOOK ≠ INSTRUMENT · ENDPOINT ≠ PATH ≠ TRACE</p>
+    </header>
+
+    <section class="controls">
+      <label>Specimen <select id="specimen"></select></label>
+      <label>Receipt lens
+        <select id="receipt-mode">
+          <option value="endpoint">endpoint question</option>
+          <option value="delta">delta question</option>
+          <option value="history" selected>history question</option>
+        </select>
+      </label>
+    </section>
+
+    <section class="lede">
+      <h2 id="title"></h2>
+      <p><strong>Conventional compression:</strong> <span id="conventional"></span></p>
+      <p id="note"></p>
+      <p><strong>Warrant:</strong> <span id="warrant"></span></p>
+      <code id="coarse"></code>
+    </section>
+
+    <section class="worlds">
+      <article>
+        <h3>Source · <span id="source-id"></span></h3>
+        <h4>F — admitted</h4><pre id="source-F"></pre>
+        <h4>I — available, unadmitted</h4><pre id="source-I"></pre>
+        <h4>R — typed participation</h4><pre id="source-R"></pre>
+      </article>
+      <div class="arrow">→</div>
+      <article>
+        <h3>Target · <span id="target-id"></span></h3>
+        <h4>F — admitted</h4><pre id="target-F"></pre>
+        <h4>I — available, unadmitted</h4><pre id="target-I"></pre>
+        <h4>R — typed participation</h4><pre id="target-R"></pre>
+      </article>
+    </section>
+
+    <section class="outputs">
+      <article><h3>Fine FIR delta</h3><pre id="delta"></pre></article>
+      <article><h3>Receipt under selected question class</h3><pre id="receipt"></pre></article>
+    </section>
+
+    <section>
+      <h3>Questions this specimen keeps open</h3>
+      <ul id="questions"></ul>
+    </section>
+
+    <section class="experiment">
+      <h3>Same “3 − 1 = 2”, different crossing</h3>
+      <p>Compare giving the third apple with losing it. The scalar answer agrees. The world does not.</p>
+      <button id="compare-apples">Run comparison</button>
+      <pre id="comparison">not run yet</pre>
+    </section>
+  </main>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
