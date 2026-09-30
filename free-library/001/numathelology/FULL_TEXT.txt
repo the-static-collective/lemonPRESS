@@ -1,0 +1,685 @@
+nuMATHELOLOGY
+FIRST EDITION
+LEMON PRESS MONOGRAPHS
+IN STRUCTURAL MATHEMATICS
+Volume I
+The series publishes compact treatments of mathematical structure, relation, representation, and transformation in which the declared carrier and the information preserved by a crossing are treated as first-class objects.
+nuMATHELOLOGY
+NUMBER, RELATION, AND STRUCTURAL TRANSITION
+A Reference Grammar for Mathals, Numathals, and Whole-Number Worlds
+THE STATIC COLLECTIVE
+LEMON PRESS
+  Publisher’s Cataloging Data
+nuMathelology: Number, Relation, and Structural Transition. First edition. Lemon Press Monographs in Structural Mathematics, Volume I.
+Subjects: discrete mathematics; graph structure; finite relational systems; matroidal dependence; equivalence and quotient structure; path-sensitive transformation; information loss; mathematical methodology.
+Preferred citation: The Static Collective. nuMathelology: Number, Relation, and Structural Transition. 1st ed. Lemon Press, 2026.
+Edition identifier: LP-NM-001. Repository and computation receipts are versioned independently of the print object. Definitions are local unless otherwise stated.
+ISBN: unassigned.
+First edition prepared 2026. Typeset for a 7 × 10 inch text block. Computational specimens reproduced from finite calculations and declared examples; source-level distinctions are retained where they affect the mathematical claim.
+  Editorial Note
+This volume develops a relation-first vocabulary for finite structural change. Its central object is the mathal: a typed, addressable mathematical crossing whose endpoint need not determine its path, receipt, or information history.
+The text distinguishes ordinary mathematical results from local definitions, finite computations, proposed formalisms, and interpretive generalizations. These distinctions are typographical rather than rhetorical. A theorem is proved in the declared setting. A computed specimen is finite and reproducible. A proposed grammar is a reusable hypothesis awaiting broader stress testing.
+The recurring methodological question is narrow: when quantity, carrier, decoder, or admissible relation changes, what becomes possible, necessary, impossible, distinguishable, or newly invisible? The answer is always relative to a declared world.
+Dogram receipt stamps appear where a finite specimen performs evidentiary work. They are deliberately terse. A receipt records the calculation or discriminator used; it does not enlarge the scope of the result.
+  Preface to the First Edition
+The first edition is organized around a simple practical difficulty. Mathematical objects are routinely compared after information has been discarded. A graph is reduced to a degree sequence; a path is replaced by its endpoint; a vector configuration is summarized by pairwise tests; a historical transformation is reported only by its final value. In each case the resulting representation may be sufficient for one question and insufficient for another.
+nuMathelology treats the sufficiency of such representations as part of the mathematics. The declared world, available relations, decoder, and retained receipt are therefore made explicit before a transition is interpreted. This makes it possible to discuss numerical thresholds without treating the integer alone as explanatory. The same change from four to five can mark nonplanarity in one world, forced affine dependence in another, and no significant event at all in a third.
+A second difficulty concerns composition. Two transformations may arrive at the same mathematical endpoint while differing in route, obstruction, refusal, orientation, or residual. When these differences matter to a later question, endpoint equality is not a complete description of the crossing. Mathals provide a compact notation for preserving that distinction.
+The resulting discipline is neither an alternative arithmetic nor a universal calculus. It is a reference grammar for asking which structural distinctions have been declared, which have been forgotten, and which changes are attributable to number rather than to an unannounced change of world.
+The book is intentionally finite in its examples. Small worlds are easier to audit. A useful grammar should survive exact counterexamples before it is permitted to explain large ones.
+  Contents
+Chapter 1  Declared Worlds and Mathals ······ [[PAGE:1]]
+Chapter 2  Mathematics Before Number ······ [[PAGE:2]]
+Chapter 3  Numathals and Cardinal Transition ······ [[PAGE:3]]
+Chapter 4  Relation Birth ······ [[PAGE:4]]
+Chapter 5  Thresholds, Obstructions, and Carrier Rupture ······ [[PAGE:5]]
+Chapter 6  Projection, Quotient, and Loss ······ [[PAGE:6]]
+Chapter 7  Path, Return, and Receipt ······ [[PAGE:7]]
+Chapter 8  Decoder Dependence and Carrier Change ······ [[PAGE:8]]
+Chapter 9  The Grammar of the Whole-Number World ······ [[PAGE:9]]
+Chapter 10  Experimental nuMathelology ······ [[PAGE:10]]
+Chapter 11  Casebook of Named Mathals ······ [[PAGE:11]]
+Chapter 12  Open Problems ······ [[PAGE:12]]
+Appendix A  Notation and Status Marks ······ [[PAGE:A]]
+Appendix B  Computation Receipts ······ [[PAGE:B]]
+Appendix C  Glossary ······ [[PAGE:C]]
+Appendix   References ······ [[PAGE:REFERENCES]]
+Appendix   Index of Terms ······ [[PAGE:INDEX_OF_TERMS]]
+  List of Tables and Finite Specimens
+Table 1.1 — Working taxonomy of the field
+Table 3.1 — Cardinal index versus declared world
+Table 5.1 — Independent threshold specimens at n = 5
+Table 6.1 — C6 and 2C3 under a coarse observation tuple
+Table 8.1 — Same matrix, different scalar carriers
+Table 9.1 — Whole-number transition vocabulary
+Table 10.1 — Status marks and promotion rules
+Dogram 055 — Pairwise surface preserved; triple dependence changed
+Dogram 056 — Support preserved; orientation sign changed
+Dogram SSW-001 — Same observation; different graph world
+Dogram F5-001 — Complete pair relation exceeds planar capacity by one
+  Notation and Typographical Conventions
+A mathematical claim in this volume is always read inside a declared setting. Symbols that appear identical in two chapters are not assumed to denote identical structures unless the carrier, relation class, and decoder agree.
+The notation A →ᵐ B denotes a mathal m from A to B. When the carrier is important it may be written A —m:τ→ B, where τ is the declared type. A world indexed by cardinality n is written Wₙ. A decoder or observation map is written D. A receipt is written Π when treated abstractly and R when represented as a concrete record.
+The symbol ≠ is used aggressively. In this text, a non-collapse statement is frequently more informative than a proposed identity.
+CHAPTER 1
+DECLARED WORLDS AND MATHALS
+1.1  Declared worlds
+A mathematical object is never encountered without a surrounding choice of admissible structure. A set may be considered only as a set, as the vertex set of a graph, as a basis candidate in a vector space, as a collection of labeled positions, or as the support of a higher-order relation. The underlying tokens may be unchanged while the mathematical world changes.
+For present purposes a declared world is a finite or finitely describable setting that states which objects, carriers, relations, and observation rules are in force. The declaration is not metaphysical. It is an accounting device that prevents a conclusion earned in one structure from being transferred silently to another.
+Definition 1.1 (Declared world). A declared world W is a tuple W = (C, R, D, E), where C is a carrier class, R is the admitted relation or operation family, D is the active decoder or observation map, and E is the chosen equivalence discipline. Additional coordinates may be supplied when a problem requires lineage, orientation, boundary, or authority information.
+The tuple is intentionally incomplete as a universal foundation. Its purpose is local sufficiency. The smallest world that can state and test the question is preferred to a larger world whose additional structure is unused.
+Principle 1.2 (Smallest sufficient world). Declare enough structure to make the question well-typed, but do not load additional distinctions as if they had already become relevant.
+1.2  The mathal
+Many mathematical formalisms privilege objects and treat transformations as secondary. nuMathelology places a different pressure on the crossing itself. A transformation may carry information that is not recoverable from the endpoint. This becomes unavoidable whenever the same output can be reached by distinct routes.
+Definition 1.3 (Mathal). A mathal is a typed, addressable mathematical relation or transformation whose source, target, admissibility conditions, and receipt semantics are declared. A mathal from A to B is written A →ᵐ B.
+Definition 1.4 (Receipt). A receipt Π(m) is the declared information retained about the occurrence of m beyond its target value. Depending on the world, Π(m) may record a path, factorization, orientation, residual, refusal, provenance, or proof witness.
+target(m₁) = target(m₂)  ⇏  m₁ = m₂
+The failure of endpoint equality to determine the crossing is the first permanent distinction of the subject. It is not always relevant. If a declared question depends only on the endpoint, the extra path information may be safely quotiented away. The burden is to earn that forgetting rather than assume it.
+Example 1.5 (Two routes to one endpoint). Let A, B, C be states and suppose m:A→C is direct while p:A→B and q:B→C compose to q∘p:A→C. If the world records only reachability, m and q∘p may be equivalent. If the world records path length, intermediate state, cost, or refusal history, they are distinguishable.
+Remark 1.6. A mathal resembles a morphism, typed arrow, transition, rewrite, or labeled edge depending on the surrounding theory. The term does not identify these structures; it marks the crossing as an addressable object whose retained distinctions must be declared.
+1.3  Working taxonomy
+The taxonomy is functional rather than historical. A result need not use every layer. Ordinary graph theory remains graph theory; it enters nuMathelology when its structures are used to analyze a declared transition, relation birth, obstruction, or information-preserving crossing.
+1.4  Equivalence lenses
+Definition 1.7 (Equivalence lens). An equivalence lens E is a named rule that specifies which differences may be ignored for the current question. Two mathals may be endpoint-equivalent, path-equivalent, trace-equivalent, cost-equivalent, or equivalent under another declared lens without being identical.
+same endpoint  ≠  same path  ≠  same trace
+The insistence on a named lens is a practical defense against naked equality. If two bodies are called “the same,” the book asks immediately: the same under which projection, and for which question?
+DGRAM 001 · INVARIANT REGISTERED · SAME ENDPOINT ≠ SAME PATH ≠ SAME TRACE
+Exercises
+1.1. Give two transformations on a finite set with the same target value but different receipts. State an equivalence lens under which they become equivalent.
+1.2. Construct a declared world in which path information is irrelevant, then enlarge the question so that the same quotient becomes insufficient.
+1.3. Compare the term mathal with a morphism in a category. List the extra axioms required before the two notions could be identified.
+1.4. For a deterministic finite-state machine, propose a receipt that distinguishes two accepted strings ending in the same state.
+CHAPTER 2
+MATHEMATICS BEFORE NUMBER
+2.1  Distinction, relation, variation
+Counting is powerful because it compresses. It tells how many, but not automatically which, how related, in what order, or by what transformation a configuration arose. A relation-first treatment therefore begins one step earlier than arithmetic: with the possibility of drawing distinctions and relating distinguished particulars.
+The minimal pre-numerical kernel used in this volume has three possibility-side operations and one constitutive crossing. DISTINGUISH marks a difference; RELATE admits a typed connection; VARY proposes a descendant or changed configuration; COMPOSE orders compatible crossings. CONSTITUTE records that a proposal has entered the current world rather than remaining merely available.
+K = (D, R, V; ∘)  —H→  ⟦·⟧ω
+Proposal 2.1 (Constitutive kernel). Let D denote distinction, R relation, V variation, ∘ order-sensitive composition, H a constitutive crossing, and ω the retained trace. Generative possibility occurs on the left of H; constituted history is recorded on the right.
+The notation is intentionally schematic. Its value is the non-collapse it enforces: a proposed variation is not yet an adopted state, and a refused proposal may alter the event trace without altering the constituted body.
+Construction 2.2 (Refused crossing). Let a world have body C and lineage L. A proposal v is evaluated and refused. Then C′ = C and L′ = L may hold while the broader event trace Λ′ differs from Λ. No change of body is required for a change of world history.
+C′ = C,   L′ = L,   Λ′ ≠ Λ
+2.2  Number as a native dialect
+Once distinctions are stable enough to be counted, arithmetic becomes available as a particularly strong dialect. The important point is order of dependence. A count presupposes some criterion of individuation; it does not supply that criterion by itself.
+Proposition 2.3. If two declared worlds use different equivalence lenses for individuation, equal raw material may yield different counts. Therefore the map from material occurrence to number is mediated by a declaration of what counts as one.
+This is familiar in mathematics. Quotient sets count equivalence classes rather than raw elements. Connected components count regions under path connectivity. Orbits count positions under a group action. Rank counts independent directions rather than listed vectors. In each case number is native and exact, but the counted objects are constituted by prior relational structure.
+Remark 2.4. The phrase “number is native without necessarily being foundational” will be used throughout the text as a dependency statement, not as a claim against arithmetic foundations in logic or set theory.
+2.3  Same n, different worlds
+The integer n alone rarely determines the structural possibilities of an n-element or n-dimensional system. A simple finite comparison makes this visible. The subsets of a four-element set are counted by the ordinary binomial coefficients. The linear subspaces of the four-dimensional vector space over F₃ are counted by Gaussian binomial coefficients.
+(1, 4, 6, 4, 1)  versus  (1, 40, 130, 40, 1)
+Both tables are indexed by 4 and by k. They do not describe the same world. The example is elementary but methodologically decisive: repeated numerical labels do not license a shared structural interpretation unless the carrier and relation class are also declared.
+DGRAM 204 · COMPUTED · PASCAL(4) = 1,4,6,4,1 · Q-BINOMIAL(Q=3,N=4) = 1,40,130,40,1
+2.4  Relation before object
+A higher-order relation may become usable as an object in a later construction. Three points determine a triangle; that triangle may then be treated as one cell in a complex. A group operation is a relation on pairs whose entire law may be reified as an algebraic object. A path may be promoted to an edge in a quotient graph of paths. This repeated move motivates the phrase relation before object: some objects are stabilized relations from a previous level of description.
+Definition 2.5 (Relational promotion). Relational promotion is the admissible use of a constituted relation ρ on level j as an addressable object on level j+1. Promotion does not erase the formation data of ρ unless an equivalence lens explicitly authorizes that quotient.
+Exercises
+2.1. Give three examples in ordinary mathematics where a counted object is already an equivalence class or constituted relation.
+2.2. For a graph G, compare |V(G)|, |E(G)|, number of components, rank of its cycle space, and number of automorphism orbits. Explain which prior structure each count presupposes.
+2.3. Construct a refused transition in which endpoint state is unchanged but event trace differs.
+2.4. Compute the number of 1-dimensional subspaces of F₂⁴ and compare it with the number of singleton subsets of a four-element set.
+CHAPTER 3
+NUMATHALS AND CARDINAL TRANSITION
+3.1  Numerically indexed crossings
+Definition 3.1 (Numathal). A numathal is a mathal for which a numerical parameter participates essentially in admissibility, typing, or consequence. A cardinal numathal is written Wₙ →ν Wₘ when the transition from n to m changes the available structure in the declared family.
+The definition is deliberately stricter than “a mathal containing a number.” Multiplying a coordinate by five is not automatically a cardinal numathal. By contrast, passing from complete graphs on four vertices to complete graphs on five vertices is cardinal because the size of the vertex set changes the relation capacity and the relevant obstruction.
+Definition 3.2 (Transition delta). For an invariant or property family I on worlds Wₙ, the transition delta at n→m is ΔI = I(Wₘ) − I(Wₙ) when subtraction is meaningful, and otherwise the ordered change record (I(Wₙ), I(Wₘ)).
+3.2  What may change when n changes
+The list shows why a whole-number grammar cannot be a lookup table assigning one universal event to each integer. The same n may support multiple unrelated thresholds. The research task is to classify mechanisms, not to force them into one mechanism.
+3.3  Local transition grammar
+Proposal 3.3 (Transition descriptor). For a family {Wₙ}, define a local transition descriptor Tₙ = (Aₙ, Oₙ, Lₙ, Dₙ, Πₙ), where A records newly admissible structures, O newly forced obstructions, L distinctions lost under the active decoder, D distinctions newly discriminable, and Π the receipts required to support those claims.
+This descriptor is not intended to be canonical. Its role is to make a recurring question explicit: at n→n+1, which changes belong to the family itself, and which arise because the analyst changed the rules while moving the index?
+Warning 3.4. A change in n and a change in world are independent coordinates. If both are altered simultaneously, the resulting effect cannot be attributed to cardinality without an additional control.
+3.4  A five-field preview
+Three classical facts will recur later. In simple planar graph theory K₄ is planar whereas K₅ is not. In affine geometry four points in R³ may be affinely independent whereas any five are dependent. In group theory S₄ is solvable whereas S₅ is not. Each transition occurs at five. The local mechanisms are different.
+K₅:  |E| = C(5,2) = 10,     planar maximum = 3·5 − 6 = 9
+The graph-theoretic surplus is exactly one edge relative to the planar capacity bound. The affine threshold is a dimension statement. The group-theoretic threshold is a solvability statement. Their numerical coincidence is a research smell, not a proof of common cause.
+DGRAM F5-001 · VERIFIED FINITE SPECIMEN · K5 EDGES 10 · PLANAR CAPACITY 9 · SURPLUS 1
+Exercises
+3.1. Give a cardinal numathal whose relevant threshold occurs at n = 3 and another at n = 6.
+3.2. Construct a case where n changes but the invariant of interest does not.
+3.3. Explain why comparing K₄→K₅ and S₄→S₅ does not by itself establish a common five-transition law.
+3.4. For complete bipartite graphs K_{m,n}, identify a small cardinal transition that changes planarity.
+CHAPTER 4
+RELATION BIRTH
+4.1  Minimum arity
+Some relations are impossible below a minimum number of participants. A binary relation requires at least two argument positions; a nondegenerate triangle requires three vertices; a tetrahedral 3-simplex requires four. The number at which a relation first becomes admissible is a structural fact about the declared relation family.
+Definition 4.1 (Relation birthday). For a relation type ρ in a declared family W, its relation birthday is b_W(ρ) = min{n : ρ is admissible in Wₙ}, provided the minimum exists.
+b_W(ρ) = min { n : ρ ∈ Adm(Wₙ) }
+Remark 4.2. The birthday is a statement about admissibility or existence, not about discovery. If ρ is first noticed at m > b_W(ρ), the later observation does not backdate or redefine its minimum arity.
+4.2  Birth certificates
+Proposal 4.3 (Relation birth certificate). A birth certificate for ρ is a record B(ρ) = (S, b, σ, t, Π), where S is a participating set, b the established minimum arity, σ any orientation data earned by the relation, t the first attributable observed occurrence in the working corpus, and Π the positive formation receipt.
+Only b is intended as an intrinsic numerical coordinate of the relation type. The remaining fields are specimen-level information. Keeping them separate prevents a later discovery event from being confused with mathematical birth.
+Warning 4.4. A relation of arity k has no canonical projection to lower arity merely because all of its participants possess pairwise relations. In particular, ternary relation ≠ pairwise backprojection.
+4.3  Pairwise surfaces can hide higher-order change
+Consider two three-element vector matroids on the same labeled ground set {a,b,c}. In U₃,₃ every subset is independent. In U₂,₃ every singleton and every pair is independent, but the full triple is dependent. An observer restricted to singleton and pair queries cannot distinguish the two matroids.
+Proposition 4.5. Pairwise agreement does not determine ternary dependence.
+The proposition is elementary, but it is the cleanest finite witness for the rule GRAPH PROJECTION ≠ WHOLE. A graph records order-two adjacency. A hypergraph, matroid, simplicial complex, or other higher-order carrier may retain relations that disappear under pairwise projection.
+DGRAM 055 · VERIFIED FINITE SPECIMEN · SINGLETON/PAIR SURFACE IDENTICAL · TRIPLE DEPENDENCE CHANGED
+4.4  Orientation is additional structure
+Even when support and dependence agree, orientation may remain independent information. For an ordered basis in a real vector space, the sign of the determinant distinguishes two orientations while the underlying set of nonzero basis vectors remains the same.
+Observation 4.6. Support does not determine orientation. Therefore a projection that retains only participating elements can erase an orientation distinction without erasing the relation itself.
+DGRAM 056 · VERIFIED FINITE SPECIMEN · SUPPORT PRESERVED · ORIENTATION SIGN CHANGED
+Exercises
+4.1. Compute the relation birthday of a nondegenerate k-simplex in its natural vertex-count world.
+4.2. Give a ternary relation on three labels whose pairwise projections are all identical under two distinct ternary states.
+4.3. Construct two ordered bases of R² with the same support and opposite determinant signs.
+4.4. State a relation birthday that depends on the declared world rather than only on arity.
+CHAPTER 5
+THRESHOLDS, OBSTRUCTIONS, AND CARRIER RUPTURE
+5.1  Threshold language
+Definition 5.1 (Threshold). A threshold for property P in a family {Wₙ} is an index n₀ at which the truth, admissibility, necessity, or obstruction status of P changes according to a declared rule.
+Definition 5.2 (Carrier rupture). A carrier rupture occurs at n₀ when preservation of a specified relation class across n₀ requires migration to a different admissible carrier or representation family.
+A threshold need not be monotone. A property may appear, disappear, and reappear. When monotonicity is absent, the word threshold is always accompanied by the precise change predicate.
+5.2  Planar capacity and K₅
+For a simple planar graph with n ≥ 3 vertices, Euler’s formula implies |E| ≤ 3n − 6. The complete graph K₅ contains ten edges. Since 10 > 9, K₅ is nonplanar. K₄ has six edges and admits a planar embedding.
+Proposition 5.3 (Five-field planar surplus). The complete pair relation on five vertices exceeds the maximal edge capacity of a simple planar graph on five vertices by exactly one.
+C(5,2) − (3·5 − 6) = 10 − 9 = 1
+The statement is exact and local. It does not say that “five” means obstruction. It says that within the family of complete pair relations carried by simple planar graphs, the fifth vertex pushes the complete edge set one relation beyond the planar upper bound.
+5.3  Affine capacity
+In Rᵈ, at most d+1 points can be affinely independent. Thus four points in R³ may form a tetrahedron with nonzero volume, but five points in R³ are necessarily affinely dependent. The threshold again occurs at five, but the mechanism is dimensional rank rather than planarity.
+Proposition 5.4. Every set of five points in R³ is affinely dependent.
+Proof. Translate one point to the origin and form four difference vectors in a three-dimensional vector space. Four vectors in R³ are linearly dependent. The corresponding affine dependence follows. ∎
+5.4  Solvability of symmetric groups
+The symmetric groups supply a third threshold. S₄ is solvable; S₅ is not. The transition is tied to the presence of the nonabelian simple alternating group A₅ as a composition factor. This mechanism is algebraic and cannot be inferred from the graph-theoretic or affine examples.
+Theorem 5.5. S₄ is solvable and S₅ is not solvable.
+The theorem is standard. Its role here is comparative: it establishes another independently generated structural transition at the same cardinal index.
+Methodological rule 5.6. Coincident threshold index ≠ common mechanism. A shared higher-level grammar must be formulated at a level that genuinely preserves all local proofs, then tested against controls where the index is the same but no analogous transition occurs.
+5.5  Threshold families
+Useful whole-number research therefore proceeds by families of transitions: birth thresholds, capacity thresholds, obstruction thresholds, saturation thresholds, symmetry thresholds, factorization thresholds, and decoder thresholds. A number may host several transition families at once. The classification object is the transition mechanism, not the integer in isolation.
+Exercises
+5.1. Derive the planar edge bound |E| ≤ 3n − 6 from Euler’s formula for a simple connected planar graph with n ≥ 3.
+5.2. Find a declared family in which the transition 4→5 produces no qualitative change. Use it as a control for the five-field examples.
+5.3. For Rᵈ, state the affine-dependence threshold as a function of d.
+5.4. Explain why the nonsolvability of S₅ is not a consequence of K₅ nonplanarity even though both transitions occur at five.
+5.5. Propose a precise definition of saturation threshold for a family of finite relational structures.
+CHAPTER 6
+PROJECTION, QUOTIENT, AND LOSS
+6.1  Observation maps
+Definition 6.1 (Observation map). An observation map O: W → Y sends a world to the information available under a declared cut or decoder. Two worlds are observationally equivalent when they have the same image under O.
+An observation map can be mathematically exact and still insufficient for a later question. The distinction is between correctness of the summary and completeness relative to a target decision.
+6.2  Same state, different world
+Let G₁ be the six-cycle C₆ and G₂ the disjoint union C₃ ⊔ C₃ on six labeled vertices. Observe only the tuple consisting of vertex count, edge count, and sorted degree sequence.
+O(C₆) = O(C₃ ⊔ C₃)
+Lemma 6.2 (Re-expression cannot restore erased distinction). If O(W₁)=O(W₂), then for every deterministic function f defined on the observation space, f(O(W₁)) = f(O(W₂)). Therefore deterministic re-expression of O alone cannot identify which of W₁ or W₂ generated the observation.
+Proof. Equality is preserved by functions. ∎
+The minimum discriminator in this specimen is one additional Boolean graph predicate: connectivity. A failed candidate such as “all degrees even” remains true for both worlds and therefore adds no separating information.
+DGRAM SSW-001 · EXACT FINITE WITNESS · SAME (V,E,DEGREES) · CONNECTIVITY SEPARATES
+6.3  Target-relative sufficiency
+Definition 6.3 (Target-relative sufficiency). An observation O is sufficient for target question Q on a class of worlds if any two worlds with the same observation induce the same correct answer to Q.
+Sufficiency is therefore indexed by a target. The observation above is sufficient to answer “how many vertices?” and insufficient to answer “is the graph connected?” The same data product can be adequate and inadequate without contradiction.
+Corollary 6.4. Adding computation without adding observation cannot repair an information loss that identifies worlds requiring different answers to the target question.
+6.4  Quotient and section
+Many useful numerical outputs are obtained by quotienting a richer object and then selecting a representative, coordinate, or section. Write [x]ᴳ for the equivalence class of x under grammar G and D_F for a decoder associated with frame F. A common pattern is
+v = D_F([x]ᴳ).
+The scalar v may be perfectly meaningful while failing to identify x. The route from x to v contains at least three independent design choices: carrier X, equivalence grammar G, and frame or section F. Changing any one can alter the interpretation without changing the printed numeral.
+Definition 6.5 (Sectioned quotient mathal). A sectioned quotient mathal is a crossing X → [X]ᴳ → value_F in which both the quotient grammar and the final frame are addressable components of the receipt.
+Exercises
+6.1. Find two nonisomorphic graphs with the same number of vertices and edges but different degree sequences.
+6.2. For the C₆ versus C₃ ⊔ C₃ specimen, prove that no deterministic function of the coarse tuple can recover connectivity.
+6.3. Give an observation map that is sufficient for bipartiteness on a restricted graph class but insufficient on a larger class.
+6.4. Describe a familiar mathematical quotient whose elements admit many representatives. State one target question for which the representative matters and one for which it does not.
+CHAPTER 7
+PATH, RETURN, AND RECEIPT
+7.1  Closed paths
+Returning to the same endpoint does not imply that nothing happened. In algebraic topology, a loop may represent a nontrivial homotopy class. In differential geometry, parallel transport around a loop may produce holonomy. In braid theory, strands may return to their original endpoints while retaining nontrivial braid history. These familiar examples motivate a general receipt-aware distinction between endpoint closure and path triviality.
+Definition 7.1 (Return mathal). A return mathal is a mathal m:A→A whose endpoint closes. It is receipt-trivial only when the active equivalence lens also identifies Π(m) with the identity receipt.
+endpoint closes  ⇏  history is trivial
+7.2  Pure braid witness
+The braid group B₃ maps onto the symmetric group S₃ by forgetting over/under crossing history and retaining only the induced permutation of endpoints. The kernel is the pure braid group P₃. A nonidentity pure braid returns each strand to its original endpoint while preserving nontrivial path structure.
+π : B₃ → S₃,     ker(π) = P₃
+Proposition 7.2. There exist braid mathals with identity endpoint permutation and nonidentity braid receipt.
+This supplies a precise witness for SAME ENDS ≠ SAME BRAID. The statement is not metaphorical; it is a standard quotient from a richer path group to a coarser permutation record.
+DGRAM PB-001 · QUOTIENT WITNESS · ENDPOINT PERMUTATION IDENTITY · BRAID RECEIPT NONTRIVIAL
+7.3  Residuals
+Definition 7.3 (Loop residual). Given a return mathal m:A→A and a decoder D that reports identical start and end states, a loop residual is any declared invariant of Π(m) that remains nontrivial after endpoint closure.
+Residuals are question generators. If a coarse decoder says “no change” while a receipt says “nontrivial loop,” the discrepancy identifies a possible future discriminator. This does not imply that every residual matters; it means that the information has not yet been proved safe to discard.
+Principle 7.4 (Deferred discriminator). When two worlds are presently equivalent under decoder D but retain distinct receipts, preserve the distinction until either a proof of target-irrelevance is supplied or a future target makes the discriminator active.
+7.4  Receipts as open options
+A receipt is valuable because future questions are not fixed. A compressed representation chosen for today’s target may become inadequate tomorrow. Retaining full source material is not always possible or desirable, but retaining the smallest discriminating trace can keep later inference from becoming impossible.
+Remark 7.5. This is an information design statement. It does not require that every system preserve every path. It requires that forgetting be attributable and target-aware.
+Exercises
+7.1. Give a nontrivial loop in a graph whose start and end vertex coincide. Propose two receipt lenses, one that detects it and one that erases it.
+7.2. Explain the quotient B₃→S₃ in terms of information retained and information forgotten.
+7.3. Construct a return mathal in modular arithmetic whose value returns to the start after several steps while the exponent count remains nontrivial.
+7.4. State conditions under which a receipt may be safely discarded for a specified target question.
+CHAPTER 8
+DECODER DEPENDENCE AND CARRIER CHANGE
+8.1  Carrier, equivalence grammar, frame
+A printed value is often downstream of several structural choices. The three-coordinate socket used throughout this chapter is X–G–F: carrier X, equivalence grammar G, and frame or section F. A change in any coordinate may change the meaning of an output even when the surface numeral remains the same.
+X  — carrier      G — equivalence grammar      F — frame / section
+Definition 8.1 (Decoder state). A decoder state is the declared tuple (X,G,F,D) sufficient to interpret an observed value. Two equal values produced under different decoder states are not presumed comparable until a translation is supplied.
+8.2  A scalar-carrier specimen
+Consider the integer matrix
+A = [[1,1,0],[1,0,1],[0,1,1]].
+Over the integers, det(A) = −2 and A has full rank. Over F₂, the determinant becomes 0 and the rank drops to 2. Over F₃, det(A) = 1, so A is invertible; moreover A⁶ = I in M₃(F₃). The printed matrix entries are unchanged. The carrier field changes the algebraic relation.
+DGRAM CARRIER-003 · COMPUTED · DET=-2 OVER Z · RANK=2 MOD 2 · DET=1 MOD 3 · A^6=I MOD 3
+Proposition 8.2. Matrix support and integer entries do not determine rank or invertibility independently of the scalar carrier.
+8.3  Variation cubes
+When X, G, and F each admit two controlled settings, the experimental design forms a three-dimensional Boolean cube with eight vertices, twelve edges, six square faces, and one top-order mixed interaction. The cube separates which coordinate changed from the order in which changes were applied.
+{X₀,X₁} × {G₀,G₁} × {F₀,F₁}  ≅  Q₃
+Definition 8.3 (Variation cube). A variation cube is the full factorial family obtained by independently toggling declared coordinates. Edge comparisons estimate single-coordinate deltas; face comparisons expose two-coordinate interactions; the full cube exposes the top-order mixed residual.
+If order itself matters, the cube is insufficient because it records subsets of changed coordinates rather than path order. One then requires an ordered path structure over the cube—precisely the point at which a receipt-bearing mathal becomes more informative than a state comparison.
+8.4  Carrier ≠ decoder
+Principle 8.4. The carrier determines which structures exist. The decoder determines which of those structures are visible in the observation. Changing the decoder cannot make an impossible carrier relation exist; changing the carrier can alter what a fixed decoder is capable of observing.
+The distinction is foundational for experimental work. A failure to observe a relation may be caused by nonexistence, by a decoder blind spot, by an equivalence quotient that erased the distinction, or by insufficient data. These are different mathematical conditions.
+Exercises
+8.1. Verify the determinant and ranks of A over Z, F₂, and F₃.
+8.2. Construct a 2×2 matrix that is invertible over R but singular modulo a chosen prime p.
+8.3. For three binary experimental coordinates, enumerate the vertices and edges of Q₃. Explain which information the cube loses about order.
+8.4. Give an example where changing the decoder reveals a relation already present in the carrier without changing the carrier itself.
+CHAPTER 9
+THE GRAMMAR OF THE WHOLE-NUMBER WORLD
+9.1  Grammar rather than assignment
+A whole-number grammar is a catalog of structural transition types indexed by changes in finite quantity. It asks what new relations become admissible, what capacities saturate, which obstructions become unavoidable, and what distinctions become visible or disappear under declared decoders.
+Definition 9.1 (Whole-number grammar). For a family of declared worlds {Wₙ}, a whole-number grammar is a typed collection of transition statements concerning Wₙ→Wₙ₊₁ together with their mechanisms, proofs or receipts, and admissible comparison lenses.
+The same transition name may appear at different n in different worlds, and the same n may host several transition names. The grammar is therefore many-to-many.
+9.2  Transition vocabulary
+9.3  The 3→4→5 corridor
+The corridor from three to five is especially useful because small classical structures are visually and algebraically tractable. Three supports a first nondegenerate triangle and a first genuinely ternary relation. Four supports the tetrahedron, K₄, and several closure phenomena that still admit surprisingly low-dimensional or planar projections. Five is the first point at which several independent capacity statements fail in familiar families.
+This corridor should be treated as a laboratory, not a universal ladder. In some worlds the decisive threshold is 2, 6, 7, or an unbounded function of another parameter. A serious whole-number grammar grows by collecting mechanisms and countermechanisms rather than privileging one corridor.
+Observation 9.2 (Hidden lift). A structural lift may occur in a fine carrier while a coarse relational projection remains in the same apparent class. K₄ provides a compact example: the tetrahedron is three-dimensional, while its complete relation graph remains planar.
+At K₅ the complete pair graph can no longer preserve planarity. In the language of the grammar, the earlier hidden lift becomes a disclosed carrier obstruction under the chosen pair-relation projection.
+9.4  Representation and segmentation
+Whole-number structure also appears in representation choices. The six-digit string 022100, interpreted in base three, denotes 225 in base ten. If the same six positions are treated instead as a sequence available for contiguous segmentation, there are 2⁵ = 32 possible segmentations because each of the five gaps may be cut or retained independently.
+022100₃ = 225₁₀,        contiguous segmentations of six positions = 2⁵ = 32
+The two facts concern the same printed carrier but different grammars. One decoder interprets digits positionally; another treats boundaries as binary decisions. The specimen is intentionally small: representation choice can create a large structural delta without altering the visible string.
+DGRAM REP-022100 · COMPUTED · BASE-3 VALUE 225 · SIX-POSITION SEGMENTATIONS 32
+9.5  Candidate grammar table
+Warning 9.3. The candidate table is a research index, not an exhaustive theorem. Any row may fail in a declared world where its mechanism is absent.
+Exercises
+9.1. Find a natural mathematical relation whose birthday is 4.
+9.2. Give an example of hidden lift: fine structure changes while a chosen coarse observation does not.
+9.3. For a seven-symbol string, compute the number of contiguous segmentations.
+9.4. Build a control world for one row of the candidate grammar table in which the named transition does not occur.
+9.5. Propose a transition name not listed in Table 9.1 and support it with two unrelated mathematical examples.
+CHAPTER 10
+EXPERIMENTAL nuMATHELOLOGY
+10.1  Status discipline
+A compact discipline needs a promotion membrane. Finite calculations are cheap; structural generalizations are expensive. The notation of this text therefore attaches a status to every nontrivial step before cross-domain composition is permitted.
+10.2  Hostile controls
+A proposed grammar becomes more credible when obvious alternatives are given a chance to destroy it. The basic hostile-control toolkit is small: alternate carriers, alternate decoders, nearby cardinalities, randomized labels, null models, ablation of proposed primitives, counterexamples, and minimum-discriminator searches.
+Protocol 10.1 (Threshold test). For a candidate transition at n: (1) state the declared family; (2) prove or compute the local change; (3) vary the decoder while holding the world fixed; (4) vary the world while holding n fixed; (5) test adjacent indices; (6) search for a counterexample to the proposed higher-level grammar; (7) report the smallest surviving claim.
+The purpose is compression under attack. A result that shrinks from a universal slogan to a precise local theorem has improved.
+10.3  Minimum discriminators
+Definition 10.2 (Minimum discriminator cost). Given observationally equivalent worlds requiring different target answers, the minimum discriminator cost is the least additional observation budget sufficient to separate the relevant equivalence classes under a declared cost model.
+In the C₆ versus C₃⊔C₃ specimen, if each added Boolean graph predicate has cost one, connectivity is a one-query discriminator and zero queries are insufficient. The cost result depends on the allowed query language; a richer observation can combine several predicates into one expensive measurement.
+Minimum-discriminator analysis makes ignorance quantitative without pretending that one scalar captures every epistemic situation. The cost model itself is part of the declared world.
+10.4  Ablation
+Definitions should also be stress-tested by deletion. Remove the receipt from a mathal: which later distinctions become impossible? Remove the decoder from a world: which claims become ambiguous? Remove cardinal indexing: which numathals collapse back to ordinary mathals? Minimality is learned by observing failure after ablation.
+Principle 10.3 (Ablative minimality). A primitive earns its place when deleting it makes at least one intended distinction unstatable or false.
+10.5  Research receipt
+Definition 10.4 (nuMathelological receipt). A research receipt for a transition claim contains: world declaration; numerical index; decoder; local mechanism; proof/computation reference; failed controls; retained uncertainty; and the exact scope of promotion.
+DGRAM METHOD-001 · PLAY FREELY · PROMOTE CAREFULLY · KEEP THE RECEIPT
+Exercises
+10.1. Design a hostile-control battery for a claimed threshold at n = 7.
+10.2. For an observation map of your choice, define a one-unit discriminator cost model and compute a minimum discriminator for two worlds.
+10.3. Ablate the receipt coordinate from Definition 1.3. Identify at least two claims in Chapters 6–8 that become weaker or unstatable.
+10.4. Take an interpretive analogy between two mathematical domains and rewrite it as the smallest testable proposition you can support.
+CHAPTER 11
+CASEBOOK OF NAMED MATHALS
+11.1  SECTIONED-QUOTIENT-001
+Definition 11.1. SECTIONED-QUOTIENT-001 is the composite x ↦ [x]ᴳ ↦ D_F([x]ᴳ), with carrier X, quotient grammar G, frame F, and decoder D recorded independently.
+Use when a scalar or coordinate is produced from a richer equivalence class and later comparison risks confusing value equality with source identity.
+11.2  RETURN-RECEIPT-001
+Definition 11.2. RETURN-RECEIPT-001 is a return mathal whose selected endpoint closes while the retained receipt remains nontrivial.
+Canonical mathematical neighbors include loops with nontrivial homotopy, pure braids, holonomy, and finite-state cycles with nonzero traversal count.
+11.3  HOLD-FIBER-001
+Definition 11.3. Given an observation map O, HOLD-FIBER-001 retains distinctions among elements of a fiber O⁻¹(y) until target-relative sufficiency has been established for the current question.
+The mathal operationalizes the instruction not to quotient away a difference before proving it safe to forget.
+11.4  DEFERRED-DISCRIMINATOR-001
+Definition 11.4. When two worlds are currently observationally equivalent but retain distinguishable receipts, DEFERRED-DISCRIMINATOR-001 records the smallest known future observation that could separate them, or UNKNOWN if no such observation has been established.
+11.5  RELATION-BIRTH-001
+Definition 11.5. RELATION-BIRTH-001 maps a relation type to its minimum admissible arity together with a specimen-level formation receipt and any orientation signature.
+11.6  CROSSING-SHEAR-001
+Proposal 11.6. A crossing shear is a discrepancy produced when two paths that agree under one projection separate under another. The shear is indexed by the pair of decoders and the path family used.
+Crossing shear is useful when “same result” claims depend strongly on which summary is active. It should not be promoted without a concrete pair of projections and a finite witness.
+11.7  CARRIER-RUPTURE-001
+Definition 11.7. CARRIER-RUPTURE-001 records a threshold at which a chosen relation class can no longer be represented in the existing carrier without violating a declared constraint.
+K₅ relative to the simple planar carrier is the principal finite specimen in this edition.
+11.8  SAME-STATE-DIFFERENT-WORLD-001
+Definition 11.8. SSW-001 is a pair of distinct worlds with equal active observation and a target question that separates them.
+The C₆ versus C₃⊔C₃ pair is the standard specimen. Its function is epistemic: it proves that re-expression of the available observation cannot restore an erased distinction.
+11.9  ORIENTATION-SIGNATURE-001
+Definition 11.9. An orientation signature is the minimum retained datum required to distinguish otherwise support-identical oriented structures under the chosen world.
+For ordered bases, determinant sign is a canonical example.
+11.10  FORMATION-MATHAL-10→01→2
+The token 10→01→2 is treated in this edition as a formation mathal rather than an arithmetic identity. Its intended reading is multiplicity → distinction → relation: a mnemonic for a constitutive sequence in which two presences must first be distinguished before their relation can be typed. No claim is made that the glyph sequence is canonical.
+Status 11.10. PROPOSAL / mnemonic formalism.
+11.11  Use of the casebook
+Named mathals are addresses. They exist to make a reusable crossing citeable without silently enlarging its scope. A casebook entry becomes a theorem only where a theorem is separately proved. Most entries in this chapter are definitions or proposed instruments.
+Exercises
+11.1. Choose one named mathal and produce a new finite specimen in an ordinary mathematical domain.
+11.2. Construct a case where HOLD-FIBER-001 is unnecessary because target-relative sufficiency has been proved.
+11.3. Give a candidate crossing shear and identify the two decoders explicitly.
+11.4. Invent a named mathal only if it compresses a repeatable operation. State the exact non-collapse it preserves.
+CHAPTER 12
+OPEN PROBLEMS
+12.1  Existence of nontrivial whole-number grammars
+The central open problem is classification: which transition types recur across mathematically unrelated families after local mechanisms are preserved and superficial numerical coincidence is controlled? A useful answer need not produce a universal law. Even a finite taxonomy of recurring transition mechanisms would be substantive.
+Problem 12.1. Define an equivalence relation on cardinal transitions strong enough to identify genuinely shared structural mechanisms but weak enough to preserve local proofs.
+12.2  Minimal mathal axioms
+The present definition of mathal is intentionally permissive. A stricter theory might specify source and target categories, receipt functors, partial composition, refusal states, or equivalence lenses as first-class algebraic structure.
+Problem 12.2. Find a minimal axiom system for receipt-bearing typed crossings that supports composition without collapsing endpoint, path, and trace equivalence. Determine when the resulting structure is already a known categorical or automata-theoretic object.
+12.3  Birth and obstruction duality
+Relation birth and obstruction threshold are superficially dual: one records the first index at which a structure becomes possible, the other the first at which a chosen representation becomes impossible. The duality is incomplete because admissibility and obstruction may live in different carriers.
+Problem 12.3. Characterize families in which relation birth for a fine structure corresponds functorially to carrier obstruction in a coarse projection.
+12.4  Receipt complexity
+How much receipt is enough? Full path retention may be expensive; endpoint-only retention may be insufficient. Between them lies a compression problem: find the smallest trace sufficient for a specified class of future questions.
+Problem 12.4. Given a class of targets Q, define and compute the minimum receipt sufficient to preserve all Q-relevant distinctions under composition.
+12.5  Decoder lattices
+Decoders can often be ordered by informativeness. A fine decoder refines a coarse one when its observation determines the coarse observation. This suggests a lattice or preorder of views over a fixed carrier.
+Problem 12.5. Study threshold movement under decoder refinement: when does a relation birthday or obstruction index remain invariant as observation becomes finer?
+12.6  Algorithmic discovery
+Finite combinatorial databases permit systematic searches for abrupt changes in invariants across n. Such searches should treat pattern discovery and explanation separately. A machine can nominate a threshold; the local mathematics must still prove what changed.
+Problem 12.6. Design a search procedure that proposes candidate numathals from finite data while emitting counterexamples, alternate decoders, and minimum-discriminator tests alongside each proposal.
+12.7  Closing reference statement
+The mature form of the subject will be measured by the quality of its refusals. It should refuse to identify equal outputs with equal histories, refuse to assign a cardinal transition to number alone when the world changed, refuse to treat absence under one decoder as nonexistence, and refuse to elevate a repeated pattern above the proofs that generated it. What survives those refusals is small enough to compute and large enough to compose.
+DGRAM END-001 · SCOPE RETAINED · DEFINITIONS LOCAL UNLESS OTHERWISE STATED
+CHAPTER A
+NOTATION AND STATUS MARKS
+Status marks are not a ranking of importance. A computed counterexample may be more useful than a broad proposal. The mark records what kind of support the sentence currently possesses.
+CHAPTER B
+COMPUTATION RECEIPTS
+The following receipts collect the finite calculations used repeatedly in the text. They are given in compact form so that the prose chapters need not carry implementation detail.
+B.1 Planar surplus. K₅ has C(5,2)=10 edges; simple planar maximum at n=5 is 3n−6=9; surplus=1.
+B.2 Gaussian binomial comparison. For n=4 and q=3, numbers of k-dimensional subspaces of F₃⁴ are (1,40,130,40,1), versus subset counts (1,4,6,4,1).
+B.3 Carrier matrix. A=[[1,1,0],[1,0,1],[0,1,1]] has det(A)=−2 over Z; rank 2 mod 2; det 1 mod 3; A⁶=I mod 3.
+B.4 SSW graph specimen. C₆ and C₃⊔C₃ both have 6 vertices, 6 edges, and degree sequence (2,2,2,2,2,2); connectivity separates them.
+B.5 Segmentation count. A six-position string has five inter-position gaps, each cut/not-cut; therefore 2⁵=32 contiguous segmentations.
+B.6 Base-three representation. 022100₃ = 2·3⁴ + 2·3³ + 1·3² = 225.
+B.7 Symmetric groups. S₄ is solvable; S₅ is not. The first alternating simple group A₅ occurs at order five.
+B.8 Affine threshold. At most d+1 points can be affinely independent in Rᵈ; hence five points in R³ are dependent.
+CHAPTER C
+GLOSSARY
+addressable. Capable of being referred to as a distinct mathematical object or crossing in later composition.
+carrier. The structure in which relations or operations are realized.
+carrier rupture. A threshold requiring migration to another carrier if a target relation class is to be preserved.
+decoder. A rule or apparatus that maps a richer world to an observation.
+declared world. A stated carrier, relation family, decoder, and equivalence discipline sufficient for a question.
+equivalence lens. A named rule specifying which differences may be ignored.
+hidden lift. A fine-structure change not visible under a chosen coarse projection.
+mathal. Typed, addressable mathematical crossing with declared receipt semantics.
+mathalology. Study of mathal composition, equivalence, ancestry, and failure.
+minimum discriminator. Least additional observation cost sufficient to distinguish target-relevant worlds under a declared cost model.
+numathal. Mathal whose typing or consequence essentially depends on numerical quantity.
+numatherology. Study of structural transition indexed by number.
+numathalology. Study of numerically indexed mathals and their compositions.
+nuMathelology. Relation-first study of number, structural transition, decoders, carriers, and receipt-bearing crossings.
+observation cut. The boundary determining which parts of a world are available to the active decoder.
+receipt. Retained information about a crossing beyond its endpoint value.
+relation birthday. Minimum index at which a relation type becomes admissible in a declared family.
+return mathal. A mathal whose endpoint equals its source while its receipt may remain nontrivial.
+target-relative sufficiency. Adequacy of an observation for answering a specified target question.
+whole-number grammar. Typed collection of structural transition statements across Wₙ→Wₙ₊₁ with local mechanisms and receipts.
+CHAPTER 
+REFERENCES
+Diestel, Reinhard. Graph Theory. 5th ed. Springer, 2017.
+Mac Lane, Saunders. Categories for the Working Mathematician. 2nd ed. Springer, 1998.
+Oxley, James. Matroid Theory. 2nd ed. Oxford University Press, 2011.
+Static Collective. “NuMatherology.” National Treasure thread, 2026.
+Static Collective. “Pocket Web Hypermath — Mathals as Typed Links.” Research note, 2026.
+Static Collective. “Mathematics Before Number — eCODE μ0 Constitutive Kernel.” Research note, 2026.
+Static Collective. “Green Grammar — Relation Birth, Lawful Play, and BAND.” Research note, 2026.
+Static Collective. “SSW-MATH-001 Design.” Executable finite specimen specification, 2026.
+Static Collective. ALEX.2. Provenance-first research substrate, 2026.
+Static Collective. 3rdi. Provenance-first projection organ, 2026.
+Static Collective. LOADOUT. Minimal-world task and capability discipline, 2026.
+Stanley, Richard P. Enumerative Combinatorics, Volume 1. 2nd ed. Cambridge University Press, 2012.
+CHAPTER 
+INDEX OF TERMS
+ablative minimality, §10.4
+affine dependence, §5.3; App. B
+carrier, §§1.1, 8.1
+carrier rupture, §5.1; §11.7
+crossing shear, §11.6
+decoder, §§1.1, 8.1, 8.4
+decoder state, §8.1
+deferred discriminator, §7.3; §11.4
+Dogram receipt, front matter; App. B
+equivalence lens, §1.4
+five-field planar surplus, §§3.4, 5.2
+formation mathal, §11.10
+Gaussian binomial, §2.3; App. B
+hidden lift, §9.3
+HOLD-FIBER-001, §11.3
+K₅, §§3.4, 5.2
+mathal, §1.2
+mathalology, §1.3
+minimum discriminator, §10.3
+numathal, §3.1
+numathalology, §1.3
+nuMathelology, §1.3; §9.1
+numatherology, §1.3
+observation map, §6.1
+orientation signature, §4.4; §11.9
+projection loss, Chapter 6
+pure braid, §7.2
+receipt, §§1.2, 7.4
+relation birth certificate, §4.2
+relation birthday, §4.1
+return mathal, §7.1
+same endpoint problem, §1.2; Chapter 7
+same state, different world, §6.2; §11.8
+sectioned quotient, §6.4; §11.1
+solvability, §5.4
+target-relative sufficiency, §6.3
+threshold, §5.1
+variation cube, §8.3
+whole-number grammar, Chapter 9
+LEMON PRESS
+LP-NM-001 · FIRST EDITION
+Prepared for reference use. Definitions are local unless otherwise stated.
+Mark
+Use
+THEOREM
+Established from stated hypotheses by proof.
+COMPUTED
+Finite specimen reproduced by explicit calculation.
+CONSTRUCTION
+Object or counterexample given explicitly.
+OBSERVATION
+Pattern visible in the declared corpus or specimen set.
+PROPOSAL
+Definition or grammar introduced for further use.
+INTERPRETIVE
+Cross-domain reading not asserted as a theorem.
+Term
+Working scope
+maths
+Established mathematical languages and results used without local renaming.
+mathal
+Typed, addressable relation or crossing.
+numathal
+Mathal whose typing or consequence depends essentially on numerical quantity.
+matherology
+Study of recurring structural behavior across declared mathematical worlds.
+numatherology
+Study of structural transition indexed by number.
+mathalology
+Study of composition, equivalence, ancestry, and failure modes of mathals.
+numathalology
+Study of numerically indexed mathals and their composition.
+nuMathelology
+Umbrella discipline joining relation-first worlds, numerical transition, and receipt-aware crossing.
+k
+Subsets of a 4-set
+k-dimensional subspaces of F₃⁴
+0
+1
+1
+1
+4
+40
+2
+6
+130
+3
+4
+40
+4
+1
+1
+Coordinate
+Typical change
+admissible relation
+A k-ary relation first becomes definable.
+capacity
+A carrier can no longer realize all pair relations.
+obstruction
+A forbidden minor, dependency, or parity condition first becomes unavoidable.
+symmetry
+A new action, orbit type, or permutation structure appears.
+factorization
+New divisor or decomposition classes become available.
+representation
+The same data admits new encodings or loses uniqueness.
+decoder
+A summary becomes insufficient to distinguish worlds.
+Subset size
+U₃,₃
+U₂,₃
+1
+independent
+independent
+2
+independent
+independent
+3
+independent
+dependent
+World
+n = 4
+n = 5
+Mechanism
+Complete graphs
+K₄ planar
+K₅ nonplanar
+planar edge capacity / forbidden structure
+Affine R³
+4 may be independent
+5 necessarily dependent
+dimension / rank
+Symmetric groups
+S₄ solvable
+S₅ not solvable
+composition factors / A₅
+Graph
+|V|
+|E|
+degree sequence
+connected components
+C₆
+6
+6
+(2,2,2,2,2,2)
+1
+C₃ ⊔ C₃
+6
+6
+(2,2,2,2,2,2)
+2
+Carrier
+det(A)
+rank
+selected consequence
+Z / R
+−2
+3
+invertible
+F₂
+0
+2
+singular
+F₃
+1
+3
+invertible; A⁶ = I
+Term
+Operational meaning
+birth
+A relation or object type first becomes admissible.
+closure
+A boundary, cycle, or completion condition first becomes available.
+surplus
+Available relations exceed a carrier capacity or chosen budget.
+hidden lift
+Fine structure changes while a coarse projection remains unchanged.
+disclosure
+A previously invisible distinction becomes observable under a new discriminator.
+return
+Endpoint closes while a receipt may remain nontrivial.
+saturation
+An admissible capacity is filled; further addition requires loss or migration.
+factorization
+A new decomposition class becomes possible.
+symmetry breaking
+An added element destroys or refines a prior symmetry class.
+new carrier
+Preserving the target relation class requires a different carrier family.
+n transition
+candidate reading
+required discipline
+1→2
+distinction becomes relationally expressible
+declare whether direction/order is admitted
+2→3
+first irreducibly ternary structures
+do not backproject ternary structure to pairs
+3→4
+closure / higher cell / hidden lift
+separate fine carrier from coarse projection
+4→5
+selected capacity failures and obstructions
+prove each mechanism locally; use controls
+n→n+1
+family-dependent transition
+report world, decoder, proof, and receipt
+Status
+Admission test
+May support
+THEOREM
+proof from stated hypotheses
+deduction in the same or stronger setting
+COMPUTED
+exact reproducible finite calculation
+specimen-level fact
+CONSTRUCTION
+explicit object / counterexample
+existence or failure witness
+OBSERVATION
+pattern in declared sample
+hypothesis formation
+PROPOSAL
+well-typed reusable definition
+future testing
+INTERPRETIVE
+declared analogy across worlds
+question generation only
+Symbol
+Meaning
+W
+declared mathematical world
+Wₙ
+world in a cardinally indexed family
+C
+carrier class
+R
+relation / operation family
+D
+decoder or observation map
+E
+equivalence lens
+m
+mathal
+ν
+numathal
+Π(m)
+receipt of mathal m
+b_W(ρ)
+relation birthday of ρ in W
+O
+observation map
+Δ
+transition delta / residual
+Q₃
+three-dimensional Boolean variation cube
