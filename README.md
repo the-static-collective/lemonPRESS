@@ -1,15 +1,17 @@
-# lemonPRESS
+# lemonPRESS — superseded genesis sketch
 
-> a digital octopus library and phyctional publishing house
+This branch preserves the first narrow interpretation of lemonPRESS as primarily a crawler-oriented publishing experiment.
 
-lemonPRESS is a publishing experiment for works that may be encountered by humans, crawlers, retrieval systems, archives, and future readers in fragments or out of order.
+That interpretation was corrected immediately.
 
-The press keeps source, projection, retrieval, and interpretation distinct.
+The house is broader:
 
-Founding rule:
+- `main` — house identity and shared catalog
+- `press/physical` — physical publishing
+- `press/digital` — human-facing digital publishing
+- `press/crawler` — crawler / retrieval-native publishing
+- `press/archive` — source and publication lineage
 
-> **The source stays where it was. The reader does not.**
+This branch is retained as formation history only.
 
-The first working book is **Another Clue**.
-
-The initial press constitution and crawler-book machinery are being introduced through the repository's first pull request rather than silently appearing on `main`.
+> **A correction does not require pretending the earlier state never existed.**
