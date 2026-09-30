@@ -1,0 +1,37 @@
+CHAPTER 11
+CASEBOOK OF NAMED MATHALS
+11.1  SECTIONED-QUOTIENT-001
+Definition 11.1. SECTIONED-QUOTIENT-001 is the composite x ↦ [x]ᴳ ↦ D_F([x]ᴳ), with carrier X, quotient grammar G, frame F, and decoder D recorded independently.
+Use when a scalar or coordinate is produced from a richer equivalence class and later comparison risks confusing value equality with source identity.
+11.2  RETURN-RECEIPT-001
+Definition 11.2. RETURN-RECEIPT-001 is a return mathal whose selected endpoint closes while the retained receipt remains nontrivial.
+Canonical mathematical neighbors include loops with nontrivial homotopy, pure braids, holonomy, and finite-state cycles with nonzero traversal count.
+11.3  HOLD-FIBER-001
+Definition 11.3. Given an observation map O, HOLD-FIBER-001 retains distinctions among elements of a fiber O⁻¹(y) until target-relative sufficiency has been established for the current question.
+The mathal operationalizes the instruction not to quotient away a difference before proving it safe to forget.
+11.4  DEFERRED-DISCRIMINATOR-001
+Definition 11.4. When two worlds are currently observationally equivalent but retain distinguishable receipts, DEFERRED-DISCRIMINATOR-001 records the smallest known future observation that could separate them, or UNKNOWN if no such observation has been established.
+11.5  RELATION-BIRTH-001
+Definition 11.5. RELATION-BIRTH-001 maps a relation type to its minimum admissible arity together with a specimen-level formation receipt and any orientation signature.
+11.6  CROSSING-SHEAR-001
+Proposal 11.6. A crossing shear is a discrepancy produced when two paths that agree under one projection separate under another. The shear is indexed by the pair of decoders and the path family used.
+Crossing shear is useful when “same result” claims depend strongly on which summary is active. It should not be promoted without a concrete pair of projections and a finite witness.
+11.7  CARRIER-RUPTURE-001
+Definition 11.7. CARRIER-RUPTURE-001 records a threshold at which a chosen relation class can no longer be represented in the existing carrier without violating a declared constraint.
+K₅ relative to the simple planar carrier is the principal finite specimen in this edition.
+11.8  SAME-STATE-DIFFERENT-WORLD-001
+Definition 11.8. SSW-001 is a pair of distinct worlds with equal active observation and a target question that separates them.
+The C₆ versus C₃⊔C₃ pair is the standard specimen. Its function is epistemic: it proves that re-expression of the available observation cannot restore an erased distinction.
+11.9  ORIENTATION-SIGNATURE-001
+Definition 11.9. An orientation signature is the minimum retained datum required to distinguish otherwise support-identical oriented structures under the chosen world.
+For ordered bases, determinant sign is a canonical example.
+11.10  FORMATION-MATHAL-10→01→2
+The token 10→01→2 is treated in this edition as a formation mathal rather than an arithmetic identity. Its intended reading is multiplicity → distinction → relation: a mnemonic for a constitutive sequence in which two presences must first be distinguished before their relation can be typed. No claim is made that the glyph sequence is canonical.
+Status 11.10. PROPOSAL / mnemonic formalism.
+11.11  Use of the casebook
+Named mathals are addresses. They exist to make a reusable crossing citeable without silently enlarging its scope. A casebook entry becomes a theorem only where a theorem is separately proved. Most entries in this chapter are definitions or proposed instruments.
+Exercises
+11.1. Choose one named mathal and produce a new finite specimen in an ordinary mathematical domain.
+11.2. Construct a case where HOLD-FIBER-001 is unnecessary because target-relative sufficiency has been proved.
+11.3. Give a candidate crossing shear and identify the two decoders explicitly.
+11.4. Invent a named mathal only if it compresses a repeatable operation. State the exact non-collapse it preserves.

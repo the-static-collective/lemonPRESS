@@ -1,0 +1,23 @@
+release_id: "LP-LFL-001"
+surface: "crawler"
+projection_date: "2026-09-30"
+retrieval_native: true
+laws:
+  retrieval_is_not_complete_reading: true
+  projection_is_not_source: true
+  shared_relation_is_not_shared_authority: true
+works:
+  - house_id: "LP-NM-001"
+    mode: "text-projection"
+    entrypoint: "numathelology/README.md"
+    full_text: "numathelology/FULL_TEXT.txt"
+    chapter_addressing: true
+  - house_id: "LP-RD-001"
+    mode: "source-map"
+    entrypoint: "road-drew-itself/SOURCE_MAP.md"
+    duplicated_source_bodies: false
+  - house_id: "LP-CLUE-001"
+    mode: "source-map"
+    entrypoint: "another-clue/SOURCE_MAP.md"
+    duplicated_source_bodies: false
+relation_map: "RELATIONS.md"

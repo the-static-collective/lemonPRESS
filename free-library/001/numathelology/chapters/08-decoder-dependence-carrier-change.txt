@@ -1,0 +1,25 @@
+CHAPTER 8
+DECODER DEPENDENCE AND CARRIER CHANGE
+8.1  Carrier, equivalence grammar, frame
+A printed value is often downstream of several structural choices. The three-coordinate socket used throughout this chapter is X–G–F: carrier X, equivalence grammar G, and frame or section F. A change in any coordinate may change the meaning of an output even when the surface numeral remains the same.
+X  — carrier      G — equivalence grammar      F — frame / section
+Definition 8.1 (Decoder state). A decoder state is the declared tuple (X,G,F,D) sufficient to interpret an observed value. Two equal values produced under different decoder states are not presumed comparable until a translation is supplied.
+8.2  A scalar-carrier specimen
+Consider the integer matrix
+A = [[1,1,0],[1,0,1],[0,1,1]].
+Over the integers, det(A) = −2 and A has full rank. Over F₂, the determinant becomes 0 and the rank drops to 2. Over F₃, det(A) = 1, so A is invertible; moreover A⁶ = I in M₃(F₃). The printed matrix entries are unchanged. The carrier field changes the algebraic relation.
+DGRAM CARRIER-003 · COMPUTED · DET=-2 OVER Z · RANK=2 MOD 2 · DET=1 MOD 3 · A^6=I MOD 3
+Proposition 8.2. Matrix support and integer entries do not determine rank or invertibility independently of the scalar carrier.
+8.3  Variation cubes
+When X, G, and F each admit two controlled settings, the experimental design forms a three-dimensional Boolean cube with eight vertices, twelve edges, six square faces, and one top-order mixed interaction. The cube separates which coordinate changed from the order in which changes were applied.
+{X₀,X₁} × {G₀,G₁} × {F₀,F₁}  ≅  Q₃
+Definition 8.3 (Variation cube). A variation cube is the full factorial family obtained by independently toggling declared coordinates. Edge comparisons estimate single-coordinate deltas; face comparisons expose two-coordinate interactions; the full cube exposes the top-order mixed residual.
+If order itself matters, the cube is insufficient because it records subsets of changed coordinates rather than path order. One then requires an ordered path structure over the cube—precisely the point at which a receipt-bearing mathal becomes more informative than a state comparison.
+8.4  Carrier ≠ decoder
+Principle 8.4. The carrier determines which structures exist. The decoder determines which of those structures are visible in the observation. Changing the decoder cannot make an impossible carrier relation exist; changing the carrier can alter what a fixed decoder is capable of observing.
+The distinction is foundational for experimental work. A failure to observe a relation may be caused by nonexistence, by a decoder blind spot, by an equivalence quotient that erased the distinction, or by insufficient data. These are different mathematical conditions.
+Exercises
+8.1. Verify the determinant and ranks of A over Z, F₂, and F₃.
+8.2. Construct a 2×2 matrix that is invertible over R but singular modulo a chosen prime p.
+8.3. For three binary experimental coordinates, enumerate the vertices and edges of Q₃. Explain which information the cube loses about order.
+8.4. Give an example where changing the decoder reveals a relation already present in the carrier without changing the carrier itself.

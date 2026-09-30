@@ -1,0 +1,23 @@
+CHAPTER 12
+OPEN PROBLEMS
+12.1  Existence of nontrivial whole-number grammars
+The central open problem is classification: which transition types recur across mathematically unrelated families after local mechanisms are preserved and superficial numerical coincidence is controlled? A useful answer need not produce a universal law. Even a finite taxonomy of recurring transition mechanisms would be substantive.
+Problem 12.1. Define an equivalence relation on cardinal transitions strong enough to identify genuinely shared structural mechanisms but weak enough to preserve local proofs.
+12.2  Minimal mathal axioms
+The present definition of mathal is intentionally permissive. A stricter theory might specify source and target categories, receipt functors, partial composition, refusal states, or equivalence lenses as first-class algebraic structure.
+Problem 12.2. Find a minimal axiom system for receipt-bearing typed crossings that supports composition without collapsing endpoint, path, and trace equivalence. Determine when the resulting structure is already a known categorical or automata-theoretic object.
+12.3  Birth and obstruction duality
+Relation birth and obstruction threshold are superficially dual: one records the first index at which a structure becomes possible, the other the first at which a chosen representation becomes impossible. The duality is incomplete because admissibility and obstruction may live in different carriers.
+Problem 12.3. Characterize families in which relation birth for a fine structure corresponds functorially to carrier obstruction in a coarse projection.
+12.4  Receipt complexity
+How much receipt is enough? Full path retention may be expensive; endpoint-only retention may be insufficient. Between them lies a compression problem: find the smallest trace sufficient for a specified class of future questions.
+Problem 12.4. Given a class of targets Q, define and compute the minimum receipt sufficient to preserve all Q-relevant distinctions under composition.
+12.5  Decoder lattices
+Decoders can often be ordered by informativeness. A fine decoder refines a coarse one when its observation determines the coarse observation. This suggests a lattice or preorder of views over a fixed carrier.
+Problem 12.5. Study threshold movement under decoder refinement: when does a relation birthday or obstruction index remain invariant as observation becomes finer?
+12.6  Algorithmic discovery
+Finite combinatorial databases permit systematic searches for abrupt changes in invariants across n. Such searches should treat pattern discovery and explanation separately. A machine can nominate a threshold; the local mathematics must still prove what changed.
+Problem 12.6. Design a search procedure that proposes candidate numathals from finite data while emitting counterexamples, alternate decoders, and minimum-discriminator tests alongside each proposal.
+12.7  Closing reference statement
+The mature form of the subject will be measured by the quality of its refusals. It should refuse to identify equal outputs with equal histories, refuse to assign a cardinal transition to number alone when the world changed, refuse to treat absence under one decoder as nonexistence, and refuse to elevate a repeated pattern above the proofs that generated it. What survives those refusals is small enough to compute and large enough to compose.
+DGRAM END-001 · SCOPE RETAINED · DEFINITIONS LOCAL UNLESS OTHERWISE STATED

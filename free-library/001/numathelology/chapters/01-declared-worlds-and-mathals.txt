@@ -1,0 +1,28 @@
+CHAPTER 1
+DECLARED WORLDS AND MATHALS
+1.1  Declared worlds
+A mathematical object is never encountered without a surrounding choice of admissible structure. A set may be considered only as a set, as the vertex set of a graph, as a basis candidate in a vector space, as a collection of labeled positions, or as the support of a higher-order relation. The underlying tokens may be unchanged while the mathematical world changes.
+For present purposes a declared world is a finite or finitely describable setting that states which objects, carriers, relations, and observation rules are in force. The declaration is not metaphysical. It is an accounting device that prevents a conclusion earned in one structure from being transferred silently to another.
+Definition 1.1 (Declared world). A declared world W is a tuple W = (C, R, D, E), where C is a carrier class, R is the admitted relation or operation family, D is the active decoder or observation map, and E is the chosen equivalence discipline. Additional coordinates may be supplied when a problem requires lineage, orientation, boundary, or authority information.
+The tuple is intentionally incomplete as a universal foundation. Its purpose is local sufficiency. The smallest world that can state and test the question is preferred to a larger world whose additional structure is unused.
+Principle 1.2 (Smallest sufficient world). Declare enough structure to make the question well-typed, but do not load additional distinctions as if they had already become relevant.
+1.2  The mathal
+Many mathematical formalisms privilege objects and treat transformations as secondary. nuMathelology places a different pressure on the crossing itself. A transformation may carry information that is not recoverable from the endpoint. This becomes unavoidable whenever the same output can be reached by distinct routes.
+Definition 1.3 (Mathal). A mathal is a typed, addressable mathematical relation or transformation whose source, target, admissibility conditions, and receipt semantics are declared. A mathal from A to B is written A →ᵐ B.
+Definition 1.4 (Receipt). A receipt Π(m) is the declared information retained about the occurrence of m beyond its target value. Depending on the world, Π(m) may record a path, factorization, orientation, residual, refusal, provenance, or proof witness.
+target(m₁) = target(m₂)  ⇏  m₁ = m₂
+The failure of endpoint equality to determine the crossing is the first permanent distinction of the subject. It is not always relevant. If a declared question depends only on the endpoint, the extra path information may be safely quotiented away. The burden is to earn that forgetting rather than assume it.
+Example 1.5 (Two routes to one endpoint). Let A, B, C be states and suppose m:A→C is direct while p:A→B and q:B→C compose to q∘p:A→C. If the world records only reachability, m and q∘p may be equivalent. If the world records path length, intermediate state, cost, or refusal history, they are distinguishable.
+Remark 1.6. A mathal resembles a morphism, typed arrow, transition, rewrite, or labeled edge depending on the surrounding theory. The term does not identify these structures; it marks the crossing as an addressable object whose retained distinctions must be declared.
+1.3  Working taxonomy
+The taxonomy is functional rather than historical. A result need not use every layer. Ordinary graph theory remains graph theory; it enters nuMathelology when its structures are used to analyze a declared transition, relation birth, obstruction, or information-preserving crossing.
+1.4  Equivalence lenses
+Definition 1.7 (Equivalence lens). An equivalence lens E is a named rule that specifies which differences may be ignored for the current question. Two mathals may be endpoint-equivalent, path-equivalent, trace-equivalent, cost-equivalent, or equivalent under another declared lens without being identical.
+same endpoint  ≠  same path  ≠  same trace
+The insistence on a named lens is a practical defense against naked equality. If two bodies are called “the same,” the book asks immediately: the same under which projection, and for which question?
+DGRAM 001 · INVARIANT REGISTERED · SAME ENDPOINT ≠ SAME PATH ≠ SAME TRACE
+Exercises
+1.1. Give two transformations on a finite set with the same target value but different receipts. State an equivalence lens under which they become equivalent.
+1.2. Construct a declared world in which path information is irrelevant, then enlarge the question so that the same quotient becomes insufficient.
+1.3. Compare the term mathal with a morphism in a category. List the extra axioms required before the two notions could be identified.
+1.4. For a deterministic finite-state machine, propose a receipt that distinguishes two accepted strings ending in the same state.

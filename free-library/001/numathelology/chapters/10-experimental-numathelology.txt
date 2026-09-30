@@ -1,0 +1,23 @@
+CHAPTER 10
+EXPERIMENTAL nuMATHELOLOGY
+10.1  Status discipline
+A compact discipline needs a promotion membrane. Finite calculations are cheap; structural generalizations are expensive. The notation of this text therefore attaches a status to every nontrivial step before cross-domain composition is permitted.
+10.2  Hostile controls
+A proposed grammar becomes more credible when obvious alternatives are given a chance to destroy it. The basic hostile-control toolkit is small: alternate carriers, alternate decoders, nearby cardinalities, randomized labels, null models, ablation of proposed primitives, counterexamples, and minimum-discriminator searches.
+Protocol 10.1 (Threshold test). For a candidate transition at n: (1) state the declared family; (2) prove or compute the local change; (3) vary the decoder while holding the world fixed; (4) vary the world while holding n fixed; (5) test adjacent indices; (6) search for a counterexample to the proposed higher-level grammar; (7) report the smallest surviving claim.
+The purpose is compression under attack. A result that shrinks from a universal slogan to a precise local theorem has improved.
+10.3  Minimum discriminators
+Definition 10.2 (Minimum discriminator cost). Given observationally equivalent worlds requiring different target answers, the minimum discriminator cost is the least additional observation budget sufficient to separate the relevant equivalence classes under a declared cost model.
+In the C₆ versus C₃⊔C₃ specimen, if each added Boolean graph predicate has cost one, connectivity is a one-query discriminator and zero queries are insufficient. The cost result depends on the allowed query language; a richer observation can combine several predicates into one expensive measurement.
+Minimum-discriminator analysis makes ignorance quantitative without pretending that one scalar captures every epistemic situation. The cost model itself is part of the declared world.
+10.4  Ablation
+Definitions should also be stress-tested by deletion. Remove the receipt from a mathal: which later distinctions become impossible? Remove the decoder from a world: which claims become ambiguous? Remove cardinal indexing: which numathals collapse back to ordinary mathals? Minimality is learned by observing failure after ablation.
+Principle 10.3 (Ablative minimality). A primitive earns its place when deleting it makes at least one intended distinction unstatable or false.
+10.5  Research receipt
+Definition 10.4 (nuMathelological receipt). A research receipt for a transition claim contains: world declaration; numerical index; decoder; local mechanism; proof/computation reference; failed controls; retained uncertainty; and the exact scope of promotion.
+DGRAM METHOD-001 · PLAY FREELY · PROMOTE CAREFULLY · KEEP THE RECEIPT
+Exercises
+10.1. Design a hostile-control battery for a claimed threshold at n = 7.
+10.2. For an observation map of your choice, define a one-unit discriminator cost model and compute a minimum discriminator for two worlds.
+10.3. Ablate the receipt coordinate from Definition 1.3. Identify at least two claims in Chapters 6–8 that become weaker or unstatable.
+10.4. Take an interpretive analogy between two mathematical domains and rewrite it as the smallest testable proposition you can support.

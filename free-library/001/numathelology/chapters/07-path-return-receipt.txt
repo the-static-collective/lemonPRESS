@@ -1,0 +1,24 @@
+CHAPTER 7
+PATH, RETURN, AND RECEIPT
+7.1  Closed paths
+Returning to the same endpoint does not imply that nothing happened. In algebraic topology, a loop may represent a nontrivial homotopy class. In differential geometry, parallel transport around a loop may produce holonomy. In braid theory, strands may return to their original endpoints while retaining nontrivial braid history. These familiar examples motivate a general receipt-aware distinction between endpoint closure and path triviality.
+Definition 7.1 (Return mathal). A return mathal is a mathal m:A→A whose endpoint closes. It is receipt-trivial only when the active equivalence lens also identifies Π(m) with the identity receipt.
+endpoint closes  ⇏  history is trivial
+7.2  Pure braid witness
+The braid group B₃ maps onto the symmetric group S₃ by forgetting over/under crossing history and retaining only the induced permutation of endpoints. The kernel is the pure braid group P₃. A nonidentity pure braid returns each strand to its original endpoint while preserving nontrivial path structure.
+π : B₃ → S₃,     ker(π) = P₃
+Proposition 7.2. There exist braid mathals with identity endpoint permutation and nonidentity braid receipt.
+This supplies a precise witness for SAME ENDS ≠ SAME BRAID. The statement is not metaphorical; it is a standard quotient from a richer path group to a coarser permutation record.
+DGRAM PB-001 · QUOTIENT WITNESS · ENDPOINT PERMUTATION IDENTITY · BRAID RECEIPT NONTRIVIAL
+7.3  Residuals
+Definition 7.3 (Loop residual). Given a return mathal m:A→A and a decoder D that reports identical start and end states, a loop residual is any declared invariant of Π(m) that remains nontrivial after endpoint closure.
+Residuals are question generators. If a coarse decoder says “no change” while a receipt says “nontrivial loop,” the discrepancy identifies a possible future discriminator. This does not imply that every residual matters; it means that the information has not yet been proved safe to discard.
+Principle 7.4 (Deferred discriminator). When two worlds are presently equivalent under decoder D but retain distinct receipts, preserve the distinction until either a proof of target-irrelevance is supplied or a future target makes the discriminator active.
+7.4  Receipts as open options
+A receipt is valuable because future questions are not fixed. A compressed representation chosen for today’s target may become inadequate tomorrow. Retaining full source material is not always possible or desirable, but retaining the smallest discriminating trace can keep later inference from becoming impossible.
+Remark 7.5. This is an information design statement. It does not require that every system preserve every path. It requires that forgetting be attributable and target-aware.
+Exercises
+7.1. Give a nontrivial loop in a graph whose start and end vertex coincide. Propose two receipt lenses, one that detects it and one that erases it.
+7.2. Explain the quotient B₃→S₃ in terms of information retained and information forgotten.
+7.3. Construct a return mathal in modular arithmetic whose value returns to the start after several steps while the exponent count remains nontrivial.
+7.4. State conditions under which a receipt may be safely discarded for a specified target question.
