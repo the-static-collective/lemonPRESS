@@ -269,5 +269,17 @@ works:
     title: "nuMATHELOLOGY"
     shelf_status: ["manuscript", "publication"]
     release_state: "production-active"
-    source_location: "held source ancestor; public descendants are registered by lemonPRESS"
-    note: "LP-NM-001. First Edition exists as a finished Lemon Press book. 7 × 10 text block; preferred citation and edition identifier are embedded in the book. Admitted to Little Free Library Release 001."
+    source_location: "held source ancestors; public descendants are registered by lemonPRESS"
+    note: "Edition lineage includes LP-NM-001 (First Edition; Release 001) and LP-NM-002 (Second Edition, revised and enlarged; Release 002). Release 001 remains frozen; LP-NM-002 explicitly supersedes LP-NM-001 only for definitions revised therein."
+  - work_id: "lemonpress:nunumath-primitive-corrections"
+    title: "nunuMath v0.2 — Primitive Corrections to First-Generation Mathelology"
+    shelf_status: ["technical-memorandum", "publication"]
+    release_state: "production-active"
+    source_location: "held source ancestors; paired PDF and DOCX carriers observed"
+    note: "LP-NNM-TM-002 assigned at lemonPRESS admission. Technical Memorandum 0.2 in nunuMath Papers in Primitive Mathelology. Introduces F/I/R as primitive roles and recovers mathals as derived receipt-bearing transitions. Admitted to Little Free Library Release 002."
+  - work_id: "lemonpress:nunumath-first-course-fir"
+    title: "nunuMATH — Foundations of Admissive and Relational Mathematics — First Course in FIR Systems"
+    shelf_status: ["textbook", "publication"]
+    release_state: "production-active"
+    source_location: "held source ancestors; paired PDF and DOCX carriers observed"
+    note: "LP-NNM-101-001. First edition; constitutional baseline 0.3; Lemon Press Texts in Constitutive Mathematics, Volume I. Admitted to Little Free Library Release 002."
