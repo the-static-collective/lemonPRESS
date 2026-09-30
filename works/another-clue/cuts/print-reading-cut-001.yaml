@@ -1,0 +1,11 @@
+cut_id: lemonpress:another-clue:print-reading-cut-001
+work_id: lemonpress:another-clue
+title: "¿another clue? — Print Reading Cut 001"
+status: admitted
+admission: "../ADMISSION.md"
+relationship_to_other_cuts: sibling
+production:
+  physical: "press/physical:works/another-clue/physical-proof-001/"
+  digital: "press/digital:works/another-clue/digital-001/"
+  crawler: "press/crawler:works/another-clue/crawler-001/"
+  archive: "press/archive:works/another-clue/admission-2026-09-30/"
