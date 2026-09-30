@@ -2,11 +2,15 @@ work_id: lemonpress:another-clue
 title: "Another Clue"
 status: admitted
 
-admission:
-  state: admitted
-  receipt: works/another-clue/admission-001.md
-  source_title: "Another Clue — Carrier Cut 001"
-  source_revision: "google-docs-revision:ANLCKQlUcrKZrW-6RLQlbUOUJ1NfxicAVMvXbgJXu0_2CIl_gDiSO4poRoh0ffw9JIsJUwX6Kg32S2p7deQPDWw3pkX3_xTVLqBqA-lNZu4"
+admitted_cuts:
+  - id: print-reading-cut-001
+    title: "¿another clue? — Print Reading Cut 001"
+    admission: "works/another-clue/ADMISSION.md"
+    role: "first admitted octopus crossing"
+  - id: carrier-cut-001
+    title: "Another Clue — Carrier Cut 001"
+    admission: "works/another-clue/cuts/carrier-cut-001.yaml"
+    role: "competing admitted carrier cut"
 
 lanes:
   - physical
@@ -14,17 +18,16 @@ lanes:
   - crawler
   - archive
 
-rights:
-  statement: "Copyright retained; no open-content license declared."
-  open_license: null
+rights: "All rights reserved by the respective rightsholders unless otherwise stated; repository publication grants no additional license."
 
 editorial_law:
   - "Compression by cutting before rewriting."
   - "Prefer the original carrier of the original thought."
   - "The source stays where it was. The reader does not."
   - "A later relation gets its own birthday."
+  - "Competing cuts may remain siblings."
 
 notes:
-  - "Competing editions and cuts are allowed."
-  - "No production lane becomes source authority."
-  - "Admission authorizes multi-branch production; each public release still gets its own release receipt."
+  - "No single production lane becomes source authority."
+  - "Admission order does not make one cut the canonical text of all later cuts."
+  - "Formal house publication remains a later act; proof != publication."
