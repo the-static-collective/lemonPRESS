@@ -1,0 +1,4 @@
+{"from":"001-edge-birthday","relation":"becomes-readable-through","to":"002-other-notebook","edge_birthday":"crawler-edition-001"}
+{"from":"002-other-notebook","relation":"formalizes","to":"003-card-reader","edge_birthday":"crawler-edition-001"}
+{"from":"003-card-reader","relation":"changes-reading-of","to":"004-knife-again","edge_birthday":"crawler-edition-001"}
+{"from":"004-knife-again","relation":"returns-reader-to","to":"001-edge-birthday","edge_birthday":"crawler-edition-001"}
