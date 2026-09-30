@@ -1,0 +1,4308 @@
+﻿nuMATHELOLOGY
+SECOND EDITION
+
+
+LEMON PRESS MONOGRAPHS
+IN STRUCTURAL MATHEMATICS
+Volume I, Revised and Enlarged
+
+
+NUMBER, RELATION, AND STRUCTURAL TRANSITION
+
+
+A Reference Grammar for Mathals, Numathals, Whole-Number Worlds,
+and the Distinction Between Arity and Distinct Support
+
+
+THE STATIC COLLECTIVE
+LEMON PRESS
+
+
+SECOND EDITION · LP-NM-002 · 2026
+
+
+
+
+PUBLISHER’S CATALOGING DATA
+
+
+The Static Collective. nuMathelology: Number, Relation, and Structural Transition. Second edition, revised and enlarged. Lemon Press Monographs in Structural Mathematics, Volume I. Lemon Press, 2026.
+
+
+Subjects: discrete mathematics; finite relational systems; graph structure; matroidal dependence; equivalence and quotient structure; relation arity; distinct support; path-sensitive transformation; information loss; mathematical methodology; receipt-bearing transitions.
+
+
+Preferred citation:
+The Static Collective. nuMathelology: Number, Relation, and Structural Transition. 2nd ed. Lemon Press, 2026.
+
+
+First-edition citation:
+The Static Collective. nuMathelology: Number, Relation, and Structural Transition. 1st ed. Lemon Press, 2026.
+
+
+Edition identifier: LP-NM-002.
+Supersedes: LP-NM-001 for definitions revised herein.
+Definitions remain local unless otherwise stated.
+Computational specimens are finite, reproducible, and subordinate to their declared worlds.
+No cardinal coincidence is promoted to common mechanism without an explicit comparison map and hostile controls.
+
+
+
+
+EDITORIAL NOTE TO THE SECOND EDITION
+
+
+The First Edition introduced nuMathelology as a relation-first grammar for finite structural change. Its principal object was the mathal: a typed, addressable crossing whose source and target do not exhaust its mathematical identity when path, receipt, residual, orientation, refusal, or provenance remain relevant.
+
+
+The First Edition was deliberately conservative about promotion. It distinguished THEOREM, COMPUTED, CONSTRUCTION, OBSERVATION, PROPOSAL, and INTERPRETIVE claims; insisted that equal endpoints do not imply equal crossings; and treated the shared index of unrelated thresholds as evidence for investigation rather than evidence for common cause.
+
+
+The Second Edition preserves that structure and responds to a small but technically important ambiguity in the original treatment of relation birth.
+
+
+The ambiguity is this:
+
+
+    ARITY ≠ NUMBER OF DISTINCT PARTICIPANTS.
+
+
+A binary relation is a subset of X². Its tuples have two coordinate positions. But a tuple (a,a) has only one distinct element in its support. Therefore a nonempty binary relation may exist on a one-element carrier. The sentence “a binary relation requires at least two participants,” if participant means distinct element, is false without an additional irreflexivity, off-diagonal, injectivity, or distinctness condition.
+
+
+Likewise, a ternary tuple may have support size one, two, or three:
+
+
+    (a,a,a)     has arity 3 and support size 1;
+    (a,a,b)     has arity 3 and support size 2;
+    (a,b,c)     has arity 3 and support size 3.
+
+
+This distinction is elementary. It is also exactly the kind of distinction nuMathelology claims should not be silently collapsed. The appropriate response is therefore not a footnote. The appropriate response is a small bureaucracy.
+
+
+The Second Edition introduces:
+— tuple support;
+— support size;
+— diagonal strata;
+— full-distinct loci;
+— support spectra;
+— arity-sensitive admissibility;
+— distinct-support admissibility;
+— three separate “birthday” coordinates;
+— revised transition language for 1→2, 2→3, 3→4, and 4→5;
+— a rule forbidding the phrase “requires k participants” unless participant semantics are declared;
+— and a new named mathal, SUPPORT-SPLIT-001, whose sole purpose is to stop an otherwise harmless sentence from becoming mathematically false.
+
+
+This is intentional overcorrection.
+
+
+The method of the book is that small ambiguities are not repaired by rhetoric. They are repaired by declaring the missing coordinate.
+
+
+
+
+PREFACE TO THE SECOND EDITION
+
+
+The First Edition began from a practical difficulty: mathematical objects are routinely compared after information has been discarded. The Second Edition begins from a more embarrassing version of the same fact: mathematical prose is routinely compared after distinctions in the prose itself have been discarded.
+
+
+“Two-place relation.”
+“Relation involving two things.”
+“Binary interaction.”
+“Two participants.”
+
+
+These phrases may coincide in an intended example. They are not definitions of the same object.
+
+
+The distinction between arity and support is therefore not merely editorial. It is a specimen of the subject.
+
+
+A k-ary relation has k coordinate places by type. A particular k-tuple may repeat values. The number of distinct values actually appearing in that tuple is its support size. If a theory requires all coordinates to be occupied by distinct elements, that requirement must be declared. If a graph-theoretic edge is modeled as an irreflexive pair, the exclusion of the diagonal must be declared. If a simplex requires distinct vertices, distinctness must be declared. If a symmetric relation is allowed to contain loops, that must be declared too.
+
+
+The numerical threshold at which a structure first appears can therefore depend on which of these questions is being asked:
+
+
+1. At what carrier size is the typed relation language meaningful?
+2. At what carrier size can a nonempty relation of that arity exist?
+3. At what carrier size can a witness with k distinct participating elements exist?
+4. At what carrier size can the specific constrained relation type exist?
+5. At what carrier size does the target invariant first change?
+6. At what carrier size does the decoder first distinguish that change?
+
+
+The same informal word “birth” can hide six different thresholds.
+
+
+The purpose of the Second Edition is not to multiply terminology for sport. It is to make it possible to say exactly which threshold one means, then delete every coordinate that later proves unnecessary.
+
+
+The book retains its original discipline:
+
+
+    same endpoint ≠ same path ≠ same trace;
+    same arity ≠ same support;
+    same n ≠ same world;
+    same observation ≠ same underlying structure;
+    same threshold index ≠ same mechanism.
+
+
+A useful formalism earns its complexity by making at least one otherwise-hidden distinction stateable, testable, and safely forgettable when it becomes irrelevant.
+
+
+
+
+CONTENTS
+
+
+Chapter 1  Declared Worlds, Mathals, and Non-Collapse
+Chapter 2  Mathematics Before Number
+Chapter 3  Numathals and Cardinal Transition
+Chapter 4  Relation Birth, Arity, and Distinct Support
+Chapter 5  Thresholds, Obstructions, and Carrier Rupture
+Chapter 6  Projection, Quotient, and Loss
+Chapter 7  Path, Return, and Receipt
+Chapter 8  Decoder Dependence and Carrier Change
+Chapter 9  The Grammar of the Whole-Number World, Revised
+Chapter 10 Experimental nuMathelology
+Chapter 11 Casebook of Named Mathals, Enlarged
+Chapter 12 Open Problems
+Appendix A Notation and Status Marks
+Appendix B Computation Receipts
+Appendix C Glossary
+Appendix D Wolfram Verification Ledger
+Appendix E Second-Edition Change RegisterAppendix F Exhaustive Support Calculus
+Appendix G First-Edition Claim Audit
+
+
+References
+Index of Terms
+
+
+
+
+NOTATION AND TYPOGRAPHICAL CONVENTIONS
+
+
+A mathematical claim in this volume is always read inside a declared setting.
+
+
+W = declared world.
+C = carrier class.
+R = admitted relation or operation family.
+D = decoder or observation map.
+E = equivalence discipline.
+A →ᵐ B = mathal m from A to B.
+Π(m) = receipt of m.
+Wₙ = a world indexed by cardinality n.
+ν = numathal marker.
+supp(x) = distinct support of tuple x.
+s(x) = |supp(x)| = support size.
+X^k = k-fold Cartesian power.
+Δ_X^k = full diagonal {(x,…,x):x∈X}.
+Dist_k(X) = tuples in X^k with pairwise distinct coordinates.
+Σ(R) = support spectrum of relation R.
+μ(R) = minimum support size among tuples of R when R is nonempty.
+M(R) = maximum support size among tuples of R when R is nonempty.
+b_adm = admissibility birthday under a declared family.
+b_≠ = full-distinct witness birthday.
+b_Q = target-relative birthday for question Q.
+
+
+The symbol ≠ is used aggressively.
+
+
+The Second Edition adds a further convention:
+
+
+    an unqualified participant is a distinct carrier element occurring in the support of a witness.
+
+
+If coordinate positions rather than distinct elements are meant, the word slot, argument place, coordinate, or arity position is used instead.
+
+
+
+
+________________
+CHAPTER 1
+DECLARED WORLDS, MATHALS, AND NON-COLLAPSE
+
+
+1.1 Declared worlds
+
+
+A mathematical object is never encountered without a surrounding choice of admissible structure. A set may be considered only as a set, as a graph vertex set, as a basis candidate, as the support of a tuple, as a labeled sequence, as a carrier for a k-ary relation, or as the state space of a transition system.
+
+
+Definition 1.1 (Declared world).
+A declared world is a tuple
+
+
+    W = (C, R, D, E),
+
+
+where C is a carrier class, R the admitted relation or operation family, D the active decoder or observation map, and E the chosen equivalence discipline. Additional coordinates may be supplied when a problem requires lineage, orientation, boundary, order, multiplicity, distinctness, authority, or receipt information.
+
+
+The tuple is not proposed as a universal foundation. It is a local accounting device.
+
+
+Principle 1.2 (Smallest sufficient world).
+Declare enough structure to make the question well-typed, but do not load distinctions merely because they are available.
+
+
+Corollary 1.3.
+If a later counterexample depends on a distinction omitted from W, then either the original question did not require that distinction or the declared world was underspecified. The repair is to enlarge W, not to pretend the omitted coordinate had been present all along.
+
+
+1.2 Mathals
+
+
+Definition 1.4 (Mathal).
+A mathal is a typed, addressable mathematical relation or transformation whose source, target, admissibility conditions, equivalence lens, and receipt semantics are declared to the extent required by the current question.
+
+
+A mathal from A to B is written
+
+
+    A →ᵐ B.
+
+
+Definition 1.5 (Receipt).
+A receipt Π(m) is the declared information retained about the occurrence of m beyond its target value.
+
+
+A receipt may contain path, factorization, orientation, residual, refusal, provenance, multiplicity, proof witness, support profile, or another target-relevant discriminator.
+
+
+Permanent distinction 1.6.
+
+
+    target(m₁) = target(m₂)  ⇏  m₁ = m₂.
+
+
+The reverse mistake also matters. Different receipts do not imply different target answers for every question. A receipt coordinate may be safely forgotten once target-relative sufficiency has been proved.
+
+
+1.3 Non-collapse registers
+
+
+The First Edition used non-collapse statements as a defensive grammar. The Second Edition expands the register:
+
+
+    endpoint ≠ path;
+    path ≠ trace;
+    trace ≠ provenance;
+    arity ≠ support size;
+    coordinate multiplicity ≠ participant multiplicity;
+    carrier size ≠ relation arity;
+    typed possibility ≠ realized witness;
+    witness existence ≠ target significance;
+    observed absence ≠ mathematical nonexistence.
+
+
+Definition 1.7 (Non-collapse register).
+A non-collapse register is a finite list of distinctions that the current analysis refuses to identify without an explicit quotient or proof of irrelevance.
+
+
+The register is not sacred. It is temporary scaffolding. Its purpose is to prevent accidental identification before the question determines which distinctions can be forgotten.
+
+
+1.4 Equivalence lenses
+
+
+Definition 1.8 (Equivalence lens).
+An equivalence lens E specifies which differences may be ignored for the current target.
+
+
+Two mathals may be endpoint-equivalent while not path-equivalent; path-equivalent while not provenance-equivalent; support-equivalent while not coordinate-equal; or observation-equivalent while not world-identical.
+
+
+The question “are these the same?” is therefore malformed until the lens is supplied.
+
+
+DGRAM 001 · NON-COLLAPSE REGISTER
+SAME ENDPOINT ≠ SAME PATH ≠ SAME TRACE
+SAME ARITY ≠ SAME DISTINCT SUPPORT
+
+
+Exercises
+1.1 Give two transformations with the same endpoint and different receipts.
+1.2 Give two ternary tuples with the same support and different coordinate order.
+1.3 Give two binary tuples with the same arity and different support size.
+1.4 Construct a world where support size is irrelevant, then change the target so that it becomes necessary.
+
+
+
+
+________________
+CHAPTER 2
+MATHEMATICS BEFORE NUMBER
+
+
+2.1 Distinction, relation, variation
+
+
+Counting compresses. It reports how many under an individuation rule. It does not by itself determine which occurrences count as distinct, how they are related, whether repetitions are identified, which transformations are admissible, or which history produced the observed state.
+
+
+The minimal pre-numerical kernel used in this volume therefore remains:
+
+
+    DISTINGUISH
+    RELATE
+    VARY
+    COMPOSE
+    CONSTITUTE.
+
+
+Write schematically:
+
+
+    K = (D, R, V; ∘) —H→ ⟦·⟧ω.
+
+
+Proposal 2.1 (Constitutive kernel).
+D marks a distinction, R admits a typed relation, V proposes variation, ∘ composes compatible crossings, H is a constitutive crossing, and ω is retained trace.
+
+
+The kernel is not intended as ontology. It is a bookkeeping grammar for refusing to identify proposal with adoption.
+
+
+Construction 2.2 (Refused crossing).
+Let a world have body C and lineage L. A proposal v is evaluated and refused. It may be that
+
+
+    C′ = C,
+    L′ = L,
+
+
+while the broader event trace satisfies
+
+
+    Λ′ ≠ Λ.
+
+
+A world may therefore acquire history without acquiring the proposed body change.
+
+
+2.2 Number as native dialect
+
+
+Once a criterion of individuation is stable, counting becomes exact relative to that criterion.
+
+
+Proposition 2.3.
+If two worlds use different equivalence lenses for individuation, equal raw material may yield different counts.
+
+
+Examples are standard:
+— quotient sets count equivalence classes;
+— connected components count under path connectivity;
+— orbit counts depend on a group action;
+— rank counts independent directions rather than listed vectors;
+— tuple support counts distinct coordinate values rather than coordinate positions.
+
+
+The last example is the Second Edition’s principal repair.
+
+
+For x = (a,a,b),
+
+
+    arity(x) = 3,
+    support(x) = {a,b},
+    support size = 2.
+
+
+No contradiction is present because the two numbers answer different questions.
+
+
+2.3 The three primitive pressure test
+
+
+The relation-first slogan can be compressed further into three primitive capacities:
+
+
+    FACT / DISTINCTION
+    IDEA / VARIATION
+    RELATION / TYPED CONNECTION
+
+
+but this compression is interpretive rather than foundational.
+
+
+A mathematically safer operational triad is:
+
+
+    distinguish;
+    vary;
+    relate.
+
+
+Why these three?
+
+
+Without distinction, repeated occurrence cannot be typed as same or different.
+Without variation, there is no transition grammar.
+Without relation, there is no structured comparison among distinguished occurrences.
+
+
+Composition is then an operation on crossings rather than a fourth ontological primitive.
+
+
+Proposal 2.4 (DRV kernel).
+A relation-first finite structural grammar may be generated from a distinction operator D, variation operator V, and relation constructor R, provided composition, typing, and constitution are supplied by the ambient world.
+
+
+Ablation test:
+— delete D: support and cardinality lose individuation;
+— delete V: transitions become unstateable;
+— delete R: structure collapses toward isolated labels.
+
+
+The triad is therefore useful as a minimal research instrument. It is not claimed as a theorem about all foundations of mathematics.
+
+
+2.4 Same numeral, different world
+
+
+For subsets of a four-element set, ordinary binomial coefficients give
+
+
+    (1,4,6,4,1).
+
+
+For k-dimensional subspaces of F₃⁴, Gaussian binomial coefficients give
+
+
+    (1,40,130,40,1).
+
+
+The shared indices n=4 and k do not produce a shared structural interpretation.
+
+
+DGRAM 204 · COMPUTED
+PASCAL(4) = 1,4,6,4,1
+Q-BINOMIAL(q=3,n=4) = 1,40,130,40,1
+
+
+2.5 Relation before object
+
+
+A constituted relation may become an object at the next level of description. A path may be promoted to an edge in a path graph. A triangle may become a 2-cell. An equivalence class may become a quotient point.
+
+
+Definition 2.5 (Relational promotion).
+Relational promotion is the admissible use of a constituted relation ρ at level j as an addressable object at level j+1.
+
+
+Promotion does not erase formation data unless an equivalence lens explicitly authorizes the quotient.
+
+
+
+
+________________
+CHAPTER 3
+NUMATHALS AND CARDINAL TRANSITION
+
+
+3.1 Numathals
+
+
+Definition 3.1 (Numathal).
+A numathal is a mathal for which a numerical parameter participates essentially in admissibility, typing, consequence, capacity, obstruction, discriminability, or receipt.
+
+
+A cardinal numathal may be written
+
+
+    Wₙ →ν Wₘ.
+
+
+Not every expression containing a number is a numathal in this sense. Multiplying a coordinate by five may be ordinary arithmetic. Passing from K₄ to K₅ changes the carrier size relevant to the complete-pair relation and its planar capacity.
+
+
+3.2 Transition coordinates
+
+
+The First Edition warned that n and world may change independently. The Second Edition makes that warning explicit.
+
+
+Definition 3.2 (Transition coordinate vector).
+For a comparison W→W′ define the bookkeeping vector
+
+
+    χ = (Δn, ΔC, ΔR, ΔD, ΔE, ΔΠ),
+
+
+where Δn records cardinal index change and the remaining entries record changes of carrier class, relation family, decoder, equivalence discipline, and receipt policy.
+
+
+Principle 3.3 (Attribution discipline).
+A consequence may be attributed to cardinality alone only when all non-cardinal coordinates relevant to the consequence are held fixed or their effects are separately controlled.
+
+
+Thus:
+
+
+    Δn ≠ 0 and ΔC ≠ 0
+
+
+is not automatically a cardinal explanation.
+
+
+3.3 Local transition descriptor
+
+
+For a family {Wₙ}, define
+
+
+    Tₙ = (Aₙ, Oₙ, Lₙ, Gₙ, Πₙ),
+
+
+where:
+Aₙ = newly admissible structures,
+Oₙ = newly forced obstructions,
+Lₙ = distinctions lost under the active decoder,
+Gₙ = distinctions gained or newly discriminable,
+Πₙ = receipts required to support the claim.
+
+
+The change from the First Edition is only notational: G is used here for gained discrimination so D remains reserved for decoders.
+
+
+3.4 Typed possibility versus full-distinct witness
+
+
+A k-ary relation language can be written over a carrier of size one. A nonempty k-ary relation can also exist over a one-element carrier, namely by containing the repeated tuple
+
+
+    (a,a,…,a).
+
+
+Therefore the carrier threshold n=k is not a threshold for k-arity itself.
+
+
+What does occur at n=k is the first possibility of a k-tuple with k distinct coordinates.
+
+
+This distinction will govern the revised whole-number grammar.
+
+
+DGRAM SUPPORT-000 · RULE
+ARITY k DOES NOT IMPLY k DISTINCT PARTICIPANTS
+
+
+
+
+________________
+CHAPTER 4
+RELATION BIRTH, ARITY, AND DISTINCT SUPPORT
+
+
+4.1 Arity
+
+
+Definition 4.1 (k-ary relation).
+Let X be a set. A k-ary relation on X is a subset
+
+
+    R ⊆ X^k.
+
+
+The number k counts coordinate positions.
+
+
+It does not count distinct values occurring in a particular tuple.
+
+
+Definition 4.2 (Tuple arity).
+For x ∈ X^k, the arity of x relative to the ambient Cartesian power is k.
+
+
+Arity is therefore a type-level coordinate.
+
+
+4.2 Support
+
+
+Definition 4.3 (Tuple support).
+For x = (x₁,…,x_k) ∈ X^k, define
+
+
+    supp(x) = {x_i : 1 ≤ i ≤ k}.
+
+
+Definition 4.4 (Support size).
+Define
+
+
+    s(x) = |supp(x)|.
+
+
+Then always
+
+
+    1 ≤ s(x) ≤ k
+
+
+for nonempty finite tuples.
+
+
+Examples:
+
+
+    x=(a,a)       gives k=2, s(x)=1.
+    x=(a,b)       gives k=2, s(x)=2.
+    x=(a,a,a)     gives k=3, s(x)=1.
+    x=(a,a,b)     gives k=3, s(x)=2.
+    x=(a,b,c)     gives k=3, s(x)=3.
+
+
+Wolfram verification reproduces these support counts exactly by comparing tuple length with the length of its duplicate-deleted coordinate set.
+
+
+4.3 Diagonal strata
+
+
+Definition 4.5 (Full diagonal).
+For X and arity k,
+
+
+    Δ_X^k = {(x,…,x) ∈ X^k : x∈X}.
+
+
+Every tuple in Δ_X^k has support size one.
+
+
+Definition 4.6 (Full-distinct locus).
+Define
+
+
+    Dist_k(X) = {x∈X^k : s(x)=k}.
+
+
+Equivalently, Dist_k(X) contains exactly the tuples with pairwise distinct coordinates.
+
+
+Proposition 4.7.
+Dist_k(X) is nonempty if and only if |X| ≥ k.
+
+
+Proof.
+If a tuple contains k distinct coordinates, X contains at least k elements. Conversely, if X contains k distinct elements, listing them gives a tuple in Dist_k(X). ∎
+
+
+This proposition is the precise statement that informal language had previously compressed into “a k-ary relation needs k participants.”
+
+
+It does not.
+
+
+A k-ary relation needs k coordinate positions by type.
+A full-distinct k-ary witness needs k distinct carrier elements.
+
+
+4.4 Intermediate collision strata
+
+
+The diagonal/full-distinct split is only the beginning. A k-tuple may have any support size from 1 through min(k,|X|).
+
+
+Definition 4.8 (j-support stratum).
+For 1 ≤ j ≤ k define
+
+
+    S_{k,j}(X) = {x∈X^k : s(x)=j}.
+
+
+Then
+
+
+    X^k = ⨆_{j=1}^{min(k,|X|)} S_{k,j}(X),
+
+
+a disjoint union by support size.
+
+
+For k=3:
+— S_{3,1} contains patterns of type aaa;
+— S_{3,2} contains patterns of type aab, aba, baa and their value substitutions;
+— S_{3,3} contains patterns of type abc with all entries distinct.
+
+
+The partition is independent of any additional relation. A relation R⊆X^k may intersect some strata and omit others.
+
+
+4.5 Support spectrum of a relation
+
+
+Definition 4.9 (Support spectrum).
+For R⊆X^k define
+
+
+    Σ(R) = {s(x) : x∈R}.
+
+
+When R is nonempty define
+
+
+    μ(R) = min Σ(R),
+    M(R) = max Σ(R).
+
+
+For the empty relation, μ and M are left undefined unless a particular extended convention is declared.
+
+
+Examples:
+1. R = {(a,a)} has Σ(R)={1}.
+2. R = {(a,b),(b,a)} on {a,b} has Σ(R)={2}.
+3. R = X² for |X|≥2 has Σ(R)={1,2}.
+4. Equality on X has support spectrum {1}.
+5. Disequality on X with |X|≥2 has support spectrum {2}.
+
+
+Thus two binary relations can have identical arity and disjoint support spectra.
+
+
+4.6 Participant semantics
+
+
+Definition 4.10 (Participant).
+Unless otherwise stated in this edition, a participant in a witnessed relation instance is a distinct carrier element in the tuple support.
+
+
+Therefore:
+— (a,a) is a binary tuple with one participant;
+— (a,b) is a binary tuple with two participants;
+— (a,a,b) is a ternary tuple with two participants.
+
+
+If an application wishes to count coordinate roles even when the same entity occupies multiple roles, it must say role-slot rather than participant.
+
+
+Rule 4.11 (No naked participant count).
+The phrase “a k-ary relation requires k participants” is forbidden unless one of the following is declared:
+(a) all coordinates are constrained to be pairwise distinct;
+(b) the relation is irreflexive/off-diagonal in the relevant sense;
+(c) participant is explicitly redefined to mean coordinate role rather than distinct carrier element.
+
+
+This rule is intentionally bureaucratic.
+
+
+4.7 Three birthdays
+
+
+The First Edition defined a relation birthday as the minimum n at which a relation type becomes admissible in Wₙ. The Second Edition splits this coordinate.
+
+
+Definition 4.12 (Typed admissibility birthday).
+For a relation schema ρ in a family W, let
+
+
+    b_type(ρ) = min{n : the typed relation schema ρ is well-formed in Wₙ},
+
+
+when such a minimum exists.
+
+
+Definition 4.13 (Nonempty witness birthday).
+Let
+
+
+    b_wit(ρ) = min{n : Wₙ admits at least one witness of ρ}.
+
+
+Definition 4.14 (Full-distinct witness birthday).
+For k-ary ρ, let
+
+
+    b_≠(ρ) = min{n : Wₙ admits a witness x∈ρ with s(x)=k}.
+
+
+These may differ.
+
+
+Example 4.15 (Unconstrained binary relation).
+Over nonempty carriers:
+— binary relation type is meaningful at n=1;
+— a nonempty witness exists at n=1 via (a,a);
+— a full-distinct binary witness first exists at n=2.
+
+
+Thus
+
+
+    b_type = 1,
+    b_wit = 1,
+    b_≠ = 2.
+
+
+Example 4.16 (Disequality).
+For ρ(x,y) iff x≠y:
+— the schema is meaningful at n=1;
+— no witness exists at n=1;
+— the first witness exists at n=2 and is automatically full-distinct.
+
+
+Thus
+
+
+    b_type = 1,
+    b_wit = 2,
+    b_≠ = 2.
+
+
+Example 4.17 (Nondegenerate triangle).
+If a triangle is defined as three distinct vertices with all three pair edges present, then the distinctness constraint is constitutive. Its carrier birthday is 3.
+
+
+This is not because “ternary” forces three distinct elements. It is because the declared triangle type does.
+
+
+4.8 Birth certificates, revised
+
+
+Definition 4.18 (Relation birth certificate).
+A relation birth certificate is now
+
+
+    B(ρ) = (k, S, b_type, b_wit, b_≠, σ, t, Π),
+
+
+where:
+k = arity,
+S = support semantics,
+b_type = typed admissibility birthday,
+b_wit = nonempty witness birthday,
+b_≠ = full-distinct witness birthday when meaningful,
+σ = earned orientation data,
+t = first attributable observed occurrence in the working corpus,
+Π = formation receipt.
+
+
+No one coordinate is silently substituted for another.
+
+
+4.9 Pairwise surfaces and higher-order change
+
+
+Consider U₃,₃ and U₂,₃ on the same labeled ground set {a,b,c}. Every singleton and every pair is independent in both. The full triple is independent in U₃,₃ and dependent in U₂,₃.
+
+
+Proposition 4.19.
+Agreement on all support sizes ≤2 does not determine a support-3 dependence relation.
+
+
+This is a more precise form of the First Edition’s rule:
+
+
+    GRAPH PROJECTION ≠ WHOLE.
+
+
+A pairwise decoder can preserve every order-two observation while erasing a genuinely order-three distinction.
+
+
+DGRAM 055 · VERIFIED FINITE SPECIMEN
+SINGLETON/PAIR SURFACE IDENTICAL
+TRIPLE DEPENDENCE CHANGED
+
+
+4.10 Orientation is additional structure
+
+
+Support does not determine orientation.
+
+
+Two ordered bases can contain the same underlying vectors and differ only in order, producing opposite determinant signs. Therefore:
+
+
+    support equality ⇏ orientation equality.
+
+
+DGRAM 056 · VERIFIED FINITE SPECIMEN
+SUPPORT PRESERVED
+ORIENTATION SIGN CHANGED
+
+
+4.11 Exhaustive repair note
+
+
+The following statements are now distinguished:
+
+
+FALSE WITHOUT QUALIFICATION:
+“A binary relation requires two participants.”
+
+
+TRUE:
+“A binary relation has two coordinate positions.”
+
+
+TRUE:
+“A binary tuple may have one or two distinct participants.”
+
+
+TRUE:
+“A full-distinct binary tuple requires a carrier of size at least two.”
+
+
+TRUE UNDER IRREFLEXIVITY:
+“A witnessed irreflexive binary relation requires two distinct participants.”
+
+
+FALSE WITHOUT QUALIFICATION:
+“A ternary relation first appears at three.”
+
+
+TRUE:
+“A ternary relation has three coordinate positions.”
+
+
+TRUE:
+“A ternary tuple may have support size one, two, or three.”
+
+
+TRUE:
+“A full-distinct ternary witness first becomes possible at carrier size three.”
+
+
+TRUE FOR A NONDEGENERATE TRIANGLE:
+“A nondegenerate triangle first becomes possible on three distinct vertices.”
+
+
+The Second Edition regards this list as a successful result rather than an embarrassing correction. A formalism designed to preserve distinctions should become more exact when one of its own distinctions is challenged.
+
+
+DGRAM SUPPORT-SPLIT-001 · SECOND-EDITION REPAIR
+ARITY k ≠ SUPPORT SIZE j
+TYPE BIRTH ≠ WITNESS BIRTH ≠ FULL-DISTINCT BIRTH
+
+
+Exercises
+4.1 For each binary relation on a one-element carrier, compute its support spectrum.
+4.2 For X={a,b}, enumerate S_{3,1}(X), S_{3,2}(X), and S_{3,3}(X).
+4.3 Prove that Dist_k(X) is nonempty iff |X|≥k.
+4.4 Give a ternary relation whose support spectrum is exactly {2}.
+4.5 Construct a relation type with b_type < b_wit < b_≠.
+4.6 Rewrite five informal uses of “participants” into exact arity/support language.
+
+
+
+
+
+
+________________
+CHAPTER 5
+THRESHOLDS, OBSTRUCTIONS, AND CARRIER RUPTURE
+
+
+5.1 Threshold language
+
+
+Definition 5.1 (Threshold).
+A threshold for property P in a family {Wₙ} is an index n₀ at which the truth, admissibility, necessity, obstruction, visibility, or support profile of P changes according to a declared rule.
+
+
+A threshold must therefore specify at least:
+— the family;
+— the property or predicate;
+— the indexing parameter;
+— the comparison direction;
+— and the decoder if visibility rather than existence is at issue.
+
+
+Definition 5.2 (Monotone threshold).
+A threshold is monotone when, after the first transition into the target predicate, subsequent indices remain in that predicate throughout the stated domain.
+
+
+Definition 5.3 (Nonmonotone threshold event).
+When a property can appear, disappear, and reappear, the book uses threshold event rather than implying one-way permanence.
+
+
+5.2 Carrier rupture
+
+
+Definition 5.4 (Carrier rupture).
+A carrier rupture occurs at n₀ when preservation of a specified relation class across n₀ requires migration to a different admissible carrier or representation family.
+
+
+The phrase “requires migration” is always relative to a preserved target. If the target is weakened, the rupture may disappear.
+
+
+5.3 K₄→K₅ and planar capacity
+
+
+For a simple planar graph with n≥3,
+
+
+    |E| ≤ 3n−6.
+
+
+The complete graph K₅ has
+
+
+    C(5,2)=10
+
+
+edges, while the simple planar bound at n=5 is
+
+
+    3·5−6=9.
+
+
+Therefore K₅ is nonplanar.
+
+
+K₄, with six edges, is planar.
+
+
+Proposition 5.5 (Five-field planar surplus).
+Within the family of complete simple graphs under planar embedding, the complete pair relation at n=5 exceeds the planar edge-capacity bound by exactly one edge.
+
+
+    10−9=1.
+
+
+This is a local theorem. It does not license the sentence “five means obstruction.”
+
+
+DGRAM F5-001 · VERIFIED
+K5 EDGES 10
+PLANAR CAPACITY 9
+SURPLUS 1
+K4 PLANAR
+K5 NONPLANAR
+
+
+5.4 Affine capacity
+
+
+In Rᵈ, at most d+1 points can be affinely independent.
+
+
+Thus in R³:
+— four points may be affinely independent;
+— every five-point set is affinely dependent.
+
+
+Proposition 5.6.
+Every five-point subset of R³ is affinely dependent.
+
+
+Proof.
+Choose one point as origin-relative anchor. The remaining four displacement vectors lie in a three-dimensional vector space and are linearly dependent. The corresponding affine dependence follows. ∎
+
+
+Again, the threshold index is five. The mechanism is dimension, not planarity.
+
+
+5.5 Symmetric-group solvability
+
+
+S₄ is solvable.
+S₅ is not solvable.
+
+
+The relevant algebraic mechanism is the appearance of A₅ as a nonabelian simple composition factor in S₅.
+
+
+The Second Edition retains this specimen because it is useful precisely when handled carefully: the same index hosts a third structural transition generated by a different proof.
+
+
+Wolfram|Alpha independently confirms:
+— symmetric group of degree 4: solvable = True;
+— symmetric group of degree 5: solvable = False.
+
+
+Methodological rule 5.7.
+
+
+    COINCIDENT INDEX ≠ COMMON MECHANISM.
+
+
+A higher-level transition class may be proposed only after the local mechanisms remain individually visible in the comparison.
+
+
+5.6 The anti-numerology clause
+
+
+The First Edition described repeated numerical coincidence as a research smell. The Second Edition formalizes the refusal.
+
+
+Definition 5.8 (Index coincidence class).
+For a fixed integer n, an index coincidence class is a collection of transition events whose declared thresholds occur at n.
+
+
+Definition 5.9 (Mechanism-preserving comparison).
+A comparison among events in an index coincidence class is mechanism-preserving when each event retains:
+— its source family;
+— target predicate;
+— local proof or computation;
+— relevant carrier;
+— and required decoder.
+
+
+Proposal 5.10 (Common-transition hypothesis).
+A common-transition hypothesis may be stated only as a proposed relation among mechanism-preserving event records. The shared numeral alone is never the comparison map.
+
+
+Thus the proper object is not
+
+
+    five → mystical common cause,
+
+
+but something closer to
+
+
+    {(family_i, predicate_i, mechanism_i, threshold=5)}_i
+
+
+followed by a search for a higher-order invariant that survives hostile controls.
+
+
+5.7 Controls at five
+
+
+A valid control should include families in which 4→5 produces no analogous qualitative transition.
+
+
+Examples can be constructed by:
+— taking a property constant in n;
+— choosing a complete graph property that holds for both K₄ and K₅;
+— choosing a vector-space statement whose threshold lies elsewhere;
+— or selecting an invariant explicitly insensitive to the 4→5 change.
+
+
+The presence of negative controls is not decorative. Without them, a catalog of “things that happen at five” cannot distinguish a genuine mechanism class from selection bias.
+
+
+Exercises
+5.1 Derive |E|≤3n−6 from Euler’s formula.
+5.2 Give three unrelated properties unchanged from n=4 to n=5.
+5.3 State the affine dependence threshold as a function of d.
+5.4 Explain exactly why K₅ nonplanarity does not imply S₅ nonsolvability.
+5.5 Design an index coincidence class at n=3 and include at least one hostile control.
+
+
+
+
+________________
+CHAPTER 6
+PROJECTION, QUOTIENT, AND LOSS
+
+
+6.1 Observation maps
+
+
+Definition 6.1 (Observation map).
+An observation map
+
+
+    O: W→Y
+
+
+sends a richer world to information available under a declared observation cut.
+
+
+Two worlds W₁,W₂ are observationally equivalent under O when
+
+
+    O(W₁)=O(W₂).
+
+
+Observation equality is not world equality.
+
+
+6.2 Same state, different world
+
+
+Let
+
+
+    G₁=C₆
+    G₂=C₃ ⊔ C₃.
+
+
+Observe only:
+— vertex count;
+— edge count;
+— sorted degree sequence.
+
+
+Then both yield
+
+
+    |V|=6,
+    |E|=6,
+    degrees=(2,2,2,2,2,2).
+
+
+But:
+— C₆ has one connected component;
+— C₃⊔C₃ has two.
+
+
+Lemma 6.2 (Re-expression cannot restore erased distinction).
+If O(W₁)=O(W₂), then every deterministic f on the observation space satisfies
+
+
+    f(O(W₁))=f(O(W₂)).
+
+
+Therefore deterministic re-expression of O alone cannot identify which world generated the observation when the target answer differs between them.
+
+
+Proof.
+Functions preserve equality. ∎
+
+
+This lemma is intentionally obvious. Obvious statements become useful when they block sophisticated nonsense.
+
+
+DGRAM SSW-001 · EXACT FINITE WITNESS
+SAME V,E,DEGREES
+DIFFERENT CONNECTIVITY
+
+
+6.3 Target-relative sufficiency
+
+
+Definition 6.3 (Target-relative sufficiency).
+Observation O is sufficient for target question Q over class C when every pair W₁,W₂∈C satisfying O(W₁)=O(W₂) also induces the same correct answer to Q.
+
+
+The same observation can therefore be:
+— sufficient for “how many vertices?”;
+— insufficient for “is the graph connected?”
+
+
+Corollary 6.4.
+Additional computation without additional discriminating information cannot repair an information loss that merges worlds requiring different target answers.
+
+
+6.4 Support projection as a new specimen
+
+
+The Second Edition adds a relation-theoretic version of the same-state problem.
+
+
+Define
+
+
+    P(x₁,…,x_k)=supp(x₁,…,x_k).
+
+
+Then:
+    P(a,b,a)={a,b}
+    P(a,a,b)={a,b}
+    P(b,a,a)={a,b}.
+
+
+A support decoder forgets coordinate order and multiplicity pattern.
+
+
+Thus equal support does not determine:
+— coordinate order;
+— equality pattern;
+— orientation;
+— argument role;
+— or the original tuple.
+
+
+Definition 6.5 (Support quotient).
+The support quotient identifies tuples having the same set of distinct coordinates.
+
+
+This quotient may be sufficient for questions about “which entities participated?” and insufficient for questions about “which role did each entity occupy?”
+
+
+The relation arity/support repair is therefore another instance of the book’s original thesis:
+a correct projection can be too coarse for a later target.
+
+
+6.5 Equality-pattern decoder
+
+
+A less coarse decoder records the partition of coordinate positions induced by equality.
+
+
+For x=(a,a,b,c,b), the equality pattern is
+
+
+    {{1,2},{3,5},{4}}.
+
+
+This pattern records multiplicity structure without retaining the actual labels a,b,c.
+
+
+Definition 6.6 (Equality-pattern decoder).
+E_k(x) is the set partition of {1,…,k} in which i and j lie in the same block iff x_i=x_j.
+
+
+Then:
+— arity is recoverable from the domain size k;
+— support size is recoverable as the number of blocks;
+— labels are not recoverable;
+— coordinate-equality structure is retained.
+
+
+This gives a useful hierarchy of projections:
+
+
+    tuple
+      ↓ forget labels, keep equality pattern
+    partition of coordinate positions
+      ↓ keep only block count
+    support size
+      ↓ possibly threshold further
+    Boolean full-distinct/not-full-distinct.
+
+
+Each downward move can be exact and lossy simultaneously.
+
+
+6.6 Quotient and section
+
+
+Many numerical outputs arise from quotienting a richer object and then selecting a representative or coordinate:
+
+
+    x ↦ [x]^G ↦ D_F([x]^G).
+
+
+Definition 6.7 (Sectioned quotient mathal).
+A sectioned quotient mathal is a crossing in which carrier X, quotient grammar G, and final frame or section F remain addressable receipt coordinates.
+
+
+The scalar output may be valid while failing to identify the source.
+
+
+6.7 Loss receipts
+
+
+Definition 6.8 (Loss receipt).
+A loss receipt records which distinctions are known to be erased by a projection.
+
+
+For the support decoder:
+— erased: order, role assignment, multiplicity positions;
+— retained: set of distinct coordinate values.
+
+
+For support size:
+— erased: labels, order, role, exact equality partition;
+— retained: number of distinct coordinate values.
+
+
+A projection should therefore be documented not only by what it computes, but also by the distinctions it intentionally destroys.
+
+
+Exercises
+6.1 Prove the same-state lemma for arbitrary deterministic f.
+6.2 Give two tuples with same support but different equality pattern.
+6.3 Give two tuples with same equality pattern but different support labels.
+6.4 Give a target question for which support is sufficient and one for which it is insufficient.
+6.5 Construct the projection chain from a 5-tuple to its full-distinct Boolean.
+
+
+
+
+________________
+CHAPTER 7
+PATH, RETURN, AND RECEIPT
+
+
+7.1 Closed endpoints
+
+
+Returning to the same endpoint does not imply that nothing happened.
+
+
+Examples:
+— nontrivial loops in topology;
+— holonomy after parallel transport;
+— pure braids returning endpoints to their original positions;
+— finite-state cycles with nonzero traversal count;
+— reversible computations returning state while consuming path time.
+
+
+Definition 7.1 (Return mathal).
+A return mathal is m:A→A.
+
+
+It is receipt-trivial only when the active equivalence lens also identifies Π(m) with the identity receipt.
+
+
+    endpoint closes ⇏ history trivial.
+
+
+7.2 Pure braid witness
+
+
+The braid group B₃ maps onto S₃ by forgetting crossing history and retaining endpoint permutation.
+
+
+    π:B₃→S₃.
+
+
+The kernel is the pure braid group P₃.
+
+
+A nonidentity pure braid may return every strand to its original endpoint while retaining nontrivial braid structure.
+
+
+Proposition 7.2.
+There exist mathals whose endpoint permutation is identity and whose braid receipt is nonidentity.
+
+
+This is not metaphor. It is a standard quotient example of lost path information.
+
+
+7.3 Support return
+
+
+The Second Edition adds a simpler combinatorial analog.
+
+
+Consider an ordered tuple evolving through coordinate permutations:
+
+
+    (a,b,c)
+       →
+    (b,a,c)
+       →
+    (a,b,c).
+
+
+The endpoint tuple returns exactly. A path receipt recording the intermediate transposition remains nontrivial.
+
+
+Under the support decoder, every state along the path has the same support {a,b,c}. The entire loop becomes invisible.
+
+
+Thus three levels coexist:
+— exact state returns;
+— support observation never changed;
+— path receipt changed.
+
+
+This specimen shows that observation constancy and endpoint closure are independent reasons history may disappear.
+
+
+7.4 Residuals
+
+
+Definition 7.3 (Loop residual).
+Given m:A→A and decoder D with identical start/end observation, a loop residual is any declared invariant of Π(m) that remains nontrivial after endpoint closure.
+
+
+Residuals need not matter forever. They are retained until irrelevance is proved relative to a target.
+
+
+Principle 7.4 (Deferred discriminator).
+When currently equivalent worlds retain distinct receipts, preserve the distinction until:
+(a) target-irrelevance is proved; or
+(b) a later target activates a discriminator.
+
+
+7.5 Minimum receipt
+
+
+Full path retention may be excessive.
+
+
+Definition 7.5 (Target-sufficient receipt).
+A receipt schema Π_Q is target-sufficient for question class Q when any two crossings sharing source, target, and Π_Q produce the same correct answer to every q∈Q.
+
+
+Problem:
+Find the smallest Π_Q under a declared receipt cost model.
+
+
+This converts “keep the history” from a slogan into a compression problem.
+
+
+Exercises
+7.1 Give a return mathal invisible under support but visible under order.
+7.2 Describe the quotient B₃→S₃ as retained and erased information.
+7.3 Design a receipt sufficient to answer parity-of-permutation but not exact-path questions.
+7.4 Give a case where full path retention is provably unnecessary.
+
+
+
+
+________________
+CHAPTER 8
+DECODER DEPENDENCE AND CARRIER CHANGE
+
+
+8.1 Carrier, grammar, frame
+
+
+A printed value is often downstream of several structural choices.
+
+
+The book continues to use the X–G–F socket:
+
+
+    X = carrier
+    G = equivalence grammar
+    F = frame or section.
+
+
+A decoder state is written
+
+
+    (X,G,F,D).
+
+
+Equal outputs under different decoder states are not presumed comparable until a translation is supplied.
+
+
+8.2 Scalar-carrier specimen
+
+
+Let
+
+
+    A = [[1,1,0],
+         [1,0,1],
+         [0,1,1]].
+
+
+Over Z:
+    det(A) = −2,
+    rank(A)=3,
+    A is invertible over Q and R.
+
+
+Over F₂:
+    det(A)=0,
+    rank(A)=2,
+    A is singular.
+
+
+Over F₃:
+    det(A)=1,
+    rank(A)=3,
+    A is invertible,
+    A⁶=I.
+
+
+The visible integer entries are unchanged. The carrier changes the algebraic consequences.
+
+
+Independent Wolfram computation confirms:
+— determinant −2 over Z;
+— rank 2 mod 2;
+— determinant 1 mod 3;
+— sixth power equals identity mod 3.
+
+
+DGRAM CARRIER-003 · COMPUTED
+SAME PRINTED MATRIX
+DIFFERENT SCALAR CARRIER
+DIFFERENT ALGEBRAIC STATUS
+
+
+8.3 Variation cubes
+
+
+When three coordinates X,G,F each have two controlled settings, the factorial design is Q₃:
+
+
+    {X₀,X₁}×{G₀,G₁}×{F₀,F₁}.
+
+
+It has:
+— 8 vertices;
+— 12 edges;
+— 6 square faces;
+— one three-way interaction term under the usual contrast view.
+
+
+A state cube records which coordinates differ.
+It does not record the order in which changes occurred.
+
+
+If order matters, path receipts are required.
+
+
+8.4 Carrier ≠ decoder
+
+
+Principle 8.4.
+The carrier determines which structures can exist.
+The decoder determines which existing distinctions are visible.
+
+
+Changing a decoder cannot make an impossible carrier relation exist.
+Changing a carrier can alter what a fixed-form decoder means.
+
+
+Failure to observe a relation can therefore arise from:
+— nonexistence;
+— decoder blindness;
+— quotient loss;
+— insufficient sample;
+— support collapse;
+— or wrong carrier.
+
+
+These are not interchangeable diagnoses.
+
+
+8.5 Arity under carrier restriction
+
+
+Suppose a k-ary relation R⊆X^k is moved to a smaller carrier Y⊂X.
+
+
+The type k survives.
+The admissible support spectrum may shrink.
+
+
+For example, if |Y|=2 and k=3:
+— ternary tuples still exist;
+— support sizes 1 and 2 exist;
+— support size 3 is impossible.
+
+
+Thus carrier reduction may destroy full-distinct witnesses without destroying the k-ary relation language.
+
+
+This is a canonical Second Edition example:
+
+
+    CARRIER CAPACITY CAN CHANGE SUPPORT SPECTRUM WITHOUT CHANGING ARITY.
+
+
+Exercises
+8.1 Verify the matrix claims.
+8.2 Give a k=4 relation on a two-element carrier and compute its possible support sizes.
+8.3 Explain why changing |X| from 3 to 2 can destroy Dist_3(X) while leaving X³ nonempty.
+8.4 Build a variation cube for carrier size, equality policy, and decoder granularity.
+
+
+
+
+________________
+CHAPTER 9
+THE GRAMMAR OF THE WHOLE-NUMBER WORLD, REVISED
+
+
+9.1 Grammar, not assignment
+
+
+A whole-number grammar is not a dictionary in which every integer receives a metaphysical meaning.
+
+
+Definition 9.1 (Whole-number grammar).
+For a family {Wₙ}, a whole-number grammar is a typed collection of transition statements concerning Wₙ→Wₙ₊₁ together with:
+— local mechanism;
+— proof or computation;
+— active decoder;
+— support semantics where relevant;
+— comparison lens;
+— receipt;
+— hostile controls.
+
+
+The same transition name may occur at multiple n.
+The same n may host multiple unrelated transitions.
+
+
+9.2 The corrected low-cardinality corridor
+
+
+The First Edition used the corridor 1→2→3→4→5 as a laboratory. The Second Edition preserves it and replaces every potentially sloppy universal statement with a typed one.
+
+
+9.2.1 The 1→2 transition
+
+
+Unsafe slogan:
+“Relation begins at two.”
+
+
+Corrected statement:
+Carrier size two is the first size at which a tuple can contain two distinct carrier elements.
+
+
+For binary arity:
+— X² exists already when |X|=1;
+— the diagonal tuple (a,a) exists at n=1;
+— off-diagonal tuples first exist at n=2.
+
+
+Therefore 1→2 can legitimately mark:
+— birth of full-distinct binary witnesses;
+— birth of disequality witnesses;
+— birth of simple loopless graph edges between distinct vertices;
+— birth of nontrivial two-element permutations;
+— first possibility of a distinction involving two simultaneously present carrier elements.
+
+
+It does not mark the birth of binary arity itself.
+
+
+Candidate reading:
+
+
+    1→2 = DISTINCT-PAIR ADMISSIBILITY
+
+
+not
+
+
+    1→2 = RELATION ITSELF.
+
+
+DGRAM CORRIDOR-12
+TYPE ALREADY POSSIBLE
+OFF-DIAGONAL SUPPORT BECOMES POSSIBLE
+
+
+9.2.2 The 2→3 transition
+
+
+Unsafe slogan:
+“Ternary relation begins at three.”
+
+
+Corrected statement:
+Carrier size three is the first size permitting a full-distinct ternary tuple.
+
+
+Ternary tuples exist on carriers of size one and two:
+    (a,a,a),
+    (a,a,b),
+    and so on.
+
+
+What appears at n=3 is support stratum S_{3,3}.
+
+
+Consequences in selected declared worlds:
+— a nondegenerate triangle on three distinct vertices becomes possible;
+— a three-way all-distinct interaction becomes representable without reusing participants;
+— rank/dependence phenomena involving three distinct labeled elements can first be witnessed;
+— oriented triples with three distinct elements become available.
+
+
+But again:
+    ternary type ≠ three distinct participants.
+
+
+Candidate reading:
+
+
+    2→3 = FULL-DISTINCT TERNARY ADMISSIBILITY
+
+
+within worlds where that support distinction matters.
+
+
+DGRAM CORRIDOR-23
+TERNARY ARITY ≠ THREE-DISTINCT SUPPORT
+
+
+9.2.3 The 3→4 transition
+
+
+The transition 3→4 is especially tempting to narrate as “closure into volume” because four distinct points can support a tetrahedral 3-simplex.
+
+
+That statement is valid in the simplex family:
+
+
+A nondegenerate d-simplex requires d+1 affinely independent vertices.
+Therefore a tetrahedron requires four distinct vertices.
+
+
+Other structures also become possible at four, but no universal four-law follows.
+
+
+K₄ is notable because:
+— as an abstract graph it contains all six pair relations among four vertices;
+— it remains planar;
+— it is also the 1-skeleton of a tetrahedron, which is naturally realized in three dimensions.
+
+
+This produces the First Edition’s “hidden lift” intuition:
+a fine carrier can acquire higher-dimensional realization while a chosen coarse pair-relation projection remains planar.
+
+
+Definition 9.2 (Hidden lift).
+A hidden lift occurs when fine structure changes into a richer class while the active coarse projection remains in its previous observational class.
+
+
+K₄ is a compact specimen, not a universal theorem about four.
+
+
+Candidate reading:
+
+
+    3→4 = SELECTED CLOSURE / HIGHER-CELL ADMISSIBILITY
+
+
+with carrier and decoder declared.
+
+
+9.2.4 The 4→5 transition
+
+
+At five, several independent classical thresholds occur.
+
+
+Graph world:
+    K₄ planar;
+    K₅ nonplanar.
+
+
+Affine R³ world:
+    four points may be affinely independent;
+    five are necessarily dependent.
+
+
+Symmetric-group world:
+    S₄ solvable;
+    S₅ not solvable.
+
+
+The shared index is exact.
+The shared mechanism is not established.
+
+
+The proper grammar record is therefore:
+
+
+    n = 5
+    events = {planar-capacity obstruction,
+              affine-rank obstruction,
+              solvability transition}
+    mechanism relation = UNKNOWN / PROPOSED ONLY IF EXPLICITLY SUPPORTED.
+
+
+Candidate reading:
+
+
+    4→5 = MULTIPLE INDEPENDENT CAPACITY/OBSTRUCTION EVENTS IN SELECTED FAMILIES.
+
+
+This is intentionally less poetic and more useful.
+
+
+9.3 The support ladder
+
+
+The Second Edition introduces a general cardinal fact that is genuinely shared across all finite carriers:
+
+
+Proposition 9.3.
+For fixed tuple arity k, the maximum possible support size on an n-element carrier is
+
+
+    min(k,n).
+
+
+Proof.
+A tuple has at most k coordinate values and cannot use more distinct values than exist in the carrier. Both bounds are simultaneously attainable by choosing min(k,n) distinct values and repeating as needed. ∎
+
+
+Therefore as n increases from 1 to k, a new maximum support stratum becomes possible at every step:
+
+
+    n=1: support ≤1
+    n=2: support ≤2
+    ...
+    n=k: support ≤k.
+
+
+This is a true general ladder, but its meaning is narrow:
+it concerns distinct support capacity of k-tuples.
+
+
+It does not imply:
+— a universal geometric dimension;
+— a universal algebraic threshold;
+— a universal physical phase;
+— or a universal metaphysical interpretation.
+
+
+The support ladder is valuable precisely because its scope is explicit.
+
+
+9.4 Representation and segmentation
+
+
+The printed string
+
+
+    022100
+
+
+can be interpreted in base three:
+
+
+    022100₃ = 225₁₀.
+
+
+The same six visible positions, treated as a linear sequence with five inter-position gaps, admit
+
+
+    2⁵=32
+
+
+contiguous segmentations.
+
+
+The printed carrier is unchanged.
+The grammar changes.
+The resulting mathematical object changes.
+
+
+DGRAM REP-022100 · COMPUTED
+BASE-3 VALUE 225
+CONTIGUOUS SEGMENTATIONS 32
+
+
+This specimen remains one of the book’s cleanest demonstrations that visible sameness does not imply structural sameness.
+
+
+9.5 Revised candidate transition table
+
+
+1→2
+Candidate reading: first support-2 witness.
+Required discipline: do not call this birth of binary arity.
+
+
+2→3
+Candidate reading: first support-3 witness; selected nondegenerate ternary structures.
+Required discipline: separate ternary slots from three distinct participants.
+
+
+3→4
+Candidate reading: selected higher-cell closure or hidden lift.
+Required discipline: name the family; no universal closure law.
+
+
+4→5
+Candidate reading: selected capacity failures and obstructions.
+Required discipline: prove each mechanism locally; include controls.
+
+
+n→n+1
+Candidate reading: family-dependent structural transition.
+Required discipline: report world, decoder, support semantics, proof, and receipt.
+
+
+9.6 A rule for future integer grammars
+
+
+Rule 9.4 (Cardinality claim checklist).
+Before stating “at n, X becomes possible,” answer:
+
+
+1. Is n carrier size, dimension, rank, order, arity, support size, or another parameter?
+2. Is X a type, witness, full-distinct witness, invariant change, obstruction, or decoder event?
+3. What coordinates are held fixed?
+4. What is the local proof?
+5. What adjacent n values were checked?
+6. What hostile control fails to show the event?
+7. What information is erased by the chosen observation?
+8. Could the same sentence remain true if the carrier changed but n did not?
+9. Could the same n occur without the event in another family?
+10. What is the smallest surviving claim after all answers are supplied?
+
+
+Only then may the integer be allowed back into the sentence.
+
+
+Exercises
+9.1 Enumerate maximum support size for k=5 as n runs from 1 through 7.
+9.2 Give a property genuinely born at 2 that is not merely support-2 availability.
+9.3 Produce a 2→3 control world with no qualitative change in the target invariant.
+9.4 State the K₄→K₅ transition as a complete typed claim.
+9.5 Invent a seductive but false whole-number slogan and repair it using the checklist.
+
+
+
+
+
+
+________________
+CHAPTER 10
+EXPERIMENTAL nuMATHELOLOGY
+
+
+10.1 Status discipline
+
+
+The status marks of the First Edition are retained.
+
+
+THEOREM
+Established from stated hypotheses by proof.
+
+
+COMPUTED
+Finite specimen reproduced by explicit calculation.
+
+
+CONSTRUCTION
+Explicit object, witness, or counterexample.
+
+
+OBSERVATION
+Pattern visible in the declared corpus or specimen set.
+
+
+PROPOSAL
+Well-typed reusable definition or grammar introduced for testing.
+
+
+INTERPRETIVE
+Cross-domain analogy used only to generate questions.
+
+
+Second Edition rule:
+A sentence may not borrow the evidentiary status of a nearby sentence merely because they are rhetorically continuous.
+
+
+10.2 Hostile controls
+
+
+A proposed grammar becomes more credible when obvious alternatives are given a chance to destroy it.
+
+
+Basic hostile controls include:
+— alternate carriers;
+— alternate decoders;
+— nearby cardinalities;
+— diagonal versus off-diagonal witnesses;
+— repeated-coordinate versus full-distinct tuples;
+— randomized labels;
+— null models;
+— ablation of proposed primitives;
+— counterexamples;
+— minimum-discriminator searches;
+— and support-preserving permutations.
+
+
+Protocol 10.1 (Threshold test, revised).
+
+
+For a candidate transition at n:
+
+
+1. State the declared family.
+2. State exactly what n measures.
+3. State whether the claim concerns type, witness, full-distinct witness, invariant, obstruction, or observation.
+4. Prove or compute the local change.
+5. Vary the decoder while holding the world fixed.
+6. Vary the world while holding n fixed.
+7. Test adjacent indices.
+8. Test diagonal and collision strata if relation arity is involved.
+9. Search for a counterexample to the proposed higher-level grammar.
+10. Report the smallest surviving claim.
+
+
+The purpose is compression under attack.
+
+
+A result that shrinks from a universal slogan to a precise local theorem has improved.
+
+
+10.3 Minimum discriminators
+
+
+Definition 10.2 (Minimum discriminator cost).
+Given observationally equivalent worlds requiring different target answers, the minimum discriminator cost is the least additional observation budget sufficient to separate the relevant equivalence classes under a declared cost model.
+
+
+For C₆ versus C₃⊔C₃ under the observation tuple (|V|,|E|,degree sequence), connectivity is a one-query discriminator when Boolean predicates each cost one.
+
+
+For binary tuples under the decoder “arity only,” the query “support size?” distinguishes (a,a) from (a,b).
+
+
+For ternary tuples under the decoder “support size only,” an equality-pattern query can distinguish (a,a,b) from (a,b,a) only if coordinate positions matter to the target.
+
+
+There is no target-independent minimum discriminator.
+
+
+10.4 Ablation
+
+
+Definitions earn their place by surviving deletion tests.
+
+
+Ablate receipt:
+path-sensitive claims weaken or disappear.
+
+
+Ablate decoder:
+observation-relative sufficiency becomes ambiguous.
+
+
+Ablate carrier:
+existence claims become untyped.
+
+
+Ablate support:
+the distinction between (a,a) and (a,b) is unavailable when only arity remains.
+
+
+Ablate arity:
+support size alone cannot distinguish a binary off-diagonal pair from a ternary tuple with one repeated coordinate.
+
+
+Principle 10.3 (Ablative minimality).
+A primitive earns its place when deleting it makes at least one intended distinction unstatable or false.
+
+
+10.5 Research receipts
+
+
+Definition 10.4 (nuMathelological research receipt).
+A research receipt for a transition claim contains:
+
+
+— world declaration;
+— parameter and numerical index;
+— carrier;
+— relation family;
+— arity if relevant;
+— support semantics if relevant;
+— decoder;
+— equivalence lens;
+— local mechanism;
+— proof or computation reference;
+— failed controls;
+— surviving controls;
+— retained uncertainty;
+— exact promotion scope.
+
+
+Optional fields may be omitted only when demonstrably irrelevant.
+
+
+10.6 The embarrassment protocol
+
+
+The Second Edition adds a methodological rule for corrections.
+
+
+Protocol 10.5 (Embarrassment protocol).
+When a counterexample reveals that a phrase in the framework was underdeclared:
+
+
+1. Preserve the original wording in the edition history.
+2. State the smallest counterexample.
+3. Identify the missing coordinate.
+4. Split the ambiguous term rather than defensively redefining the counterexample away.
+5. Re-run affected claims.
+6. Promote only the repaired version.
+7. Record whether the repair strengthens, weakens, or merely scopes the original claim.
+
+
+The arity/support correction follows this protocol exactly.
+
+
+Counterexample:
+Binary tuple (a,a).
+
+
+Missing coordinate:
+Distinct support.
+
+
+Repair:
+Separate arity from participant count.
+
+
+Effect:
+The general methodology is strengthened; one informal low-cardinality slogan is narrowed.
+
+
+10.7 Play and promotion
+
+
+The experimental posture remains:
+
+
+    PLAY FREELY.
+    PROMOTE CAREFULLY.
+    KEEP THE RECEIPT.
+
+
+The first clause protects discovery.
+The second protects mathematics.
+The third protects the possibility of revisiting the decision.
+
+
+DGRAM METHOD-002 · SECOND EDITION
+PLAY FREELY
+PROMOTE CAREFULLY
+DECLARE SUPPORT
+KEEP THE RECEIPT
+
+
+Exercises
+10.1 Design a hostile-control battery for a claimed threshold at n=7.
+10.2 Construct a claim that fails only because diagonal tuples were ignored.
+10.3 Remove support from Chapter 4 and list every statement that becomes false or ambiguous.
+10.4 Take an interpretive analogy and reduce it to the smallest testable proposition.
+10.5 Apply the embarrassment protocol to a false claim of your own invention.
+
+
+
+
+________________
+CHAPTER 11
+CASEBOOK OF NAMED MATHALS, ENLARGED
+
+
+11.1 SECTIONED-QUOTIENT-001
+
+
+Definition.
+SECTIONED-QUOTIENT-001 is the composite
+
+
+    x ↦ [x]^G ↦ D_F([x]^G),
+
+
+with carrier X, quotient grammar G, frame F, and decoder D recorded independently.
+
+
+Use:
+When a scalar or coordinate is produced from a richer equivalence class and later comparison risks confusing value equality with source identity.
+
+
+11.2 RETURN-RECEIPT-001
+
+
+Definition.
+A return mathal whose selected endpoint closes while the retained receipt remains nontrivial.
+
+
+Canonical neighbors:
+— nontrivial homotopy loops;
+— pure braids;
+— holonomy;
+— finite-state cycles;
+— permutation paths returning to identity.
+
+
+11.3 HOLD-FIBER-001
+
+
+Definition.
+Given observation O, HOLD-FIBER-001 retains distinctions among elements of a fiber O⁻¹(y) until target-relative sufficiency has been established.
+
+
+Operational instruction:
+Do not quotient away a difference before proving it safe to forget.
+
+
+11.4 DEFERRED-DISCRIMINATOR-001
+
+
+Definition.
+When two worlds are observationally equivalent but retain distinguishable receipts, record the smallest known future observation that could separate them, or UNKNOWN.
+
+
+11.5 RELATION-BIRTH-001, revised
+
+
+Definition.
+RELATION-BIRTH-001 maps a relation type to:
+
+
+    (arity,
+     support semantics,
+     typed admissibility birthday,
+     witness birthday,
+     full-distinct witness birthday,
+     orientation signature,
+     formation receipt).
+
+
+The First Edition’s single birthday coordinate is retained only as an abbreviation when these values coincide or when the omitted distinctions are provably irrelevant.
+
+
+11.6 SUPPORT-SPLIT-001
+
+
+Definition.
+Given a tuple or relation statement in which arity and participant count have been conflated, SUPPORT-SPLIT-001 replaces the single quantity with:
+
+
+    (k, s),
+
+
+where k is arity and s is distinct support size.
+
+
+For relation-level analysis, it may lift to:
+
+
+    (k, Σ(R)).
+
+
+Examples:
+    (a,a)   ↦ (2,1)
+    (a,b)   ↦ (2,2)
+    (a,a,b) ↦ (3,2)
+    (a,b,c) ↦ (3,3)
+
+
+Use:
+Whenever natural language says “k things are related” and it is unclear whether repeated occupation of coordinate roles is allowed.
+
+
+Status:
+DEFINITION / SECOND-EDITION REPAIR.
+
+
+11.7 DIAGONAL-CHECK-001
+
+
+Definition.
+DIAGONAL-CHECK-001 asks whether a claimed minimum carrier size still holds when repeated-coordinate tuples are admitted.
+
+
+Procedure:
+1. Take the claimed relation arity k.
+2. Evaluate the claim on the full diagonal Δ_X^k.
+3. Evaluate it on intermediate support strata.
+4. Evaluate it on Dist_k(X).
+5. Report which stratum actually carries the claimed threshold.
+
+
+This mathal exists because many incorrect “k participants” statements fail at step 2.
+
+
+11.8 SUPPORT-SPECTRUM-001
+
+
+Definition.
+For relation R⊆X^k, return
+
+
+    Σ(R)={s(x):x∈R}.
+
+
+Optional receipt fields:
+— multiplicity of each support size;
+— equality-pattern classes;
+— orbit counts under coordinate permutation;
+— full-distinct proportion.
+
+
+Use:
+When a relation’s qualitative behavior depends on whether repeated participants are allowed.
+
+
+11.9 CROSSING-SHEAR-001
+
+
+Proposal.
+A crossing shear is a discrepancy produced when two paths that agree under one projection separate under another.
+
+
+The shear is indexed by:
+— path family;
+— coarse decoder;
+— fine decoder.
+
+
+A crossing shear is not promoted without an explicit witness.
+
+
+11.10 CARRIER-RUPTURE-001
+
+
+Definition.
+Records a threshold at which a target relation class can no longer be preserved in the current carrier under the declared constraint.
+
+
+Principal specimen:
+K₅ relative to simple planar embedding.
+
+
+11.11 SAME-STATE-DIFFERENT-WORLD-001
+
+
+Definition.
+A pair of distinct worlds with equal active observation and a target question that separates them.
+
+
+Principal specimen:
+C₆ versus C₃⊔C₃ under the tuple (|V|,|E|,sorted degrees).
+
+
+11.12 ORIENTATION-SIGNATURE-001
+
+
+Definition.
+The minimum retained datum required to distinguish otherwise support-identical oriented structures under the chosen world.
+
+
+Canonical example:
+determinant sign for ordered bases.
+
+
+11.13 FORMATION-MATHAL-10→01→2
+
+
+The token
+
+
+    10→01→2
+
+
+is retained as a mnemonic formation mathal rather than an arithmetic identity.
+
+
+Intended reading:
+multiplicity → distinction → typed relation.
+
+
+Second Edition clarification:
+The terminal “2” is not a theorem that every relation begins with two distinct participants. It is a mnemonic for the first explicit relational contrast in that particular formation story.
+
+
+Status:
+PROPOSAL / MNEMONIC FORMALISM.
+
+
+11.14 ARITY-SUPPORT-LIFT-001
+
+
+Definition.
+Given fixed k and carrier sizes n<n′, ARITY-SUPPORT-LIFT-001 records the increase in maximum attainable support size:
+
+
+    min(k,n) → min(k,n′).
+
+
+This mathal changes no arity.
+It changes support capacity.
+
+
+Example for k=3:
+    n=1: max support 1
+    n=2: max support 2
+    n=3: max support 3
+    n≥3: max support remains 3.
+
+
+This is the mathematically clean core underneath several low-cardinality intuitions.
+
+
+11.15 USE OF THE CASEBOOK
+
+
+Named mathals are addresses.
+
+
+They do not become true because they have names.
+They do not become standard because they are typeset in capitals.
+They exist to compress repeatable operations while preserving the non-collapse that motivated them.
+
+
+A casebook entry becomes a theorem only where a theorem is separately proved.
+
+
+The Second Edition explicitly adds:
+    NAME ≠ AUTHORITY.
+
+
+Exercises
+11.1 Produce a SUPPORT-SPLIT-001 receipt for every tuple in {a,b}³.
+11.2 Give a claim destroyed by DIAGONAL-CHECK-001.
+11.3 Define a support-spectrum query useful in database schema design.
+11.4 Construct an ARITY-SUPPORT-LIFT-001 example with k=5 and n=2→4.
+11.5 Invent a named mathal only if it compresses a repeatable operation. State the exact distinction it preserves.
+
+
+
+
+________________
+CHAPTER 12
+OPEN PROBLEMS
+
+
+12.1 Nontrivial whole-number grammars
+
+
+The central classification problem remains:
+
+
+Which transition types recur across mathematically unrelated families after local mechanisms are preserved and superficial index coincidence is controlled?
+
+
+Problem 12.1.
+Define an equivalence relation on cardinal transitions strong enough to identify genuinely shared structural mechanisms but weak enough to preserve local proofs.
+
+
+12.2 Minimal mathal axioms
+
+
+The current definition is intentionally permissive.
+
+
+A stricter theory may require:
+— source and target classes;
+— partial composition;
+— receipt functors;
+— refusal states;
+— equivalence lenses;
+— support-sensitive typing.
+
+
+Problem 12.2.
+Find a minimal axiom system for receipt-bearing typed crossings that supports composition without collapsing endpoint, path, trace, arity, and support equivalence.
+
+
+Determine exactly when this structure is already a known categorical, automata-theoretic, operadic, database-theoretic, or rewriting object.
+
+
+12.3 Support-sensitive relation birth
+
+
+Problem 12.3.
+For a family of constrained k-ary relations, classify the possible triples
+
+
+    (b_type, b_wit, b_≠).
+
+
+Which triples are realizable?
+Which constraints force equality among coordinates?
+Which natural mathematical families exhibit strict inequalities?
+
+
+12.4 Equality-pattern lattices
+
+
+The equality pattern of a k-tuple is a set partition of {1,…,k}.
+
+
+This suggests a lattice of collision types ordered by refinement.
+
+
+Problem 12.4.
+Study relation birth and obstruction across the partition lattice of coordinate equality patterns.
+
+
+Questions:
+— Which relation properties are monotone under collision?
+— Which are monotone under de-collision?
+— When does moving toward the full-distinct partition create a new obstruction?
+— When does diagonal collapse simplify a relation?
+
+
+12.5 Birth and obstruction duality
+
+
+Relation birth and carrier obstruction remain superficially dual:
+one marks first possibility;
+the other marks first impossibility under a preserved target.
+
+
+Problem 12.5.
+Characterize families in which fine-structure birth corresponds functorially to coarse-carrier obstruction.
+
+
+12.6 Receipt complexity
+
+
+Problem 12.6.
+Given target class Q, compute the minimum receipt sufficient to preserve every Q-relevant distinction under composition.
+
+
+Special case:
+How much equality-pattern information must be retained to answer future support-sensitive questions?
+
+
+12.7 Decoder lattices
+
+
+Decoders can be ordered by informativeness.
+
+
+For tuples one natural chain is:
+
+
+    exact tuple
+        ⪰ equality pattern
+        ⪰ support size
+        ⪰ full-distinct Boolean.
+
+
+Problem 12.7.
+Generalize this into a preorder or lattice of decoders and study how threshold indices move under refinement.
+
+
+12.8 Algorithmic discovery
+
+
+Finite combinatorial databases permit searches for abrupt changes in invariants across n.
+
+
+A machine may nominate thresholds.
+It must not silently supply explanations.
+
+
+Problem 12.8.
+Design a search procedure that emits, with every candidate numathal:
+— local specimen;
+— adjacent controls;
+— alternate decoders;
+— diagonal controls;
+— support spectrum;
+— counterexamples;
+— minimum-discriminator tests;
+— and a confidence label tied to claim type rather than rhetorical strength.
+
+
+12.9 Automatic nitpick generation
+
+
+The Second Edition proposes a new adversarial research direction.
+
+
+Problem 12.9.
+Given a mathematical manuscript, generate the smallest finite counterexamples to every sentence containing words such as:
+— requires;
+— first;
+— only;
+— same;
+— identical;
+— participant;
+— relation;
+— threshold;
+— must;
+— impossible.
+
+
+The machine should attempt:
+— diagonal substitution;
+— repeated-coordinate substitution;
+— carrier change;
+— decoder coarsening;
+— quotient collapse;
+— boundary values;
+— empty structure;
+— singleton structure;
+— and alternate equivalence lenses.
+
+
+The ideal output is not a criticism score.
+It is a repair map.
+
+
+12.10 Closing reference statement
+
+
+The mature form of the subject will be measured by the quality of its refusals.
+
+
+It should refuse:
+— to identify equal outputs with equal histories;
+— to identify arity with distinct support;
+— to identify coordinate roles with participants;
+— to assign a cardinal transition to number alone when the world changed;
+— to treat absence under one decoder as nonexistence;
+— to elevate a repeated pattern above the proofs that generated it;
+— and to defend an imprecise sentence when a two-symbol counterexample can improve the grammar.
+
+
+What survives those refusals is small enough to compute and large enough to compose.
+
+
+DGRAM END-002
+SCOPE RETAINED
+DEFINITIONS LOCAL UNLESS OTHERWISE STATED
+NITPICKS PROMOTED TO COORDINATES
+
+
+
+
+
+
+________________
+APPENDIX A
+NOTATION AND STATUS MARKS
+
+
+A.1 Core symbols
+
+
+W
+Declared world.
+
+
+Wₙ
+World in a cardinally indexed family.
+
+
+C
+Carrier class.
+
+
+R
+Relation or operation family.
+
+
+D
+Decoder or observation map.
+
+
+E
+Equivalence lens.
+
+
+m
+Mathal.
+
+
+ν
+Numathal.
+
+
+Π(m)
+Receipt of mathal m.
+
+
+X^k
+k-fold Cartesian power.
+
+
+supp(x)
+Distinct carrier elements appearing among tuple coordinates.
+
+
+s(x)
+Support size |supp(x)|.
+
+
+Δ_X^k
+Full diagonal {(x,…,x):x∈X}.
+
+
+Dist_k(X)
+Full-distinct locus of k-tuples with pairwise distinct coordinates.
+
+
+S_{k,j}(X)
+Support-j stratum of X^k.
+
+
+Σ(R)
+Support spectrum of relation R.
+
+
+μ(R)
+Minimum support size in nonempty R.
+
+
+M(R)
+Maximum support size in nonempty R.
+
+
+b_type
+Typed admissibility birthday.
+
+
+b_wit
+Nonempty witness birthday.
+
+
+b_≠
+Full-distinct witness birthday.
+
+
+O
+Observation map.
+
+
+Q
+Target question or class of questions.
+
+
+Δ
+Transition delta or residual.
+
+
+Q₃
+Three-dimensional Boolean variation cube.
+
+
+
+
+A.2 Status marks
+
+
+THEOREM
+Admission test: proof from stated hypotheses.
+May support: deduction in same or stronger declared setting.
+
+
+COMPUTED
+Admission test: exact reproducible finite calculation.
+May support: specimen-level fact.
+
+
+CONSTRUCTION
+Admission test: explicit object or counterexample.
+May support: existence or failure witness.
+
+
+OBSERVATION
+Admission test: pattern in declared sample.
+May support: hypothesis formation.
+
+
+PROPOSAL
+Admission test: well-typed reusable definition or grammar.
+May support: future testing.
+
+
+INTERPRETIVE
+Admission test: declared analogy across worlds.
+May support: question generation only.
+
+
+
+
+A.3 Second-Edition linguistic rules
+
+
+“Arity”
+Always counts coordinate positions.
+
+
+“Participant”
+By default counts distinct carrier elements in support.
+
+
+“Slot” or “argument place”
+Counts coordinate roles even when the same carrier element occupies several.
+
+
+“Birth”
+Must be qualified by type, witness, full-distinct witness, obstruction, visibility, or another stated predicate unless the distinction is irrelevant and that irrelevance is clear.
+
+
+“First”
+Requires a declared order and a verified lower boundary.
+
+
+“Requires”
+Requires proof of necessity, not merely a familiar example.
+
+
+“Same”
+Requires an equivalence lens.
+
+
+“Relation”
+Requires arity and carrier when ambiguity would affect the claim.
+
+
+A.4 The punctuation of refusal
+
+
+The following expressions are regarded as mathematically substantive:
+
+
+    ⇏
+    ≠
+    UNKNOWN
+    UNPROVED
+    NOT OBSERVABLE UNDER D
+    NOT ADMISSIBLE IN C
+    NOT ATTRIBUTABLE TO n ALONE.
+
+
+The discipline prefers a narrow negative statement to a broad positive slogan unsupported by its receipts.
+
+
+
+
+________________
+APPENDIX B
+COMPUTATION RECEIPTS
+
+
+B.1 Gaussian-binomial comparison
+
+
+For n=4 and q=3, the numbers of k-dimensional subspaces of F₃⁴ are:
+
+
+    k=0: 1
+    k=1: 40
+    k=2: 130
+    k=3: 40
+    k=4: 1
+
+
+Compare ordinary subset counts of a four-element set:
+
+
+    1,4,6,4,1.
+
+
+Receipt:
+Same index labels; different declared worlds; different counts.
+
+
+B.2 Tuple arity/support checks
+
+
+Binary diagonal tuple:
+    x=(a,a)
+    arity=2
+    support={a}
+    support size=1.
+
+
+Binary off-diagonal tuple:
+    x=(a,b)
+    arity=2
+    support={a,b}
+    support size=2.
+
+
+Ternary examples:
+    (a,a,a) → (arity 3, support size 1)
+    (a,a,b) → (arity 3, support size 2)
+    (a,b,c) → (arity 3, support size 3).
+
+
+Independent Wolfram computation:
+    Length[{a,a}] = 2
+    Length[DeleteDuplicates[{a,a}]] = 1
+
+
+and analogously for the remaining specimens.
+
+
+B.3 Planar surplus
+
+
+K₅ has:
+    |E|=C(5,2)=10.
+
+
+Simple planar upper bound at n=5:
+    3n−6=9.
+
+
+Surplus:
+    10−9=1.
+
+
+Independent computational check:
+    PlanarGraphQ[K₄] = True.
+    PlanarGraphQ[K₅] = False.
+
+
+B.4 Carrier matrix
+
+
+A =
+    [[1,1,0],
+     [1,0,1],
+     [0,1,1]].
+
+
+Over integers:
+    det(A)=−2.
+
+
+Modulo 2:
+    rank(A)=2,
+    singular.
+
+
+Modulo 3:
+    det(A)=1,
+    invertible,
+    A⁶=I.
+
+
+B.5 Same-state graph specimen
+
+
+C₆:
+    vertices=6
+    edges=6
+    sorted degrees=(2,2,2,2,2,2)
+    components=1.
+
+
+C₃⊔C₃:
+    vertices=6
+    edges=6
+    sorted degrees=(2,2,2,2,2,2)
+    components=2.
+
+
+Minimum one-bit discriminator under the chosen predicate-cost model:
+    connectivity.
+
+
+B.6 Segmentation count
+
+
+A string of six positions has five inter-position gaps.
+Each gap may be cut or retained.
+
+
+Therefore:
+    2⁵=32
+
+
+contiguous segmentations.
+
+
+B.7 Base-three representation
+
+
+    022100₃
+      = 2·3⁴ + 2·3³ + 1·3²
+      = 162 + 54 + 9
+      = 225₁₀.
+
+
+B.8 Symmetric groups
+
+
+S₄ is solvable.
+S₅ is not solvable.
+
+
+Independent Wolfram|Alpha verification:
+    symmetric group of degree 4 | solvable → True
+    symmetric group of degree 5 | solvable → False.
+
+
+B.9 Affine threshold
+
+
+At most d+1 points can be affinely independent in Rᵈ.
+
+
+For d=3:
+    maximum affinely independent points=4.
+
+
+Therefore:
+    every five-point subset of R³ is affinely dependent.
+
+
+B.10 Support-capacity theorem
+
+
+For fixed arity k and n-element carrier X:
+
+
+    max{s(x):x∈X^k}=min(k,n).
+
+
+Examples:
+
+
+k=3:
+    n=1 → max support 1
+    n=2 → max support 2
+    n≥3 → max support 3.
+
+
+k=5:
+    n=1 → 1
+    n=2 → 2
+    n=3 → 3
+    n=4 → 4
+    n≥5 → 5.
+
+
+This receipt is the exact formal core of the revised low-cardinality support ladder.
+
+
+
+
+________________
+APPENDIX C
+GLOSSARY
+
+
+addressable
+Capable of being referred to as a distinct object or crossing in later composition.
+
+
+arity
+Number of coordinate positions in a relation or tuple type. Arity does not imply distinctness of coordinate values.
+
+
+birth certificate
+Receipt recording the declared threshold coordinates at which a relation type, witness, or full-distinct witness becomes admissible.
+
+
+carrier
+Structure or underlying domain in which relations or operations are realized.
+
+
+carrier rupture
+Threshold at which preserving a target relation class requires migration to another carrier or representation family.
+
+
+collision stratum
+Subset of X^k consisting of tuples with a specified support size or equality pattern.
+
+
+crossing shear
+Discrepancy produced when paths agreeing under one projection separate under another.
+
+
+decoder
+Rule or apparatus mapping a richer world to an observation.
+
+
+declared world
+Stated carrier, relation family, decoder, and equivalence discipline sufficient for the current question.
+
+
+diagonal
+Set of tuples with repeated coordinates according to a specified equality pattern; the full diagonal has all coordinates equal.
+
+
+distinct support
+Set of distinct carrier elements occurring in a tuple.
+
+
+equality-pattern decoder
+Decoder retaining which coordinate positions are equal while forgetting the actual carrier labels.
+
+
+equivalence lens
+Named rule specifying which differences may be ignored.
+
+
+full-distinct locus
+Subset of X^k containing tuples whose k coordinates are pairwise distinct.
+
+
+full-distinct witness birthday
+Minimum carrier index at which the declared relation type admits a witness with support size equal to arity.
+
+
+hidden lift
+Fine-structure change not visible under a chosen coarse projection.
+
+
+loss receipt
+Record of distinctions erased and retained by a projection.
+
+
+mathal
+Typed, addressable mathematical crossing with declared receipt semantics.
+
+
+mathalology
+Study of mathal composition, equivalence, ancestry, and failure.
+
+
+minimum discriminator
+Least additional observation cost sufficient to separate target-relevant worlds under a declared cost model.
+
+
+non-collapse register
+List of distinctions provisionally forbidden from silent identification.
+
+
+numathal
+Mathal whose typing or consequence essentially depends on a numerical parameter.
+
+
+numatherology
+Study of structural transition indexed by number.
+
+
+numathalology
+Study of numerically indexed mathals and their compositions.
+
+
+nuMathelology
+Umbrella discipline joining relation-first worlds, numerical transition, decoder dependence, carrier change, support semantics, and receipt-aware crossing.
+
+
+observation cut
+Boundary determining which parts of a world are available to the active decoder.
+
+
+participant
+By default, a distinct carrier element occurring in tuple support.
+
+
+receipt
+Retained information about a crossing beyond its endpoint value.
+
+
+relation birthday
+Legacy abbreviation. In the Second Edition use typed birthday, witness birthday, or full-distinct witness birthday unless they coincide or the distinction is irrelevant.
+
+
+relation birth certificate
+Structured receipt for the thresholds and local evidence governing a relation’s admissibility.
+
+
+return mathal
+Mathal whose endpoint equals its source while its receipt may remain nontrivial.
+
+
+slot
+Coordinate role or argument place; unlike participant, slots may be occupied repeatedly by the same carrier element.
+
+
+support
+Distinct carrier elements appearing among tuple coordinates.
+
+
+support size
+Cardinality of tuple support.
+
+
+support spectrum
+Set of support sizes realized by tuples in a relation.
+
+
+target-relative sufficiency
+Adequacy of an observation for answering a specified target question.
+
+
+typed admissibility birthday
+Minimum index at which a relation schema is well-formed in the declared family.
+
+
+whole-number grammar
+Typed collection of structural transition statements across Wₙ→Wₙ₊₁ with local mechanisms, support semantics where relevant, and receipts.
+
+
+witness birthday
+Minimum index at which the declared relation type admits at least one witness.
+
+
+
+
+________________
+APPENDIX D
+WOLFRAM VERIFICATION LEDGER
+
+
+D.1 Purpose
+
+
+The Wolfram checks in this edition are receipts, not authority substitutes.
+
+
+A computation may verify:
+— arithmetic;
+— finite graph predicates;
+— matrix rank and powers;
+— support counts;
+— known group properties.
+
+
+It does not by itself justify an interpretive generalization.
+
+
+D.2 Tuple support specimen
+
+
+Wolfram Language:
+
+
+    {
+      Length[{a,a}],
+      Length[DeleteDuplicates[{a,a}]]
+    }
+
+
+Output:
+
+
+    {2,1}.
+
+
+Off-diagonal specimen:
+
+
+    {
+      Length[{a,b}],
+      Length[DeleteDuplicates[{a,b}]]
+    }
+
+
+Output:
+
+
+    {2,2}.
+
+
+Ternary specimen family:
+
+
+    ({Length[#],Length[DeleteDuplicates[#]]}& /@
+      {{a,a,a},{a,a,b},{a,b,c}})
+
+
+Output:
+
+
+    {{3,1},{3,2},{3,3}}.
+
+
+D.3 Gaussian binomial specimen
+
+
+Verified output for q=3,n=4:
+
+
+    {1,40,130,40,1}.
+
+
+D.4 Matrix specimen
+
+
+For
+
+
+    A={{1,1,0},{1,0,1},{0,1,1}}
+
+
+verified:
+
+
+    Det[A] = −2
+    MatrixRank[A,Modulus→2] = 2
+    Mod[Det[A],3] = 1
+    Mod[MatrixPower[A,6],3] = IdentityMatrix[3].
+
+
+D.5 Planarity specimen
+
+
+Verified:
+
+
+    PlanarGraphQ[CompleteGraph[4]] = True
+    PlanarGraphQ[CompleteGraph[5]] = False
+    EdgeCount[CompleteGraph[5]] = 10
+    3·5−6 = 9.
+
+
+D.6 Symmetric-group specimen
+
+
+Wolfram|Alpha query:
+“Is the symmetric group S4 solvable, and is the symmetric group S5 solvable?”
+
+
+Returned:
+    degree 4 | True
+    degree 5 | False.
+
+
+D.7 Receipt rule
+
+
+COMPUTATION ≠ EXPLANATION.
+
+
+A verified output may close a finite arithmetic question.
+It does not decide whether two verified outputs in different worlds share a mechanism.
+
+
+DGRAM WOLFRAM-001
+CALCULATE EXACTLY
+INTERPRET LOCALLY
+PROMOTE SEPARATELY
+
+
+
+
+________________
+APPENDIX E
+SECOND-EDITION CHANGE REGISTER
+
+
+E.1 Primary correction
+
+
+First Edition informal pressure:
+“Some relations are impossible below a minimum number of participants. A binary relation requires at least two argument positions…”
+
+
+Second Edition finding:
+The phrase “argument positions” is correct.
+The nearby natural-language word “participants” can be read as distinct carrier elements and is therefore unsafe without qualification.
+
+
+Smallest counterexample:
+    (a,a) ∈ X²
+on a singleton carrier X={a}.
+
+
+Repair:
+Separate:
+    arity k
+from
+    support size s.
+
+
+E.2 New definitions
+
+
+Added:
+— tuple support;
+— support size;
+— support strata;
+— full diagonal;
+— full-distinct locus;
+— support spectrum;
+— typed admissibility birthday;
+— witness birthday;
+— full-distinct witness birthday;
+— transition coordinate vector;
+— loss receipt.
+
+
+E.3 Revised low-cardinality grammar
+
+
+First Edition intuition:
+1→2, 2→3, 3→4, 4→5 host progressively richer relation/closure/obstruction phenomena.
+
+
+Second Edition refinement:
+1→2 marks first support-2 capacity for fixed arity ≥2.
+2→3 marks first support-3 capacity for fixed arity ≥3.
+3→4 and 4→5 remain family-specific except where a declared support-capacity theorem applies.
+
+
+The broader corridor survives as a laboratory.
+The universal part has narrowed to an exact support-capacity statement.
+
+
+E.4 Strengthened anti-numerology discipline
+
+
+Added:
+— index coincidence class;
+— mechanism-preserving comparison;
+— explicit hostile controls for shared thresholds;
+— cardinality claim checklist.
+
+
+E.5 New casebook entries
+
+
+Added:
+— SUPPORT-SPLIT-001
+— DIAGONAL-CHECK-001
+— SUPPORT-SPECTRUM-001
+— ARITY-SUPPORT-LIFT-001.
+
+
+Revised:
+— RELATION-BIRTH-001
+— FORMATION-MATHAL-10→01→2.
+
+
+E.6 No retreat from the First Edition’s central thesis
+
+
+The correction does not weaken the book’s core argument.
+
+
+It exemplifies it.
+
+
+The First Edition said:
+Do not collapse distinctions before proving them irrelevant.
+
+
+The Second Edition discovere
+________________
+d:
+It had one more distinction to preserve.
+That is the entire revision.
+APPENDIX F
+EXHAUSTIVE SUPPORT CALCULUS
+F.1 Why an appendix this large exists
+The First Edition required one sentence of clarification.
+The Second Edition responds with a finite combinatorial calculus.
+This is disproportionate by design.
+The original ambiguity concerned whether k coordinate places imply k distinct participants. They do not. Once this distinction is exposed, however, the resulting structure is not merely defensive. It has exact enumeration, natural quotient maps, a partition-lattice interpretation, and useful probability statements.
+The repair therefore earns its page count.
+F.2 Exact counting of support strata
+Let X be a finite carrier with |X|=n.
+Fix tuple arity k≥1.
+Recall:
+    S_{k,j}(X)={x∈X^k : s(x)=j}.
+Theorem F.1 (Support-stratum count).
+For 1≤j≤min(k,n),
+    |S_{k,j}(X)| = (n)_j · {k \brace j},
+where
+    (n)_j = n(n−1)…(n−j+1)
+is the falling factorial and
+    {k \brace j}
+is the Stirling number of the second kind.
+Proof.
+A k-tuple with exactly j distinct coordinate values determines:
+1. a partition of the k coordinate positions into j nonempty equality blocks;
+2. an injective assignment of j distinct carrier values to those blocks.
+There are {k \brace j} partitions of the coordinate positions into j nonempty unlabeled blocks.
+There are (n)_j injective assignments of j distinct carrier values to those blocks.
+Multiplying yields the result. ∎
+This theorem makes the arity/support distinction quantitative.
+F.3 Recovery of the total tuple count
+Corollary F.2.
+    n^k = Σ_{j=1}^{min(k,n)} (n)_j {k \brace j}.
+Proof.
+The support strata partition X^k. ∎
+This familiar Stirling identity now has a direct nuMathelological reading:
+    TOTAL TUPLE WORLD
+      =
+    SUM OF DISTINCT-SUPPORT WORLDS.
+A tuple space can therefore be decomposed exactly by participant multiplicity without altering arity.
+F.4 The binary atlas
+Let k=2.
+For n≥1:
+Support 1:
+    |S_{2,1}| = n.
+These are exactly the diagonal tuples:
+    (a,a).
+Support 2:
+    |S_{2,2}| = n(n−1).
+These are the off-diagonal tuples:
+    (a,b), a≠b.
+Total:
+    n + n(n−1)=n².
+At n=1:
+    support profile = (1).
+At n=2:
+    support profile = (2,2).
+At n=3:
+    support profile = (3,6).
+At n=4:
+    support profile = (4,12).
+The 1→2 transition therefore changes binary support capacity from:
+    {1}
+to
+    {1,2}.
+It does not change binary arity.
+F.5 The ternary atlas
+Let k=3.
+The Stirling numbers are:
+    {3 \brace 1}=1
+    {3 \brace 2}=3
+    {3 \brace 3}=1.
+Therefore:
+Support 1:
+    |S_{3,1}| = n.
+Support 2:
+    |S_{3,2}| = 3n(n−1).
+Support 3:
+    |S_{3,3}| = n(n−1)(n−2).
+Total:
+    n + 3n(n−1) + n(n−1)(n−2) = n³.
+At n=1:
+    (1).
+At n=2:
+    (2,6).
+Total 8.
+At n=3:
+    (3,18,6).
+Total 27.
+At n=4:
+    (4,36,24).
+Total 64.
+Wolfram independently reproduced these values.
+The 2→3 transition therefore adds exactly six full-distinct ternary tuples when moving from a labeled two-element carrier to a labeled three-element carrier.
+Those six tuples are the 3! orderings of the three distinct labels.
+This is a much sharper statement than “three-way relation begins at three.”
+F.6 The quaternary atlas
+For k=4:
+    {4 \brace 1}=1
+    {4 \brace 2}=7
+    {4 \brace 3}=6
+    {4 \brace 4}=1.
+Thus:
+    |S_{4,1}| = n
+    |S_{4,2}| = 7n(n−1)
+    |S_{4,3}| = 6n(n−1)(n−2)
+    |S_{4,4}| = n(n−1)(n−2)(n−3).
+At n=2:
+    (2,14)
+    total 16.
+At n=3:
+    (3,42,36)
+    total 81.
+At n=4:
+    (4,84,144,24)
+    total 256.
+The transition 3→4 creates a new support-4 stratum of exactly 4!=24 tuples.
+Again:
+the new phenomenon is not “quaternary arity.”
+It is full-distinct quaternary support.
+F.7 The k=5 atlas
+For k=5:
+    {5 \brace 1}=1
+    {5 \brace 2}=15
+    {5 \brace 3}=25
+    {5 \brace 4}=10
+    {5 \brace 5}=1.
+At n=2:
+    strata = (2,30)
+    total 32.
+At n=3:
+    strata = (3,90,150)
+    total 243.
+At n=4:
+    strata = (4,180,600,240)
+    total 1024.
+At n=5:
+    a new support-5 stratum appears with
+    (5)_5 = 5! = 120
+    full-distinct tuples.
+This is the pure support-capacity event at five.
+It must not be confused with:
+— K₅ nonplanarity;
+— affine dependence in R³;
+— S₅ nonsolvability.
+All four facts can occur at index five in appropriately chosen families.
+Only one of them follows from the generic tuple-support theorem.
+F.8 Support polynomial
+Definition F.3 (Support polynomial).
+For carrier size n and arity k define
+    P_{n,k}(z)
+      =
+    Σ_{j=1}^{min(k,n)}
+      (n)_j {k \brace j} z^j.
+The coefficient of z^j counts tuples with exactly j distinct participants.
+Immediate checks:
+    P_{n,k}(1)=n^k.
+For k=2:
+    P_{n,2}(z)
+      =
+    nz + n(n−1)z².
+For k=3:
+    P_{n,3}(z)
+      =
+    nz
+      + 3n(n−1)z²
+      + n(n−1)(n−2)z³.
+The support polynomial is not required by the core theory.
+It is useful because it packages the collision profile of the entire tuple world.
+F.9 Random-tuple support
+Choose a tuple uniformly from X^k.
+Then:
+    Pr[s(x)=j]
+      =
+    (n)_j {k \brace j} / n^k.
+In particular, if n≥k:
+    Pr[full-distinct]
+      =
+    (n)_k / n^k.
+The probability of full diagonal is:
+    Pr[s(x)=1]
+      =
+    n / n^k
+      =
+    n^{1−k}.
+Thus repeated participants are not exceptional artifacts of notation. Their prevalence depends systematically on the ratio between carrier size and arity.
+F.10 Collision probability
+For k=2:
+    Pr[x₁=x₂] = 1/n.
+    Pr[x₁≠x₂] = (n−1)/n.
+For larger k, the probability of all coordinates being distinct is:
+    (n)_k / n^k
+when n≥k, and zero when n<k.
+Therefore:
+    Pr[at least one collision]
+      =
+    1 − (n)_k/n^k
+for n≥k, and 1 for n<k.
+This is the classical birthday-collision shape appearing inside the relation-birthday correction, an accident of terminology that Lemon Press declines to interpret metaphysically.
+F.11 Equality-pattern count
+The number of possible equality patterns among k coordinate positions is the Bell number B_k.
+The number with exactly j distinct support blocks is the Stirling number:
+    {k \brace j}.
+Thus there are three nested counting levels:
+1. exact labeled tuples:
+       n^k;
+2. equality patterns:
+       B_k;
+3. support sizes:
+       at most min(k,n) values.
+Each is a quotient of the richer level above.
+Exact tuple
+    ↓ forget carrier labels
+Equality partition
+    ↓ forget partition shape
+Number of blocks
+    =
+Support size.
+A claim valid at the bottom cannot generally be lifted back to the top.
+F.12 Coordinate permutation action
+The symmetric group S_k acts on X^k by permuting coordinate positions.
+This action preserves support size.
+It need not preserve:
+— orientation;
+— role semantics;
+— asymmetric relation membership;
+— path receipts.
+For a full-distinct tuple, the coordinate-permutation orbit has size k! when all positions are free and the tuple labels are distinct.
+For tuples with repeated coordinates, stabilizers become nontrivial and orbit sizes shrink.
+Thus repeated support changes symmetry as well as participant count.
+F.13 Relation support profile
+For arbitrary relation R⊆X^k, define the count vector:
+    c_j(R)
+      =
+    |R ∩ S_{k,j}(X)|.
+Then:
+    |R|
+      =
+    Σ_j c_j(R).
+Definition F.4 (Support profile).
+The support profile of R is
+    C(R)=(c_1,…,c_min(k,n)).
+The support spectrum Σ(R) records only which c_j are nonzero.
+The support profile records multiplicity as well.
+Examples.
+Equality relation on X²:
+    C(R)=(n,0).
+Disequality relation on X²:
+    C(R)=(0,n(n−1)).
+Universal binary relation X²:
+    C(R)=(n,n(n−1)).
+A graph with loops permitted has both support-1 and support-2 edge possibilities.
+A simple loopless graph occupies only the support-2 stratum.
+This single distinction resolves a large family of informal graph/relation confusions.
+F.14 Support-conditioned relations
+Definition F.5.
+A relation R⊆X^k is j-supported when every tuple in R has support size j.
+Equality on X² is 1-supported.
+Disequality on X² is 2-supported.
+A nondegenerate oriented triangle relation may be 3-supported.
+A relation is support-homogeneous when it is j-supported for some j.
+Otherwise it is support-mixed.
+Support homogeneity is independent of arity.
+F.15 Distinctness constraints as predicates
+Rather than treating distinctness as hidden prose, encode it.
+Define:
+    δ_k(x₁,…,x_k)
+      ⇔
+    ∀i≠j, x_i≠x_j.
+Then a “k-way all-distinct relation” is more accurately represented as:
+    R(x₁,…,x_k) ∧ δ_k(x₁,…,x_k).
+The carrier threshold n≥k comes from δ_k, not from arity k alone.
+This factorization should be preferred whenever the distinction matters.
+F.16 Weak and strong relation birth
+Definition F.6 (Weak birth).
+Weak birth occurs when a relation type admits any witness.
+Definition F.7 (Strong support-j birth).
+Strong support-j birth occurs at the minimum carrier size admitting a witness in support stratum j.
+For unconstrained X^k:
+    weak birth = 1
+for every k≥1 over nonempty carriers.
+But support-j birth is:
+    j.
+This statement is exact.
+It explains why informal intuition repeatedly associates:
+— 2 with binary distinctness,
+— 3 with ternary distinctness,
+— 4 with quaternary distinctness,
+without requiring the false statement that arity itself is born there.
+F.17 Birth vector
+Definition F.8 (Support-birth vector).
+For relation family R_n⊆X_n^k define:
+    β(R)
+      =
+    (b_1,b_2,…,b_k),
+where b_j is the least n at which R_n contains a support-j witness, or ∞ if none exists.
+For the universal relation X_n^k:
+    β=(1,2,…,k).
+For equality on X_n²:
+    β=(1,∞).
+For disequality on X_n²:
+    β=(∞,2).
+This vector strictly refines a single relation birthday.
+F.18 Support monotonicity
+A relation family may or may not be monotone under carrier enlargement.
+For the universal relation, support availability is monotone.
+For a constrained relation defined using arithmetic or geometry, enlarging the carrier may introduce or destroy properties depending on how the family itself changes.
+Therefore:
+    support capacity monotonicity
+    ≠
+    relation property monotonicity.
+The generic theorem controls only what tuples are available, not which ones the relation selects.
+F.19 The exact low-number theorem
+Theorem F.9.
+For fixed k and universal tuple worlds X_n^k with |X_n|=n, the transition n−1→n for 1<n≤k introduces the first tuples of support size n and introduces exactly
+    (n)_n {k \brace n}
+      =
+    n! {k \brace n}
+such tuples when the carrier grows from n−1 to n and the labels of the n-element world are fixed.
+Care is required:
+the entire tuple space also changes because old support strata gain additional labeled tuples involving the new carrier element.
+Thus “new stratum appears” is not the same as “only new tuples lie in the new stratum.”
+The Second Edition records both facts.
+F.20 Old-stratum growth under carrier enlargement
+Moving from n−1 to n increases the count in every support-j stratum with 1≤j≤min(k,n−1):
+    Δ_j
+      =
+    [(n)_j − (n−1)_j] {k \brace j}.
+So cardinal enlargement has two simultaneous effects:
+1. existing support strata gain new labeled realizations;
+2. when n≤k, a previously impossible support-n stratum appears.
+The second is qualitative support birth.
+The first is quantitative expansion.
+This is another non-collapse:
+    NEW STRATUM ≠ ONLY NEW CONTENT.
+F.21 Wolfram finite audit
+Wolfram computation verified the identity
+    Σ_j (n)_j {k \brace j}=n^k
+for every pair:
+    1≤n≤4,
+    1≤k≤5
+in the audit grid.
+Selected outputs:
+n=2,k=5:
+    strata {2,30}
+    total 32
+    expected 32.
+n=3,k=4:
+    strata {3,42,36}
+    total 81
+    expected 81.
+n=4,k=5:
+    strata {4,180,600,240}
+    total 1024
+    expected 1024.
+DGRAM SUPPORT-CALCULUS-001 · COMPUTED
+STRATA SUM TO WHOLE
+ARITY FIXED
+SUPPORT DISTRIBUTION CHANGES WITH CARRIER
+F.22 Why this matters outside the correction
+The support calculus gives a reusable language for:
+— database tuples with repeated entities;
+— hyperedges with or without repeated vertices;
+— tensor indices;
+— repeated arguments of predicates;
+— multi-agent interactions where one agent occupies multiple roles;
+— symbolic expressions with variable identification;
+— finite model theory;
+— occupancy problems;
+— collision analysis;
+— and any pipeline that quotients coordinate structure into “number of distinct things involved.”
+The Second Edition does not claim these domains require nuMathelology.
+It claims only that the same non-collapse appears naturally within them.
+Exercises
+F.1 Prove Theorem F.1 directly for k=3 without using Stirling notation.
+F.2 Compute P_{3,4}(z).
+F.3 Find the support profile of the relation x+y=z over a finite carrier of your choice.
+F.4 For k=5,n=3, verify the stratum counts by an independent enumeration.
+F.5 Compute the full-distinct probability for k=4,n=10.
+F.6 Construct two relations with identical support spectrum and different support profiles.
+F.7 Construct two relations with identical support profiles and different equality-pattern distributions.
+F.8 Determine β(R) for equality, disequality, and universal ternary relations.
+F.9 Show that coordinate permutations preserve support size.
+F.10 Give a target f
+________________
+or which equality pattern is sufficient but exact labels are unnecessary.
+APPENDIX G
+FIRST-EDITION CLAIM AUDIT
+G.1 Purpose
+This appendix cites the First Edition repeatedly because the Second Edition is not a replacement mythology. It is a revision.
+The question is not:
+“Was LP-NM-001 wrong?”
+The question is:
+“Which exact claims change after SUPPORT-SPLIT-001 is introduced?”
+G.2 First Edition, Editorial Note
+LP-NM-001 defined the book’s recurring question as:
+when quantity, carrier, decoder, or admissible relation changes, what becomes possible, necessary, impossible, distinguishable, or newly invisible?
+Second Edition disposition:
+RETAIN WITHOUT CHANGE.
+Reason:
+The arity/support correction is an instance of exactly this question. Carrier size changes which support strata become possible.
+G.3 First Edition, Preface
+LP-NM-001 argued that mathematical objects are routinely compared after information has been discarded and that representation sufficiency should be part of the mathematics.
+Second Edition disposition:
+RETAIN AND STRENGTHEN.
+New specimen:
+Mapping a tuple to support size is a legitimate projection.
+It is sufficient for participant-count questions.
+It is insufficient for coordinate-role questions.
+G.4 First Edition §1.1, Declared worlds
+LP-NM-001 defined W=(C,R,D,E).
+Second Edition disposition:
+RETAIN.
+New optional coordinate:
+support semantics may be included where relation claims depend on distinctness.
+No change to the core tuple is required because support can be carried inside R, D, or an additional coordinate as the question demands.
+G.5 First Edition §1.2, Mathals
+LP-NM-001:
+target equality does not determine crossing equality.
+Second Edition disposition:
+RETAIN WITHOUT CHANGE.
+New parallel:
+arity equality does not determine support equality.
+These are structurally analogous non-collapses but not the same theorem.
+G.6 First Edition §1.4, Equivalence lenses
+LP-NM-001:
+“same under which projection, and for which question?”
+Second Edition disposition:
+RETAIN WITHOUT CHANGE.
+The correction demonstrates its necessity.
+Two tuples may be:
+— arity-equivalent;
+— support-size-equivalent;
+— support-set-equivalent;
+— equality-pattern-equivalent;
+— coordinate-identical.
+These are different lenses.
+G.7 First Edition §2.1, Mathematics before number
+LP-NM-001 introduced DISTINGUISH, RELATE, VARY, COMPOSE, CONSTITUTE.
+Second Edition disposition:
+RETAIN.
+The support repair makes DISTINGUISH more concrete:
+one must distinguish coordinate positions from distinct carrier occupants.
+G.8 First Edition §2.2, Number as native dialect
+LP-NM-001:
+“A count presupposes some criterion of individuation.”
+Second Edition disposition:
+RETAIN AND ELEVATE.
+Arity counts slots.
+Support size counts distinct occupants.
+Both are valid.
+Their difference is a criterion-of-individuation difference.
+G.9 First Edition §2.3, Same n, different worlds
+LP-NM-001 compared ordinary binomial coefficients with Gaussian binomial coefficients.
+Second Edition disposition:
+RETAIN WITHOUT CHANGE.
+Wolfram reproduced:
+    1,40,130,40,1
+for the q=3,n=4 subspace counts.
+G.10 First Edition §3.1, Numathals
+LP-NM-001 defined numathals as mathals whose numerical parameter participates essentially in admissibility, typing, or consequence.
+Second Edition disposition:
+RETAIN.
+New specimen:
+ARITY-SUPPORT-LIFT-001 is a numathal because changing carrier cardinality changes attainable support size while arity remains fixed.
+G.11 First Edition §3.4, Five-field preview
+LP-NM-001 grouped K₄→K₅, affine R³, and S₄→S₅ as independent transitions at five and explicitly denied that coincidence proves common cause.
+Second Edition disposition:
+RETAIN WITHOUT CHANGE.
+Wolfram verification strengthened the finite receipts.
+G.12 First Edition §4.1, Minimum arity
+This is the principal revised section.
+LP-NM-001 correctly noted:
+“A binary relation requires at least two argument positions.”
+RETAIN.
+Potentially unsafe surrounding compression:
+“participants” could be read as distinct carrier elements.
+REVISE.
+Second Edition replacement:
+A binary relation has two coordinate positions.
+A binary tuple may have one or two distinct participants.
+A full-distinct binary witness requires at least two carrier elements.
+G.13 First Edition §4.1, relation birthday
+LP-NM-001 defined:
+    b_W(ρ)=min{n:ρ is admissible in Wₙ}.
+Second Edition disposition:
+RETAIN AS LEGACY ABBREVIATION.
+Refinement:
+    b_type
+    b_wit
+    b_≠.
+Reason:
+“admissible” can refer to schema, nonempty witness, or distinct-support witness depending on the family.
+G.14 First Edition §4.2, birth certificates
+LP-NM-001 used:
+    B(ρ)=(S,b,σ,t,Π).
+Second Edition disposition:
+EXPAND.
+New certificate:
+    (k,S,b_type,b_wit,b_≠,σ,t,Π).
+This is the most direct formal response to the nitpick.
+G.15 First Edition §4.3, pairwise surfaces
+LP-NM-001 used U₃,₃ versus U₂,₃ to prove that pairwise agreement does not determine ternary dependence.
+Second Edition disposition:
+RETAIN WITHOUT CHANGE.
+Indeed the repair clarifies the language:
+the distinction appears at support size three, while all support≤2 independence queries agree.
+G.16 First Edition §4.4, orientation
+LP-NM-001:
+support does not determine orientation.
+Second Edition disposition:
+RETAIN WITHOUT CHANGE.
+The Second Edition now has a more precise definition of support, making the claim cleaner.
+G.17 First Edition Chapter 5, thresholds
+Disposition:
+RETAIN.
+Additional rule:
+If a threshold is stated in terms of “number of participants,” the support semantics must be explicit.
+G.18 First Edition §5.2, K₅
+Disposition:
+RETAIN AND COMPUTATION-VERIFY.
+K₄ planar.
+K₅ nonplanar.
+K₅ edges 10.
+Planar capacity bound 9.
+No arity/support issue affects the proof.
+G.19 First Edition §5.3, affine capacity
+Disposition:
+RETAIN.
+The five points are distinct points by the ordinary meaning of a set of points.
+If repeated point listings were allowed as tuples, the statement would need corresponding tuple/set care.
+The theorem itself concerns a set and is safe.
+G.20 First Edition §5.4, symmetric groups
+Disposition:
+RETAIN.
+Wolfram|Alpha independently verified:
+S₄ solvable True;
+S₅ solvable False.
+G.21 First Edition Chapter 6, projection and loss
+Disposition:
+RETAIN AND EXPAND.
+New projection chain:
+exact tuple → equality pattern → support size → full-distinct Boolean.
+The entire Second Edition repair is now another worked example of projection loss.
+G.22 First Edition Chapter 7, path and receipt
+Disposition:
+RETAIN.
+New specimen:
+a coordinate permutation loop can preserve support at every step while retaining nontrivial path history.
+G.23 First Edition Chapter 8, carrier change
+Disposition:
+RETAIN AND STRENGTHEN.
+New theorem:
+carrier size can change attainable support spectrum without changing arity.
+This is a direct carrier-sensitive effect.
+G.24 First Edition §9.3, 3→4→5 corridor
+Disposition:
+REVISE LANGUAGE, RETAIN LABORATORY.
+The First Edition already warned:
+“This corridor should be treated as a laboratory, not a universal ladder.”
+Second Edition agrees.
+Correction:
+Whenever the corridor is explained using “participants,” replace the informal count with support capacity.
+The 3→4 and 4→5 classical examples remain valid in their own families.
+G.25 First Edition §9.4, 022100
+Disposition:
+RETAIN WITHOUT CHANGE.
+The example becomes even more central.
+The same printed string supports:
+— positional base-3 decoding;
+— boundary segmentation decoding.
+This remains an exact example of grammar-sensitive interpretation.
+G.26 First Edition Chapter 10, hostile controls
+Disposition:
+RETAIN AND APPLY TO THE BOOK ITSELF.
+The Second Edition is evidence that the First Edition’s methodology can turn against its own wording without destroying the project.
+This is desirable.
+G.27 First Edition Chapter 11, casebook
+Disposition:
+RETAIN AND ENLARGE.
+Added instruments exist because the first casebook lacked a dedicated arity/support splitter.
+G.28 First Edition Chapter 12, open problems
+Disposition:
+RETAIN AND ADD SUPPORT-SENSITIVE PROBLEMS.
+The strongest new seam is the partition lattice of equality patterns.
+G.29 First Edition closing statement
+LP-NM-001 closed by saying the mature subject would be measured by the quality of its refusals.
+Second Edition disposition:
+RETAIN AS CANONICAL.
+Added refusal:
+    arity ≠ distinct support.
+G.30 Audit verdict
+Substantive claims invalidated:
+none of the principal graph, matroid, braid, matrix, quotient, solvability, affine, or representation specimens.
+Claim narrowed:
+the informal relation-birth language around distinct participants.
+Definitions enlarged:
+relation birthday and birth certificate.
+Method strengthened:
+yes.
+Amount of apparatus generated by one tiny nitpick:
+unreasonable.
+Status:
+SECOND EDITION SUCCESS.
+DGRAM AUDIT-001
+FIRST EDITION CITED
+COUNTEREXAMPLE ADMITTED
+LOCAL CLAIM NARROWED
+GENERAL METHOD SURVIVED
+REFERENCES
+
+
+Diestel, Reinhard. Graph Theory. 5th ed. Springer, 2017.
+
+
+Mac Lane, Saunders. Categories for the Working Mathematician. 2nd ed. Springer, 1998.
+
+
+Oxley, James. Matroid Theory. 2nd ed. Oxford University Press, 2011.
+
+
+Stanley, Richard P. Enumerative Combinatorics, Volume 1. 2nd ed. Cambridge University Press, 2012.
+
+
+The Static Collective. nuMathelology: Number, Relation, and Structural Transition. 1st ed. Lemon Press, 2026. LP-NM-001.
+
+
+The Static Collective. “NuMatherology.” National Treasure thread, 2026.
+
+
+The Static Collective. “Pocket Web Hypermath — Mathals as Typed Links.” Research note, 2026.
+
+
+The Static Collective. “Mathematics Before Number — eCODE μ0 Constitutive Kernel.” Research note, 2026.
+
+
+The Static Collective. “Green Grammar — Relation Birth, Lawful Play, and BAND.” Research note, 2026.
+
+
+The Static Collective. “SSW-MATH-001 Design.” Executable finite specimen specification, 2026.
+
+
+The Static Collective. ALEX.2. Provenance-first research substrate, 2026.
+
+
+The Static Collective. 3rdi. Provenance-first projection organ, 2026.
+
+
+The Static Collective. LOADOUT. Minimal-world task and capability discipline, 2026.
+
+
+Wolfram Research. Wolfram Language computational verification session for LP-NM-002, 2026.
+
+
+Wolfram|Alpha. Symmetric-group solvability verification, 2026.
+
+
+
+
+INDEX OF TERMS
+
+
+ablative minimality — §10.4
+affine dependence — §5.4; App. B
+argument place — App. A; Glossary
+arity — Chapter 4; §9.2; Glossary
+arity-support lift — §11.14
+birth certificate — §4.8
+birthday, full-distinct — §4.7
+birthday, typed — §4.7
+birthday, witness — §4.7
+carrier — §§1.1, 8.1
+carrier rupture — §5.2; §11.10
+collision stratum — §4.4
+crossing shear — §11.9
+decoder — §§1.1, 8.4
+decoder lattice — §12.7
+diagonal — §4.3
+DIAGONAL-CHECK-001 — §11.7
+distinct support — Chapter 4
+Dogram receipt — throughout
+embarrassment protocol — §10.6
+equality pattern — §6.5; §12.4
+equivalence lens — §1.4
+five-field planar surplus — §5.3
+formation mathal — §11.13
+full-distinct locus — §4.3
+Gaussian binomial — §2.4; App. B
+hidden lift — §9.2.3
+HOLD-FIBER-001 — §11.3
+index coincidence class — §5.6
+K₅ — §§5.3, 9.2.4
+loss receipt — §6.7
+mathal — §1.2
+mathalology — Glossary
+mechanism-preserving comparison — §5.6
+minimum discriminator — §10.3
+non-collapse register — §1.3
+numathal — §3.1
+numathalology — Glossary
+nuMathelology — throughout
+numatherology — Glossary
+observation map — §6.1
+orientation signature — §4.10; §11.12
+participant — §4.6; App. A
+projection loss — Chapter 6
+pure braid — §7.2
+receipt — §§1.2, 7.5
+relation birth certificate — §4.8
+relation birthday — §4.7; Glossary
+return mathal — §7.1
+same endpoint problem — Chapter 7
+same state, different world — §6.2; §11.11
+sectioned quotient — §6.6; §11.1
+slot — §4.6; Glossary
+solvability — §5.5; App. B
+support — Chapter 4
+support capacity — §9.3
+support size — §4.2
+support spectrum — §4.5; §11.8
+SUPPORT-SPLIT-001 — §11.6
+target-relative sufficiency — §6.3
+threshold — §5.1
+transition coordinate vector — §3.2
+variation cube — §8.3
+whole-number grammar — Chapter 9
+Wolfram verification — App. D
+
+
+
+
+LEMON PRESS
+
+
+LP-NM-002 · SECOND EDITION
+REVISED AND ENLARGED
+
+
+Prepared for reference use.
+
+
+Definitions are local unless otherwise stated.
+
+
+The Second Edition respectfully acknowledges the First Edition’s most useful error:
+it was precise enough to be corrected precisely.
+
+
+DGRAM FINAL-002
+A NITPICK ENTERED
+A COORDINATE LEFT
+THE WORLD IS STRICTER NOW

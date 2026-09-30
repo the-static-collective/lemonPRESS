@@ -1,0 +1,21 @@
+release_id: "LP-LFL-002"
+surface: "crawler"
+projection_date: "2026-09-30"
+works:
+  - house_id: "LP-NM-002"
+    mode: "full-text-projection"
+    entrypoint: "numathelology-second/README.md"
+    text_source_carrier: "readable Google document"
+  - house_id: "LP-NNM-TM-002"
+    mode: "full-text-projection"
+    entrypoint: "nunumath-v0.2/README.md"
+    text_source_carrier: "DOCX readable projection"
+    paired_pdf_present: true
+    paired_carriers_asserted_identical: false
+  - house_id: "LP-NNM-101-001"
+    mode: "full-text-projection"
+    entrypoint: "nunumath-101/README.md"
+    text_source_carrier: "DOCX readable projection"
+    paired_pdf_present: true
+    paired_carriers_asserted_identical: false
+relation_map: "RELATIONS.md"
