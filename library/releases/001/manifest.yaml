@@ -1,0 +1,30 @@
+release_id: "LP-LFL-001"
+released_on: "2026-09-30"
+house: "lemonPRESS"
+state: "production-active"
+principles:
+  source_is_not_projection: true
+  relation_is_not_identity: true
+  registration_is_not_publication: true
+works:
+  - house_id: "LP-NM-001"
+    work_id: "lemonpress:numathelology"
+    title: "nuMATHELOLOGY"
+    subtitle: "Number, Relation, and Structural Transition"
+    source_kind: "finished first-edition book"
+    source_visibility: "held"
+    public_surfaces: ["crawler", "physical", "digital", "archive"]
+  - house_id: "LP-RD-001"
+    work_id: "lemonpress:the-road-drew-itself"
+    title: "THE ROAD DREW ITSELF"
+    subtitle: "Source Edition 001"
+    source_kind: "found-material composition from cited Git source bodies"
+    source_visibility: "held composition; cited corpus public where originating repositories are public"
+    public_surfaces: ["crawler", "physical", "digital", "archive"]
+  - house_id: "LP-CLUE-001"
+    work_id: "lemonpress:another-clue"
+    title: "and THAT... will lead to another clue..."
+    subtitle: "Source Edition 001 / Companion Reading Cut 001"
+    source_kind: "found-material composition from cited Git source bodies"
+    source_visibility: "held composition; cited corpus public where originating repositories are public"
+    public_surfaces: ["crawler", "physical", "digital", "archive"]
