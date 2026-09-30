@@ -1,0 +1,63 @@
+nuMATHELOLOGY
+FIRST EDITION
+LEMON PRESS MONOGRAPHS
+IN STRUCTURAL MATHEMATICS
+Volume I
+The series publishes compact treatments of mathematical structure, relation, representation, and transformation in which the declared carrier and the information preserved by a crossing are treated as first-class objects.
+nuMATHELOLOGY
+NUMBER, RELATION, AND STRUCTURAL TRANSITION
+A Reference Grammar for Mathals, Numathals, and Whole-Number Worlds
+THE STATIC COLLECTIVE
+LEMON PRESS
+  Publisher’s Cataloging Data
+nuMathelology: Number, Relation, and Structural Transition. First edition. Lemon Press Monographs in Structural Mathematics, Volume I.
+Subjects: discrete mathematics; graph structure; finite relational systems; matroidal dependence; equivalence and quotient structure; path-sensitive transformation; information loss; mathematical methodology.
+Preferred citation: The Static Collective. nuMathelology: Number, Relation, and Structural Transition. 1st ed. Lemon Press, 2026.
+Edition identifier: LP-NM-001. Repository and computation receipts are versioned independently of the print object. Definitions are local unless otherwise stated.
+ISBN: unassigned.
+First edition prepared 2026. Typeset for a 7 × 10 inch text block. Computational specimens reproduced from finite calculations and declared examples; source-level distinctions are retained where they affect the mathematical claim.
+  Editorial Note
+This volume develops a relation-first vocabulary for finite structural change. Its central object is the mathal: a typed, addressable mathematical crossing whose endpoint need not determine its path, receipt, or information history.
+The text distinguishes ordinary mathematical results from local definitions, finite computations, proposed formalisms, and interpretive generalizations. These distinctions are typographical rather than rhetorical. A theorem is proved in the declared setting. A computed specimen is finite and reproducible. A proposed grammar is a reusable hypothesis awaiting broader stress testing.
+The recurring methodological question is narrow: when quantity, carrier, decoder, or admissible relation changes, what becomes possible, necessary, impossible, distinguishable, or newly invisible? The answer is always relative to a declared world.
+Dogram receipt stamps appear where a finite specimen performs evidentiary work. They are deliberately terse. A receipt records the calculation or discriminator used; it does not enlarge the scope of the result.
+  Preface to the First Edition
+The first edition is organized around a simple practical difficulty. Mathematical objects are routinely compared after information has been discarded. A graph is reduced to a degree sequence; a path is replaced by its endpoint; a vector configuration is summarized by pairwise tests; a historical transformation is reported only by its final value. In each case the resulting representation may be sufficient for one question and insufficient for another.
+nuMathelology treats the sufficiency of such representations as part of the mathematics. The declared world, available relations, decoder, and retained receipt are therefore made explicit before a transition is interpreted. This makes it possible to discuss numerical thresholds without treating the integer alone as explanatory. The same change from four to five can mark nonplanarity in one world, forced affine dependence in another, and no significant event at all in a third.
+A second difficulty concerns composition. Two transformations may arrive at the same mathematical endpoint while differing in route, obstruction, refusal, orientation, or residual. When these differences matter to a later question, endpoint equality is not a complete description of the crossing. Mathals provide a compact notation for preserving that distinction.
+The resulting discipline is neither an alternative arithmetic nor a universal calculus. It is a reference grammar for asking which structural distinctions have been declared, which have been forgotten, and which changes are attributable to number rather than to an unannounced change of world.
+The book is intentionally finite in its examples. Small worlds are easier to audit. A useful grammar should survive exact counterexamples before it is permitted to explain large ones.
+  Contents
+Chapter 1  Declared Worlds and Mathals ······ [[PAGE:1]]
+Chapter 2  Mathematics Before Number ······ [[PAGE:2]]
+Chapter 3  Numathals and Cardinal Transition ······ [[PAGE:3]]
+Chapter 4  Relation Birth ······ [[PAGE:4]]
+Chapter 5  Thresholds, Obstructions, and Carrier Rupture ······ [[PAGE:5]]
+Chapter 6  Projection, Quotient, and Loss ······ [[PAGE:6]]
+Chapter 7  Path, Return, and Receipt ······ [[PAGE:7]]
+Chapter 8  Decoder Dependence and Carrier Change ······ [[PAGE:8]]
+Chapter 9  The Grammar of the Whole-Number World ······ [[PAGE:9]]
+Chapter 10  Experimental nuMathelology ······ [[PAGE:10]]
+Chapter 11  Casebook of Named Mathals ······ [[PAGE:11]]
+Chapter 12  Open Problems ······ [[PAGE:12]]
+Appendix A  Notation and Status Marks ······ [[PAGE:A]]
+Appendix B  Computation Receipts ······ [[PAGE:B]]
+Appendix C  Glossary ······ [[PAGE:C]]
+Appendix   References ······ [[PAGE:REFERENCES]]
+Appendix   Index of Terms ······ [[PAGE:INDEX_OF_TERMS]]
+  List of Tables and Finite Specimens
+Table 1.1 — Working taxonomy of the field
+Table 3.1 — Cardinal index versus declared world
+Table 5.1 — Independent threshold specimens at n = 5
+Table 6.1 — C6 and 2C3 under a coarse observation tuple
+Table 8.1 — Same matrix, different scalar carriers
+Table 9.1 — Whole-number transition vocabulary
+Table 10.1 — Status marks and promotion rules
+Dogram 055 — Pairwise surface preserved; triple dependence changed
+Dogram 056 — Support preserved; orientation sign changed
+Dogram SSW-001 — Same observation; different graph world
+Dogram F5-001 — Complete pair relation exceeds planar capacity by one
+  Notation and Typographical Conventions
+A mathematical claim in this volume is always read inside a declared setting. Symbols that appear identical in two chapters are not assumed to denote identical structures unless the carrier, relation class, and decoder agree.
+The notation A →ᵐ B denotes a mathal m from A to B. When the carrier is important it may be written A —m:τ→ B, where τ is the declared type. A world indexed by cardinality n is written Wₙ. A decoder or observation map is written D. A receipt is written Π when treated abstractly and R when represented as a concrete record.
+The symbol ≠ is used aggressively. In this text, a non-collapse statement is frequently more informative than a proposed identity.
