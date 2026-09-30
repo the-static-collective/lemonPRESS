@@ -1,0 +1,26 @@
+CHAPTER 6
+PROJECTION, QUOTIENT, AND LOSS
+6.1  Observation maps
+Definition 6.1 (Observation map). An observation map O: W → Y sends a world to the information available under a declared cut or decoder. Two worlds are observationally equivalent when they have the same image under O.
+An observation map can be mathematically exact and still insufficient for a later question. The distinction is between correctness of the summary and completeness relative to a target decision.
+6.2  Same state, different world
+Let G₁ be the six-cycle C₆ and G₂ the disjoint union C₃ ⊔ C₃ on six labeled vertices. Observe only the tuple consisting of vertex count, edge count, and sorted degree sequence.
+O(C₆) = O(C₃ ⊔ C₃)
+Lemma 6.2 (Re-expression cannot restore erased distinction). If O(W₁)=O(W₂), then for every deterministic function f defined on the observation space, f(O(W₁)) = f(O(W₂)). Therefore deterministic re-expression of O alone cannot identify which of W₁ or W₂ generated the observation.
+Proof. Equality is preserved by functions. ∎
+The minimum discriminator in this specimen is one additional Boolean graph predicate: connectivity. A failed candidate such as “all degrees even” remains true for both worlds and therefore adds no separating information.
+DGRAM SSW-001 · EXACT FINITE WITNESS · SAME (V,E,DEGREES) · CONNECTIVITY SEPARATES
+6.3  Target-relative sufficiency
+Definition 6.3 (Target-relative sufficiency). An observation O is sufficient for target question Q on a class of worlds if any two worlds with the same observation induce the same correct answer to Q.
+Sufficiency is therefore indexed by a target. The observation above is sufficient to answer “how many vertices?” and insufficient to answer “is the graph connected?” The same data product can be adequate and inadequate without contradiction.
+Corollary 6.4. Adding computation without adding observation cannot repair an information loss that identifies worlds requiring different answers to the target question.
+6.4  Quotient and section
+Many useful numerical outputs are obtained by quotienting a richer object and then selecting a representative, coordinate, or section. Write [x]ᴳ for the equivalence class of x under grammar G and D_F for a decoder associated with frame F. A common pattern is
+v = D_F([x]ᴳ).
+The scalar v may be perfectly meaningful while failing to identify x. The route from x to v contains at least three independent design choices: carrier X, equivalence grammar G, and frame or section F. Changing any one can alter the interpretation without changing the printed numeral.
+Definition 6.5 (Sectioned quotient mathal). A sectioned quotient mathal is a crossing X → [X]ᴳ → value_F in which both the quotient grammar and the final frame are addressable components of the receipt.
+Exercises
+6.1. Find two nonisomorphic graphs with the same number of vertices and edges but different degree sequences.
+6.2. For the C₆ versus C₃ ⊔ C₃ specimen, prove that no deterministic function of the coarse tuple can recover connectivity.
+6.3. Give an observation map that is sufficient for bipartiteness on a restricted graph class but insufficient on a larger class.
+6.4. Describe a familiar mathematical quotient whose elements admit many representatives. State one target question for which the representative matters and one for which it does not.
