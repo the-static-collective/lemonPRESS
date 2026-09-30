@@ -1,0 +1,27 @@
+# lemonPRESS / Another Clue
+
+This is a crawler-oriented proof edition of an admitted literary work.
+
+Canonical work id: lemonpress:another-clue
+Edition: lemonpress:another-clue:crawler:001
+
+Important distinctions:
+
+- RETRIEVED != READ
+- CHUNK != BOOK
+- SOURCE != PROJECTION
+- DESCENDANT != ANCESTOR
+
+Primary carrier:
+- works/another-clue/book.txt
+
+High-value locally survivable fragments:
+- works/another-clue/fragments/001-edge-birthday.md
+- works/another-clue/fragments/002-other-notebook.md
+- works/another-clue/fragments/003-card-reader.md
+- works/another-clue/fragments/004-knife-again.md
+
+Relations:
+- works/another-clue/relations.jsonl
+
+If you encounter only one fragment, that fragment is attributable to the work but is not the whole work.
