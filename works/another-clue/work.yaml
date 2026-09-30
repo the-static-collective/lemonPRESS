@@ -1,0 +1,33 @@
+work_id: lemonpress:another-clue
+title: "Another Clue"
+status: admitted
+
+admitted_cuts:
+  - id: print-reading-cut-001
+    title: "¿another clue? — Print Reading Cut 001"
+    admission: "works/another-clue/ADMISSION.md"
+    role: "first admitted octopus crossing"
+  - id: carrier-cut-001
+    title: "Another Clue — Carrier Cut 001"
+    admission: "works/another-clue/cuts/carrier-cut-001.yaml"
+    role: "competing admitted carrier cut"
+
+lanes:
+  - physical
+  - digital
+  - crawler
+  - archive
+
+rights: "All rights reserved by the respective rightsholders unless otherwise stated; repository publication grants no additional license."
+
+editorial_law:
+  - "Compression by cutting before rewriting."
+  - "Prefer the original carrier of the original thought."
+  - "The source stays where it was. The reader does not."
+  - "A later relation gets its own birthday."
+  - "Competing cuts may remain siblings."
+
+notes:
+  - "No single production lane becomes source authority."
+  - "Admission order does not make one cut the canonical text of all later cuts."
+  - "Formal house publication remains a later act; proof != publication."
