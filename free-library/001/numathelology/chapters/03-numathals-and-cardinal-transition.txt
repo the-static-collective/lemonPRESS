@@ -1,0 +1,22 @@
+CHAPTER 3
+NUMATHALS AND CARDINAL TRANSITION
+3.1  Numerically indexed crossings
+Definition 3.1 (Numathal). A numathal is a mathal for which a numerical parameter participates essentially in admissibility, typing, or consequence. A cardinal numathal is written Wₙ →ν Wₘ when the transition from n to m changes the available structure in the declared family.
+The definition is deliberately stricter than “a mathal containing a number.” Multiplying a coordinate by five is not automatically a cardinal numathal. By contrast, passing from complete graphs on four vertices to complete graphs on five vertices is cardinal because the size of the vertex set changes the relation capacity and the relevant obstruction.
+Definition 3.2 (Transition delta). For an invariant or property family I on worlds Wₙ, the transition delta at n→m is ΔI = I(Wₘ) − I(Wₙ) when subtraction is meaningful, and otherwise the ordered change record (I(Wₙ), I(Wₘ)).
+3.2  What may change when n changes
+The list shows why a whole-number grammar cannot be a lookup table assigning one universal event to each integer. The same n may support multiple unrelated thresholds. The research task is to classify mechanisms, not to force them into one mechanism.
+3.3  Local transition grammar
+Proposal 3.3 (Transition descriptor). For a family {Wₙ}, define a local transition descriptor Tₙ = (Aₙ, Oₙ, Lₙ, Dₙ, Πₙ), where A records newly admissible structures, O newly forced obstructions, L distinctions lost under the active decoder, D distinctions newly discriminable, and Π the receipts required to support those claims.
+This descriptor is not intended to be canonical. Its role is to make a recurring question explicit: at n→n+1, which changes belong to the family itself, and which arise because the analyst changed the rules while moving the index?
+Warning 3.4. A change in n and a change in world are independent coordinates. If both are altered simultaneously, the resulting effect cannot be attributed to cardinality without an additional control.
+3.4  A five-field preview
+Three classical facts will recur later. In simple planar graph theory K₄ is planar whereas K₅ is not. In affine geometry four points in R³ may be affinely independent whereas any five are dependent. In group theory S₄ is solvable whereas S₅ is not. Each transition occurs at five. The local mechanisms are different.
+K₅:  |E| = C(5,2) = 10,     planar maximum = 3·5 − 6 = 9
+The graph-theoretic surplus is exactly one edge relative to the planar capacity bound. The affine threshold is a dimension statement. The group-theoretic threshold is a solvability statement. Their numerical coincidence is a research smell, not a proof of common cause.
+DGRAM F5-001 · VERIFIED FINITE SPECIMEN · K5 EDGES 10 · PLANAR CAPACITY 9 · SURPLUS 1
+Exercises
+3.1. Give a cardinal numathal whose relevant threshold occurs at n = 3 and another at n = 6.
+3.2. Construct a case where n changes but the invariant of interest does not.
+3.3. Explain why comparing K₄→K₅ and S₄→S₅ does not by itself establish a common five-transition law.
+3.4. For complete bipartite graphs K_{m,n}, identify a small cardinal transition that changes planarity.
