@@ -1,0 +1,28 @@
+CHAPTER 5
+THRESHOLDS, OBSTRUCTIONS, AND CARRIER RUPTURE
+5.1  Threshold language
+Definition 5.1 (Threshold). A threshold for property P in a family {Wₙ} is an index n₀ at which the truth, admissibility, necessity, or obstruction status of P changes according to a declared rule.
+Definition 5.2 (Carrier rupture). A carrier rupture occurs at n₀ when preservation of a specified relation class across n₀ requires migration to a different admissible carrier or representation family.
+A threshold need not be monotone. A property may appear, disappear, and reappear. When monotonicity is absent, the word threshold is always accompanied by the precise change predicate.
+5.2  Planar capacity and K₅
+For a simple planar graph with n ≥ 3 vertices, Euler’s formula implies |E| ≤ 3n − 6. The complete graph K₅ contains ten edges. Since 10 > 9, K₅ is nonplanar. K₄ has six edges and admits a planar embedding.
+Proposition 5.3 (Five-field planar surplus). The complete pair relation on five vertices exceeds the maximal edge capacity of a simple planar graph on five vertices by exactly one.
+C(5,2) − (3·5 − 6) = 10 − 9 = 1
+The statement is exact and local. It does not say that “five” means obstruction. It says that within the family of complete pair relations carried by simple planar graphs, the fifth vertex pushes the complete edge set one relation beyond the planar upper bound.
+5.3  Affine capacity
+In Rᵈ, at most d+1 points can be affinely independent. Thus four points in R³ may form a tetrahedron with nonzero volume, but five points in R³ are necessarily affinely dependent. The threshold again occurs at five, but the mechanism is dimensional rank rather than planarity.
+Proposition 5.4. Every set of five points in R³ is affinely dependent.
+Proof. Translate one point to the origin and form four difference vectors in a three-dimensional vector space. Four vectors in R³ are linearly dependent. The corresponding affine dependence follows. ∎
+5.4  Solvability of symmetric groups
+The symmetric groups supply a third threshold. S₄ is solvable; S₅ is not. The transition is tied to the presence of the nonabelian simple alternating group A₅ as a composition factor. This mechanism is algebraic and cannot be inferred from the graph-theoretic or affine examples.
+Theorem 5.5. S₄ is solvable and S₅ is not solvable.
+The theorem is standard. Its role here is comparative: it establishes another independently generated structural transition at the same cardinal index.
+Methodological rule 5.6. Coincident threshold index ≠ common mechanism. A shared higher-level grammar must be formulated at a level that genuinely preserves all local proofs, then tested against controls where the index is the same but no analogous transition occurs.
+5.5  Threshold families
+Useful whole-number research therefore proceeds by families of transitions: birth thresholds, capacity thresholds, obstruction thresholds, saturation thresholds, symmetry thresholds, factorization thresholds, and decoder thresholds. A number may host several transition families at once. The classification object is the transition mechanism, not the integer in isolation.
+Exercises
+5.1. Derive the planar edge bound |E| ≤ 3n − 6 from Euler’s formula for a simple connected planar graph with n ≥ 3.
+5.2. Find a declared family in which the transition 4→5 produces no qualitative change. Use it as a control for the five-field examples.
+5.3. For Rᵈ, state the affine-dependence threshold as a function of d.
+5.4. Explain why the nonsolvability of S₅ is not a consequence of K₅ nonplanarity even though both transitions occur at five.
+5.5. Propose a precise definition of saturation threshold for a family of finite relational structures.
