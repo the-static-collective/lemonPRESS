@@ -1,0 +1,25 @@
+CHAPTER 9
+THE GRAMMAR OF THE WHOLE-NUMBER WORLD
+9.1  Grammar rather than assignment
+A whole-number grammar is a catalog of structural transition types indexed by changes in finite quantity. It asks what new relations become admissible, what capacities saturate, which obstructions become unavoidable, and what distinctions become visible or disappear under declared decoders.
+Definition 9.1 (Whole-number grammar). For a family of declared worlds {Wₙ}, a whole-number grammar is a typed collection of transition statements concerning Wₙ→Wₙ₊₁ together with their mechanisms, proofs or receipts, and admissible comparison lenses.
+The same transition name may appear at different n in different worlds, and the same n may host several transition names. The grammar is therefore many-to-many.
+9.2  Transition vocabulary
+9.3  The 3→4→5 corridor
+The corridor from three to five is especially useful because small classical structures are visually and algebraically tractable. Three supports a first nondegenerate triangle and a first genuinely ternary relation. Four supports the tetrahedron, K₄, and several closure phenomena that still admit surprisingly low-dimensional or planar projections. Five is the first point at which several independent capacity statements fail in familiar families.
+This corridor should be treated as a laboratory, not a universal ladder. In some worlds the decisive threshold is 2, 6, 7, or an unbounded function of another parameter. A serious whole-number grammar grows by collecting mechanisms and countermechanisms rather than privileging one corridor.
+Observation 9.2 (Hidden lift). A structural lift may occur in a fine carrier while a coarse relational projection remains in the same apparent class. K₄ provides a compact example: the tetrahedron is three-dimensional, while its complete relation graph remains planar.
+At K₅ the complete pair graph can no longer preserve planarity. In the language of the grammar, the earlier hidden lift becomes a disclosed carrier obstruction under the chosen pair-relation projection.
+9.4  Representation and segmentation
+Whole-number structure also appears in representation choices. The six-digit string 022100, interpreted in base three, denotes 225 in base ten. If the same six positions are treated instead as a sequence available for contiguous segmentation, there are 2⁵ = 32 possible segmentations because each of the five gaps may be cut or retained independently.
+022100₃ = 225₁₀,        contiguous segmentations of six positions = 2⁵ = 32
+The two facts concern the same printed carrier but different grammars. One decoder interprets digits positionally; another treats boundaries as binary decisions. The specimen is intentionally small: representation choice can create a large structural delta without altering the visible string.
+DGRAM REP-022100 · COMPUTED · BASE-3 VALUE 225 · SIX-POSITION SEGMENTATIONS 32
+9.5  Candidate grammar table
+Warning 9.3. The candidate table is a research index, not an exhaustive theorem. Any row may fail in a declared world where its mechanism is absent.
+Exercises
+9.1. Find a natural mathematical relation whose birthday is 4.
+9.2. Give an example of hidden lift: fine structure changes while a chosen coarse observation does not.
+9.3. For a seven-symbol string, compute the number of contiguous segmentations.
+9.4. Build a control world for one row of the candidate grammar table in which the named transition does not occur.
+9.5. Propose a transition name not listed in Table 9.1 and support it with two unrelated mathematical examples.
