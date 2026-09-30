@@ -1,0 +1,350 @@
+NUNUMATH PAPERS IN PRIMITIVE MATHELOLOGY
+TECHNICAL MEMORANDUM 0.2
+nunuMath
+Primitive Corrections to First-Generation Mathelology
+thestaticcollective
+LEMON PRESS  ·  2026
+“Everything else must earn its arrow.”
+Citation Convention
+Throughout this memorandum, NM1 refers to The Static Collective, nuMathelology: Number, Relation, and Structural Transition, 1st ed., Lemon Press, 2026. Section citations such as NM1 §7.4 identify the exact first-edition pressure being retained, narrowed, or corrected. The frequency of citation is intentional: v0.2 claims continuity by argument, not by naming convention.
+Abstract
+First-generation nuMathelology correctly makes declared worlds, mathals, decoders, receipts, relation birthdays, and target-relative sufficiency mathematically addressable. Its central non-collapse—same endpoint does not entail same path or trace—remains intact (NM1 §§1.2–1.4). The present memorandum argues, however, that the First Edition begins one level too late. A mathal presupposes a prior distinction between what is admitted, what remains proposed, and what relation is asserted among addressable particulars. This note therefore introduces a smaller primitive role system F/I/R—fact, idea, relation—and recovers mathals as derived, receipt-bearing transitions between FIR-typed worlds. Receipt minimality is sharpened using NM1 §§7.4, 10.4, and 12.4; relation-before-object is narrowed using NM1 §2.4; decoder dependence is retained from NM1 §8 and §12.5; and the numathal program of NM1 §§3, 5, and 9 is extended to second-order relations among numathals, provisionally termed nunumathals. The correction changes little downstream. That is evidence in its favor.
+Notice of Deviation
+1. Statement of Correction
+NM1 defines a mathal as a typed, addressable relation or transformation whose source, target, admissibility conditions, and receipt semantics are declared [1, §1.2]. That definition is deliberately permissive, and NM1 itself later identifies “minimal mathal axioms” as an open problem [1, §12.2]. v0.2 accepts the diagnosis and moves the repair upstream.
+Before the expression A →ᵐ B can be interpreted, a system must already distinguish at least three roles: what is presently admitted, what is merely available for consideration, and what typed relation is being asserted. NM1 supplies these distinctions indirectly through status marks, declared worlds, constitutive crossings, and receipt discipline [1, Editorial Note; §§1.1, 2.1, 10.1]. The machinery works. The primitive floor is merely stated too late.
+FIRST GENERATION:  WORLD → MATHAL → RECEIPT
+v0.2:  (F, I, R) → WORLD → MATHAL → RECEIPT
+Correction 1.1 (Primitive priority). Mathal is retained as a central derived object but is no longer primitive. A world capable of supporting a mathal must already distinguish admission, proposal, and typed relation.
+Continuity note. This correction preserves NM1 Principle 1.2 (smallest sufficient world) and its standing refusal to infer path identity from endpoint identity [1, §§1.1–1.4].
+2. Primitive Roles
+Let U be a universe of addressable mathematical content. Elements of U may be propositions, constructions, representations, computed values, relation-descriptions, conjectures, or other particulars. nunuMath initially classifies these not by metaphysical species but by their role in the declared world. This follows the localism already explicit in NM1: definitions are local unless otherwise stated [1, Publisher’s Cataloging Data; Appendix A].
+2.1 Fact
+Definition 2.1 (Fact). A fact is an addressable particular admitted into the current mathematical world under declared conditions. Write F_W(x)=1 when x is presently admitted in W.
+F_W(x)=1
+Admission is local. It may be earned by proof, computation, stipulated axiom, supplied datum, or another declared mechanism. The warrant belongs in the receipt. Thus “fact” does not mean metaphysically universal truth; it means admitted mathematical content in the present world. This is the primitive counterpart of NM1’s status discipline [1, §10.1].
+2.2 Idea
+Definition 2.2 (Idea). An idea is an addressable proposal available to the current mathematical world without admission as fact. Write I_W(x)=1 when x may participate in lawful work while remaining unadmitted.
+I(x) ⇏ F(x)      and      ¬F(x) ⇏ ¬I(x)
+This role preserves conjecture, counterexample search, proposed relation, underdetermined construction, and deliberately retained failed hypothesis without forcing them into the factual register. The distinction sharpens NM1’s constitutive kernel, where proposed variation and constituted history are already separated [1, §2.1].
+2.3 Relation
+Definition 2.3 (Relation). A relation is a typed participation structure among one or more addressable particulars. Write R_W(x₁,…,xₖ; τ) for a relation of declared type τ in W.
+R(x,y) ⇏ F(x)      R(x,y) ⇏ F(y)      F(x)∧F(y) ⇏ R(x,y)
+A relation therefore inherits neither truth, causation, ancestry, equivalence, nor authority merely from connecting its participants. NM1 repeatedly enforces this kind of non-collapse—carrier ≠ decoder, coincident threshold ≠ common mechanism, projection ≠ whole [1, §§4.3–4.4, 5.6, 8.4]. v0.2 places the same discipline at the primitive floor.
+3. Role Is Not Substance
+The F/I/R triad fails immediately if treated as three ontological species. A relation may itself become the subject of a factual statement; an idea may concern a relation; facts may concern ideas. The primitives are therefore roles borne by addressable content, not mutually exclusive substances.
+r = R(a,b;τ)
+F(⌜r⌝)=1      or      I(⌜r⌝)=1
+Principle 3.1 (Role separation). Relation ≠ fact about relation ≠ idea of relation. Reification creates a new addressable particular without retroactively changing the relation into a different primitive kind.
+This is the narrower form of the “relation before object” pressure in NM1 §2.4. The First Edition correctly observes that a constituted relation may later be treated as an object in a higher-level construction [1, §2.4]. v0.2 rejects only the broad slogan when it is read ontologically. What precedes the higher-order object is the relation’s reification, not necessarily every object whatsoever.
+4. The First Non-Collapse
+F ≠ I ≠ R
+The displayed line is mnemonic. The operative rule is stronger: no role may be silently inferred from another role. An admitted endpoint does not admit its generating relation; two admitted particulars do not generate an unstated relation; a proposed relation does not become factual by being useful.
+I(x) ⇏ F(x)
+F(x) ∧ F(y) ⇏ R(x,y;τ)
+R(x,y;τ₁) ⇏ R(x,y;τ₂)
+This is the primitive analogue of NM1’s insistence on named equivalence lenses [1, §1.4]. “The same” is incomplete without a declared lens; likewise “related” is incomplete without a declared relation type.
+5. Mathelization
+Definition 5.1 (Mathelization). Mathelization is the act of bringing an addressable particular into a declared F/I/R-world with an explicit role. Write μ_W(x) for the mathelization of x into W.
+A mathelization must specify at minimum whether the entering particular is admitted as F, retained as I, or participates in a typed R. Untyped admission is import, not mathelization.
+5.1 Elementary specimen
+Take the statement “K₅ is nonplanar.” In a world adopting standard finite graph theory, it may enter as F(K₅ is nonplanar). NM1 proves the local planar surplus exactly: K₅ has ten edges while the simple planar bound at n=5 is nine [1, §§3.4, 5.2; Appendix B.1].
+F(K₅ is nonplanar)
+Now take “five is a universal rupture number.” That may enter only as an idea:
+I(5 is a universal rupture number)
+The world may also admit a typed relation among the K₅, affine-dependence, and S₅ threshold specimens under the descriptor “shared transition index,” while refusing “common causal mechanism.” This is exactly the caution enforced by NM1 Methodological Rule 5.6 [1, §5.4].
+6. Primitive Crossings
+Once F, I, and R exist, several familiar transitions can be typed without introducing additional primitives. The crossings below recover distinctions already scattered through NM1’s constitutive kernel, receipt discipline, and experimental method [1, §§2.1, 7.4, 10].
+6.1 Admission
+I(x) → F(x)
+Admission promotes an available proposal into the admitted register. Proof, computation, declaration, or measurement may perform admission under different world types. Equal role change does not imply equal warrant. The receipt preserves the mechanism, extending NM1’s status marks into transition structure [1, Editorial Note; §10.1].
+6.2 Reopening
+F(x) → I(x)
+Reopening suspends present admission without deleting historical admission. A changed axiom set, failed assumption, revised source, or newly exposed contradiction may reopen x. This is the primitive version of NM1’s insistence that changed state not rewrite event trace [1, §2.1, Construction 2.2].
+6.3 Relation birth
+(x₁,…,xₖ) → R(x₁,…,xₖ;τ)
+Relation birth retains NM1’s minimum-arity machinery [1, §4.1]. Its birthday b_W(ρ) remains the least n at which ρ is admissible in the declared family. v0.2 adds only the role-typing of the participants and of the relation claim.
+6.4 Inference generation
+R → I
+A relation may make a new idea available. The arrow deliberately stops at I. Inference is not admission. The omitted I→F crossing is where proof, computation, or another declared warrant must enter.
+6.5 Relational admission
+I(⌜r⌝) → F(⌜r⌝)
+A relation-description may itself move from proposed to admitted status. The relation does not become its endpoints; the admission concerns the addressable proposition that the relation holds.
+7. Mathals Recovered
+NM1 §1.2 defines the mathal as a typed, addressable crossing and NM1 §1.4 distinguishes endpoint, path, and trace equivalence. Those results are retained. The correction is a retyping of the ambient world.
+W_t = (F_t, I_t, R_t)
+Definition 7.1 (Derived mathal). A mathal is a typed, attributable transition m:W_t→W_{t+1} for which the changed FIR-structure and the conditions of transition are addressable.
+(F,I,R)_t  —m→  (F,I,R)_{t+1}
+A mathal may alter admission, proposal availability, relation structure, relation type, decoder, carrier, or a declared combination. Two transformations arriving at the same printed endpoint can therefore differ in their FIR-delta even before richer path information is inspected.
+Definition 7.2 (FIR-delta). For a mathal m, Δ_FIR(m) is the ordered change record (ΔF, ΔI, ΔR), augmented by carrier or decoder changes when those coordinates are active.
+Δ_FIR(m) = (ΔF, ΔI, ΔR)
+This gives v0.2 an immediate answer to NM1 Problem 12.2: not a complete minimal axiom system, but a discrimination surface. A candidate crossing that cannot state what changed in F, I, R, carrier, decoder, or retained receipt may still be a useful transformation; it is not yet an earned mathal.
+8. Receipt Sufficiency
+NM1 correctly treats receipts as open options for future questions and explicitly rejects the requirement to preserve every path [1, §§7.4–7.5]. It later asks for minimum receipt complexity relative to a class of future targets [1, §12.4]. v0.2 promotes that open problem into the normative formulation of receipt discipline.
+Definition 8.1 (Query-relative sufficient receipt). Let Q be a declared family of admissible future questions and T(m) the complete trace of crossing m. A receipt P is Q-sufficient if every q∈Q gives the same answer from P as from T(m).
+∀q∈Q,   q(P)=q(T(m))
+Definition 8.2 (Receipt-minimality). A Q-minimal receipt P*_Q(m) is a least-cost Q-sufficient receipt under a declared cost measure.
+P*_Q(m) = arg min_P cost(P)   subject to   ∀q∈Q, q(P)=q(T(m))
+The mature rule is therefore not the unrestricted slogan “keep the receipt,” although NM1 uses that phrase productively in its experimental method [1, §10.5]. The sharper statement is: preserve the smallest attributable receipt sufficient for the declared future.
+9. Numathals
+NM1 §3.1 defines a numathal as a mathal for which a numerical parameter participates essentially in admissibility, typing, or consequence. That definition survives almost unchanged once mathal is derived rather than primitive.
+Definition 9.1 (Numathal). A numathal is a derived mathal for which numerical quantity participates essentially in the admissibility or form of the FIR-delta.
+η_n : W_n → W_{n+1}
+The number remains an index of a declared world transition rather than an automatic cause. This retains NM1’s central discipline: coincident threshold index ≠ common mechanism [1, §5.4, Methodological Rule 5.6].
+10. Nunumathals
+Once numathals are themselves addressable mathematical objects, relations among them become possible. NM1 already anticipates this move in its relational-promotion discussion [1, §2.4] and in its open problem asking which transition types recur across unrelated families after local mechanisms are preserved [1, §12.1]. v0.2 names the second-order object.
+Definition 10.1 (Nunumathal). A nunumathal is a typed relation or derived crossing whose relevant participants are themselves numathals.
+𝔑(η₁,…,ηₖ;τ)
+A shared integer does not suffice. If η_A and η_B both cross 4→5, the relation “same transition index” may be admitted while “same mechanism” remains merely proposed. This repeats NM1’s five-field warning at a higher descriptive level [1, §§3.4, 5.5, 9.1].
+Protocol 10.2 (Numeral-removal control). For a candidate nunumathal, remove the common numeral labels and ask whether the proposed higher-order relation remains expressible. If the relation disappears, the candidate likely confused index with mechanism.
+HOSTILE CONTROL: REMOVE THE NUMERAL
+This test is intentionally severe. A genuine nunumathal should survive as a relation among transition structures, not merely among printed numbers.
+11. Five-Field Reanalysis
+NM1 gathers three established 4→5 transitions: K₅ crosses planar capacity; five points in R³ force affine dependence; S₅ is not solvable while S₄ is [1, §§3.4, 5.2–5.4; Appendix B.1, B.7, B.8]. The First Edition correctly refuses to infer a common mechanism from the shared index [1, §5.4].
+The admissible second-order relation is therefore R(η_P,η_A,η_S; shared transition index). A candidate relation typed “common causal mechanism” remains I until an invariant is specified that survives local proofs and hostile controls. The shared birthday is not a shared parent.
+COINCIDENT BIRTHDAY ≠ COMMON PARENT
+12. Primitive Minimality
+NM1 Principle 10.3 proposes ablative minimality: a primitive earns its place when deleting it makes an intended distinction unstatable or false [1, §10.4]. v0.2 subjects its own F/I/R floor to that test.
+12.1 Delete F
+Without F, the system cannot distinguish admitted content from proposal. Proof conclusion and conjecture occupy the same role unless admission is smuggled into another primitive.
+12.2 Delete I
+Without I, unresolved possibilities must either disappear or masquerade as facts. Counterexample search, conjecture, proposed relation, and suspended admission lose a stable address.
+12.3 Delete R
+Without R, participation structure must be encoded inside particulars. Composition, derivation, equivalence, adjacency, dependence, ancestry, and opposition are not eliminated; they are hidden in the object language.
+Problem 12.4 (Triad minimality). Determine whether any two of F, I, R can reconstruct the third without implicitly importing the missing primitive. A successful reconstruction defeats the proposed floor; failure strengthens it.
+The status is therefore candidate minimality, not theorem. v0.2 adopts NM1’s own methodological preference: promotion under attack, not immunity by vocabulary [1, §§10.2–10.4].
+13. Relation Before Object, Narrowed
+NM1 §2.4 introduces relational promotion and says that some objects are stabilized relations from a previous level. The useful content survives, but the phrase “relation before object” is too broad when detached from that context.
+Correction 13.1 (Reification form). A relation may precede its own reification as an addressable higher-order particular.
+R(a,b,c;τ) → x_R = ⌜R(a,b,c;τ)⌝ → R(x_R,d;σ)
+The correction is smaller and stronger. It says nothing about whether relation is ontologically prior to all objects. It states only the compositional fact required by the mathematics: a relation can be constituted, reified, and then participate as a particular in a higher relation. This retains NM1 Definition 2.5 while removing unnecessary metaphysical surface area [1, §2.4].
+14. Decoder Dependence and Birthday Motion
+NM1 separates carrier from decoder [1, §8.4], defines observation maps and target-relative sufficiency [1, §§6.1–6.3], and proposes decoder lattices as an open problem [1, §12.5]. v0.2 adopts all three and asks how FIR roles move under refinement.
+D : W → D(W)
+Two decoders may expose the same admitted particulars but different relation structure:
+F_{D₁}=F_{D₂}   ⇏   R_{D₁}=R_{D₂}
+Likewise, a relation birthday may be decoder-relative. Let b_D(ρ) denote the least n at which ρ becomes available under D. Then b_{D₁}(ρ) and b_{D₂}(ρ) may differ without contradiction when one decoder distinguishes structure that the other quotients away.
+D ↦ b_D(ρ)
+The research object is therefore not only the birthday, but its motion under decoder refinement. This is a direct v0.2 continuation of NM1 Problem 12.5 rather than a replacement for it [1, §12.5].
+15. Same State, Different World Re-typed
+NM1’s standard SSW specimen compares C₆ with C₃⊔C₃ under the observation tuple (vertex count, edge count, degree sequence). The observations are equal while connectivity differs [1, §6.2; Appendix B.4]. NM1 proves that no deterministic re-expression of the coarse observation can recover the erased distinction [1, Lemma 6.2].
+O(C₆)=O(C₃⊔C₃)
+In v0.2 terms, a coarse decoder may induce equal admitted observation facts while the underlying relation worlds differ:
+F_O(W₁)=F_O(W₂)   ⇏   R(W₁)=R(W₂)
+The additional connectivity predicate is not “more clever computation.” It is a new observation that changes the available relation discrimination. This preserves NM1 Corollary 6.4 exactly [1, §6.3].
+16. Path, Return, and FIR History
+NM1’s return mathal and pure-braid witness establish that endpoint closure does not imply receipt triviality [1, §§7.1–7.3]. v0.2 does not weaken that result. It locates one reason the history matters: a closed endpoint can leave a nonzero delta in proposal or relation structure even when the admitted body returns.
+endpoint closes   ⇏   Δ_FIR = 0   ⇏   receipt trivial
+For example, a failed proposal may leave F unchanged while expanding I or altering R through a newly discovered obstruction. This is already implicit in NM1’s refused-crossing construction [1, §2.1] and its deferred-discriminator principle [1, §7.3]. v0.2 makes the role changes inspectable at the same level as endpoint closure.
+17. Casebook Admission
+NM1 Chapter 11 treats named mathals as addresses rather than automatic theorems and explicitly warns that a casebook entry must not silently enlarge its scope [1, §11.11]. Grotesquely, v0.2 must become stricter still.
+Protocol 17.1 (Named-mathal admission). A proposed named mathal begins in I. It may be promoted only after (a) a repeatable input/output or relation signature is stated, (b) at least two nontrivial specimens instantiate it, (c) a near-miss or refusal boundary is known, and (d) the name compresses more explanation than its receipt reintroduces.
+I(N) →[reuse + discrimination] F(“N is useful terminology”)
+This rule operationalizes NM1’s own exercise instruction that a new name should “compress a repeatable operation” [1, Exercise 11.4]. Typography is not admission. An identifier ending in -001 is not a proof obligation discharged.
+18. Points of Departure from NM1
+The table matters because v0.2 is not a competing vocabulary. It is a correction document. Its strongest claim is that most of NM1 survives after the primitive floor is changed.
+19. Minimal Program for v0.3
+The following program is inherited from NM1’s hostile-control method rather than invented as an expansion agenda [1, §10.2]. Each problem is designed to destroy v0.2 if the proposed floor is unnecessary.
+Problem 19.1 (Primitive minimality). Construct F from I and R, or identify the admission primitive smuggled into the construction.
+Problem 19.2 (Idea elimination). Determine whether a sufficiently rich modal relation can replace I without loss.
+Problem 19.3 (Relation elimination). Encode every relation into structured particulars and test whether R has merely been hidden inside the object language.
+Problem 19.4 (Mathal refusal). Construct transitions satisfying NM1 Definition 1.3 that produce no meaningful FIR, carrier, decoder, or receipt delta.
+Problem 19.5 (Receipt minimality). For a finite target family Q, compute the least sufficient receipt and compare it with the full trace.
+Problem 19.6 (Decoder preorder). Order decoders by informational refinement and measure birthday/obstruction motion.
+Problem 19.7 (Nunumathal falsification). Harvest same-number transitions, remove numeral labels, and retain only higher-order relations that survive.
+Problem 19.8 (Casebook purge). Apply Protocol 17.1 to NM1 Chapter 11. Demotion is an acceptable result.
+20. Closing Statement
+NM1 closes by saying that the mature form of the subject will be measured by the quality of its refusals [1, §12.7]. v0.2 accepts that criterion and applies it to the First Edition itself.
+The purpose of a primitive floor is not to explain everything. It is to make illegal moves visible. The proposed floor is deliberately small:
+FACT        IDEA        RELATION
+What is admitted. What is available but unadmitted. What connects.
+From these, worlds may change. From changing worlds, mathals may be derived. From numerically indexed changes, numathals may be studied. From typed relations among numathals, nunumathals may occasionally survive embarrassment.
+The resulting program differs only slightly from first-generation nuMathelology. It differs at the floor. That is where small deviations are expensive.
+The earlier work was correct to insist that transformations retain enough structure to remain attributable [1, §§1.2–1.4, 6–8]. It was correct to make number an index rather than an occult cause [1, §§3, 5, 9]. It was correct to subject its own proposals to hostile controls [1, §10]. It was correct to leave minimal mathal axioms, receipt complexity, and decoder lattices open [1, §§12.2, 12.4–12.5].
+It was incomplete only in treating the crossing as the first thing requiring formal attention.
+F        I        R
+Before a thing may cross, there must already be something admitted, something possible, or something related.
+Mathelology therefore begins one line earlier than previously stated.
+Everything else must earn its arrow.
+References
+[1] The Static Collective. nuMathelology: Number, Relation, and Structural Transition: A Reference Grammar for Mathals, Numathals, and Whole-Number Worlds. 1st ed. Lemon Press Monographs in Structural Mathematics, Vol. I. Lemon Press, 2026. Edition identifier LP-NM-001.
+[2] thestaticcollective. nunuMath: Primitive Corrections to First-Generation Mathelology. Technical Memorandum 0.2. nunuMath Papers in Primitive Mathelology. Lemon Press, 2026. [This document.]
+Citation Concordance to NM1
+This concordance is supplied because v0.2 is intentionally revisionary. It identifies the First Edition locations carrying the principal inherited structures.
+thestaticcollective  ·  nunuMath v0.2  ·  Definitions are local unless otherwise stated.
+SERIES
+nunuMath Papers in Primitive Mathelology
+DOCUMENT
+Technical Memorandum 0.2
+PRIMARY AUTHORITY
+The Static Collective, nuMathelology, 1st ed. (Lemon Press, 2026), cited as NM1
+SCOPE
+Foundational correction; primitive typing; derived mathal formalism
+STATUS
+PROPOSAL / revision candidate / hostile-test target
+The error of first-generation nuMathelology is not that it preserves too many distinctions. It is that it begins after the first distinction has already been made.
+Accordingly, v0.2 does not reject NM1. It retypes its floor. The change is constitutional rather than adversarial: mathal, numathal, decoder, carrier, receipt, relation birthday, and whole-number grammar are retained unless explicitly narrowed below.
+FIR RECEIPT 5-A
+FIR RECEIPT 5-A
+SOURCE
+NM1 §§3.4, 5.2–5.4
+FACT
+three independent transitions occur at index 5
+IDEA
+a common higher-order mechanism may exist
+RELATION
+shared transition index
+REFUSAL
+shared index does not admit common cause
+STATUS
+FINITE / STANDARD / PROPOSAL SEPARATED
+FIR RECEIPT 8-A
+FIR RECEIPT 8-A
+NM1 PRESSURE
+§7.4 receipts as open options; §12.4 minimum receipt
+v0.2 CORRECTION
+receipt sufficiency is query-indexed
+FORBIDDEN COLLAPSE
+minimal receipt ≠ minimal storage in the abstract
+STATUS
+PROPOSAL / FINITE TESTABLE
+Specimen
+Numathal
+Local mechanism
+v0.2 role
+K₄→K₅
+η_P
+planar edge-capacity obstruction
+F: local theorem; R: shared index
+4→5 points in R³
+η_A
+dimension / affine-rank bound
+F: local theorem; R: shared index
+S₄→S₅
+η_S
+appearance of A₅ composition factor
+F: standard theorem; R: shared index
+FIR RECEIPT 15-A
+FIR RECEIPT 15-A
+SPECIMEN
+C₆ vs C₃⊔C₃
+NM1 AUTHORITY
+§§6.2–6.3; Appendix B.4
+COARSE F
+same V, E, degree sequence
+UNDERLYING R
+connectivity differs
+MINIMUM DISCRIMINATOR
+connected(G)
+STATUS
+EXACT FINITE WITNESS
+NM1 location
+First-edition pressure
+v0.2 correction
+Disposition
+§1.2
+Mathal as broad typed crossing
+Mathal derived over FIR roles
+RETAIN / DEMOTE
+§2.1
+Proposal vs constituted history
+Encode admission/proposal as primitive roles
+RETAIN / SHARPEN
+§2.4
+Relation before object
+Relation may precede its reification
+NARROW
+§4.1
+Relation birthday
+Retain; type the relation claim in FIR
+RETAIN
+§5.6
+Coincident index ≠ common mechanism
+Use as nunumathal hostile control
+PROMOTE
+§6.3
+Target-relative sufficiency
+Extend to receipt sufficiency
+PROMOTE
+§7.4
+Receipts as open options
+Replace slogan with Q-minimal receipt
+SHARPEN
+§8.4
+Carrier ≠ decoder
+Retain; allow decoder-relative birthday motion
+RETAIN / EXTEND
+§10.3
+Ablative minimality
+Apply directly to F/I/R
+PROMOTE
+§11.11
+Named mathals are addresses
+Require reuse + refusal boundary
+SHARPEN
+§12.2
+Minimal mathal axioms
+Offer FIR-delta as first discrimination floor
+PARTIAL ANSWER
+§12.4
+Receipt complexity
+Make query-relative minimality normative
+PROMOTE
+§12.5
+Decoder lattices
+Track birthday motion under refinement
+RETAIN / EXTEND
+FIR RECEIPT 0.2
+FIR RECEIPT 0.2
+OBJECT
+first-generation nuMathelology
+PRIMARY AUTHORITY
+NM1 [1]
+PROPOSED DEFECT
+primitive floor begins after constitutional distinction
+PRESERVED
+world / decoder / carrier / receipt / birthday / numathal
+DEMOTED
+mathal: primitive → derived
+ADDED
+F/I/R role grammar
+SHARPENED
+receipt sufficiency / relation reification / name admission
+PROVISIONAL
+nunumathal
+DELTA
+small
+CONSEQUENCE
+inconveniently large
+STATUS
+PROPOSAL / HOSTILE-TEST TARGET
+Location
+Inherited pressure
+NM1 §1.1
+declared worlds; smallest sufficient world
+NM1 §§1.2–1.4
+mathal; receipt; equivalence lenses; endpoint/path/trace
+NM1 §2.1
+constitutive kernel; proposed variation vs constituted history
+NM1 §2.4
+relational promotion; relation before object
+NM1 §3.1
+numathal definition
+NM1 §4.1
+relation birthday
+NM1 §5.4 / Rule 5.6
+same index does not establish common mechanism
+NM1 §§6.1–6.3
+observation maps; SSW; target-relative sufficiency
+NM1 §§7.1–7.5
+return mathals; pure braid; residuals; receipts
+NM1 §§8.1–8.4
+carrier, grammar, frame, decoder; variation cube
+NM1 §§9.1–9.5
+whole-number grammar
+NM1 §§10.1–10.5
+status discipline; hostile controls; ablation; research receipt
+NM1 Chapter 11
+named mathal casebook
+NM1 §§12.1–12.7
+open program; minimal axioms; receipt complexity; decoder lattices; refusal criterion
