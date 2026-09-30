@@ -2,12 +2,14 @@ house: lemonPRESS
 catalog_version: 0.2
 works:
   - id: lemonpress:another-clue
-    title: "Another Clue"
+    title: "¿another clue?"
+    subtitle: "an accidental book about apertures, receipts, and the things that survive becoming"
     status: admitted
-    admission: works/another-clue/admission-001.md
-    active_lanes:
+    admission: "works/another-clue/ADMISSION.md"
+    admitted_on: "2026-09-30"
+    intended_lanes:
       - physical
       - digital
       - crawler
       - archive
-    note: "First multi-branch WRENCH specimen."
+    note: "First admitted multi-branch specimen; Print Reading Cut 001."
