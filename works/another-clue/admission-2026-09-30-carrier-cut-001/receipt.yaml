@@ -1,0 +1,33 @@
+work_id: lemonpress:another-clue
+cut_id: lemonpress:another-clue:carrier-cut-001
+archive_receipt_id: lemonpress:another-clue:admission-2026-09-30-carrier-cut-001
+admitted_on: "2026-09-30"
+
+admitted_source:
+  carrier: google-doc
+  document_id: "17mo-QaxjzEFhOStMIghLP7t0lGOhR_TASQ4249AhvJE"
+  revision_id: "ANLCKQlUcrKZrW-6RLQlbUOUJ1NfxicAVMvXbgJXu0_2CIl_gDiSO4poRoh0ffw9JIsJUwX6Kg32S2p7deQPDWw3pkX3_xTVLqBqA-lNZu4"
+  snapshot_file: "source-snapshot-001.txt"
+
+relationship:
+  to_print_reading_cut_001: sibling
+  supersedes: null
+  superseded_by: null
+
+edition_relations:
+  physical:
+    - "press/physical:works/another-clue/INTERIOR-CARRIER-001.txt"
+    - "press/physical:works/another-clue/PHYSICAL-001.md"
+  digital:
+    - "press/digital:works/another-clue/READER-001.txt"
+    - "press/digital:works/another-clue/ROUTES-001.md"
+  crawler:
+    - "press/crawler:works/another-clue/book.txt"
+    - "press/crawler:works/another-clue/fragments/"
+
+rights: "All rights reserved by the respective rightsholders unless otherwise stated; repository publication grants no additional license."
+
+nonclaims:
+  - "This admission does not replace Print Reading Cut 001."
+  - "A competing cut is not a correction history unless explicitly declared."
+  - "Archive preservation does not make the archive editorial authority."
