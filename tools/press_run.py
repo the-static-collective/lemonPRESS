@@ -15,6 +15,7 @@ import sys
 from pathlib import Path
 from typing import Any
 
+from physical_composer import GRAMMAR_VERSION
 from physical_composer import VERSION as COMPOSER_VERSION
 from physical_composer import compose
 
@@ -158,6 +159,7 @@ def run_queue(queue: dict[str, Any], out_dir: Path) -> dict[str, Any]:
             candidates = compose(brief)
             composition = {
                 "composition_version": COMPOSER_VERSION,
+                "grammar_version": GRAMMAR_VERSION,
                 "press_run_id": queue["run_id"],
                 "queue_id": item["queue_id"],
                 "house_id": item["house_id"],
