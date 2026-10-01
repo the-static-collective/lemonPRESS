@@ -120,7 +120,7 @@ def compose(brief: dict[str, Any]) -> list[dict[str, Any]]:
             {"binding": None, "trim_inches": None, "paper": None, "color": None},
         )))
 
-    writable = {"write", "writable", "journal", "field", "receipt", "workbook", "notes"}
+    writable = {"write", "writable", "journal", "field", "workbook", "notes"}
     if tokens & writable:
         out.append((8, candidate(
             "field-book",
