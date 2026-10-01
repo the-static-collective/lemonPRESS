@@ -22,7 +22,7 @@ from pathlib import Path
 from typing import Any
 
 VERSION = "recipient-mailer-001"
-EVENTS = {"prepared", "printed", "mailed", "delivered", "returned", "held"}
+EVENTS = {"prepared", "printed", "held"}
 
 
 def load_json(path: Path) -> dict[str, Any]:
@@ -196,6 +196,8 @@ def build_packet(job_path: Path, out_dir: Path) -> Path:
     out_dir.mkdir(parents=True, exist_ok=False)
     artifacts = out_dir / "artifacts"
     artifacts.mkdir()
+    private = out_dir / "private"
+    private.mkdir()
 
     book_name = "book" + source.suffix.lower()
     book_path = artifacts / book_name
@@ -223,6 +225,8 @@ def build_packet(job_path: Path, out_dir: Path) -> Path:
     label_pdf = artifacts / "mailing-label-4x6.pdf"
     make_text_pdf(label_pdf, label_lines, width=288, height=432, margin=36, font_size=14, leading=24)
 
+    write_json(private / "delivery.json", {"recipient": recipient})
+
     manifest = {
         "packet_version": VERSION,
         "packet_id": packet_id,
@@ -243,8 +247,8 @@ def build_packet(job_path: Path, out_dir: Path) -> Path:
             "MASTER != RECIPIENT COPY",
             "RECIPIENT != MARKET SEGMENT",
             "DELIVERY DATA != PUBLICATION METADATA",
-            "PREPARED != MAILED",
-            "MAILED != DELIVERED",
+            "PREPARED != PRINTED",
+            "PRINTED != DISPATCHED",
         ],
     }
 
@@ -272,10 +276,10 @@ Laws:
 - MASTER != RECIPIENT COPY
 - RECIPIENT != MARKET SEGMENT
 - DELIVERY DATA != PUBLICATION METADATA
-- PREPARED != MAILED
-- MAILED != DELIVERED
+- PREPARED != PRINTED
+- PRINTED != DISPATCHED
 
-The manifest intentionally stores a fingerprint of the private recipient block rather than the street address itself.
+Structured address data lives only in `private/delivery.json` inside this local packet. The manifest intentionally stores a fingerprint of that private recipient block rather than the street address itself.
 """
     (out_dir / "README.md").write_text(readme, encoding="utf-8")
 
