@@ -1,0 +1,23 @@
+{
+  "work_id": "lemonpress:the-road-drew-itself",
+  "title": "THE ROAD DREW ITSELF — Source Edition 001",
+  "edition_intent": "Make the forward found-material road readable as a physical companion object without silently changing quoted source bodies.",
+  "content": {
+    "image_density": "low"
+  },
+  "constraints": {
+    "paired_with": "LP-CLUE-001",
+    "must_not_inherit_partner_trim": true
+  },
+  "affordances": [
+    "road",
+    "sequence",
+    "found material",
+    "source receipt",
+    "companion"
+  ],
+  "notes": [
+    "Pairing with Another Clue is a production option, not an inherited fact.",
+    "Compression should happen through selection/cutting rather than rewriting source bodies."
+  ]
+}
