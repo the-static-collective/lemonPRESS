@@ -1,0 +1,23 @@
+{
+  "work_id": "lemonpress:example-return-book",
+  "edition_id": "example-return-book:print-proof-001",
+  "title": "Example Return Book",
+  "source_artifact": "../example-artifacts/example-return-book.pdf",
+  "recipient": {
+    "recipient_id": "example-ministry",
+    "display_name": "Example Ministry",
+    "attention": "Attn: Field Outreach",
+    "address_lines": [
+      "123 Example Street",
+      "Example City, MN 55000"
+    ]
+  },
+  "cover_note": {
+    "heading": "A copy for Example Ministry",
+    "body": "I wanted you to have this before it is finished.\n\nThis copy is being sent because your work is part of the field that made the question real. Please read it however you read it. Mark it up. Disagree with it. Tell us where it sees clearly and where it forces the shape.",
+    "signoff": "— lemonPRESS"
+  },
+  "privacy": {
+    "address_disposition": "local_only"
+  }
+}

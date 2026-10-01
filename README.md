@@ -59,3 +59,31 @@ The house keeps enough receipt to tell those apart.
 **Another Clue** is the first intended multi-branch specimen.
 
 Its physical, digital, crawler, and archival forms should be allowed to differ honestly while remaining attributable to the same admitted work.
+
+## Physical fulfillment seam
+
+The physical arm now distinguishes three different crossings:
+
+```text
+Physical Composer
+    proposal / human selection
+            ↓
+Press Gate
+    selected edition packet
+            ↓
+Recipient Mailer
+    particular printed packet
+            ↓
+Dispatch Gate
+    carrier handoff / delivery occurrence
+```
+
+`recipient-mailer/` prepares local cover-note, book, mailing-label, structured private delivery data, manifest, and zip packets for a particular recipient without putting postal addresses into house metadata.
+
+`dispatch-gate/` owns carrier/service selection, externally acquired postage receipts, handoff events, tracking state, delivery, return, and hold.
+
+> **MASTER != RECIPIENT COPY**
+
+> **DELIVERY DATA != PUBLICATION METADATA**
+
+> **PREPARED != PRINTED != POSTAGE ACQUIRED != TENDERED != DELIVERED**

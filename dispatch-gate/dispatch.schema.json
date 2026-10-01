@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/the-static-collective/lemonPRESS/dispatch-gate/dispatch.schema.json",
+  "title": "lemonPRESS Dispatch Gate 001 record",
+  "type": "object",
+  "required": ["dispatch_version", "packet_id", "carrier_selection", "state", "events"],
+  "properties": {
+    "dispatch_version": {"const": "dispatch-gate-001"},
+    "packet_id": {"type": "string", "minLength": 1},
+    "carrier_selection": {
+      "type": "object",
+      "required": ["carrier", "service", "state"],
+      "properties": {
+        "carrier": {"type": "string", "minLength": 1},
+        "service": {"type": "string", "minLength": 1},
+        "state": {"const": "human_selected"}
+      },
+      "additionalProperties": true
+    },
+    "postage": {"type": ["object", "null"], "additionalProperties": true},
+    "state": {
+      "enum": ["service_selected", "postage_acquired", "tendered", "in_transit", "delivered", "returned", "held"]
+    },
+    "events": {"type": "array", "items": {"type": "object"}}
+  },
+  "additionalProperties": true
+}
