@@ -72,13 +72,18 @@ Press Gate
     selected edition packet
             ↓
 Recipient Mailer
-    particular delivery occurrence
+    particular printed packet
+            ↓
+Dispatch Gate
+    carrier handoff / delivery occurrence
 ```
 
-`recipient-mailer/` prepares local cover-note, book, mailing-label, manifest, and zip packets for a particular recipient without putting postal addresses into house metadata.
+`recipient-mailer/` prepares local cover-note, book, mailing-label, structured private delivery data, manifest, and zip packets for a particular recipient without putting postal addresses into house metadata.
+
+`dispatch-gate/` owns carrier/service selection, externally acquired postage receipts, handoff events, tracking state, delivery, return, and hold.
 
 > **MASTER != RECIPIENT COPY**
 
 > **DELIVERY DATA != PUBLICATION METADATA**
 
-> **PREPARED != MAILED != DELIVERED**
+> **PREPARED != PRINTED != POSTAGE ACQUIRED != TENDERED != DELIVERED**
