@@ -22,9 +22,20 @@ See:
 - press-gate/README.md
 - tools/press_gate.py
 
-The future Physical Composer proposes material form before the gate. It does not silently authorize selections.
+**Physical Composer 001** proposes material form before the gate. It does not silently authorize selections.
 
-See physical-composer/INTERFACE-001.md.
+See:
+- physical-composer/README.md
+- physical-composer/INTERFACE-001.md
+- tools/physical_composer.py
+
+**Press Run 001** turns the real production stack into explicit next crossings without enqueuing the whole held shelf.
+
+See:
+- PRESS-RUN-001.md
+- press-run/README.md
+- press-run/001/queue.json
+- tools/press_run.py
 
 ## Law
 
@@ -39,5 +50,7 @@ It may change pagination, typography, dimensions, sequencing furniture, cover ma
 > **PRINT RUN != NEW WORK**
 
 > **RECOMMENDATION != SELECTION**
+
+> **QUEUE != AUTHORIZATION TO PUBLISH**
 
 Every released physical edition should name the admitted work and the exact production revision from which it was made.
