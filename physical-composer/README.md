@@ -46,6 +46,9 @@ The first executable vocabulary can propose:
 - pamphlet cluster
 - folio / insert edition
 - mechanical book
+- route / traversal book
+- trace / receipt edition
+- companion pair geometry
 
 These are starting apertures, not a closed taxonomy.
 
@@ -60,3 +63,14 @@ MATERIAL EFFECT != SOURCE FACT
 PROOF != PUBLICATION
 
 The composer imagines the body. Press Gate proves which body crossed.
+
+
+## Learning from the queue
+
+Physical Composer is allowed to grow when real press runs expose missing grammar.
+
+The first such mutation is documented at `cases/ROAD-GRAMMAR-001.md`.
+
+The rule is:
+
+> **FAILURE MAY EXPAND THE INSTRUMENT. IT MUST NOT BECOME A HARDCODED EXCEPTION.**
