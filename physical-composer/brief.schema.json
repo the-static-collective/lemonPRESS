@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "lemonPRESS Physical Composer 001 brief",
+  "type": "object",
+  "required": ["work_id", "title", "edition_intent"],
+  "properties": {
+    "work_id": {"type": "string", "minLength": 1},
+    "title": {"type": "string", "minLength": 1},
+    "edition_intent": {"type": "string", "minLength": 1},
+    "content": {
+      "type": "object",
+      "properties": {
+        "estimated_pages": {"type": ["integer", "null"], "minimum": 1},
+        "image_density": {"type": "string"}
+      },
+      "additionalProperties": true
+    },
+    "constraints": {
+      "type": "object",
+      "properties": {
+        "budget": {"type": "string"},
+        "home_printable": {"type": "boolean"}
+      },
+      "additionalProperties": true
+    },
+    "affordances": {"type": "array", "items": {"type": "string"}},
+    "notes": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,23 @@
+{
+  "work_id": "lemonpress:example",
+  "title": "Example Return Book",
+  "edition_intent": "make rereading tactile while leaving room for the reader to write receipts",
+  "content": {
+    "estimated_pages": 48,
+    "image_density": "low"
+  },
+  "constraints": {
+    "budget": "low",
+    "home_printable": true
+  },
+  "affordances": [
+    "return",
+    "again",
+    "writable",
+    "removable",
+    "decoder"
+  ],
+  "notes": [
+    "The physical object should reveal something the screen cannot."
+  ]
+}
