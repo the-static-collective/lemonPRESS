@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/the-static-collective/lemonPRESS/press-gate/manifest.schema.json",
+  "title": "lemonPRESS Press Gate 001 manifest",
+  "type": "object",
+  "required": [
+    "packet_version",
+    "work_id",
+    "edition_id",
+    "lane",
+    "state",
+    "title",
+    "source_revision",
+    "admission_receipt",
+    "production",
+    "artifacts",
+    "publication",
+    "rights"
+  ],
+  "properties": {
+    "packet_version": {"const": "press-gate-001"},
+    "work_id": {"type": "string", "minLength": 1},
+    "edition_id": {"type": "string", "minLength": 1},
+    "lane": {"const": "physical"},
+    "state": {"enum": ["scaffold", "preflight", "proof_candidate", "approved_print_proof", "released_physical_edition", "held", "rejected"]},
+    "title": {"type": "string", "minLength": 1},
+    "source_revision": {"type": "string", "minLength": 1},
+    "admission_receipt": {"type": "string", "minLength": 1},
+    "production": {
+      "type": "object",
+      "required": ["format", "held_decisions"],
+      "properties": {
+        "format": {"type": "string", "minLength": 1},
+        "trim_inches": {"type": ["string", "null"]},
+        "binding": {"type": ["string", "null"]},
+        "paper": {"type": ["string", "null"]},
+        "color": {"type": ["string", "null"]},
+        "pages": {"type": ["integer", "null"], "minimum": 1},
+        "held_decisions": {"type": "array", "items": {"type": "string", "minLength": 1}}
+      },
+      "additionalProperties": true
+    },
+    "artifacts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["role", "path", "bytes", "sha256"],
+        "properties": {
+          "role": {"type": "string", "minLength": 1},
+          "path": {"type": "string", "minLength": 1},
+          "bytes": {"type": "integer", "minimum": 0},
+          "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+        },
+        "additionalProperties": false
+      }
+    },
+    "qa": {"type": "object", "additionalProperties": true},
+    "publication": {
+      "type": "object",
+      "required": ["house_status"],
+      "properties": {
+        "house_status": {"type": "string", "minLength": 1},
+        "note": {"type": "string"}
+      },
+      "additionalProperties": true
+    },
+    "rights": {"type": "string", "minLength": 1}
+  },
+  "additionalProperties": true
+}
