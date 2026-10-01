@@ -14,6 +14,7 @@ from pathlib import Path
 from typing import Any
 
 VERSION = "physical-composer-001"
+GRAMMAR_VERSION = "road-grammar-001"
 
 
 def load_json(path: Path) -> dict[str, Any]:
@@ -40,6 +41,10 @@ def words(brief: dict[str, Any]) -> set[str]:
         " ".join(map(str, brief.get("affordances", []))),
         " ".join(map(str, brief.get("notes", []))),
     ]
+    constraints = brief.get("constraints", {})
+    if isinstance(constraints, dict):
+        chunks.extend(map(str, constraints.keys()))
+        chunks.extend(map(str, constraints.values()))
     return {w.strip(".,:;!?()[]{}\"'").lower() for w in " ".join(chunks).split()}
 
 
@@ -50,6 +55,8 @@ def candidate(
     moves: list[str],
     reasons: list[str],
     production: dict[str, Any],
+    risks: list[str] | None = None,
+    held: list[str] | None = None,
 ) -> dict[str, Any]:
     return {
         "candidate_id": cid,
@@ -59,8 +66,8 @@ def candidate(
         "material_moves": moves,
         "fit_evidence": reasons,
         "production": production,
-        "risks": [],
-        "held": [],
+        "risks": risks or [],
+        "held": held or [],
     }
 
 
@@ -113,7 +120,7 @@ def compose(brief: dict[str, Any]) -> list[dict[str, Any]]:
             {"binding": None, "trim_inches": None, "paper": None, "color": None},
         )))
 
-    writable = {"write", "writable", "journal", "field", "receipt", "workbook", "notes"}
+    writable = {"write", "writable", "journal", "field", "workbook", "notes"}
     if tokens & writable:
         out.append((8, candidate(
             "field-book",
@@ -133,6 +140,63 @@ def compose(brief: dict[str, Any]) -> list[dict[str, Any]]:
             ["multiple saddle-stitched units", "paper band or sleeve", "reader-controlled order"],
             [f"brief contains modular structure language: {', '.join(sorted(tokens & modular))}"],
             {"binding": "mixed_saddle_stitch", "trim_inches": None, "paper": None, "color": None},
+        )))
+
+    routeish = {"road", "route", "path", "trail", "journey", "sequence", "traversal", "walk", "stations"}
+    if tokens & routeish:
+        out.append((11, candidate(
+            "route-book",
+            "Route / Traversal Book",
+            "route_book",
+            [
+                "section openings behave as stations rather than generic chapters",
+                "visible route markers accumulate as the reader advances",
+                "source-road or route receipt remains physically inspectable",
+                "binding may open into a continuous route rather than a closed codex spine",
+            ],
+            [f"brief contains traversal grammar: {', '.join(sorted(tokens & routeish))}"],
+            {"binding": "lay_flat_or_accordion_candidate", "trim_inches": None, "paper": None, "color": None},
+            risks=[
+                "road language can become decorative if material sequence does not carry actual navigation",
+                "accordion construction may become impractical at high page counts",
+            ],
+            held=["exact binding depends on page count, printer limits, and proof handling"],
+        )))
+
+    traceish = {"found", "source", "receipt", "trace", "archive", "provenance", "quoted", "citation"}
+    if tokens & traceish:
+        out.append((10, candidate(
+            "trace-edition",
+            "Trace / Receipt Edition",
+            "documentary_book",
+            [
+                "source labels become navigation furniture rather than footnote clutter",
+                "quoted source body and connective tissue remain visibly distinguishable",
+                "a rear source road or foldout receipt preserves the route back",
+                "physical production matter is marked as descendant matter",
+            ],
+            [f"brief contains source/provenance grammar: {', '.join(sorted(tokens & traceish))}"],
+            {"binding": None, "trim_inches": None, "paper": None, "color": None},
+            risks=["receipt furniture can overwhelm the reading experience if every trace is promoted equally"],
+            held=["density and placement of source receipts require an edition-specific proof"],
+        )))
+
+    companionish = {"companion", "paired", "pair", "partner", "paired_with"}
+    if tokens & companionish:
+        out.append((9, candidate(
+            "companion-geometry",
+            "Companion Pair Geometry",
+            "paired_volume",
+            [
+                "preserve independent edition identities while designing a deliberate relationship",
+                "use shared or inverse physical cues only after both bodies are independently known",
+                "a removable band, sleeve, mirrored edge, or opposed orientation may carry the relation",
+                "pairing must remain removable so one volume still reads lawfully alone",
+            ],
+            [f"brief contains companion/pair grammar: {', '.join(sorted(tokens & companionish))}"],
+            {"binding": None, "trim_inches": None, "paper": None, "color": None},
+            risks=["pairing pressure can silently force one book to inherit the other's trim or production assumptions"],
+            held=["partner dimensions and final relation remain open until both editions have independent physical selections"],
         )))
 
     if str(images).lower() in {"high", "heavy", "image-heavy", "image_heavy"} or "visual" in tokens:
@@ -157,7 +221,7 @@ def compose(brief: dict[str, Any]) -> list[dict[str, Any]]:
         )))
 
     out.sort(key=lambda item: (-item[0], item[1]["candidate_id"]))
-    return [item for _, item in out[:4]]
+    return [item for _, item in out[:6]]
 
 
 def cmd_compose(args: argparse.Namespace) -> int:
@@ -175,6 +239,7 @@ def cmd_compose(args: argparse.Namespace) -> int:
 
     result = {
         "composition_version": VERSION,
+        "grammar_version": GRAMMAR_VERSION,
         "work_id": brief["work_id"],
         "title": brief["title"],
         "edition_intent": brief["edition_intent"],
@@ -208,6 +273,7 @@ def cmd_select(args: argparse.Namespace) -> int:
 
     selection = {
         "composition_version": composition.get("composition_version"),
+        "grammar_version": composition.get("grammar_version"),
         "work_id": composition.get("work_id"),
         "title": composition.get("title"),
         "candidate_id": chosen["candidate_id"],
