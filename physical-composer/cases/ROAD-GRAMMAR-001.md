@@ -75,3 +75,16 @@ For cases/road-drew-itself.json the composer must include:
 Ordinary codex remains available as a control.
 
 The mutation is successful when the failing specimen broadens the instrument without becoming a hard-coded exception.
+
+
+## Secondary bug caught by the specimen
+
+The pre-mutation vocabulary treated the word `receipt` as evidence for a writable field/receipt book.
+
+That collapses two different relations:
+
+    PROVENANCE RECEIPT != WRITABLE RECEIPT SURFACE
+
+Road uses **source receipt** in the provenance sense.
+
+The writable grammar now requires an actual write/writable/journal/field/workbook/notes signal. Provenance receipt remains part of Trace / Receipt Edition.
