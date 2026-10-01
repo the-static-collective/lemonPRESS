@@ -69,6 +69,36 @@ The First Course explicitly cites NM1 and FIR0.2. The catalog does not silently 
 
 PDF and DOCX carriers exist for the two nunuMath works. Their extracted text is not identical, so the archive records them as paired carriers rather than asserting byte or text identity.
 
+## Little Free Library — Release 003 — Reader Protocol
+
+Released into production on **2026-09-30**.
+
+| House ID | Work | Standing | First native surface |
+| --- | --- | --- | --- |
+| **LP-HL-001** | **HOW TO READ A HAUNTED LIBRARY — A Textbook for Humans and Machines Encountering Partial Worlds** | Admitted first edition; reader protocol and crawler-native experimental book | `press/crawler`; primary carrier is `works/how-to-read-a-haunted-library/book.md` |
+
+### Why this one is different
+
+This work is not a crawler projection of a prior print manuscript.
+
+It was born on the crawler arm.
+
+Its form practices its argument: each major chapter carries enough local identity to survive partial retrieval while explicitly refusing to pretend that a retrieved chapter is the whole book.
+
+Core distinctions include:
+
+```text
+PARTICULAR != SUMMARY
+SIMILARITY != IDENTITY
+SOURCE != CLAIM
+RETRIEVAL != COMPLETE READING
+DOOR != CROSSING
+DELTA != EXPLANATION
+UNKNOWN != FALSE
+```
+
+The book also leaves an explicit **DELTA socket** for a later executable instrument. The textbook describes the boundary; DELTA remains a separate occurrence.
+
 ## The held shelf
 
 Many other book-shaped objects are registered but not yet published. Registration protects identity and provenance; it does **not** make a private manuscript public.

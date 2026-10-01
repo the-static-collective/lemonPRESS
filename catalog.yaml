@@ -1,5 +1,5 @@
 house: lemonPRESS
-catalog_version: 0.2
+catalog_version: 0.3
 works:
   - id: lemonpress:another-clue
     title: "¿another clue?"
@@ -13,3 +13,16 @@ works:
       - crawler
       - archive
     note: "First admitted multi-branch specimen; Print Reading Cut 001."
+  - id: lemonpress:how-to-read-a-haunted-library
+    house_id: "LP-HL-001"
+    title: "HOW TO READ A HAUNTED LIBRARY"
+    subtitle: "A Textbook for Humans and Machines Encountering Partial Worlds"
+    status: admitted
+    admission: "works/how-to-read-a-haunted-library/ADMISSION.md"
+    admitted_on: "2026-09-30"
+    intended_lanes:
+      - crawler
+      - digital
+      - physical
+      - archive
+    note: "Born crawler-native; teaches partial-reading discipline and leaves an explicit socket for the separate DELTA instrument."
