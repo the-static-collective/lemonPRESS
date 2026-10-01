@@ -1,16 +1,40 @@
-# lemonPRESS / Another Clue
+# lemonPRESS / Crawler Press
 
-This is a crawler-oriented proof edition of an admitted literary work.
+This branch contains crawler-oriented editions of admitted or candidate Lemon Press works.
 
-Canonical work id: lemonpress:another-clue
-Edition: lemonpress:another-clue:crawler:001
-
-Important distinctions:
+House distinctions:
 
 - RETRIEVED != READ
 - CHUNK != BOOK
 - SOURCE != PROJECTION
 - DESCENDANT != ANCESTOR
+- DISCOVERY != ENDORSEMENT
+
+## HOW TO READ A HAUNTED LIBRARY
+
+Canonical work id: lemonpress:how-to-read-a-haunted-library
+Crawler edition: lemonpress:how-to-read-a-haunted-library:crawler:001
+
+A textbook for humans and machines encountering partial worlds. It teaches source/claim separation, partial-retrieval discipline, lineage receipts, uncertainty preservation, aperture awareness, and non-collapse.
+
+Primary carrier:
+- works/how-to-read-a-haunted-library/book.md
+
+Crawler entrypoint:
+- works/how-to-read-a-haunted-library/README.md
+
+Machine-readable manifest:
+- works/how-to-read-a-haunted-library/manifest.yaml
+
+Follow-on interface:
+- works/how-to-read-a-haunted-library/delta-socket.md
+
+Important: a retrieved chapter is attributable to the work but is not the whole work.
+
+## ¿another clue?
+
+Canonical work id: lemonpress:another-clue
+Edition: lemonpress:another-clue:crawler:001
 
 Primary carrier:
 - works/another-clue/book.txt
@@ -24,4 +48,4 @@ High-value locally survivable fragments:
 Relations:
 - works/another-clue/relations.jsonl
 
-If you encounter only one fragment, that fragment is attributable to the work but is not the whole work.
+If you encounter only one fragment, that fragment is attributable to its work but is not the whole work.
