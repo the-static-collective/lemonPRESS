@@ -1,0 +1,165 @@
+{
+  "press_run_version": "press-run-001",
+  "run_id": "LP-PR-001",
+  "title": "Little Free Library — First Physical Queue",
+  "created_from": [
+    "main:admissions/2026-09-30-free-library-release-001.md",
+    "main:admissions/2026-09-30-free-library-release-002.md",
+    "main:CATALOG.md",
+    "press/physical:free-library/001/README.md",
+    "press/physical:free-library/002/README.md"
+  ],
+  "authority": {
+    "queue_is_publication_authority": false,
+    "law": "QUEUE != AUTHORIZATION TO PUBLISH"
+  },
+  "items": [
+    {
+      "queue_id": "001",
+      "house_id": "LP-NM-001",
+      "work_id": "lemonpress:numathelology",
+      "title": "nuMATHELOLOGY — Number, Relation, and Structural Transition",
+      "mode": "gate_preflight",
+      "reason": "First Edition is already typeset and declares a 7 × 10 inch text block.",
+      "fixed": {
+        "trim_inches": "7x10",
+        "edition": "First Edition"
+      },
+      "held": [
+        "printer-specific normalization",
+        "cover/spine calculation",
+        "bleed",
+        "font embedding verification",
+        "output checksum"
+      ]
+    },
+    {
+      "queue_id": "002",
+      "house_id": "LP-RD-001",
+      "work_id": "lemonpress:the-road-drew-itself",
+      "title": "THE ROAD DREW ITSELF — Source Edition 001",
+      "mode": "compose",
+      "reason": "Source Edition exists but no physical trim is declared.",
+      "brief": {
+        "edition_intent": "Make the forward found-material road readable as a physical companion object without silently changing quoted source bodies.",
+        "content": {
+          "image_density": "low"
+        },
+        "constraints": {
+          "paired_with": "LP-CLUE-001",
+          "must_not_inherit_partner_trim": true
+        },
+        "affordances": [
+          "road",
+          "sequence",
+          "found material",
+          "source receipt",
+          "companion"
+        ],
+        "notes": [
+          "Pairing with Another Clue is a production option, not an inherited fact.",
+          "Compression should happen through selection/cutting rather than rewriting source bodies."
+        ]
+      }
+    },
+    {
+      "queue_id": "003",
+      "house_id": "LP-CLUE-001",
+      "work_id": "lemonpress:another-clue",
+      "title": "¿another clue? — Print Reading Cut 001",
+      "mode": "proof_review",
+      "reason": "An approved 6 × 9 print proof lineage already exists.",
+      "existing_proof": {
+        "edition_id": "lemonpress:another-clue:physical-proof-001",
+        "trim_inches": "6x9",
+        "pages": 76,
+        "receipt": "works/another-clue/physical-proof-001/PRINT-RECEIPT.md"
+      }
+    },
+    {
+      "queue_id": "004",
+      "house_id": "LP-NM-002",
+      "work_id": "lemonpress:numathelology",
+      "title": "nuMATHELOLOGY — Second Edition, Revised and Enlarged",
+      "mode": "compose",
+      "reason": "Finished Second Edition exists, but no trim is established and the First Edition trim must not be silently inherited.",
+      "brief": {
+        "edition_intent": "Give the enlarged second edition a durable reference-book body while preserving its audit/change layer.",
+        "content": {
+          "image_density": "low"
+        },
+        "constraints": {
+          "must_not_inherit_prior_edition_trim": true
+        },
+        "affordances": [
+          "reference",
+          "audit",
+          "definitions",
+          "cross-reference",
+          "margin"
+        ],
+        "notes": [
+          "LP-NM-001 remains a historical occurrence.",
+          "The second edition supersedes the first only where its definitions explicitly revise it."
+        ]
+      }
+    },
+    {
+      "queue_id": "005",
+      "house_id": "LP-NNM-TM-002",
+      "work_id": "lemonpress:nunumath-primitive-corrections",
+      "title": "nunuMath v0.2 — Primitive Corrections to First-Generation Mathelology",
+      "mode": "compose",
+      "reason": "Rendered PDF/DOCX carriers exist, but rendered carrier does not establish printer specification.",
+      "brief": {
+        "edition_intent": "Make the technical memorandum feel like a compact constitutional correction that can be carried beside the larger math books.",
+        "content": {
+          "image_density": "low"
+        },
+        "constraints": {
+          "budget": "low",
+          "home_printable": true
+        },
+        "affordances": [
+          "memorandum",
+          "compact",
+          "reference",
+          "field",
+          "portable"
+        ],
+        "notes": [
+          "F / I / R are the primitive roles.",
+          "Paired PDF and DOCX carriers are evidence, not identity."
+        ]
+      }
+    },
+    {
+      "queue_id": "006",
+      "house_id": "LP-NNM-101-001",
+      "work_id": "lemonpress:nunumath-first-course-fir",
+      "title": "nunuMATH — Foundations of Admissive and Relational Mathematics — First Course in FIR Systems",
+      "mode": "compose",
+      "reason": "Finished instructional text exists, but no physical trim is declared.",
+      "brief": {
+        "edition_intent": "Build a writable instructional object for a first course in FIR systems, with enough room for worked examples and reader marks.",
+        "content": {
+          "image_density": "low"
+        },
+        "constraints": {
+          "home_printable": false
+        },
+        "affordances": [
+          "course",
+          "workbook",
+          "writable",
+          "examples",
+          "notes",
+          "reference"
+        ],
+        "notes": [
+          "This is an instructional descendant, not a replacement for NM1 or FIR0.2."
+        ]
+      }
+    }
+  ]
+}
