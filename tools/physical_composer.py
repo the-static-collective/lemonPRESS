@@ -14,6 +14,7 @@ from pathlib import Path
 from typing import Any
 
 VERSION = "physical-composer-001"
+GRAMMAR_VERSION = "road-grammar-001"
 
 
 def load_json(path: Path) -> dict[str, Any]:
@@ -234,6 +235,7 @@ def cmd_compose(args: argparse.Namespace) -> int:
 
     result = {
         "composition_version": VERSION,
+        "grammar_version": GRAMMAR_VERSION,
         "work_id": brief["work_id"],
         "title": brief["title"],
         "edition_intent": brief["edition_intent"],
@@ -267,6 +269,7 @@ def cmd_select(args: argparse.Namespace) -> int:
 
     selection = {
         "composition_version": composition.get("composition_version"),
+        "grammar_version": composition.get("grammar_version"),
         "work_id": composition.get("work_id"),
         "title": composition.get("title"),
         "candidate_id": chosen["candidate_id"],
