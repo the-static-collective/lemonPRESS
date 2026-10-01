@@ -1,0 +1,12 @@
+{
+  "dispatch_version": "dispatch-gate-001",
+  "packet_id": "example-return-book-print-proof-001--example-ministry",
+  "carrier_selection": {
+    "carrier": "USPS",
+    "service": "Ground Advantage",
+    "state": "human_selected"
+  },
+  "postage": null,
+  "state": "service_selected",
+  "events": []
+}
