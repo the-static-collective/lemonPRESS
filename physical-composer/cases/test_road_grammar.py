@@ -19,6 +19,8 @@ required = {"route-book", "trace-edition", "companion-geometry", "codex"}
 missing = required - candidate_ids
 if missing:
     raise SystemExit(f"ROAD GRAMMAR REGRESSION FAIL: missing {sorted(missing)}")
+if "field-book" in candidate_ids:
+    raise SystemExit("ROAD GRAMMAR REGRESSION FAIL: source receipt collapsed into writable field-book")
 
 print("ROAD GRAMMAR REGRESSION: PASS")
 print("candidates:", ", ".join(sorted(candidate_ids)))
