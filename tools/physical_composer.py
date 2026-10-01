@@ -41,6 +41,10 @@ def words(brief: dict[str, Any]) -> set[str]:
         " ".join(map(str, brief.get("affordances", []))),
         " ".join(map(str, brief.get("notes", []))),
     ]
+    constraints = brief.get("constraints", {})
+    if isinstance(constraints, dict):
+        chunks.extend(map(str, constraints.keys()))
+        chunks.extend(map(str, constraints.values()))
     return {w.strip(".,:;!?()[]{}\"'").lower() for w in " ".join(chunks).split()}
 
 
