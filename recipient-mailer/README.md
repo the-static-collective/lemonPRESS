@@ -19,9 +19,7 @@ COVER NOTE + BOOK + MAILING LABEL
         ↓
 PRINT
         ↓
-MAIL
-        ↓
-DELIVER / RETURN / HOLD
+DISPATCH GATE
 ```
 
 ## Core law
@@ -32,8 +30,9 @@ RECIPIENT COPY != NEW CANON
 PARTICULAR != MARKET SEGMENT
 DELIVERY DATA != PUBLICATION METADATA
 PREPARED != PRINTED
-PRINTED != MAILED
-MAILED != DELIVERED
+PRINTED != DISPATCHED
+POSTAGE != TENDER
+TENDER != DELIVERY
 ```
 
 A book may be written **for** one person or group. That does not make the person a demographic abstraction.
@@ -68,7 +67,7 @@ Postal addresses are operational delivery data.
 
 **Do not commit generated recipient packets to a public repository.**
 
-Recipient Mailer stores the street address only in the generated mailing-label artifact. Its manifest stores a SHA-256 fingerprint of the private recipient block so a local operator can detect accidental changes without promoting the address into house metadata.
+Recipient Mailer stores structured address data in `private/delivery.json` and renders the mailing-label artifact from it. Both remain local fulfillment data. The manifest stores only a SHA-256 fingerprint of the private recipient block so a local operator can detect accidental changes without promoting the address into house metadata.
 
 Example files in this directory use fictional addresses only.
 
@@ -89,6 +88,8 @@ Output:
 /tmp/lemonpress-example-mail/
   README.md
   manifest.json
+  private/
+    delivery.json
   artifacts/
     book.pdf
     cover-note.pdf
@@ -113,19 +114,15 @@ The check verifies declared byte counts and SHA-256 hashes.
 python tools/recipient_mailer.py mark /tmp/lemonpress-example-mail printed \
   --note "double-sided long edge"
 
-python tools/recipient_mailer.py mark /tmp/lemonpress-example-mail mailed \
-  --note "USPS"
-
-python tools/recipient_mailer.py mark /tmp/lemonpress-example-mail delivered
+# carrier/postage events now cross through Dispatch Gate:
+python tools/dispatch_gate.py init /tmp/lemonpress-example-mail \
+  --carrier USPS --service "Ground Advantage"
 ```
 
 Supported states:
 
 - `prepared`
 - `printed`
-- `mailed`
-- `delivered`
-- `returned`
 - `held`
 
 The zip snapshot is refreshed when an event is marked.
@@ -157,4 +154,8 @@ Press Gate asks:
 
 Recipient Mailer asks:
 
-> Which particular person is this physical occurrence being carried toward, and what evidence distinguishes prepared, mailed, and delivered?
+> Which particular person is this physical occurrence being prepared for, and what evidence distinguishes prepared from printed?
+
+Dispatch Gate asks:
+
+> What carrier crossing actually happened after the packet existed?
