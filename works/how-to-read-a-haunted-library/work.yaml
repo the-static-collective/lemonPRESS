@@ -1,0 +1,24 @@
+work:
+  id: "lemonpress:how-to-read-a-haunted-library"
+  house_id: "LP-HL-001"
+  title: "HOW TO READ A HAUNTED LIBRARY"
+  subtitle: "A Textbook for Humans and Machines Encountering Partial Worlds"
+  status: "admitted"
+  admitted_on: "2026-09-30"
+  admission: "works/how-to-read-a-haunted-library/ADMISSION.md"
+  first_native_lane: "crawler"
+  first_crawler_edition:
+    id: "lemonpress:how-to-read-a-haunted-library:crawler:001"
+    branch: "work/haunted-library-001-crawler"
+    head: "6d88fa77dd5edfd59dc41d34af3ef71205475125"
+    primary_carrier: "works/how-to-read-a-haunted-library/book.md"
+    pr: 13
+  intended_lanes:
+    - crawler
+    - digital
+    - physical
+    - archive
+  relations:
+    - type: "leaves_socket_for"
+      target: "DELTA"
+  rights: "All rights reserved unless a later work or edition record states otherwise."
