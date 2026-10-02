@@ -94,6 +94,29 @@ The renderer is projection-only: it may not reinterpret the structure or invent 
 
 See [`docs/AUDIO-COMPOSER-001.md`](docs/AUDIO-COMPOSER-001.md).
 
+## SUNO PANTRY INTAKE 001
+
+SUNO PANTRY admits manually exported Suno stems, dramatic readings, mixes, and ambience without promoting a human declaration into remote provider verification.
+
+~~~text
+LOCAL SUNO EXPORT + DECLARATION
+              |
+              v
+       SUNO PANTRY 001
+              |
+       declared-local-export
+              |
+              v
+          PRESS MOUTH
+              |
+              v
+          AudioParcel
+~~~
+
+Single-file and batch intake are supported. The original audio body stays outside Git; PRESS MOUTH receives a local byte witness plus bounded roles.
+
+See [`docs/SUNO-PANTRY-INTAKE-001.md`](docs/SUNO-PANTRY-INTAKE-001.md).
+
 ## First live work
 
 **¿another clue?** is lemonPRESS's first admitted multi-branch specimen.
