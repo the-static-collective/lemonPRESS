@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/the-static-collective/lemonPRESS/schemas/resolved-audio-edition.schema.json",
+  "title": "lemonPRESS Resolved Audio Edition v0",
+  "type": "object",
+  "required": [
+    "schema",
+    "score_hash",
+    "work_id",
+    "edition_id",
+    "profile",
+    "duration_seconds",
+    "segments",
+    "tracks",
+    "renderer_contract"
+  ],
+  "properties": {
+    "schema": { "const": "lemonpress/resolved-audio-edition/v0" },
+    "score_hash": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "work_id": { "type": "string", "minLength": 1 },
+    "edition_id": { "type": "string", "minLength": 1 },
+    "profile": { "type": "string", "minLength": 1 },
+    "duration_seconds": { "type": "number", "minimum": 0 },
+    "segments": { "type": "array", "minItems": 1 },
+    "tracks": { "type": "array", "minItems": 1 },
+    "renderer_contract": {
+      "type": "object",
+      "required": ["authority", "may_reinterpret_structure", "may_invent_layers", "media_resolution"],
+      "properties": {
+        "authority": { "const": "projection-only" },
+        "may_reinterpret_structure": { "const": false },
+        "may_invent_layers": { "const": false },
+        "media_resolution": { "const": "sha256" }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": true
+}

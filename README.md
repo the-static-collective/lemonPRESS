@@ -73,6 +73,27 @@ VAULT / PHONOGRAPH
 
 See [`docs/PRESS-MOUTH-001.md`](docs/PRESS-MOUTH-001.md).
 
+## AUDIO COMPOSER 001
+
+AUDIO COMPOSER binds manuscript identity to admitted audio parcels and resolves explicit composition cues into a renderer-neutral timeline.
+
+~~~text
+MANUSCRIPT + AUDIO PARCELS + CUES
+               |
+               v
+      AUDIO COMPOSER 001
+               |
+      AudioEditionScore
+               |
+      ResolvedAudioEdition
+               |
+         renderer boundary
+~~~
+
+The renderer is projection-only: it may not reinterpret the structure or invent layers.
+
+See [`docs/AUDIO-COMPOSER-001.md`](docs/AUDIO-COMPOSER-001.md).
+
 ## First live work
 
 **¿another clue?** is lemonPRESS's first admitted multi-branch specimen.
