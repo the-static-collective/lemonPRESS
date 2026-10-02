@@ -51,13 +51,15 @@
         "system": {
           "enum": [
             "autodiscography-vault",
-            "haunted-phonograph"
+            "haunted-phonograph",
+            "suno-pantry"
           ]
         },
         "authority": {
           "enum": [
             "verified-source",
-            "resolved-performance-projection"
+            "resolved-performance-projection",
+            "declared-local-export"
           ]
         },
         "upstream_receipt_sha256": {

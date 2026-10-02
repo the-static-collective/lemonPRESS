@@ -8,6 +8,7 @@
   "scripts": {
     "test": "node --test",
     "mouth": "node src/press-mouth.mjs",
-    "audio": "node src/audio-composer.mjs"
+    "audio": "node src/audio-composer.mjs",
+    "pantry": "node src/suno-pantry.mjs"
   }
 }
