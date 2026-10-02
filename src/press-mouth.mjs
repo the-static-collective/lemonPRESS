@@ -212,6 +212,64 @@ function adaptPhonographReceipt(receipt, receiptSha256, identity, projectionPath
   };
 }
 
+function adaptSunoPantryReceipt(receipt, receiptSha256, identity, requestedRoles) {
+  requireObject(receipt, 'Suno Pantry receipt');
+  if (receipt.schema !== 'lemonpress/suno-pantry-receipt/v0') {
+    fail('UNSUPPORTED_RECEIPT', 'Suno Pantry receipt schema must be lemonpress/suno-pantry-receipt/v0');
+  }
+  if (receipt.status !== 'locally-witnessed') {
+    fail('UPSTREAM_NOT_WITNESSED', 'Suno Pantry receipt must be locally-witnessed');
+  }
+  if (receipt.provider !== 'suno') {
+    fail('INVALID_PROVIDER', 'Suno Pantry receipt provider must be suno');
+  }
+  requireObject(receipt.asset, 'Suno Pantry receipt asset');
+  const witnessedSha = normalizeSha256(receipt.asset.sha256, 'Suno Pantry asset sha256');
+  if (witnessedSha !== identity.sha256) {
+    fail('BODY_HASH_MISMATCH', 'Suno Pantry receipt SHA-256 does not match local body');
+  }
+  if (receipt.asset.byte_length !== identity.byte_length) {
+    fail('BODY_LENGTH_MISMATCH', 'Suno Pantry receipt byte length does not match local body');
+  }
+
+  const witnessedRoles = normalizeRoles(receipt.roles);
+  for (const role of requestedRoles) {
+    if (!witnessedRoles.includes(role)) {
+      fail('ROLE_NOT_WITNESSED', 'requested role was not declared by Suno Pantry receipt: ' + role);
+    }
+  }
+
+  return {
+    origin: {
+      system: 'suno-pantry',
+      authority: 'declared-local-export',
+      upstream_receipt_sha256: receiptSha256,
+    },
+    lineage: {
+      schema: 'lemonpress/audio-lineage/v0',
+      source_system: 'suno-pantry',
+      upstream: {
+        provider: receipt.provider,
+        status: receipt.status,
+        export_kind: receipt.export_kind ?? null,
+        declaration_sha256: receipt.declaration_sha256 ?? null,
+        provider_track_id: receipt.provider_track_id ?? null,
+        parent_provider_track_id: receipt.parent_provider_track_id ?? null,
+        title: receipt.title ?? null,
+        roles: witnessedRoles,
+        sha256: witnessedSha,
+        byte_length: receipt.asset.byte_length,
+      },
+    },
+    projection: {
+      schema: 'lemonpress/audio-projections/v0',
+      kind: 'declared-local-export',
+      export_kind: receipt.export_kind ?? 'other',
+      source_sha256: witnessedSha,
+    },
+  };
+}
+
 async function writeJsonAtomic(path, value) {
   const tempPath = path + '.partial-' + process.pid;
   await rm(tempPath, { force: true });
@@ -231,7 +289,7 @@ export async function ingestAudioArtifact({
   roles = ['music-bed'],
   projectionPath = null,
 }) {
-  if (!['autodiscography-vault', 'haunted-phonograph'].includes(sourceSystem)) {
+  if (!['autodiscography-vault', 'haunted-phonograph', 'suno-pantry'].includes(sourceSystem)) {
     fail('UNSUPPORTED_SOURCE_SYSTEM', 'unsupported source system: ' + sourceSystem);
   }
   if (!assetPath || !receiptPath || !outDir) {
@@ -261,7 +319,9 @@ export async function ingestAudioArtifact({
 
   const adapted = sourceSystem === 'autodiscography-vault'
     ? adaptVaultReceipt(upstreamReceipt, upstreamReceiptSha256, identity)
-    : adaptPhonographReceipt(upstreamReceipt, upstreamReceiptSha256, identity, projectionPath);
+    : sourceSystem === 'haunted-phonograph'
+      ? adaptPhonographReceipt(upstreamReceipt, upstreamReceiptSha256, identity, projectionPath)
+      : adaptSunoPantryReceipt(upstreamReceipt, upstreamReceiptSha256, identity, normalizedRoles);
 
   const parcelSeed = {
     identity,
