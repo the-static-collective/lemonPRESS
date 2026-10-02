@@ -54,6 +54,25 @@ An archive may preserve history without becoming editorial authority.
 
 The house keeps enough receipt to tell those apart.
 
+## PRESS MOUTH 001
+
+PRESS MOUTH is the first executable intake seam for audio-family artifacts.
+
+It currently admits verified Autodiscography Vault bodies and completed Haunted Phonograph projections into small, SHA-addressed `lemonpress/audio-parcel/v0` records without copying the media body into Git or inheriting upstream authority.
+
+~~~text
+VAULT / PHONOGRAPH
+        |
+ receipt + local body
+        v
+  PRESS MOUTH 001
+        |
+        v
+ AUDIO PARCEL
+~~~
+
+See [`docs/PRESS-MOUTH-001.md`](docs/PRESS-MOUTH-001.md).
+
 ## First live work
 
 **¿another clue?** is lemonPRESS's first admitted multi-branch specimen.
