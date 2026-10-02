@@ -1,0 +1,12 @@
+{
+  "name": "lemonpress",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test",
+    "mouth": "node src/press-mouth.mjs"
+  }
+}
