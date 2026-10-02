@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/the-static-collective/lemonPRESS/schemas/suno-pantry-declaration.schema.json",
+  "title": "lemonPRESS Suno Pantry Declaration v0",
+  "type": "object",
+  "required": ["schema", "provider", "export_kind", "roles"],
+  "properties": {
+    "schema": { "const": "lemonpress/suno-pantry-declaration/v0" },
+    "provider": { "const": "suno" },
+    "export_kind": {
+      "enum": ["stem", "dramatic-reading", "full-mix", "ambient", "other"]
+    },
+    "roles": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9][a-z0-9-]{0,63}$"
+      }
+    },
+    "title": { "type": ["string", "null"] },
+    "provider_track_id": { "type": ["string", "null"] },
+    "parent_provider_track_id": { "type": ["string", "null"] },
+    "exported_at": { "type": ["string", "null"] },
+    "note": { "type": ["string", "null"] }
+  },
+  "additionalProperties": false
+}
