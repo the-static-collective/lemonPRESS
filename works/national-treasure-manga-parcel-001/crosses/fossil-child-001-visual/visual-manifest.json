@@ -1,0 +1,63 @@
+{
+  "schema": "lemonpress.fossil-visual-descendant/v0",
+  "descendant_id": "fossil-visual:a0c4deba60f775f48c6cd5add0a941904e92121c65f2f8de1dafe9ca879a3224",
+  "status": "ADMITTED",
+  "admitted_at": "2026-10-06T22:39:00.000Z",
+  "parent_trace_child": "manga-trace-child:374696b249828dd1201c5da2decf4181e75c297f2e0227cb72488760057aeb79",
+  "source_visual_seed": {
+    "sha256": "b4fcf11da6ab2feeed3190abbfc9e0251dcbd8b7007d0b5f2f6f6c2cbedf9125",
+    "role": "fossil-key-art-seed",
+    "media_type": "image/png"
+  },
+  "reconstruction_pass": {
+    "sha256": "b80c239cd82c31f3975215c77c8753adb2c756e118e591aefb6a56fb40425f7a",
+    "role": "explicit-evidence-layer-reconstruction",
+    "media_type": "image/png",
+    "pixel_dimensions": {
+      "width": 1536,
+      "height": 1024
+    }
+  },
+  "paired_recovery_proof": {
+    "sha256": "ae26957e4fc806847f388a8f3587bfc4aee20a95b352eab4a43847336c8230b1",
+    "role": "trace-body-recovery-proof",
+    "media_type": "application/json"
+  },
+  "evidence_layers": {
+    "recovered": [
+      "trace child identity",
+      "both parent identities",
+      "trace event order",
+      "crawler shard text",
+      "recovery result",
+      "trace still witnesses"
+    ],
+    "reconstructed": [
+      "poster composition",
+      "lineage layout",
+      "spatial relationship between recovered fragments",
+      "human-facing dossier framing"
+    ],
+    "speculative": [
+      "character appearance beyond trace evidence",
+      "color treatment",
+      "environmental continuity",
+      "body completion",
+      "decorative glitch tissue"
+    ],
+    "unknown": [
+      "original full body",
+      "original motion between trace events",
+      "unrecorded audio detail",
+      "unobserved visual tissue"
+    ]
+  },
+  "laws": [
+    "RECOVERED != RECONSTRUCTED",
+    "RECONSTRUCTION != RESURRECTION",
+    "SPECULATION != EVIDENCE",
+    "UNKNOWN != EMPTY",
+    "VISUAL DESCENDANT != TRACE SOURCE",
+    "ADMISSION != HISTORICAL TRUTH"
+  ]
+}
