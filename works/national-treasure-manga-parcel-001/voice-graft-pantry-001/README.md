@@ -51,3 +51,16 @@ Git stores recipes, hashes, and provenance rather than pretending uncommitted me
 - source provenance retained even though CC0 does not require attribution
 
 The donor has therefore moved from the remote-license registry to an actually ingested local candidate.
+
+
+## CC0 VOICE HARVEST 001
+
+`cc0-voice-harvest-001/` adds 23 durably ingested CC0 voice/mouth source assets and packs across human speech, announcer, breath, chant, ghost, demon, robot, alien-robot, monster, and creature families.
+
+The harvest includes three first mix-ready crosses:
+
+- BLACK DECK CHOIR 001
+- ORBITAL DEAD RADIO 001
+- MANY-MOUTHED PANEL 001
+
+Connected-media assets are marked mix-ready but not locally hashed. No binary identity is invented.
