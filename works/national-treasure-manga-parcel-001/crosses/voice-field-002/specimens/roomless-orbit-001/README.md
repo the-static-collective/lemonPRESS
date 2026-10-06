@@ -3,7 +3,7 @@
 First rendered MANGA CROSS 002 / VOICE FIELD specimen.
 
 **Status:** RENDERED_CANDIDATE_LOCAL  
-**Specimen:** `manga-voice-field:545335d444c03bb671862af446b52e0390c86283d4a05ab7e51a34e179528934`
+**Specimen:** `manga-voice-field:f8dd02a8bbb7ab68e4670d99fa0fc91f43f82cc696486b98af1fb9ac9d39daea`
 
 Cross:
 
@@ -28,7 +28,7 @@ Three word hinges open additional bounded apertures: **signal**, **room**, **lis
 - WAV: stereo, 48 kHz, 24-bit PCM
 - WAV sha256: `dddb231abfdba4967e9d1c9f98e930a5d5d422ea468bb74c0e2ede2fd12b79d1`
 - preview MP3 sha256: `d588e697618e0a3069b857cc5d2e96ed89ff598893c610f66088262512353f6a`
-- panel score sha256: `f9f279202d4d575b254d8df0f34b87309c9d17523ae729ce4b05d1a35d5bea00`
+- panel score sha256: `dbcda3a38ef7bd02e7d2f76aaf70704ac36fcea8301aab5c0a90c80a67f17653`
 
 The binary is intentionally not committed to Git. It must receive a durable external address before publication/admission.
 
