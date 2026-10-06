@@ -1,6 +1,6 @@
 {
   "schema": "lemonpress.voice-field-specimen/v0",
-  "specimen_id": "manga-voice-field:545335d444c03bb671862af446b52e0390c86283d4a05ab7e51a34e179528934",
+  "specimen_id": "manga-voice-field:f8dd02a8bbb7ab68e4670d99fa0fc91f43f82cc696486b98af1fb9ac9d39daea",
   "name": "ROOMLESS ORBIT 001",
   "status": "RENDERED_CANDIDATE_LOCAL",
   "parents": [
@@ -12,7 +12,7 @@
     "roomless-voice",
     "orbital-operator"
   ],
-  "panel_score_sha256": "f9f279202d4d575b254d8df0f34b87309c9d17523ae729ce4b05d1a35d5bea00",
+  "panel_score_sha256": "dbcda3a38ef7bd02e7d2f76aaf70704ac36fcea8301aab5c0a90c80a67f17653",
   "donor": {
     "kind": "local-deterministic-tts",
     "engine": "eSpeak",
