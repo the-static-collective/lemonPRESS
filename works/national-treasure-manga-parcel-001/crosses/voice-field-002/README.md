@@ -75,3 +75,14 @@ This directory specifies an approved mutation grammar. It does **not** claim tha
 No grandchild ID, audio hash, video hash, crossing receipt, or admission receipt may be minted until real bytes exist and are hashed.
 
 reLATTE remains intentionally ignorant of voice semantics. When an executed child exists, it crosses as an opaque donor-defined artifact with ordinary source, custody, and receipt rules.
+
+
+## First executed specimen
+
+`specimens/roomless-orbit-001/` is the first rendered candidate to exercise PANEL VOICE as actual acoustic control rather than descriptive metadata.
+
+`ROOMLESS VOICE × ORBITAL OPERATOR × PANEL VOICE`
+
+Rendered WAV sha256: `dddb231abfdba4967e9d1c9f98e930a5d5d422ea468bb74c0e2ede2fd12b79d1`
+
+The rendered binary remains outside Git and is not admitted until it receives a durable external address.
