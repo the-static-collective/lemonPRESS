@@ -1,0 +1,249 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/the-static-collective/lemonPRESS/schemas/manga-print-plan.schema.json",
+  "title": "lemonpress/manga-print-plan/v0",
+  "$defs": {
+    "binding": {
+      "$ref": "manga-common.schema.json#/$defs/binding"
+    },
+    "geometry": {
+      "$ref": "manga-common.schema.json#/$defs/geometry"
+    },
+    "grants": {
+      "$ref": "manga-common.schema.json#/$defs/grants"
+    },
+    "identity": {
+      "$ref": "manga-common.schema.json#/$defs/identity"
+    },
+    "placement": {
+      "$ref": "manga-common.schema.json#/$defs/placement"
+    },
+    "spread": {
+      "$ref": "manga-common.schema.json#/$defs/spread"
+    },
+    "performedPlacement": {
+      "$ref": "manga-common.schema.json#/$defs/performedPlacement"
+    }
+  },
+  "type": "object",
+  "properties": {
+    "schema": {
+      "const": "lemonpress/manga-print-plan/v0"
+    },
+    "workId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "editionId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "editionHash": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "issueId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "readingDirection": {
+      "enum": [
+        "ltr",
+        "rtl"
+      ]
+    },
+    "geometry": {
+      "$ref": "#/$defs/geometry"
+    },
+    "colorIntent": {
+      "enum": [
+        "monochrome",
+        "grayscale",
+        "color"
+      ]
+    },
+    "selection": {
+      "$ref": "#/$defs/binding"
+    },
+    "sheetLayout": {
+      "const": "one-leaf-two-sides"
+    },
+    "sides": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "placementId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "pageId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "repeatOf": {
+            "anyOf": [
+              {
+                "type": "string",
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "position": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "parity": {
+            "enum": [
+              "odd",
+              "even"
+            ]
+          },
+          "leaf": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "face": {
+            "enum": [
+              "recto",
+              "verso"
+            ]
+          },
+          "side": {
+            "enum": [
+              "left",
+              "right"
+            ]
+          },
+          "parent": {
+            "$ref": "#/$defs/identity"
+          },
+          "role": {
+            "enum": [
+              "front",
+              "insideFront",
+              "insideBack",
+              "back",
+              "interior",
+              "intentional-blank"
+            ]
+          },
+          "sourceImage": {
+            "anyOf": [
+              {
+                "$ref": "#/$defs/binding"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "placementId",
+          "pageId",
+          "repeatOf",
+          "position",
+          "parity",
+          "leaf",
+          "face",
+          "side",
+          "parent",
+          "role",
+          "sourceImage"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "spreads": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "spreadId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "placements": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 2,
+            "maxItems": 2,
+            "uniqueItems": true
+          },
+          "left": {
+            "type": "string",
+            "minLength": 1
+          },
+          "right": {
+            "type": "string",
+            "minLength": 1
+          },
+          "trimWidthUm": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "trimHeightUm": {
+            "type": "integer",
+            "minimum": 1
+          }
+        },
+        "required": [
+          "spreadId",
+          "placements",
+          "left",
+          "right",
+          "trimWidthUm",
+          "trimHeightUm"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "printerAcceptance": {
+      "const": "unknown"
+    },
+    "signatureImposition": {
+      "const": "not-declared"
+    },
+    "publicationAuthority": {
+      "const": "none"
+    },
+    "laws": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "printPlanHash": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    }
+  },
+  "required": [
+    "schema",
+    "workId",
+    "editionId",
+    "editionHash",
+    "issueId",
+    "readingDirection",
+    "geometry",
+    "colorIntent",
+    "selection",
+    "sheetLayout",
+    "sides",
+    "spreads",
+    "printerAcceptance",
+    "signatureImposition",
+    "publicationAuthority",
+    "laws",
+    "printPlanHash"
+  ],
+  "additionalProperties": false
+}

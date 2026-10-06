@@ -1,0 +1,269 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/the-static-collective/lemonPRESS/schemas/manga-performance-handoff.schema.json",
+  "title": "lemonpress/manga-performance-handoff/v0",
+  "$defs": {
+    "binding": {
+      "$ref": "manga-common.schema.json#/$defs/binding"
+    },
+    "geometry": {
+      "$ref": "manga-common.schema.json#/$defs/geometry"
+    },
+    "grants": {
+      "$ref": "manga-common.schema.json#/$defs/grants"
+    },
+    "identity": {
+      "$ref": "manga-common.schema.json#/$defs/identity"
+    },
+    "placement": {
+      "$ref": "manga-common.schema.json#/$defs/placement"
+    },
+    "spread": {
+      "$ref": "manga-common.schema.json#/$defs/spread"
+    },
+    "performedPlacement": {
+      "$ref": "manga-common.schema.json#/$defs/performedPlacement"
+    }
+  },
+  "type": "object",
+  "properties": {
+    "schema": {
+      "const": "lemonpress/manga-performance-handoff/v0"
+    },
+    "workId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "editionId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "editionHash": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "issueId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source": {
+      "$ref": "#/$defs/binding"
+    },
+    "admission": {
+      "$ref": "#/$defs/binding"
+    },
+    "editionAdmission": {
+      "$ref": "#/$defs/binding"
+    },
+    "pages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "identity": {
+            "$ref": "#/$defs/identity"
+          },
+          "sourceImage": {
+            "anyOf": [
+              {
+                "$ref": "#/$defs/binding"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "narrativeReferences": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/binding"
+            }
+          },
+          "dialogueCaptionReferences": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/binding"
+            }
+          },
+          "panelMap": {
+            "anyOf": [
+              {
+                "$ref": "#/$defs/binding"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "internalSemantics": {
+            "enum": [
+              "unknown",
+              "externally-referenced"
+            ]
+          },
+          "rightsSource": {
+            "$ref": "#/$defs/binding"
+          },
+          "grants": {
+            "$ref": "#/$defs/grants"
+          }
+        },
+        "required": [
+          "identity",
+          "sourceImage",
+          "narrativeReferences",
+          "dialogueCaptionReferences",
+          "panelMap",
+          "internalSemantics",
+          "rightsSource",
+          "grants"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "orderingContext": {
+      "type": "object",
+      "properties": {
+        "readingDirection": {
+          "enum": [
+            "ltr",
+            "rtl"
+          ]
+        },
+        "placements": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/performedPlacement"
+          }
+        },
+        "spreads": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/spread"
+          }
+        }
+      },
+      "required": [
+        "readingDirection",
+        "placements",
+        "spreads"
+      ],
+      "additionalProperties": false
+    },
+    "allowedAdaptationScope": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "grants": {
+      "$ref": "#/$defs/grants"
+    },
+    "externalEditorialAuthorityReference": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "authority": {
+      "type": "object",
+      "properties": {
+        "render": {
+          "const": false
+        },
+        "staging": {
+          "const": false
+        },
+        "editorialAdmission": {
+          "const": false
+        },
+        "houseRelease": {
+          "const": false
+        }
+      },
+      "required": [
+        "render",
+        "staging",
+        "editorialAdmission",
+        "houseRelease"
+      ],
+      "additionalProperties": false
+    },
+    "targetVocabulary": {
+      "type": "object",
+      "properties": {
+        "pageSource": {
+          "type": "string",
+          "minLength": 1
+        },
+        "narrativeSource": {
+          "type": "string",
+          "minLength": 1
+        },
+        "proposal": {
+          "type": "string",
+          "minLength": 1
+        },
+        "admission": {
+          "type": "string",
+          "minLength": 1
+        },
+        "plan": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ownedPixels": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "pageSource",
+        "narrativeSource",
+        "proposal",
+        "admission",
+        "plan",
+        "ownedPixels"
+      ],
+      "additionalProperties": false
+    },
+    "laws": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "handoffHash": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    }
+  },
+  "required": [
+    "schema",
+    "workId",
+    "editionId",
+    "editionHash",
+    "issueId",
+    "source",
+    "admission",
+    "editionAdmission",
+    "pages",
+    "orderingContext",
+    "allowedAdaptationScope",
+    "grants",
+    "externalEditorialAuthorityReference",
+    "authority",
+    "targetVocabulary",
+    "laws",
+    "handoffHash"
+  ],
+  "additionalProperties": false
+}

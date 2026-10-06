@@ -1,0 +1,154 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/the-static-collective/lemonPRESS/schemas/manga-print-proof.schema.json",
+  "title": "lemonpress/manga-print-proof/v0",
+  "$defs": {
+    "binding": {
+      "$ref": "manga-common.schema.json#/$defs/binding"
+    },
+    "geometry": {
+      "$ref": "manga-common.schema.json#/$defs/geometry"
+    },
+    "grants": {
+      "$ref": "manga-common.schema.json#/$defs/grants"
+    },
+    "identity": {
+      "$ref": "manga-common.schema.json#/$defs/identity"
+    },
+    "placement": {
+      "$ref": "manga-common.schema.json#/$defs/placement"
+    },
+    "spread": {
+      "$ref": "manga-common.schema.json#/$defs/spread"
+    },
+    "performedPlacement": {
+      "$ref": "manga-common.schema.json#/$defs/performedPlacement"
+    }
+  },
+  "type": "object",
+  "properties": {
+    "schema": {
+      "const": "lemonpress/manga-print-proof/v0"
+    },
+    "editionHash": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "printPlanHash": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "state": {
+      "const": "structural-proof-only"
+    },
+    "INPUT": {
+      "type": "object",
+      "properties": {
+        "work": {
+          "$ref": "#/$defs/binding"
+        },
+        "source": {
+          "$ref": "#/$defs/binding"
+        },
+        "admission": {
+          "$ref": "#/$defs/binding"
+        },
+        "editionAdmission": {
+          "$ref": "#/$defs/binding"
+        },
+        "pages": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/binding"
+          }
+        }
+      },
+      "required": [
+        "work",
+        "source",
+        "admission",
+        "editionAdmission",
+        "pages"
+      ],
+      "additionalProperties": false
+    },
+    "TRANSFORMATION": {
+      "type": "string",
+      "minLength": 1
+    },
+    "OUTPUT": {
+      "type": "object",
+      "properties": {
+        "printPlanHash": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "pageCount": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "required": [
+        "printPlanHash",
+        "pageCount"
+      ],
+      "additionalProperties": false
+    },
+    "RESIDUAL": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "LOSS": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "UNKNOWN": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "STOP": {
+      "type": "string",
+      "minLength": 1
+    },
+    "publicationAuthority": {
+      "const": "none"
+    },
+    "laws": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "proofHash": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    }
+  },
+  "required": [
+    "schema",
+    "editionHash",
+    "printPlanHash",
+    "state",
+    "INPUT",
+    "TRANSFORMATION",
+    "OUTPUT",
+    "RESIDUAL",
+    "LOSS",
+    "UNKNOWN",
+    "STOP",
+    "publicationAuthority",
+    "laws",
+    "proofHash"
+  ],
+  "additionalProperties": false
+}

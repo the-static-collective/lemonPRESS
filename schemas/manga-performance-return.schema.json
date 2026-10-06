@@ -1,0 +1,144 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/the-static-collective/lemonPRESS/schemas/manga-performance-return.schema.json",
+  "title": "lemonpress/manga-performance-return/v0",
+  "$defs": {
+    "binding": {
+      "$ref": "manga-common.schema.json#/$defs/binding"
+    },
+    "geometry": {
+      "$ref": "manga-common.schema.json#/$defs/geometry"
+    },
+    "grants": {
+      "$ref": "manga-common.schema.json#/$defs/grants"
+    },
+    "identity": {
+      "$ref": "manga-common.schema.json#/$defs/identity"
+    },
+    "placement": {
+      "$ref": "manga-common.schema.json#/$defs/placement"
+    },
+    "spread": {
+      "$ref": "manga-common.schema.json#/$defs/spread"
+    },
+    "performedPlacement": {
+      "$ref": "manga-common.schema.json#/$defs/performedPlacement"
+    }
+  },
+  "type": "object",
+  "properties": {
+    "schema": {
+      "const": "lemonpress/manga-performance-return/v0"
+    },
+    "handoffHash": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "consumedPages": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/identity"
+      },
+      "minItems": 1
+    },
+    "descendantId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "renderer": {
+      "type": "string",
+      "minLength": 1
+    },
+    "artifacts": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/binding"
+      },
+      "minItems": 1
+    },
+    "preservedPages": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/identity"
+      },
+      "minItems": 1
+    },
+    "omittedMaterial": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "mutations": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "parents": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/identity"
+      },
+      "minItems": 1
+    },
+    "descendantKind": {
+      "const": "performance"
+    },
+    "verification": {
+      "type": "string",
+      "minLength": 1
+    },
+    "publicationStateChange": {
+      "type": "null"
+    },
+    "authority": {
+      "type": "object",
+      "properties": {
+        "houseRelease": {
+          "const": false
+        },
+        "editorialAdmission": {
+          "const": false
+        }
+      },
+      "required": [
+        "houseRelease",
+        "editorialAdmission"
+      ],
+      "additionalProperties": false
+    },
+    "laws": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "returnHash": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    }
+  },
+  "required": [
+    "schema",
+    "handoffHash",
+    "consumedPages",
+    "descendantId",
+    "renderer",
+    "artifacts",
+    "preservedPages",
+    "omittedMaterial",
+    "mutations",
+    "parents",
+    "descendantKind",
+    "verification",
+    "publicationStateChange",
+    "authority",
+    "laws",
+    "returnHash"
+  ],
+  "additionalProperties": false
+}

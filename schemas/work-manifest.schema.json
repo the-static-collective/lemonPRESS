@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/the-static-collective/lemonPRESS/schemas/work-manifest.schema.json",
+  "title": "lemonPRESS Work Manifest",
+  "type": "object",
+  "required": [
+    "work_id",
+    "title",
+    "status",
+    "admission",
+    "lanes"
+  ],
+  "properties": {
+    "work_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "subtitle": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "status": {
+      "enum": [
+        "forming",
+        "admitted",
+        "published",
+        "withdrawn"
+      ]
+    },
+    "admission": {
+      "type": "object",
+      "required": [
+        "state"
+      ],
+      "properties": {
+        "state": {
+          "enum": [
+            "pending",
+            "admitted"
+          ]
+        },
+        "receipt": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_revision": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": true
+    },
+    "lanes": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "physical",
+          "digital",
+          "crawler",
+          "archive"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "rights": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "relations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "type",
+          "target"
+        ],
+        "properties": {
+          "type": {
+            "type": "string"
+          },
+          "target": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,353 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/the-static-collective/lemonPRESS/schemas/manga-common.schema.json",
+  "$defs": {
+    "binding": {
+      "type": "object",
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        }
+      },
+      "required": [
+        "path",
+        "sha256"
+      ],
+      "additionalProperties": false
+    },
+    "geometry": {
+      "type": "object",
+      "properties": {
+        "unit": {
+          "const": "um"
+        },
+        "page": {
+          "type": "object",
+          "properties": {
+            "x": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "y": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "width": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "height": {
+              "type": "integer",
+              "minimum": 1
+            }
+          },
+          "required": [
+            "x",
+            "y",
+            "width",
+            "height"
+          ],
+          "additionalProperties": false
+        },
+        "trim": {
+          "type": "object",
+          "properties": {
+            "x": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "y": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "width": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "height": {
+              "type": "integer",
+              "minimum": 1
+            }
+          },
+          "required": [
+            "x",
+            "y",
+            "width",
+            "height"
+          ],
+          "additionalProperties": false
+        },
+        "bleed": {
+          "type": "object",
+          "properties": {
+            "left": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "right": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "top": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "bottom": {
+              "type": "integer",
+              "minimum": 0
+            }
+          },
+          "required": [
+            "left",
+            "right",
+            "top",
+            "bottom"
+          ],
+          "additionalProperties": false
+        },
+        "safeArea": {
+          "type": "object",
+          "properties": {
+            "x": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "y": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "width": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "height": {
+              "type": "integer",
+              "minimum": 1
+            }
+          },
+          "required": [
+            "x",
+            "y",
+            "width",
+            "height"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "unit",
+        "page",
+        "trim",
+        "bleed",
+        "safeArea"
+      ],
+      "additionalProperties": false
+    },
+    "grants": {
+      "type": "object",
+      "properties": {
+        "pixelReuse": {
+          "type": "boolean"
+        },
+        "pixelHarvest": {
+          "type": "boolean"
+        },
+        "derivativeReuse": {
+          "type": "boolean"
+        },
+        "publicationReuse": {
+          "type": "boolean"
+        },
+        "motionAdaptation": {
+          "type": "boolean"
+        },
+        "synthesizedSound": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "pixelReuse",
+        "pixelHarvest",
+        "derivativeReuse",
+        "publicationReuse",
+        "motionAdaptation",
+        "synthesizedSound"
+      ],
+      "additionalProperties": false
+    },
+    "identity": {
+      "type": "object",
+      "properties": {
+        "workId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "editionId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "editionHash": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "issueId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "pageId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "pageHash": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "sourceImageSha256": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[0-9a-f]{64}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "workId",
+        "editionId",
+        "editionHash",
+        "issueId",
+        "pageId",
+        "pageHash",
+        "sourceImageSha256"
+      ],
+      "additionalProperties": false
+    },
+    "placement": {
+      "type": "object",
+      "properties": {
+        "placementId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "pageId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "repeatOf": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "placementId",
+        "pageId",
+        "repeatOf"
+      ],
+      "additionalProperties": false
+    },
+    "spread": {
+      "type": "object",
+      "properties": {
+        "spreadId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "placements": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 2,
+          "maxItems": 2,
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "spreadId",
+        "placements"
+      ],
+      "additionalProperties": false
+    },
+    "performedPlacement": {
+      "type": "object",
+      "properties": {
+        "placementId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "pageId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "repeatOf": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "position": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "parity": {
+          "enum": [
+            "odd",
+            "even"
+          ]
+        },
+        "leaf": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "face": {
+          "enum": [
+            "recto",
+            "verso"
+          ]
+        },
+        "side": {
+          "enum": [
+            "left",
+            "right"
+          ]
+        },
+        "parent": {
+          "$ref": "#/$defs/identity"
+        }
+      },
+      "required": [
+        "placementId",
+        "pageId",
+        "repeatOf",
+        "position",
+        "parity",
+        "leaf",
+        "face",
+        "side",
+        "parent"
+      ],
+      "additionalProperties": false
+    }
+  }
+}
