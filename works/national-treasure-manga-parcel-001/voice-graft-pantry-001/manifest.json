@@ -169,5 +169,15 @@
       "witness_path": "pirate-jokes-cc0/manifest.json",
       "status": "INGESTED_LOCAL_RENDERED_CANDIDATE"
     }
+  ],
+  "harvests": [
+    {
+      "id": "cc0-voice-harvest-001",
+      "source_assets_or_packs": 23,
+      "status": "DURABLE_INGESTED_MIX_READY",
+      "manifest_path": "cc0-voice-harvest-001/manifest.json",
+      "mix_recipes_path": "cc0-voice-harvest-001/mix-recipes.json",
+      "note": "Connected-media custody exists; source hashes are intentionally null until local materialization."
+    }
   ]
 }
