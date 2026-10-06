@@ -1,0 +1,150 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/the-static-collective/lemonPRESS/schemas/manga-page.schema.json",
+  "title": "lemonpress/manga-page/v0",
+  "$defs": {
+    "binding": {
+      "$ref": "manga-common.schema.json#/$defs/binding"
+    },
+    "geometry": {
+      "$ref": "manga-common.schema.json#/$defs/geometry"
+    },
+    "grants": {
+      "$ref": "manga-common.schema.json#/$defs/grants"
+    },
+    "identity": {
+      "$ref": "manga-common.schema.json#/$defs/identity"
+    },
+    "placement": {
+      "$ref": "manga-common.schema.json#/$defs/placement"
+    },
+    "spread": {
+      "$ref": "manga-common.schema.json#/$defs/spread"
+    },
+    "performedPlacement": {
+      "$ref": "manga-common.schema.json#/$defs/performedPlacement"
+    }
+  },
+  "type": "object",
+  "properties": {
+    "schema": {
+      "const": "lemonpress/manga-page/v0"
+    },
+    "editionId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "issueId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "pageId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "logicalPageNumber": {
+      "anyOf": [
+        {
+          "type": "integer",
+          "minimum": 1
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "physicalSheetRelation": {
+      "type": "null"
+    },
+    "kind": {
+      "enum": [
+        "content",
+        "intentional-blank"
+      ]
+    },
+    "sourceImage": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/binding"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "geometry": {
+      "$ref": "#/$defs/geometry"
+    },
+    "panelMap": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/binding"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "narrativeReferences": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/binding"
+      }
+    },
+    "dialogueCaptionReferences": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/binding"
+      }
+    },
+    "continuityGroupReferences": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/binding"
+      }
+    },
+    "rightsSource": {
+      "$ref": "#/$defs/binding"
+    },
+    "grants": {
+      "$ref": "#/$defs/grants"
+    },
+    "internalSemantics": {
+      "enum": [
+        "unknown",
+        "externally-referenced"
+      ]
+    },
+    "sourceLineage": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/binding"
+      }
+    },
+    "pageHash": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    }
+  },
+  "required": [
+    "schema",
+    "editionId",
+    "issueId",
+    "pageId",
+    "logicalPageNumber",
+    "physicalSheetRelation",
+    "kind",
+    "sourceImage",
+    "geometry",
+    "panelMap",
+    "narrativeReferences",
+    "dialogueCaptionReferences",
+    "continuityGroupReferences",
+    "rightsSource",
+    "grants",
+    "internalSemantics",
+    "sourceLineage",
+    "pageHash"
+  ],
+  "additionalProperties": false
+}

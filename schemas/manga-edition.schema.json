@@ -1,0 +1,259 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/the-static-collective/lemonPRESS/schemas/manga-edition.schema.json",
+  "title": "lemonpress/manga-edition/v0",
+  "$defs": {
+    "binding": {
+      "$ref": "manga-common.schema.json#/$defs/binding"
+    },
+    "geometry": {
+      "$ref": "manga-common.schema.json#/$defs/geometry"
+    },
+    "grants": {
+      "$ref": "manga-common.schema.json#/$defs/grants"
+    },
+    "identity": {
+      "$ref": "manga-common.schema.json#/$defs/identity"
+    },
+    "placement": {
+      "$ref": "manga-common.schema.json#/$defs/placement"
+    },
+    "spread": {
+      "$ref": "manga-common.schema.json#/$defs/spread"
+    },
+    "performedPlacement": {
+      "$ref": "manga-common.schema.json#/$defs/performedPlacement"
+    }
+  },
+  "type": "object",
+  "properties": {
+    "schema": {
+      "const": "lemonpress/manga-edition/v0"
+    },
+    "workId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "workManifest": {
+      "$ref": "#/$defs/binding"
+    },
+    "source": {
+      "$ref": "#/$defs/binding"
+    },
+    "admission": {
+      "$ref": "#/$defs/binding"
+    },
+    "editionAdmission": {
+      "$ref": "#/$defs/binding"
+    },
+    "editionId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "issueId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "issueSequence": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "readingDirection": {
+      "enum": [
+        "ltr",
+        "rtl"
+      ]
+    },
+    "geometry": {
+      "$ref": "#/$defs/geometry"
+    },
+    "colorIntent": {
+      "enum": [
+        "monochrome",
+        "grayscale",
+        "color"
+      ]
+    },
+    "pageCount": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "covers": {
+      "type": "object",
+      "properties": {
+        "front": {
+          "type": "string",
+          "minLength": 1
+        },
+        "insideFront": {
+          "type": "string",
+          "minLength": 1
+        },
+        "insideBack": {
+          "type": "string",
+          "minLength": 1
+        },
+        "back": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "front",
+        "insideFront",
+        "insideBack",
+        "back"
+      ],
+      "additionalProperties": false
+    },
+    "pageOrdering": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/placement"
+      },
+      "minItems": 4
+    },
+    "spreads": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/spread"
+      }
+    },
+    "sourceLineage": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/binding"
+      },
+      "minItems": 1
+    },
+    "pageManifests": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/binding"
+      },
+      "minItems": 1
+    },
+    "printIntent": {
+      "type": "object",
+      "properties": {
+        "selection": {
+          "$ref": "#/$defs/binding"
+        },
+        "sheetLayout": {
+          "const": "one-leaf-two-sides"
+        },
+        "requiredBlanks": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "selection",
+        "sheetLayout",
+        "requiredBlanks"
+      ],
+      "additionalProperties": false
+    },
+    "digitalIntent": {
+      "type": "object",
+      "properties": {
+        "mode": {
+          "enum": [
+            "held",
+            "page-sequence"
+          ]
+        },
+        "publicationAuthority": {
+          "const": "none"
+        }
+      },
+      "required": [
+        "mode",
+        "publicationAuthority"
+      ],
+      "additionalProperties": false
+    },
+    "performanceHandoffPolicy": {
+      "type": "object",
+      "properties": {
+        "grants": {
+          "$ref": "#/$defs/grants"
+        },
+        "allowedAdaptationScope": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "externalEditorialAuthorityReference": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "grants",
+        "allowedAdaptationScope",
+        "externalEditorialAuthorityReference"
+      ],
+      "additionalProperties": false
+    },
+    "rightsReferences": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/binding"
+      },
+      "minItems": 1
+    },
+    "grants": {
+      "$ref": "#/$defs/grants"
+    },
+    "editionHash": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    }
+  },
+  "required": [
+    "schema",
+    "workId",
+    "workManifest",
+    "source",
+    "admission",
+    "editionAdmission",
+    "editionId",
+    "title",
+    "issueId",
+    "issueSequence",
+    "readingDirection",
+    "geometry",
+    "colorIntent",
+    "pageCount",
+    "covers",
+    "pageOrdering",
+    "spreads",
+    "sourceLineage",
+    "pageManifests",
+    "printIntent",
+    "digitalIntent",
+    "performanceHandoffPolicy",
+    "rightsReferences",
+    "grants",
+    "editionHash"
+  ],
+  "additionalProperties": false
+}

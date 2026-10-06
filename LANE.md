@@ -39,6 +39,11 @@ See:
 
 ## Law
 
+[Manga Press 001](MANGA-PRESS-001.md) adds an edition/form grammar within this
+lane, using existing Physical Composer selection and Press Gate packets. It
+also records bounded digital intent and performance doors without admitting
+those descendants or creating a new house lane.
+
 A physical edition is a material descendant of an admitted work.
 
 It may change pagination, typography, dimensions, sequencing furniture, cover matter, and production details without claiming those changes were present in the admitted source.

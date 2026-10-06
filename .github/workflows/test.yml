@@ -1,0 +1,33 @@
+name: Manga Press and inherited physical checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: python3 -m pip install -r requirements-test.txt
+      - run: npm test
+      - run: npm run manga -- compose works/manga-press-specimen/manga/001/edition.yaml out/issue
+      - run: npm run manga -- verify works/manga-press-specimen/manga/001/edition.yaml out/issue
+      - run: npm run manga -- gate works/manga-press-specimen/manga/001/edition.yaml out/packet
+      - run: python3 tools/press_gate.py check out/packet
+      - run: npm run manga -- --root out/packet/artifacts/evidence verify out/packet/manga/edition.json out/packet/manga
+      - uses: actions/checkout@v4
+        with:
+          ref: 6f97f8c6c79397a557ce66e3a6045ee689ad66af
+          path: out/audio-snapshot
+      - run: npm --prefix out/audio-snapshot test
+      - uses: actions/checkout@v4
+        with:
+          repository: the-static-collective/the-haunted-blender
+          ref: 4e3f098d328a9659d9074852ef7861b7d3078fee
+          path: out/blender-008p
+      - run: python3 manga-press/check_blender_008p.py --blender-root out/blender-008p

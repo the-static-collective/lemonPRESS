@@ -29,6 +29,23 @@ A work may cross into several branches.
 
 No branch becomes the source merely because it is convenient.
 
+## Manga edition grammar
+
+[Manga Press 001](MANGA-PRESS-001.md) binds an admitted work to an independently
+admitted manga edition, exact pages and reading order, a renderer-neutral print
+plan and structural proof, and a bounded Blender performance handoff. Manga is a
+form within existing production lanes. Print and performance descendants retain
+the same page ancestry; neither grants authority to the other.
+
+```sh
+npm run manga -- compose works/manga-press-specimen/manga/001/edition.yaml out/issue
+npm run manga -- verify works/manga-press-specimen/manga/001/edition.yaml out/issue
+```
+
+The executable founding issue is explicitly synthetic. PDF rendering, printer
+acceptance, page harvest, staging, editorial admission, animation, and house
+release remain separate crossings.
+
 ## Founding laws
 
 > **SOURCE != PROJECTION**
