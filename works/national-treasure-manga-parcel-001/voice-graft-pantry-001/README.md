@@ -64,3 +64,19 @@ The harvest includes three first mix-ready crosses:
 - MANY-MOUTHED PANEL 001
 
 Connected-media assets are marked mix-ready but not locally hashed. No binary identity is invented.
+
+
+## CC0 VOICE HARVEST 002 — BOTTOM SCRAPE
+
+`cc0-voice-harvest-002-bottom-scrape/` adds 32 more explicit-CC0 voice/mouth sources discovered below the obvious voice-pack layer.
+
+Connected CC0 custody is now **55 assets/packs**, plus the separately local-hashed Pirate Jokes donor.
+
+New mix-ready recipes:
+
+- BOTTOMLESS CREW 001
+- PHONEME NECROMANCER 001
+- BLACK STAR ARCADE 001
+- FLESH RADIO 001
+
+The scrape explicitly rejects the inference that collection membership implies the license of an individual item.
