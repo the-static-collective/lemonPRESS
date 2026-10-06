@@ -84,7 +84,7 @@
     {
       "role": "print-pages",
       "media_type": "image/png",
-      "state": "UNBORN"
+      "state": "CANDIDATE"
     },
     {
       "role": "narration",
