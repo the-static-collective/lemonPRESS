@@ -1,0 +1,117 @@
+{
+  "issue_id": "manga-issue:432c93f1e797dbd486b8db4218cd4631380d1c0b35fed067dbadfe500763aa9c",
+  "issue_manifest_sha256": "9251d172743d5030cf0ed266f21cfacd8b68a8d54e68c6febcf7c146252f11ca",
+  "issue_crossing_spec_sha256": "e831599656e7c8948b289c50d1c7d857a5c29048d555f0053de8a5b20a8c8710",
+  "family_receipt_sha256": "d01006d713f03806dbee5d108b4641b1eb1684e518b02c41c98710d95109b71c",
+  "screening_cut_sha256": "cdb8d3b70120987bcbb74cb730200f364371e4ff51d4168b7fb7a9f32c52f834",
+  "parents": [
+    "manga-descendant:9b798be1bf145749faa496e88e8493d0da277bd2206b511c6f173c3af445a00a",
+    "manga-descendant:b199c792f3ffe320a576c2c3f9106a4b06ad6cccf1905a2741042b0137d671d5",
+    "manga-descendant:fec77751e789336d41e9a3435fc379363e8e21d843d730f245b195f5f50219ca",
+    "manga-descendant:e8170f03392012bcf66facad89d484e38ecd8b81d9f50a588f1b08a155002580",
+    "manga-descendant:d214463302401bc85d2fdcc4f01f28e75929e8f52617f2db672c7770e4c22126"
+  ],
+  "children": [
+    {
+      "page": 1,
+      "kind": "motion",
+      "descendant_id": "manga-descendant:9b798be1bf145749faa496e88e8493d0da277bd2206b511c6f173c3af445a00a"
+    },
+    {
+      "page": 2,
+      "kind": "voice",
+      "descendant_id": "manga-descendant:b199c792f3ffe320a576c2c3f9106a4b06ad6cccf1905a2741042b0137d671d5",
+      "artifacts": [
+        {
+          "role": "ancestor-page",
+          "sha256": "2b16bfd9f746b384499509f3d3b03f94fe18c8f7355f8afe962dff37a8ef1a88"
+        },
+        {
+          "role": "narration-script",
+          "sha256": "7f8b19e76caa4e7e0a0c9ca549fbf29f1423e79596fc09022400468179b566fa"
+        },
+        {
+          "role": "timing-map",
+          "sha256": "eee15afd8fa99596e6d35e3ffba2e42128a48474495c7f0dcb49cf2d16188f07"
+        },
+        {
+          "role": "voice-track",
+          "sha256": "b933b49fbd052b13d855a737893d92a21670ac6570d10f172073af16938623d0"
+        },
+        {
+          "role": "motion-edition",
+          "sha256": "02ca87453ab2190afb61408eaa4590118f513b813b42c41f9bfe0aba21f5feb2"
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "kind": "music",
+      "descendant_id": "manga-descendant:fec77751e789336d41e9a3435fc379363e8e21d843d730f245b195f5f50219ca",
+      "artifacts": [
+        {
+          "role": "ancestor-page",
+          "sha256": "7b268159a971f47e916bcdd2b3f4a2b04f5ea2e4241688db452e22acfa5f3b88"
+        },
+        {
+          "role": "music-spec",
+          "sha256": "18feefca4cc85d18d4cffb37530262ef9632fe1c0e0b385e6cb88fe8194107f2"
+        },
+        {
+          "role": "music-track",
+          "sha256": "448265e902858a75664795375ea748d954071229b4020ad7a75a834d5582a7a4"
+        },
+        {
+          "role": "motion-edition",
+          "sha256": "c66df21777354126525d6a90f5e3cdfba6f6517ff90d285d94c31d56b260f385"
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "kind": "glitch",
+      "descendant_id": "manga-descendant:e8170f03392012bcf66facad89d484e38ecd8b81d9f50a588f1b08a155002580",
+      "artifacts": [
+        {
+          "role": "ancestor-page",
+          "sha256": "9ef74a717f71c61968c2688037dafab5130faeb2aaabd5aa16930485a085895d"
+        },
+        {
+          "role": "glitch-recipe",
+          "sha256": "f545817f6501458720b1715cb99e0862b141f286bc7c1d286246ce7ca7c7be1c"
+        },
+        {
+          "role": "glitch-track",
+          "sha256": "3476f5653db7347c86d7ac6fb1f964680bfb60f7af87758874767d7308d112a1"
+        },
+        {
+          "role": "motion-edition",
+          "sha256": "594bcff5691d13973766d428ba27184318378f45c0331669b95584f02edf7831"
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "kind": "crawler",
+      "descendant_id": "manga-descendant:d214463302401bc85d2fdcc4f01f28e75929e8f52617f2db672c7770e4c22126",
+      "artifacts": [
+        {
+          "role": "ancestor-page",
+          "sha256": "8b4f0f92eb19f4d659107bdb1e94608258d0dfbd0c8aabe6711354b6906cba6a"
+        },
+        {
+          "role": "crawler-markdown",
+          "sha256": "7c1874e352369ee172cbaa60b5494b9332d3f415d99e6ad6d87d6d54ce639e25"
+        },
+        {
+          "role": "retrieval-fragments",
+          "sha256": "24a1e83641c1c673b51a653b9a5a9ec0641fad63745d50ddb4e825fe3969986f"
+        },
+        {
+          "role": "crawler-preview",
+          "sha256": "46b47c89df182d952dbe46aa19aed21c4834ac6bb0f9b902bdcdc4aada7cc8bc"
+        }
+      ]
+    }
+  ]
+}
