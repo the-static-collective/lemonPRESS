@@ -1,0 +1,48 @@
+{
+  "schema": "lemonpress.voice-field-specimen/v0",
+  "specimen_id": "manga-voice-field:545335d444c03bb671862af446b52e0390c86283d4a05ab7e51a34e179528934",
+  "name": "ROOMLESS ORBIT 001",
+  "status": "RENDERED_CANDIDATE_LOCAL",
+  "parents": [
+    "manga-descendant:b199c792f3ffe320a576c2c3f9106a4b06ad6cccf1905a2741042b0137d671d5",
+    "manga-descendant:e8170f03392012bcf66facad89d484e38ecd8b81d9f50a588f1b08a155002580"
+  ],
+  "inherited_trait": "VOICE HINGE -> ACOUSTIC FIELD APERTURE",
+  "organisms": [
+    "roomless-voice",
+    "orbital-operator"
+  ],
+  "panel_score_sha256": "f9f279202d4d575b254d8df0f34b87309c9d17523ae729ce4b05d1a35d5bea00",
+  "donor": {
+    "kind": "local-deterministic-tts",
+    "engine": "eSpeak",
+    "engine_version": "1.48.15",
+    "voice": "en-us",
+    "speed": 130,
+    "pitch": 42,
+    "amplitude": 150,
+    "sha256": "9186dca9f60b1904ccfc61c9b73a06bed6892e5755bbac9f8c6507636e4f7a4e"
+  },
+  "render": {
+    "engine": "FFmpeg",
+    "engine_version": "7.1.5",
+    "duration_seconds": 15.4,
+    "sample_rate_hz": 48000,
+    "channels": 2,
+    "codec": "pcm_s24le",
+    "sha256": "dddb231abfdba4967e9d1c9f98e930a5d5d422ea468bb74c0e2ede2fd12b79d1",
+    "preview_mp3_sha256": "d588e697618e0a3069b857cc5d2e96ed89ff598893c610f66088262512353f6a"
+  },
+  "storage": {
+    "binary_committed_to_git": false,
+    "durable_external_address": null,
+    "note": "Rendered bytes existed and were hashed during creation; publication requires a durable external address before admission."
+  },
+  "admission": "NOT_ADMITTED",
+  "laws": [
+    "CANDIDATE != ADMITTED",
+    "BINARY ADDRESS != GIT HISTORY",
+    "PANEL GEOMETRY MAY SCORE SOUND",
+    "STRANGENESS != RANDOMNESS"
+  ]
+}
