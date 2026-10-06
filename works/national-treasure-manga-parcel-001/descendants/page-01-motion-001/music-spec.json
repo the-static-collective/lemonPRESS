@@ -1,0 +1,28 @@
+{
+  "schema": "lemonpress.sound-bed-spec/v0",
+  "tempo_bpm": 96,
+  "duration_seconds": 10,
+  "tonal_center": "E",
+  "voices": [
+    {
+      "kind": "sine",
+      "frequency_hz": 82.4069,
+      "role": "open-E-foundation"
+    },
+    {
+      "kind": "sine",
+      "frequency_hz": 123.4708,
+      "role": "fifth-shadow"
+    },
+    {
+      "kind": "sine",
+      "frequency_hz": 164.8138,
+      "role": "upper-E-glint"
+    }
+  ],
+  "pulse": {
+    "bpm": 96,
+    "shape": "decaying-low-thump"
+  },
+  "law": "SOUNDTRACK != SOURCE AUTHORITY"
+}
