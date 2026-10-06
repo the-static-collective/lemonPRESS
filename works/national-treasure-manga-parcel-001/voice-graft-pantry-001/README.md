@@ -38,3 +38,16 @@ CANDIDATE != ADMITTED
 ```
 
 Git stores recipes, hashes, and provenance rather than pretending uncommitted media already has durable public custody.
+
+
+## Ingested CC0 pirate donor
+
+`pirate-jokes-cc0/` now contains a grounded ingestion witness for **Pirate Jokes Male Voice** by SnowFightStudios.
+
+- license: CC0
+- source SHA-256: `26a4365d32f379e6abe2b905f70d4c7597bf241c1d9a593d49512d177d5447f0`
+- 15 native punchline organs
+- 5 deterministic descendants
+- source provenance retained even though CC0 does not require attribution
+
+The donor has therefore moved from the remote-license registry to an actually ingested local candidate.
