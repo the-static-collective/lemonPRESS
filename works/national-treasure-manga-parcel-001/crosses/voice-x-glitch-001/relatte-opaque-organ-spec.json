@@ -1,0 +1,55 @@
+{
+  "schema": "relatte.opaque-organ-spec/v0",
+  "family_ref": "organ:lemonpress/manga-grandchild",
+  "donor_contract_ref": "github:the-static-collective/lemonPRESS@experiment/manga-parcel-001#works/national-treasure-manga-parcel-001/crosses/voice-x-glitch-001/README.md",
+  "artifact_kind": "two-parent-manga-grandchild",
+  "source_world": "world:lemonpress",
+  "source_particular": "manga-grandchild:14f2b4920b76cf0448b9251f25a93da2f0caed8808ad5a748c7ba00655b62804",
+  "source_history_head": "parent-set:sha256:c947e2cd062ae960f97491fd937332cba5a62faa8faf5373fda56b04ed35cbdb",
+  "payload_refs": [
+    {
+      "address": "id:manga-descendant:b199c792f3ffe320a576c2c3f9106a4b06ad6cccf1905a2741042b0137d671d5",
+      "role": "parent-voice",
+      "media_type": "application/vnd.lemonpress.descendant-id"
+    },
+    {
+      "address": "id:manga-descendant:e8170f03392012bcf66facad89d484e38ecd8b81d9f50a588f1b08a155002580",
+      "role": "parent-glitch",
+      "media_type": "application/vnd.lemonpress.descendant-id"
+    },
+    {
+      "address": "sha256:e37b49756551aa137f524637caea2deedcd57139eb434595bce853e8d6984e61",
+      "role": "cross-recipe",
+      "media_type": "application/json"
+    },
+    {
+      "address": "sha256:f6921cdb3669b8d1e33e2cbee50251dc8b9f78dc1267851969b812a6925c6731",
+      "role": "hybrid-audio",
+      "media_type": "audio/wav"
+    },
+    {
+      "address": "sha256:47c76926f41b391ad84ebf2b8cc9735045f1747fdcaf238b0e491fe0c67a2ec9",
+      "role": "hybrid-motion",
+      "media_type": "video/mp4"
+    }
+  ],
+  "donor_claims": {
+    "status": "CANDIDATE",
+    "parents": [
+      "manga-descendant:b199c792f3ffe320a576c2c3f9106a4b06ad6cccf1905a2741042b0137d671d5",
+      "manga-descendant:e8170f03392012bcf66facad89d484e38ecd8b81d9f50a588f1b08a155002580"
+    ],
+    "parent_count": 2,
+    "parent_set_sha256": "c947e2cd062ae960f97491fd937332cba5a62faa8faf5373fda56b04ed35cbdb",
+    "novel_trait": "voice hinges gate glitch rupture",
+    "source_replacement": false,
+    "inheritance_mode": "two-parent-composition"
+  },
+  "requested_effect": {
+    "kind": "candidate-two-parent-descendant-ingress",
+    "authority": "receiver-local",
+    "preferred_initial_disposition": "HOLD"
+  },
+  "return_address": "relatte:return:lemonpress:manga-cross:voice-x-glitch-001",
+  "created_at": "2026-10-06T22:02:00.000Z"
+}
