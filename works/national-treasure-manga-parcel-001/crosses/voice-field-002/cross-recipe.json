@@ -1,0 +1,56 @@
+{
+  "schema": "lemonpress.manga-cross-recipe/v0",
+  "status": "APPROVED_UNRENDERED",
+  "name": "VOICE FIELD / acoustic-field aperture inheritance",
+  "parents": [
+    "manga-descendant:b199c792f3ffe320a576c2c3f9106a4b06ad6cccf1905a2741042b0137d671d5",
+    "manga-descendant:e8170f03392012bcf66facad89d484e38ecd8b81d9f50a588f1b08a155002580"
+  ],
+  "inherits": {
+    "from": "MANGA CROSS 001",
+    "trait": "VOICE HINGE -> TEMPORARY RUPTURE APERTURE"
+  },
+  "novel_trait": "VOICE HINGE -> ACOUSTIC FIELD APERTURE",
+  "governing_clock": {
+    "source": "voice-timing-map",
+    "rule": "speech segmentation remains the primary temporal grammar"
+  },
+  "field_layers": [
+    "performance",
+    "intelligibility-core",
+    "body",
+    "transmission",
+    "distance",
+    "spatial-trajectory",
+    "spectral-behavior",
+    "aperture-material"
+  ],
+  "hinge_rule": "each aperture is bounded and explicitly declares affected layers, entry state, exit state, and recovery state",
+  "panel_voice_rule": "visual manga geometry may deterministically modulate field layers",
+  "render_contract": {
+    "required_before_child_identity": [
+      "exact donor performance bytes",
+      "exact field score",
+      "exact rendered audio bytes",
+      "exact rendered motion bytes when motion exists",
+      "content hashes for every executed artifact"
+    ],
+    "forbidden_before_execution": [
+      "grandchild_id",
+      "hybrid_audio_sha256",
+      "hybrid_video_sha256",
+      "cross_receipt",
+      "admission_receipt"
+    ]
+  },
+  "substrate_boundary": "reLATTE receives only generic opaque artifact references and donor claims; it gains no voice-field semantics",
+  "laws": [
+    "TWO PARENTS != BLEND",
+    "INHERITANCE != AVERAGE",
+    "VOICE != PRESET",
+    "DONOR != AUTHORITY",
+    "STRANGENESS != RANDOMNESS",
+    "CANDIDATE != RENDERED",
+    "RENDERED != ADMITTED"
+  ]
+}
