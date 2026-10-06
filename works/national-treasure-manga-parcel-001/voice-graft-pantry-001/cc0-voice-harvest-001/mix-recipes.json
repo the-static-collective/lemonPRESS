@@ -1,0 +1,75 @@
+{
+  "schema": "lemonpress.voice-graft-mix-recipes/v0",
+  "status": "READY_UNRENDERED",
+  "recipes": [
+    {
+      "id": "black-deck-choir-001",
+      "name": "BLACK DECK CHOIR 001",
+      "semantic_carrier": [
+        "pirate-jokes-cc0",
+        "male-adventurer"
+      ],
+      "body": [
+        "ghost-moans",
+        "monster-vol1"
+      ],
+      "breath": [
+        "ghost-breath",
+        "horror-breathing"
+      ],
+      "multiplicity": [
+        "creepy-chanting",
+        "weird-chanting"
+      ],
+      "transmission": [
+        "pilot-game-over",
+        "ai-interface"
+      ],
+      "rule": "pirate/human carrier stays intelligible; ghost and monster material may occupy tails, breaths, vowels and panel gutters only"
+    },
+    {
+      "id": "orbital-dead-radio-001",
+      "name": "ORBITAL DEAD RADIO 001",
+      "semantic_carrier": [
+        "ai-interface",
+        "pilot-game-over"
+      ],
+      "sidebands": [
+        "male-alien-robot",
+        "female-alien-robot",
+        "robot-voice-pack"
+      ],
+      "rupture": [
+        "scary-high-pitched-ghost",
+        "ghost"
+      ],
+      "room": [
+        "ghost-breath"
+      ],
+      "rule": "space-modern carrier with replaceable robotic sidebands; ghost ruptures open only at declared voice hinges"
+    },
+    {
+      "id": "many-mouthed-panel-001",
+      "name": "MANY-MOUTHED PANEL 001",
+      "semantic_carrier": [
+        "kenney-voiceover",
+        "rpg-voice-starter",
+        "bright-female-clips",
+        "mature-female-clips"
+      ],
+      "announcer": [
+        "kenney-fighter"
+      ],
+      "nonsemantic_mouth": [
+        "creature-80",
+        "monster-vol1",
+        "dying-female-rpg"
+      ],
+      "chorus": [
+        "creepy-chanting"
+      ],
+      "rule": "panel geometry selects which donor family may temporarily enter; no source donor becomes the character identity"
+    }
+  ],
+  "law": "MIX READY != MIXED"
+}
