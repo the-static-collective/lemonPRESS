@@ -1,0 +1,53 @@
+{
+  "schema": "lemonpress.manga-grandchild/v0",
+  "parents": [
+    "manga-descendant:b199c792f3ffe320a576c2c3f9106a4b06ad6cccf1905a2741042b0137d671d5",
+    "manga-descendant:e8170f03392012bcf66facad89d484e38ecd8b81d9f50a588f1b08a155002580"
+  ],
+  "parent_set_sha256": "c947e2cd062ae960f97491fd937332cba5a62faa8faf5373fda56b04ed35cbdb",
+  "recipe_sha256": "e37b49756551aa137f524637caea2deedcd57139eb434595bce853e8d6984e61",
+  "audio_sha256": "f6921cdb3669b8d1e33e2cbee50251dc8b9f78dc1267851969b812a6925c6731",
+  "video_sha256": "47c76926f41b391ad84ebf2b8cc9735045f1747fdcaf238b0e491fe0c67a2ec9",
+  "grandchild_id": "manga-grandchild:14f2b4920b76cf0448b9251f25a93da2f0caed8808ad5a748c7ba00655b62804",
+  "status": "CANDIDATE",
+  "created_at": "2026-10-06T22:02:00.000Z",
+  "inheritance": {
+    "voice_parent": "governing temporal grammar",
+    "glitch_parent": "bounded rupture grammar",
+    "novel_trait": "rupture windows are opened by inherited speech hinges; this rule exists in neither parent alone"
+  },
+  "artifacts": [
+    {
+      "role": "voice-parent-motion",
+      "address": "sha256:02ca87453ab2190afb61408eaa4590118f513b813b42c41f9bfe0aba21f5feb2",
+      "media_type": "video/mp4"
+    },
+    {
+      "role": "glitch-parent-motion",
+      "address": "sha256:594bcff5691d13973766d428ba27184318378f45c0331669b95584f02edf7831",
+      "media_type": "video/mp4"
+    },
+    {
+      "role": "cross-recipe",
+      "address": "sha256:e37b49756551aa137f524637caea2deedcd57139eb434595bce853e8d6984e61",
+      "media_type": "application/json"
+    },
+    {
+      "role": "hybrid-audio",
+      "address": "sha256:f6921cdb3669b8d1e33e2cbee50251dc8b9f78dc1267851969b812a6925c6731",
+      "media_type": "audio/wav"
+    },
+    {
+      "role": "hybrid-motion",
+      "address": "sha256:47c76926f41b391ad84ebf2b8cc9735045f1747fdcaf238b0e491fe0c67a2ec9",
+      "media_type": "video/mp4"
+    }
+  ],
+  "laws": [
+    "TWO PARENTS != BLEND",
+    "INHERITANCE != AVERAGE",
+    "PARENT != CHILD",
+    "ANCESTRY != AUTHORITY",
+    "CANDIDATE != ADMITTED"
+  ]
+}
