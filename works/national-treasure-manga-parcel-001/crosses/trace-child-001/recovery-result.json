@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "child_id": "manga-trace-child:374696b249828dd1201c5da2decf4181e75c297f2e0227cb72488760057aeb79",
+  "parents": [
+    "manga-grandchild:14f2b4920b76cf0448b9251f25a93da2f0caed8808ad5a748c7ba00655b62804",
+    "manga-descendant:d214463302401bc85d2fdcc4f01f28e75929e8f52617f2db672c7770e4c22126"
+  ],
+  "novel_trait": "RUPTURE -> TRACE EMISSION",
+  "events": [
+    "trace-001",
+    "trace-002",
+    "trace-003",
+    "trace-004"
+  ],
+  "main_body_present": false,
+  "recovered_without_main_body": true
+}
