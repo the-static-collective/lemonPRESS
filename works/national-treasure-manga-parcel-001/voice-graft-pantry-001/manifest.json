@@ -178,6 +178,15 @@
       "manifest_path": "cc0-voice-harvest-001/manifest.json",
       "mix_recipes_path": "cc0-voice-harvest-001/mix-recipes.json",
       "note": "Connected-media custody exists; source hashes are intentionally null until local materialization."
+    },
+    {
+      "id": "cc0-voice-harvest-002-bottom-scrape",
+      "added_sources": 32,
+      "cumulative_connected_cc0_assets_or_packs": 55,
+      "cumulative_with_local_hashed_pirate_donor": 56,
+      "status": "DURABLE_INGESTED_MIX_READY",
+      "manifest_path": "cc0-voice-harvest-002-bottom-scrape/manifest.json",
+      "mix_recipes_path": "cc0-voice-harvest-002-bottom-scrape/mix-recipes.json"
     }
   ]
 }
