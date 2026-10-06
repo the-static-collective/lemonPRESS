@@ -1,0 +1,10 @@
+{
+  "schema": "lemonpress.trace-shards/v0",
+  "parent_crawler": "manga-descendant:d214463302401bc85d2fdcc4f01f28e75929e8f52617f2db672c7770e4c22126",
+  "shards": [
+    {"event_id":"trace-001","crawler_fragment_ordinal":7,"text":"- Local access / lost media","at_seconds":4.868},
+    {"event_id":"trace-002","crawler_fragment_ordinal":8,"text":"- Pop culture as archaeology","at_seconds":10.749},
+    {"event_id":"trace-003","crawler_fragment_ordinal":10,"text":"- The language of pattern","at_seconds":15.009},
+    {"event_id":"trace-004","crawler_fragment_ordinal":13,"text":"- Modern ruins","at_seconds":19.65}
+  ]
+}
