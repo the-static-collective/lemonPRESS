@@ -1,0 +1,14 @@
+{
+  "schema": "lemonpress.trace-events/v0",
+  "parents": [
+    "manga-grandchild:14f2b4920b76cf0448b9251f25a93da2f0caed8808ad5a748c7ba00655b62804",
+    "manga-descendant:d214463302401bc85d2fdcc4f01f28e75929e8f52617f2db672c7770e4c22126"
+  ],
+  "novel_trait": "RUPTURE -> TRACE EMISSION",
+  "events": [
+    {"event_id":"trace-001","at_seconds":4.868,"window_seconds":{"pre":0.34,"post":0.68},"crawler_fragment_ordinal":7,"fragment_text":"- Local access / lost media","display_label":"LOCAL ACCESS / LOST MEDIA","inherited_from":{"rupture_timing":"manga-grandchild:14f2b4920b76cf0448b9251f25a93da2f0caed8808ad5a748c7ba00655b62804","retrieval_fragment":"manga-descendant:d214463302401bc85d2fdcc4f01f28e75929e8f52617f2db672c7770e4c22126"},"still_file":"trace-stills/trace-001.png","still_sha256":"195b558428746c20ff2c52748b2b48b6d25ef40b9447802d8250772ea221aa77"},
+    {"event_id":"trace-002","at_seconds":10.749,"window_seconds":{"pre":0.34,"post":0.68},"crawler_fragment_ordinal":8,"fragment_text":"- Pop culture as archaeology","display_label":"POP CULTURE AS ARCHAEOLOGY","inherited_from":{"rupture_timing":"manga-grandchild:14f2b4920b76cf0448b9251f25a93da2f0caed8808ad5a748c7ba00655b62804","retrieval_fragment":"manga-descendant:d214463302401bc85d2fdcc4f01f28e75929e8f52617f2db672c7770e4c22126"},"still_file":"trace-stills/trace-002.png","still_sha256":"f3fb8205f55c610e91d47a7a6abdb226b075b206f7bdf68853f082031b2f35bd"},
+    {"event_id":"trace-003","at_seconds":15.009,"window_seconds":{"pre":0.34,"post":0.68},"crawler_fragment_ordinal":10,"fragment_text":"- The language of pattern","display_label":"THE LANGUAGE OF PATTERN","inherited_from":{"rupture_timing":"manga-grandchild:14f2b4920b76cf0448b9251f25a93da2f0caed8808ad5a748c7ba00655b62804","retrieval_fragment":"manga-descendant:d214463302401bc85d2fdcc4f01f28e75929e8f52617f2db672c7770e4c22126"},"still_file":"trace-stills/trace-003.png","still_sha256":"e52aec31cd09103dc9fe27ba861cfcafe051d81edb976f2a8d2140edc18f8338"},
+    {"event_id":"trace-004","at_seconds":19.65,"window_seconds":{"pre":0.34,"post":0.68},"crawler_fragment_ordinal":13,"fragment_text":"- Modern ruins","display_label":"MODERN RUINS","inherited_from":{"rupture_timing":"manga-grandchild:14f2b4920b76cf0448b9251f25a93da2f0caed8808ad5a748c7ba00655b62804","retrieval_fragment":"manga-descendant:d214463302401bc85d2fdcc4f01f28e75929e8f52617f2db672c7770e4c22126"},"still_file":"trace-stills/trace-004.png","still_sha256":"84bad81055e813c2bc28c9538d3c060801c92b36d1fb276390320ef72d527cf8"}
+  ]
+}
