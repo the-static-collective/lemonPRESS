@@ -1,0 +1,44 @@
+{
+  "schema": "lemonpress/manga-reletter-recipe/v0",
+  "title": "RELETTER 001 — synthetic returned-English witness",
+  "relaySpec": "witnesses/reletter-001/relay.json",
+  "stage": "return",
+  "parent": {
+    "parentId": "synthetic-page-05",
+    "pageManifest": {
+      "path": "works/manga-press-specimen/manga/001/pages/page-05.json",
+      "sha256": "87b7f24f994f7c2fedb34d95a41bb4d9bc6ed5b0e0ef9c51b447b60ea869d875"
+    }
+  },
+  "placements": [
+    {
+      "placementId": "caption-return",
+      "segmentId": "p01-01",
+      "rectPx": {
+        "x": 8,
+        "y": 58,
+        "width": 48,
+        "height": 28
+      },
+      "style": {
+        "backgroundRgba": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "foregroundRgba": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "font": "pillow-default",
+        "fontPx": 6,
+        "paddingPx": 2,
+        "lineSpacingPx": 1,
+        "align": "center"
+      }
+    }
+  ]
+}

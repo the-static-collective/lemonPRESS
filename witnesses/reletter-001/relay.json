@@ -1,0 +1,62 @@
+{
+  "schema": "lemonpress/manga-translation-relay/v0",
+  "id": "reletter-001-synthetic-relay",
+  "title": "RELETTER 001 synthetic relay witness",
+  "status": "EXECUTION_WITNESS",
+  "source": {
+    "source_id": "manga-page:synthetic:page-05",
+    "kind": "manga-page-text-particular",
+    "title": "Synthetic bell page text",
+    "pages": 1,
+    "sha256": "87b7f24f994f7c2fedb34d95a41bb4d9bc6ed5b0e0ef9c51b447b60ea869d875"
+  },
+  "route": [
+    {
+      "language": "en",
+      "role": "source"
+    },
+    {
+      "language": "ja",
+      "role": "pivot"
+    },
+    {
+      "language": "en",
+      "role": "return"
+    }
+  ],
+  "segments": [
+    {
+      "segment_id": "p01-01",
+      "page": 1,
+      "locus": "caption",
+      "role": "caption",
+      "visibility": "complete",
+      "source": "A bell hangs.",
+      "pivot": "鐘が下がっている。",
+      "return": "THE BELL REMAINS.",
+      "drift": [
+        {
+          "kind": "register_shift",
+          "note": "hangs returns as the state-oriented remains"
+        }
+      ]
+    }
+  ],
+  "authority": {
+    "source_mutation": false,
+    "editorial_selection": false,
+    "edition_admission": false,
+    "publication": false,
+    "house_release": false
+  },
+  "laws": [
+    "TRANSLATION != REPLACEMENT",
+    "RETURN != ORIGINAL",
+    "DRIFT != ERROR",
+    "LOSS MUST REMAIN VISIBLE",
+    "SOURCE SURVIVES RELAY",
+    "CLIPPED TEXT != LICENSE TO RECONSTRUCT",
+    "LANGUAGE ROUTE IS DECLARED",
+    "RENDERING != ADMISSION"
+  ]
+}
