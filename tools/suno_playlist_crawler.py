@@ -499,6 +499,11 @@ def main(argv=None):
     press = sub.add_parser("press", help="crawl all public playlist sources and build cycle packets")
     press.add_argument("sources", type=Path)
     press.add_argument("--out", type=Path, required=True)
+
+    probe = sub.add_parser("probe", help="discover one public Suno playlist without admitting it")
+    probe.add_argument("share_url")
+    probe.add_argument("--out", type=Path)
+
     args = parser.parse_args(argv)
 
     if args.command == "press":
@@ -510,6 +515,30 @@ def main(argv=None):
         (args.out / "playdeck-cycle.json").write_text(json.dumps(playdeck, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         print(f"pressed {aggregate['track_count']} track occurrences across {len(crawls)} playlists")
         return 0
+
+    if args.command == "probe":
+        result = crawl_source({"public_url": args.share_url})
+        probe_result = {
+            "schema_version": "suno-playlist-probe-v0",
+            "state": "candidate",
+            "share_url": args.share_url,
+            "source_playlist_id": result["source"].get("source_playlist_id"),
+            "canonical_url": result["source"].get("canonical_url"),
+            "playlist": result["playlist"],
+            "tracks": result["tracks"],
+            "authority": {
+                "admitted": False,
+                "sequence_position": None,
+                "meaning": "DISCOVERY != ADMISSION"
+            }
+        }
+        rendered = json.dumps(probe_result, ensure_ascii=False, indent=2) + "\n"
+        if args.out:
+            args.out.parent.mkdir(parents=True, exist_ok=True)
+            args.out.write_text(rendered, encoding="utf-8")
+        print(rendered, end="")
+        return 0
+
     return 2
 
 
