@@ -1,0 +1,51 @@
+{
+  "schema": "lemonpress.historical-voice-graft/v0",
+  "name": "1924 GID TANNER HOWL ORBIT 001",
+  "status": "APPROVED_RENDER_PENDING",
+  "source": {
+    "title": "Little Old Cabin in the Lane",
+    "performer": "Riley Puckett",
+    "documented_secondary_performer": "Gid Tanner — fiddle and dog-like howling",
+    "recorded_date": "1924-03-03",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Riley_Puckett-Little_Old_Cabin_in_the_Lane.ogg",
+    "rights": "public domain / free of known restrictions per Commons item page"
+  },
+  "extraction": {
+    "rationale": "candidate non-speech windows inferred from transcript gaps; retain all until listening adjudication",
+    "windows_seconds": [
+      [
+        50,
+        53
+      ],
+      [
+        87,
+        90
+      ],
+      [
+        111,
+        114
+      ],
+      [
+        191,
+        198.1
+      ]
+    ]
+  },
+  "target_field": [
+    "fossil body",
+    "lowered orbit",
+    "high ghost",
+    "reversed pre-echo",
+    "collapse to center"
+  ],
+  "identity_policy": "nonsemantic historical vocal tissue only; no synthetic impersonation or semantic character identity",
+  "laws": [
+    "HISTORICAL PERSON != CHARACTER IDENTITY",
+    "NONSEMANTIC TISSUE != VOICE CLONE",
+    "SOURCE WINDOW != PERFECT ISOLATION",
+    "MATRIX NOISE != ERROR",
+    "PUBLIC DOMAIN != NO PROVENANCE",
+    "CANDIDATE WINDOW != CLAIMED EVENT",
+    "RENDERED != ADMITTED"
+  ]
+}
