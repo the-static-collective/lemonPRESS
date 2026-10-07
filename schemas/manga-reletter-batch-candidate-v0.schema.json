@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/the-static-collective/lemonPRESS/schemas/manga-reletter-batch-candidate-v0.schema.json",
+  "title": "lemonpress/manga-reletter-batch-candidate/v0",
+  "type": "object",
+  "properties": {
+    "schema": {
+      "const": "lemonpress/manga-reletter-batch-candidate/v0"
+    },
+    "status": {
+      "const": "PARTIAL_CANDIDATE"
+    },
+    "title": {
+      "type": "string"
+    },
+    "specSha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "boxBindingCandidateId": {
+      "type": "string"
+    },
+    "pageIntakeCandidateId": {
+      "type": "string"
+    },
+    "pageCount": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "renderedParticularCount": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "blockedParticulars": {
+      "type": "array"
+    },
+    "pages": {
+      "type": "array"
+    },
+    "authority": {
+      "type": "object"
+    },
+    "wrench": {
+      "type": "object"
+    },
+    "laws": {
+      "type": "array"
+    },
+    "candidateId": {
+      "type": "string",
+      "pattern": "^manga-reletter-batch:[0-9a-f]{64}$"
+    },
+    "candidateHash": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    }
+  },
+  "required": [
+    "schema",
+    "status",
+    "title",
+    "specSha256",
+    "boxBindingCandidateId",
+    "pageIntakeCandidateId",
+    "pageCount",
+    "renderedParticularCount",
+    "blockedParticulars",
+    "pages",
+    "authority",
+    "wrench",
+    "laws",
+    "candidateId",
+    "candidateHash"
+  ],
+  "additionalProperties": false
+}
