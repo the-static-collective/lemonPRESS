@@ -1,0 +1,42 @@
+{
+  "schema_version": "suno-playlist-source-set-v0",
+  "work_id": "lemonpress:2day-cycle-001",
+  "title": "2DAY",
+  "expected_track_count": 39,
+  "sources": [
+    {
+      "slot": 1,
+      "title": "2moreOhmorning!",
+      "public_url": "https://suno.com/s/zVsv2igtLOJDqzmX",
+      "expected_track_count": 11,
+      "expected_duration_minutes": 35
+    },
+    {
+      "slot": 2,
+      "title": "thenex2day",
+      "public_url": "https://suno.com/s/jLlQnaiqz9Bv5DNc",
+      "expected_track_count": 7,
+      "expected_duration_minutes": 23
+    },
+    {
+      "slot": 3,
+      "title": "2knite",
+      "public_url": "https://suno.com/s/TExxM9EQsSI0ORZS",
+      "expected_track_count": 12,
+      "expected_duration_minutes": 43
+    },
+    {
+      "slot": 4,
+      "title": "2day",
+      "public_url": "https://suno.com/s/xaTnyxQlNOLabzaf",
+      "expected_track_count": 9,
+      "expected_duration_minutes": 30
+    }
+  ],
+  "authority": {
+    "same_day_origin": "creator-declared",
+    "share_urls": "creator-supplied",
+    "track_counts_and_durations": "visually-observed",
+    "canonical_source_ids": "unobserved"
+  }
+}
