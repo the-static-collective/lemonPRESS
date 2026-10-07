@@ -1,0 +1,45 @@
+{
+  "schema": "lemonpress/reletter-plan/v0",
+  "id": "the-last-stop-moved-reletter-001",
+  "state": "WAITING_FOR_MANGA_PAGE_ADMISSION",
+  "source": {
+    "title": "THE LAST STOP MOVED — Issue Cut 001",
+    "mediaType": "application/pdf",
+    "sha256": "c14ec41badbdcddde6cc5006141e3181fe0917a86c67b1a85568d9b22e10051f",
+    "pages": 10
+  },
+  "relay": {
+    "path": "works/the-last-stop-moved-translation-relay-001/relay.json",
+    "visibleTextParticulars": 68,
+    "route": [
+      "en:source",
+      "ja:pivot",
+      "en:return"
+    ]
+  },
+  "next": [
+    "admit each source page raster into Manga Press without changing source PDF bytes",
+    "bind relay segment IDs to explicit text rectangles per admitted page",
+    "run RELETTER 001 per page",
+    "human-select any returned pages worth keeping",
+    "admit selected descendants explicitly; never self-admit"
+  ],
+  "priorityPages": [
+    {
+      "page": 4,
+      "reason": "prophecy -> omen; small semantic shift with a simple large caption region"
+    },
+    {
+      "page": 7,
+      "reason": "PAUSE -> INTERVAL and threshold -> boundary expose the strongest spatial drift"
+    },
+    {
+      "page": 9,
+      "reason": "unclaimed -> belonging to no one is the clearest ownership shift"
+    },
+    {
+      "page": 10,
+      "reason": "SPINE -> BACKBONE makes the editorial receipt itself participate in the relay"
+    }
+  ]
+}
