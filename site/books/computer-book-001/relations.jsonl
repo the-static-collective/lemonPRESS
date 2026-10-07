@@ -1,0 +1,3 @@
+{"from":"001-enter-anywhere","relation":"makes-loss-explicit","to":"002-loss-is-visible","scope":"local"}
+{"from":"002-loss-is-visible","relation":"distinguishes-order-from-history","to":"003-order-is-not-ancestry","scope":"local"}
+{"from":"003-order-is-not-ancestry","relation":"returns-to-arbitrary-entry","to":"001-enter-anywhere","scope":"local"}

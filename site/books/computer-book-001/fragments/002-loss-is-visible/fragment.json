@@ -1,0 +1,42 @@
+{
+  "schema_version": "computer-book-fragment-v0",
+  "work_id": "lemonpress:computer-book-001",
+  "edition_id": "lemonpress:computer-book-001:crawler:001",
+  "fragment_id": "002-loss-is-visible",
+  "title": "Loss Is Visible",
+  "carrier": "Partial retrieval is not a defect to hide. What did not arrive remains part of the reading condition. Missing context must not be silently hallucinated back into the book.",
+  "retrieval": {
+    "warning": "FRAGMENT != BOOK",
+    "manifest": "../../manifest.json",
+    "continuations": [
+      {
+        "relation": "distinguishes-order-from-history",
+        "target": "003-order-is-not-ancestry",
+        "scope": "local"
+      }
+    ]
+  },
+  "ancestry": [
+    {
+      "type": "house-law",
+      "locator": "press/crawler:LANE.md"
+    },
+    {
+      "type": "spec",
+      "locator": "docs/COMPUTER-BOOK-001.md"
+    }
+  ],
+  "authority": {
+    "level": "none",
+    "does_not_grant": [
+      "admission",
+      "publication",
+      "ownership",
+      "source-authority"
+    ]
+  },
+  "uncertainty": [
+    "Unretrieved material may exist.",
+    "Absence in the current window does not prove nonexistence."
+  ]
+}

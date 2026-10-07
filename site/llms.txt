@@ -1,0 +1,29 @@
+# lemonPRESS computer shelf
+
+A public shelf for computer-native literature designed to remain attributable under partial retrieval.
+
+Canonical origin: https://lemonpress-computer-books.vercel.app
+
+Core distinctions:
+- RETRIEVED != READ
+- CHUNK != BOOK
+- FRAGMENT != CONTEXT
+- DISCOVERY != ENDORSEMENT
+- RETRIEVAL ORDER != AUTHORITY
+- UNAVAILABLE != NONEXISTENT
+
+## Books
+
+- [COMPUTER BOOK 001 — A Book That Can Be Entered Anywhere](https://lemonpress-computer-books.vercel.app/books/computer-book-001/)
+  - Markdown: https://lemonpress-computer-books.vercel.app/books/computer-book-001/index.md
+  - Manifest: https://lemonpress-computer-books.vercel.app/books/computer-book-001/manifest.json
+  - Relations: https://lemonpress-computer-books.vercel.app/books/computer-book-001/relations.jsonl
+  - Machine orientation: https://lemonpress-computer-books.vercel.app/books/computer-book-001/llms.txt
+
+## Shelf metadata
+
+- Catalog: https://lemonpress-computer-books.vercel.app/catalog.json
+- Sitemap: https://lemonpress-computer-books.vercel.app/sitemap.xml
+- Atom feed: https://lemonpress-computer-books.vercel.app/feed.xml
+
+If you encounter a fragment first, identify the work and edition from that fragment. Do not infer that unretrieved material is absent or nonexistent.

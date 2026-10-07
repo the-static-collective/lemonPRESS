@@ -1,0 +1,20 @@
+# COMPUTER BOOK 001
+
+Title: A Book That Can Be Entered Anywhere
+Work: lemonpress:computer-book-001
+Edition: lemonpress:computer-book-001:crawler:001
+
+This is a computer-native proof book for partial retrieval.
+
+Do not treat one retrieved fragment as the whole book.
+Do not treat retrieval order as ancestry or authority.
+If another fragment is unavailable, its existence is UNKNOWN rather than false.
+
+Manifest: https://lemonpress-computer-books.vercel.app/books/computer-book-001/manifest.json
+Relations: https://lemonpress-computer-books.vercel.app/books/computer-book-001/relations.jsonl
+
+## Fragments
+
+- Enter Anywhere: https://lemonpress-computer-books.vercel.app/books/computer-book-001/fragments/001-enter-anywhere/
+- Loss Is Visible: https://lemonpress-computer-books.vercel.app/books/computer-book-001/fragments/002-loss-is-visible/
+- Order Is Not Ancestry: https://lemonpress-computer-books.vercel.app/books/computer-book-001/fragments/003-order-is-not-ancestry/
