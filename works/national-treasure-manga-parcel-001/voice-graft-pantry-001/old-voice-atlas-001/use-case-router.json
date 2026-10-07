@@ -1,0 +1,91 @@
+{
+  "schema": "lemonpress.old-voice-use-case-router/v0",
+  "rule": "Do not bulk-copy the entire historical corpus. Follow the use case into the atlas, then retrieve only the particulars needed.",
+  "routes": [
+    {
+      "need": "newest newly-public-domain timbre",
+      "doors": [
+        "ucsb-1925-newly-public-domain",
+        "commons-audio-1925",
+        "loc-national-jukebox-browse"
+      ],
+      "priority_year": "1925"
+    },
+    {
+      "need": "spoken comedy / patter / dialogue",
+      "doors": [
+        "loc-national-jukebox",
+        "dahr-public-domain",
+        "commons-audio-1925"
+      ],
+      "queries": [
+        "spoken",
+        "comedies",
+        "monologue",
+        "comic scene",
+        "recitation",
+        "dialogue"
+      ]
+    },
+    {
+      "need": "raw human voice / public speech",
+      "doors": [
+        "commons-sound-recording-rights",
+        "loc-national-jukebox",
+        "dahr-public-domain"
+      ],
+      "queries": [
+        "spoken",
+        "speech",
+        "recitation",
+        "address",
+        "explanatory talk"
+      ]
+    },
+    {
+      "need": "vernacular / ordinary people / accidental weirdness",
+      "doors": [
+        "ucsb-cylinder-archive"
+      ],
+      "queries": [
+        "home recording",
+        "vernacular",
+        "jokes",
+        "speech",
+        "family"
+      ],
+      "caution": "check transfer terms before custody"
+    },
+    {
+      "need": "production-ready chopping",
+      "doors": [
+        "loc-citizen-dj-blues",
+        "loc-citizen-dj-jazz",
+        "loc-citizen-dj-popular",
+        "loc-citizen-dj-musical-theater"
+      ],
+      "format": "16-bit WAV / excerpt tools"
+    },
+    {
+      "need": "surface noise / shellac / mechanical body",
+      "doors": [
+        "internet-archive-great78",
+        "internet-archive-78rpm"
+      ],
+      "caution": "discovery only until item rights verified"
+    },
+    {
+      "need": "extreme early voice physics",
+      "doors": [
+        "commons-sound-recording-rights"
+      ],
+      "queries": [
+        "1888 voice",
+        "1890 wax cylinder",
+        "Talking Doll",
+        "wire recording",
+        "author reading"
+      ]
+    }
+  ]
+}
