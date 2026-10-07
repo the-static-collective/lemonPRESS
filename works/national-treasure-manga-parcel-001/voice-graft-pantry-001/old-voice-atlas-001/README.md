@@ -30,3 +30,7 @@ RECORDING RIGHTS != COMPOSITION RIGHTS
 LINK != LICENSE
 
 Use `doors.json` for discovery and `use-case-router.json` to decide where to dig next.
+
+## 1924 VOICE HUNT 001
+
+`hunts/1924-voice-hunt-001/` houses seven 1924 voice-bearing recordings and links the broader year-specific spoken-word seams. The first house set includes Joyce, Coolidge, Piłsudski, Sun Yat-sen, Norman Clapham, Riley Puckett/Gid Tanner, and Marian Anderson.
