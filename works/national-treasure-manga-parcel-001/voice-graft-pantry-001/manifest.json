@@ -188,5 +188,18 @@
       "manifest_path": "cc0-voice-harvest-002-bottom-scrape/manifest.json",
       "mix_recipes_path": "cc0-voice-harvest-002-bottom-scrape/mix-recipes.json"
     }
+  ],
+  "atlases": [
+    {
+      "id": "old-voice-atlas-001",
+      "status": "LINKED_DISCOVERY_FIELD",
+      "archive_doors": 16,
+      "housed_historical_recordings": 10,
+      "newest_housed_year": 1925,
+      "deepest_housed_year": "1888–1890",
+      "manifest_path": "old-voice-atlas-001/doors.json",
+      "house_set_path": "old-voice-atlas-001/house-set-001.json",
+      "router_path": "old-voice-atlas-001/use-case-router.json"
+    }
   ]
 }
