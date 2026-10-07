@@ -1,0 +1,24 @@
+name: 2DAY crawler
+
+on:
+  pull_request:
+    paths:
+      - "tools/suno_playlist_crawler.py"
+      - "tests/test_suno_playlist_crawler.py"
+      - "schemas/suno-playlist-crawl-v0.schema.json"
+      - "works/2day-cycle-001/**"
+      - ".github/workflows/2day-crawler.yml"
+  push:
+    branches:
+      - "feat/2day-crawler-001"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run crawler tests
+        run: python -m unittest tests/test_suno_playlist_crawler.py -v
