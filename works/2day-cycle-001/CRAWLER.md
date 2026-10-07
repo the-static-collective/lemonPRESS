@@ -1,41 +1,35 @@
-# 2DAY CRAWLER 001
+# 2DAY CRAWLER HANDOFF
 
-Status: executable adapter, live crawl pending from an environment that can reach Suno.
+Status: declared house-level handoff.  
+Executable implementation: `press/crawler` lane, PR #32.
 
 ## Objective
 
-Expand the four declared public Suno playlists in **2DAY** into 39 track occurrences while preserving playlist identity and then emit a Playdeck-ready cyclic traversal packet.
+Expand the four declared public Suno playlists in **2DAY** into exactly 39 track occurrences while preserving each playlist as its own source object, then emit a Playdeck-ready cyclic traversal packet.
 
-## Command
+The main work declares the requirement. The crawler lane owns the implementation.
 
-```bash
-python tools/suno_playlist_crawler.py press \
-  works/2day-cycle-001/sources.json \
-  --out works/2day-cycle-001/crawl
-```
+## Required result
 
-Expected success:
+A successful crawler crossing must return:
 
-```text
-pressed 39 track occurrences across 4 playlists
-```
-
-The command writes:
-
-- `crawl/crawl.json` — normalized public-source evidence and all recovered track occurrences;
-- `crawl/playdeck-cycle.json` — the same four-playlist loop with track occurrence references attached.
+- four source playlist records in declared order;
+- exactly 39 track occurrences total;
+- each occurrence attached to its source playlist and source position;
+- source IDs only when actually observed;
+- the cycle `1 -> 2 -> 3 -> 4 -> 1`;
+- a Playdeck handoff that does not mutate source ancestry.
 
 ## Refusal conditions
 
-The adapter HOLDS rather than silently accepting when:
+HOLD rather than silently accepting when:
 
-- a playlist page does not expose a structured track list;
+- a public source cannot be read;
+- structured playlist / track metadata is absent;
 - a playlist title disagrees with the declared source;
-- a playlist's recovered track count disagrees with the observed expected count;
-- the aggregate does not equal 39 tracks;
+- a per-playlist count disagrees with 11 / 7 / 12 / 9;
+- the aggregate is not 39;
 - source ordering drifts.
-
-A missing source playlist ID remains `null`. It is never synthesized.
 
 ## Laws
 
@@ -49,14 +43,8 @@ CYCLE != DUPLICATION
 UNOBSERVED ID != INFERRED ID
 ```
 
-## Playdeck seam
+## Evidence boundary
 
-`playdeck-cycle.json` is a transport-neutral handoff. LemonPRESS owns the declared occurrence order. Playdeck may decide temporal behavior, preload policy, transitions, shuffle overlays, or UI, but those behaviors do not rewrite source playlist ancestry.
+The creator supplied the four public share URLs. Playlist titles, counts and durations were visually observed in the supplied screenshots. Canonical source IDs and the 39 exact track particulars remain unobserved in this house-level record until the crawler lane returns them from actual public source evidence.
 
-The last playlist explicitly points back to slot 1.
-
-## Current evidence boundary
-
-The creator supplied the four public share URLs. Playlist titles, counts and durations were visually observed in the supplied screenshots. This chat runtime could not fetch Suno pages directly, so canonical source IDs and the 39 exact track particulars remain unobserved here.
-
-The adapter is specifically designed so the first successful live run fills those fields from public structured metadata without inventing them.
+The executable adapter, tests and schema live on the crawler production lane rather than being promoted into main merely because this work needs them.
