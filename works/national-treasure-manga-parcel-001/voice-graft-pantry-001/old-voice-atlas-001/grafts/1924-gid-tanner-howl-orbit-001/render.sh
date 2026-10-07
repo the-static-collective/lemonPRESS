@@ -30,7 +30,7 @@ ffmpeg -y -hide_banner -loglevel error \
   -map "[fossil]" -c:a pcm_s24le -ar 48000 "$OUT/gid-tanner-howl-fossil.wav"
 
 ffmpeg -y -hide_banner -loglevel error -i "$OUT/gid-tanner-howl-fossil.wav" \
-  -filter_complex "[0:a]asplit=4[dry][low][high][pre];[dry]volume=0.74[d];[low]rubberband=tempo=0.78:pitch=0.84,volume=0.31,aecho=0.72:0.36:330|760:0.22|0.12,apulsator=hz=0.11:amount=0.92:offset_l=0.0:offset_r=0.5[l];[high]rubberband=tempo=1.08:pitch=1.16,highpass=f=420,lowpass=f=2400,volume=0.17,adelay=95|35,apulsator=hz=0.23:amount=0.88:offset_l=0.3:offset_r=0.8[h];[pre]areverse,highpass=f=360,lowpass=f=2100,volume=0.09,adelay=140|210[p];[d][l][h][p]amix=inputs=4:normalize=0,stereowiden=delay=14:feedback=0.18:crossfeed=0.08:drymix=0.92,alimiter=limit=0.90,loudnorm=I=-18:LRA=9:TP=-1.5[out]" \
+  -filter_complex "[0:a]asplit=4[dry][low][high][pre];[dry]volume=0.74[d];[low]asetrate=48000*0.84,aresample=48000,atempo=0.928571,volume=0.31,aecho=0.72:0.36:330|760:0.22|0.12,apulsator=hz=0.11:amount=0.92:offset_l=0.0:offset_r=0.5[l];[high]asetrate=48000*1.16,aresample=48000,atempo=0.931034,highpass=f=420,lowpass=f=2400,volume=0.17,adelay=95|35,apulsator=hz=0.23:amount=0.88:offset_l=0.3:offset_r=0.8[h];[pre]areverse,highpass=f=360,lowpass=f=2100,volume=0.09,adelay=140|210[p];[d][l][h][p]amix=inputs=4:normalize=0,stereowiden=delay=14:feedback=0.18:crossfeed=0.08:drymix=0.92,alimiter=limit=0.90,loudnorm=I=-18:LRA=9:TP=-1.5[out]" \
   -map "[out]" -ar 48000 -ac 2 -c:a pcm_s24le "$OUT/gid-tanner-howl-orbit-001.wav"
 
 ffmpeg -y -hide_banner -loglevel error -i "$OUT/gid-tanner-howl-orbit-001.wav" -codec:a libmp3lame -b:a 192k "$OUT/gid-tanner-howl-orbit-001-preview.mp3"
