@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lemonpress-computer-books.vercel.app/sitemap.xml

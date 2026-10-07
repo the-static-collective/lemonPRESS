@@ -1,0 +1,16 @@
+{
+  "schema_version": "lemonpress-public-catalog-v0",
+  "publisher": "lemonPRESS",
+  "canonical_origin": "https://lemonpress-computer-books.vercel.app",
+  "books": [
+    {
+      "work_id": "lemonpress:computer-book-001",
+      "edition_id": "lemonpress:computer-book-001:crawler:001",
+      "title": "A Book That Can Be Entered Anywhere",
+      "status": "proof",
+      "href": "https://lemonpress-computer-books.vercel.app/books/computer-book-001/",
+      "manifest": "https://lemonpress-computer-books.vercel.app/books/computer-book-001/manifest.json",
+      "machine_orientation": "https://lemonpress-computer-books.vercel.app/books/computer-book-001/llms.txt"
+    }
+  ]
+}

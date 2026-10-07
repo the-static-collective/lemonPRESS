@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://lemonpress-computer-books.vercel.app/</loc></url>
+  <url><loc>https://lemonpress-computer-books.vercel.app/books/computer-book-001/</loc></url>
+  <url><loc>https://lemonpress-computer-books.vercel.app/books/computer-book-001/fragments/001-enter-anywhere/</loc></url>
+  <url><loc>https://lemonpress-computer-books.vercel.app/books/computer-book-001/fragments/002-loss-is-visible/</loc></url>
+  <url><loc>https://lemonpress-computer-books.vercel.app/books/computer-book-001/fragments/003-order-is-not-ancestry/</loc></url>
+  <url><loc>https://lemonpress-computer-books.vercel.app/llms.txt</loc></url>
+  <url><loc>https://lemonpress-computer-books.vercel.app/catalog.json</loc></url>
+  <url><loc>https://lemonpress-computer-books.vercel.app/books/computer-book-001/manifest.json</loc></url>
+  <url><loc>https://lemonpress-computer-books.vercel.app/books/computer-book-001/relations.jsonl</loc></url>
+</urlset>
