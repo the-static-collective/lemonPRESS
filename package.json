@@ -7,6 +7,7 @@
     "manga-sequence": "python3 tools/manga_sequence.py",
     "manga-relay": "python3 tools/manga_translation_relay.py",
     "manga-reletter": "python3 tools/manga_reletter.py",
+    "manga-page-intake": "python3 tools/manga_page_intake.py",
     "test": "python3 physical-composer/cases/test_road_grammar.py && python3 -m unittest discover -s tests -v"
   }
 }
