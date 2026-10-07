@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/the-static-collective/lemonPRESS/schemas/manga-mask-lettering-candidate-v0.schema.json",
+  "title": "lemonpress/manga-mask-lettering-candidate/v0",
+  "type": "object",
+  "properties": {
+    "schema": {
+      "const": "lemonpress/manga-mask-lettering-candidate/v0"
+    },
+    "status": {
+      "const": "COMPLETE_VISUAL_CANDIDATE"
+    },
+    "title": {
+      "type": "string"
+    },
+    "specSha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "batchCandidateId": {
+      "type": "string"
+    },
+    "boxBindingCandidateId": {
+      "type": "string"
+    },
+    "relayCandidateId": {
+      "type": "string"
+    },
+    "pageCount": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "solidRenderedParticularCount": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "maskedParticularCount": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "totalReturnedParticularCount": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "pages": {
+      "type": "array"
+    },
+    "transformations": {
+      "type": "array"
+    },
+    "authority": {
+      "type": "object"
+    },
+    "wrench": {
+      "type": "object"
+    },
+    "laws": {
+      "type": "array"
+    },
+    "candidateId": {
+      "type": "string",
+      "pattern": "^manga-mask-lettering:[0-9a-f]{64}$"
+    },
+    "candidateHash": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    }
+  },
+  "required": [
+    "schema",
+    "status",
+    "title",
+    "specSha256",
+    "batchCandidateId",
+    "boxBindingCandidateId",
+    "relayCandidateId",
+    "pageCount",
+    "solidRenderedParticularCount",
+    "maskedParticularCount",
+    "totalReturnedParticularCount",
+    "pages",
+    "transformations",
+    "authority",
+    "wrench",
+    "laws",
+    "candidateId",
+    "candidateHash"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "lemonpress/manga-mask-lettering/v0",
+  "title": "THE LAST STOP MOVED - Mask Lettering 001",
+  "batchSpec": "works/the-last-stop-moved-reletter-batch-001/batch.json",
+  "batchOutputCandidate": "out/the-last-stop-moved-reletter-batch-001/candidate.json",
+  "boxBindingSpec": "works/the-last-stop-moved-box-binding-001/bindings.json",
+  "overlays": [
+    {"segmentId":"p03-03","page":3,"polygonPx":[[175,150],[800,150],[800,202],[175,202]],"matteRgba":[10,10,10,180],"foregroundRgba":[250,250,250,255],"style":{"maxFontPx":18,"minFontPx":8,"paddingPx":4,"lineSpacingPx":1,"align":"left"}},
+    {"segmentId":"p03-04","page":3,"polygonPx":[[880,165],[1085,165],[1085,330],[880,330]],"matteRgba":[10,10,10,145],"foregroundRgba":[250,250,250,255],"style":{"maxFontPx":14,"minFontPx":7,"paddingPx":4,"lineSpacingPx":1,"align":"center"}},
+    {"segmentId":"p06-03","page":6,"polygonPx":[[105,245],[290,245],[290,330],[105,330]],"matteRgba":[248,248,248,175],"foregroundRgba":[20,20,20,255],"style":{"maxFontPx":18,"minFontPx":8,"paddingPx":4,"lineSpacingPx":1,"align":"center"}},
+    {"segmentId":"p06-04","page":6,"polygonPx":[[145,370],[325,370],[325,445],[145,445]],"matteRgba":[248,248,248,175],"foregroundRgba":[20,20,20,255],"style":{"maxFontPx":18,"minFontPx":8,"paddingPx":4,"lineSpacingPx":1,"align":"center"}},
+    {"segmentId":"p06-05","page":6,"polygonPx":[[335,340],[425,340],[425,395],[335,395]],"matteRgba":[248,248,248,165],"foregroundRgba":[20,20,20,255],"style":{"maxFontPx":12,"minFontPx":7,"paddingPx":4,"lineSpacingPx":1,"align":"center"}},
+    {"segmentId":"p06-07","page":6,"polygonPx":[[645,180],[845,180],[845,240],[645,240]],"matteRgba":[12,12,12,150],"foregroundRgba":[250,250,250,255],"style":{"maxFontPx":18,"minFontPx":8,"paddingPx":4,"lineSpacingPx":1,"align":"center"}},
+    {"segmentId":"p08-03","page":8,"polygonPx":[[892,588],[1110,596],[1106,666],[890,664]],"matteRgba":[35,35,35,215],"foregroundRgba":[248,248,248,255],"style":{"maxFontPx":15,"minFontPx":7,"paddingPx":4,"lineSpacingPx":1,"align":"center"}},
+    {"segmentId":"p08-04","page":8,"polygonPx":[[898,678],[1110,681],[1107,752],[896,750]],"matteRgba":[35,35,35,215],"foregroundRgba":[248,248,248,255],"style":{"maxFontPx":15,"minFontPx":7,"paddingPx":4,"lineSpacingPx":1,"align":"center"}},
+    {"segmentId":"p08-05","page":8,"polygonPx":[[899,758],[1110,756],[1105,882],[895,884]],"matteRgba":[35,35,35,215],"foregroundRgba":[248,248,248,255],"style":{"maxFontPx":14,"minFontPx":6,"paddingPx":4,"lineSpacingPx":1,"align":"center"}}
+  ],
+  "laws": [
+    "MASK != INPAINTING",
+    "OVERLAY != RECOVERY",
+    "ALPHA IS DECLARED",
+    "POLYGON != PERSPECTIVE MODEL",
+    "BLOCKER COVERAGE MUST BE EXACT",
+    "RETURN != ORIGINAL",
+    "SOURCE ART SURVIVES OUTSIDE MASK",
+    "MASK LETTERING != SELECTION",
+    "CANDIDATE != EDITION",
+    "OUTPUT != PUBLICATION"
+  ]
+}

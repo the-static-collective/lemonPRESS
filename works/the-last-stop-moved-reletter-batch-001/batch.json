@@ -1,0 +1,112 @@
+{
+  "schema": "lemonpress/manga-reletter-batch/v0",
+  "title": "THE LAST STOP MOVED - Reletter Batch 001",
+  "boxBindingSpec": "works/the-last-stop-moved-box-binding-001/bindings.json",
+  "pageIntakeSpec": "works/the-last-stop-moved-page-intake-001/spec.json",
+  "surfaceStyles": {
+    "solid-dark": {
+      "backgroundRgba": [
+        24,
+        24,
+        24,
+        255
+      ],
+      "foregroundRgba": [
+        246,
+        246,
+        246,
+        255
+      ]
+    },
+    "solid-light": {
+      "backgroundRgba": [
+        248,
+        248,
+        248,
+        255
+      ],
+      "foregroundRgba": [
+        20,
+        20,
+        20,
+        255
+      ]
+    }
+  },
+  "roleStyles": {
+    "brand": {
+      "maxFontPx": 18,
+      "minFontPx": 7,
+      "paddingPx": 4,
+      "lineSpacingPx": 1,
+      "align": "left"
+    },
+    "heading": {
+      "maxFontPx": 28,
+      "minFontPx": 8,
+      "paddingPx": 4,
+      "lineSpacingPx": 2,
+      "align": "left"
+    },
+    "subheading": {
+      "maxFontPx": 16,
+      "minFontPx": 7,
+      "paddingPx": 3,
+      "lineSpacingPx": 1,
+      "align": "left"
+    },
+    "caption": {
+      "maxFontPx": 16,
+      "minFontPx": 6,
+      "paddingPx": 4,
+      "lineSpacingPx": 2,
+      "align": "left"
+    },
+    "dialogue": {
+      "maxFontPx": 18,
+      "minFontPx": 7,
+      "paddingPx": 4,
+      "lineSpacingPx": 2,
+      "align": "center"
+    },
+    "receipt": {
+      "maxFontPx": 14,
+      "minFontPx": 6,
+      "paddingPx": 3,
+      "lineSpacingPx": 1,
+      "align": "left"
+    },
+    "code": {
+      "maxFontPx": 18,
+      "minFontPx": 7,
+      "paddingPx": 3,
+      "lineSpacingPx": 1,
+      "align": "center"
+    },
+    "embedded_source_text": {
+      "maxFontPx": 18,
+      "minFontPx": 7,
+      "paddingPx": 3,
+      "lineSpacingPx": 1,
+      "align": "center"
+    },
+    "sign": {
+      "maxFontPx": 18,
+      "minFontPx": 7,
+      "paddingPx": 3,
+      "lineSpacingPx": 1,
+      "align": "center"
+    }
+  },
+  "laws": [
+    "BATCH != ADMISSION",
+    "SOLID PATCH != SOURCE RESTORATION",
+    "BLOCKED REGION SURVIVES UNCHANGED",
+    "FIT != EDITORIAL SELECTION",
+    "RETURN != ORIGINAL",
+    "PAGE ORDER SURVIVES BATCH",
+    "RIGHTS NEVER EXPAND",
+    "PARTIAL RENDER != COMPLETE EDITION",
+    "OUTPUT != PUBLICATION"
+  ]
+}
