@@ -245,15 +245,21 @@ def duration_seconds(obj: dict[str, Any]) -> float | None:
 
 
 def normalize_track(item: dict[str, Any], *, source_position: int, playlist_share_url: str):
-    title = string_value(item, "title", "name")
-    if not title:
-        raise ValueError(f"track {source_position} has no title")
     source_id = string_value(item, "id", "clip_id", "clipId", "song_id", "songId")
+    raw_title = None
+    for key in ("title", "name"):
+        if key in item and isinstance(item[key], str):
+            raw_title = item[key]
+            break
+    if raw_title is None:
+        raise ValueError(f"track {source_position} has no title field")
+    title = raw_title.strip() or "Untitled"
+    title_state = "source" if raw_title.strip() else "ui-fallback"
     material = json.dumps(
         {
             "playlist_share_url": playlist_share_url,
             "source_position": source_position,
-            "title": title,
+            "source_title": raw_title,
             "source_id": source_id,
         },
         ensure_ascii=False,
@@ -265,6 +271,8 @@ def normalize_track(item: dict[str, Any], *, source_position: int, playlist_shar
         "source_id": source_id,
         "source_position": source_position,
         "title": title,
+        "source_title": raw_title,
+        "title_state": title_state,
         "duration_seconds": duration_seconds(item),
         "public_url": string_value(item, "url", "share_url", "shareUrl", "web_url", "webUrl"),
         "audio_url": string_value(item, "audio_url", "audioUrl"),
@@ -322,10 +330,12 @@ def fetch_public_playlist_tracks(
         added = 0
         omitted = 0
         for item in items:
-            if not string_value(item, "title", "name"):
+            sid = string_value(item, "id", "clip_id", "clipId", "song_id", "songId")
+            title = string_value(item, "title", "name")
+            status = string_value(item, "status")
+            if not title and not (sid and status == "complete"):
                 omitted += 1
                 continue
-            sid = string_value(item, "id", "clip_id", "clipId", "song_id", "songId")
             identity = sid or sha256_text(json.dumps(item, ensure_ascii=False, sort_keys=True, default=str))
             if identity in seen:
                 continue
