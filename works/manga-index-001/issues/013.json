@@ -1,0 +1,89 @@
+{
+  "schema": "lemonpress/manga-source-issue/v0",
+  "corpusId": "lemonpress:manga-index-001",
+  "issueId": "lemonpress:manga-index-001:issue-013",
+  "status": "ASSEMBLED_SOURCE",
+  "issueSequence": 13,
+  "title": "WORLDS REMEMBER",
+  "sourceAssembly": {
+    "provider": "google-drive",
+    "folderId": "1-nx274pqgUiRi5xn8MAshlGWA7dZOd6o",
+    "url": "https://drive.google.com/drive/folders/1-nx274pqgUiRi5xn8MAshlGWA7dZOd6o"
+  },
+  "pageCount": 5,
+  "pages": [
+    {
+      "slot": 1,
+      "pageId": "issue-013-page-001",
+      "displayTitle": "STORYSHIP - Worlds Remember",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "133B5a58kbJVbEoy-ubbD9mNCiLFigHZh",
+        "fileName": "01 - STORYSHIP - Worlds Remember.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/133B5a58kbJVbEoy-ubbD9mNCiLFigHZh/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 2,
+      "pageId": "issue-013-page-002",
+      "displayTitle": "The Static Collective Front Room",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1xxYbjjZ6YAYh_pO0FU77eilwSvPeckXX",
+        "fileName": "02 - The Static Collective Front Room.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1xxYbjjZ6YAYh_pO0FU77eilwSvPeckXX/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 3,
+      "pageId": "issue-013-page-003",
+      "displayTitle": "The Orchard of Living Signals - WebZ Protocol",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1Sg05kebwqGp1s-YywtFW0kHuVF_Ahefm",
+        "fileName": "03 - The Orchard of Living Signals - WebZ Protocol.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1Sg05kebwqGp1s-YywtFW0kHuVF_Ahefm/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 4,
+      "pageId": "issue-013-page-004",
+      "displayTitle": "Mission WebZ - Architecture for a Living Web",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "19RKSA304Ur5w4BBvAM1CB6Hmk5OVQ1Oi",
+        "fileName": "04 - Mission WebZ - Architecture for a Living Web.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/19RKSA304Ur5w4BBvAM1CB6Hmk5OVQ1Oi/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 5,
+      "pageId": "issue-013-page-005",
+      "displayTitle": "The Seed Vault - A FatherHand Chronicle",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1iW8W493y2xkCyBmMvbNJO8S-thtYeqNb",
+        "fileName": "05 - The Seed Vault - A FatherHand Chronicle.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1iW8W493y2xkCyBmMvbNJO8S-thtYeqNb/view?usp=drivesdk"
+      }
+    }
+  ],
+  "authority": {
+    "sourceMutation": false,
+    "admission": false,
+    "publication": false,
+    "release": false
+  },
+  "laws": [
+    "ISSUE != FILE COLLECTION",
+    "DRIVE LOCATION != AUTHORITY",
+    "ORDER != ANCESTRY",
+    "INDEX != ADMISSION",
+    "SOURCE ASSEMBLY != PUBLICATION"
+  ]
+}

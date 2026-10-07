@@ -1,0 +1,113 @@
+{
+  "schema": "lemonpress/manga-source-issue/v0",
+  "corpusId": "lemonpress:manga-index-001",
+  "issueId": "lemonpress:manga-index-001:issue-009",
+  "status": "ASSEMBLED_SOURCE",
+  "issueSequence": 9,
+  "title": "THE ROOM THAT REMEMBERS US",
+  "sourceAssembly": {
+    "provider": "google-drive",
+    "folderId": "1RKTc5kUI-mkfzjkr-g3DlhdAA5SDTgsr",
+    "url": "https://drive.google.com/drive/folders/1RKTc5kUI-mkfzjkr-g3DlhdAA5SDTgsr"
+  },
+  "pageCount": 7,
+  "pages": [
+    {
+      "slot": 1,
+      "pageId": "issue-009-page-001",
+      "displayTitle": "Grace Sets the Table - The Room That Remembers Us",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1W3fGpU1Vezaw-mIKA_IGhzaq4Jyrixz6",
+        "fileName": "01 - Grace Sets the Table - The Room That Remembers Us.jpg",
+        "mimeType": "image/jpeg",
+        "url": "https://drive.google.com/file/d/1W3fGpU1Vezaw-mIKA_IGhzaq4Jyrixz6/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 2,
+      "pageId": "issue-009-page-002",
+      "displayTitle": "Goosez Works",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1H6cXlVDicRqUYAzMkheXzFx_qfaXodkL",
+        "fileName": "02 - Goosez Works.jpg",
+        "mimeType": "image/jpeg",
+        "url": "https://drive.google.com/file/d/1H6cXlVDicRqUYAzMkheXzFx_qfaXodkL/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 3,
+      "pageId": "issue-009-page-003",
+      "displayTitle": "We Took the Long Way",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1_NFzBJT9dtl0dWhwEdxXrk2-9DVal-h0",
+        "fileName": "03 - We Took the Long Way.jpg",
+        "mimeType": "image/jpeg",
+        "url": "https://drive.google.com/file/d/1_NFzBJT9dtl0dWhwEdxXrk2-9DVal-h0/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 4,
+      "pageId": "issue-009-page-004",
+      "displayTitle": "Census 18 - A Page You Can Hear",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1ZXIJ1jFCYsPWEx3tCIzWSJBvBhG4N9yB",
+        "fileName": "04 - Census 18 - A Page You Can Hear.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1ZXIJ1jFCYsPWEx3tCIzWSJBvBhG4N9yB/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 5,
+      "pageId": "issue-009-page-005",
+      "displayTitle": "Thirteenth Circle",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1tNKFAy-xrtDRfWYIjgVPzlbCoMETChI-",
+        "fileName": "05 - Thirteenth Circle.jpg",
+        "mimeType": "image/jpeg",
+        "url": "https://drive.google.com/file/d/1tNKFAy-xrtDRfWYIjgVPzlbCoMETChI-/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 6,
+      "pageId": "issue-009-page-006",
+      "displayTitle": "Four Days of Grace - Before Noon",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1sje5iGxXPXOpPjJ55tr6ZghfPYTk6b5D",
+        "fileName": "06 - Four Days of Grace - Before Noon.jpg",
+        "mimeType": "image/jpeg",
+        "url": "https://drive.google.com/file/d/1sje5iGxXPXOpPjJ55tr6ZghfPYTk6b5D/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 7,
+      "pageId": "issue-009-page-007",
+      "displayTitle": "12-01 Shift",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1sJSa0Jktl4rVGgm6A3TFF5zKoluw5rVt",
+        "fileName": "07 - 12-01 Shift.jpg",
+        "mimeType": "image/jpeg",
+        "url": "https://drive.google.com/file/d/1sJSa0Jktl4rVGgm6A3TFF5zKoluw5rVt/view?usp=drivesdk"
+      }
+    }
+  ],
+  "authority": {
+    "sourceMutation": false,
+    "admission": false,
+    "publication": false,
+    "release": false
+  },
+  "laws": [
+    "ISSUE != FILE COLLECTION",
+    "DRIVE LOCATION != AUTHORITY",
+    "ORDER != ANCESTRY",
+    "INDEX != ADMISSION",
+    "SOURCE ASSEMBLY != PUBLICATION"
+  ]
+}

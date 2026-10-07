@@ -1,0 +1,65 @@
+{
+  "schema": "lemonpress/manga-source-issue/v0",
+  "corpusId": "lemonpress:manga-index-001",
+  "issueId": "lemonpress:manga-index-001:issue-016",
+  "status": "ASSEMBLED_SOURCE",
+  "issueSequence": 16,
+  "title": "WE PLAY WHERE WE ARRIVE",
+  "sourceAssembly": {
+    "provider": "google-drive",
+    "folderId": "1wTp4v4sTuV5Y48l2c73QhmWZjWqMPf67",
+    "url": "https://drive.google.com/drive/folders/1wTp4v4sTuV5Y48l2c73QhmWZjWqMPf67"
+  },
+  "pageCount": 3,
+  "pages": [
+    {
+      "slot": 1,
+      "pageId": "issue-016-page-001",
+      "displayTitle": "The Static Collective - A More Livable Signal",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1v5O0d9xs2I9ZLdnXXDXxQwC5HDiSVqcQ",
+        "fileName": "01 - The Static Collective - A More Livable Signal.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1v5O0d9xs2I9ZLdnXXDXxQwC5HDiSVqcQ/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 2,
+      "pageId": "issue-016-page-002",
+      "displayTitle": "The Static Collective - A More Human Signal",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1d404DughX9j_2PPMb1DcCJOccsOXbdxF",
+        "fileName": "02 - The Static Collective - A More Human Signal.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1d404DughX9j_2PPMb1DcCJOccsOXbdxF/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 3,
+      "pageId": "issue-016-page-003",
+      "displayTitle": "eQuinox - Daughter’s Home",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1LXkUYzMOEbqC8CbRo0YTq-n8okpCbiQo",
+        "fileName": "03 - eQuinox - Daughters Home.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1LXkUYzMOEbqC8CbRo0YTq-n8okpCbiQo/view?usp=drivesdk"
+      }
+    }
+  ],
+  "authority": {
+    "sourceMutation": false,
+    "admission": false,
+    "publication": false,
+    "release": false
+  },
+  "laws": [
+    "ISSUE != FILE COLLECTION",
+    "DRIVE LOCATION != AUTHORITY",
+    "ORDER != ANCESTRY",
+    "INDEX != ADMISSION",
+    "SOURCE ASSEMBLY != PUBLICATION"
+  ]
+}

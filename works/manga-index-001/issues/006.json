@@ -1,0 +1,65 @@
+{
+  "schema": "lemonpress/manga-source-issue/v0",
+  "corpusId": "lemonpress:manga-index-001",
+  "issueId": "lemonpress:manga-index-001:issue-006",
+  "status": "ASSEMBLED_SOURCE",
+  "issueSequence": 6,
+  "title": "SMALL THINGS GROW",
+  "sourceAssembly": {
+    "provider": "google-drive",
+    "folderId": "1WJvjbNOhNLyFV3MNOlVRVjp0pvaJVkJI",
+    "url": "https://drive.google.com/drive/folders/1WJvjbNOhNLyFV3MNOlVRVjp0pvaJVkJI"
+  },
+  "pageCount": 3,
+  "pages": [
+    {
+      "slot": 1,
+      "pageId": "issue-006-page-001",
+      "displayTitle": "The Wrecking Crew - Vol 1",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1ezCl-io7CrFk1rpUqfPpXxbrwh0zgB7Y",
+        "fileName": "01 - The Wrecking Crew - Vol 1.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1ezCl-io7CrFk1rpUqfPpXxbrwh0zgB7Y/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 2,
+      "pageId": "issue-006-page-002",
+      "displayTitle": "Fidelity Friday - Small Things Grow",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1udYnJhcl23vFeyzdHA1IkEzW7oV8FBSa",
+        "fileName": "02 - Fidelity Friday - Small Things Grow.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1udYnJhcl23vFeyzdHA1IkEzW7oV8FBSa/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 3,
+      "pageId": "issue-006-page-003",
+      "displayTitle": "The First Morning Yashi - Part I - The Night That Held",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1U1aHI3tnqM-DspFk6o8KPj5ZeJY6r9tK",
+        "fileName": "03 - The First Morning Yashi - Part I - The Night That Held.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1U1aHI3tnqM-DspFk6o8KPj5ZeJY6r9tK/view?usp=drivesdk"
+      }
+    }
+  ],
+  "authority": {
+    "sourceMutation": false,
+    "admission": false,
+    "publication": false,
+    "release": false
+  },
+  "laws": [
+    "ISSUE != FILE COLLECTION",
+    "DRIVE LOCATION != AUTHORITY",
+    "ORDER != ANCESTRY",
+    "INDEX != ADMISSION",
+    "SOURCE ASSEMBLY != PUBLICATION"
+  ]
+}

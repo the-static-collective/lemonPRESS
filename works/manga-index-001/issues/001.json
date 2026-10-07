@@ -1,0 +1,173 @@
+{
+  "schema": "lemonpress/manga-source-issue/v0",
+  "corpusId": "lemonpress:manga-index-001",
+  "issueId": "lemonpress:manga-index-001:issue-001",
+  "status": "ASSEMBLED_SOURCE",
+  "issueSequence": 1,
+  "title": "HOME TO FRONT ROOM",
+  "sourceAssembly": {
+    "provider": "google-drive",
+    "folderId": "1Tg0Bk4VNmb9smsllHTuo2C3edA5_kJVa",
+    "url": "https://drive.google.com/drive/folders/1Tg0Bk4VNmb9smsllHTuo2C3edA5_kJVa"
+  },
+  "pageCount": 12,
+  "pages": [
+    {
+      "slot": 1,
+      "pageId": "issue-001-page-001",
+      "displayTitle": "Rosemary Violet Home",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "17SVY1L0VJ_7Q6ROY5vidmLCMUuXxNzfH",
+        "fileName": "01 - Rosemary Violet Home.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/17SVY1L0VJ_7Q6ROY5vidmLCMUuXxNzfH/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 2,
+      "pageId": "issue-001-page-002",
+      "displayTitle": "Folding Chairs and Fish Fry",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1aif6aHmOF9ljZO75INfJ_JEzP8o6nw4S",
+        "fileName": "02 - Folding Chairs and Fish Fry.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1aif6aHmOF9ljZO75INfJ_JEzP8o6nw4S/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 3,
+      "pageId": "issue-001-page-003",
+      "displayTitle": "Rosemary Roses - Learning to Sing",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1R-jFfLER5EXgn0uum7UIW0RCTAQFGDNa",
+        "fileName": "03 - Rosemary Roses - Learning to Sing.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1R-jFfLER5EXgn0uum7UIW0RCTAQFGDNa/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 4,
+      "pageId": "issue-001-page-004",
+      "displayTitle": "Ash in My Teeth",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1oAKttwAvfBwPWmVuZzGBg8i4joKBqJFk",
+        "fileName": "04 - Ash in My Teeth.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1oAKttwAvfBwPWmVuZzGBg8i4joKBqJFk/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 5,
+      "pageId": "issue-001-page-005",
+      "displayTitle": "Narrow Way Through",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1vS7xOvCgt9HYrvHbQAbpLw0amFiPvzVp",
+        "fileName": "05 - Narrow Way Through.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1vS7xOvCgt9HYrvHbQAbpLw0amFiPvzVp/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 6,
+      "pageId": "issue-001-page-006",
+      "displayTitle": "Keeping Going Is Bravery",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1h6fi3NEHmZEHvTSZcneqmaLbKGvoN_1q",
+        "fileName": "06 - Keeping Going Is Bravery.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1h6fi3NEHmZEHvTSZcneqmaLbKGvoN_1q/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 7,
+      "pageId": "issue-001-page-007",
+      "displayTitle": "The Static Collective Front Room",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1w5bFCTAUe1yZnGOO2e5raWd5H1aVm_qW",
+        "fileName": "07 - The Static Collective Front Room.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1w5bFCTAUe1yZnGOO2e5raWd5H1aVm_qW/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 8,
+      "pageId": "issue-001-page-008",
+      "displayTitle": "Mission WebZ",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "11dIUlIgS_pdX5Y0W_KtyZ9R5u5wOGi33",
+        "fileName": "08 - Mission WebZ.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/11dIUlIgS_pdX5Y0W_KtyZ9R5u5wOGi33/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 9,
+      "pageId": "issue-001-page-009",
+      "displayTitle": "The Seed Vault",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1whGSYF1GZzd9lvWSR8dY6eEUTyW9Kb6B",
+        "fileName": "09 - The Seed Vault.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1whGSYF1GZzd9lvWSR8dY6eEUTyW9Kb6B/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 10,
+      "pageId": "issue-001-page-010",
+      "displayTitle": "The Orchard of Living Signals",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "17OSw-B6ZZzOQ508hY1vdTKwbjwJJJAUf",
+        "fileName": "10 - The Orchard of Living Signals.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/17OSw-B6ZZzOQ508hY1vdTKwbjwJJJAUf/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 11,
+      "pageId": "issue-001-page-011",
+      "displayTitle": "Psychedelic Sanctuary",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1y4_CoKxP-H4P1YmpgGjYTNQ1zm529Yoi",
+        "fileName": "11 - Psychedelic Sanctuary.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1y4_CoKxP-H4P1YmpgGjYTNQ1zm529Yoi/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 12,
+      "pageId": "issue-001-page-012",
+      "displayTitle": "STORYSHIP - Worlds Remember",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1PvST-mnOza0sOQnSMBAGl1RVbeDAzUIk",
+        "fileName": "12 - STORYSHIP - Worlds Remember.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1PvST-mnOza0sOQnSMBAGl1RVbeDAzUIk/view?usp=drivesdk"
+      }
+    }
+  ],
+  "authority": {
+    "sourceMutation": false,
+    "admission": false,
+    "publication": false,
+    "release": false
+  },
+  "laws": [
+    "ISSUE != FILE COLLECTION",
+    "DRIVE LOCATION != AUTHORITY",
+    "ORDER != ANCESTRY",
+    "INDEX != ADMISSION",
+    "SOURCE ASSEMBLY != PUBLICATION"
+  ]
+}

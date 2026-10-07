@@ -1,0 +1,203 @@
+{
+  "schema": "lemonpress/manga-corpus-index/v0",
+  "corpusId": "lemonpress:manga-index-001",
+  "title": "MANGA INDEX 001",
+  "status": "INDEX",
+  "sourceShelf": {
+    "provider": "google-drive",
+    "folderId": "10QfDDoSr7-2We6DP_mDSXfgysOz0S_d2",
+    "url": "https://drive.google.com/drive/folders/10QfDDoSr7-2We6DP_mDSXfgysOz0S_d2"
+  },
+  "issueCount": 19,
+  "pageCount": 100,
+  "invariants": {
+    "issueCount": 19,
+    "pageCount": 100
+  },
+  "issues": [
+    {
+      "issueSequence": 1,
+      "issueId": "lemonpress:manga-index-001:issue-001",
+      "title": "HOME TO FRONT ROOM",
+      "pageCount": 12,
+      "manifestPath": "works/manga-index-001/issues/001.json",
+      "sourceFolderId": "1Tg0Bk4VNmb9smsllHTuo2C3edA5_kJVa",
+      "sourceFolderUrl": "https://drive.google.com/drive/folders/1Tg0Bk4VNmb9smsllHTuo2C3edA5_kJVa"
+    },
+    {
+      "issueSequence": 2,
+      "issueId": "lemonpress:manga-index-001:issue-002",
+      "title": "THE THIRTEENTH CUP",
+      "pageCount": 12,
+      "manifestPath": "works/manga-index-001/issues/002.json",
+      "sourceFolderId": "1pOXknOUcn3ZYQAt9JDYgJX0mo5VjgRVL",
+      "sourceFolderUrl": "https://drive.google.com/drive/folders/1pOXknOUcn3ZYQAt9JDYgJX0mo5VjgRVL"
+    },
+    {
+      "issueSequence": 3,
+      "issueId": "lemonpress:manga-index-001:issue-003",
+      "title": "THE AIR REMEMBERS",
+      "pageCount": 12,
+      "manifestPath": "works/manga-index-001/issues/003.json",
+      "sourceFolderId": "1a5LLp7rjrqWKWe-8jzJGmd6wl6-D7mEF",
+      "sourceFolderUrl": "https://drive.google.com/drive/folders/1a5LLp7rjrqWKWe-8jzJGmd6wl6-D7mEF"
+    },
+    {
+      "issueSequence": 4,
+      "issueId": "lemonpress:manga-index-001:issue-004",
+      "title": "THE THIRD WAS THE INVITATION",
+      "pageCount": 5,
+      "manifestPath": "works/manga-index-001/issues/004.json",
+      "sourceFolderId": "1t497dIZ1H5OzjMNbi8y9MJwHDvPOI3YO",
+      "sourceFolderUrl": "https://drive.google.com/drive/folders/1t497dIZ1H5OzjMNbi8y9MJwHDvPOI3YO"
+    },
+    {
+      "issueSequence": 5,
+      "issueId": "lemonpress:manga-index-001:issue-005",
+      "title": "END OF RADIO SILENCE",
+      "pageCount": 4,
+      "manifestPath": "works/manga-index-001/issues/005.json",
+      "sourceFolderId": "1efWSwZQYiStuie3A24t46CozzofCc_T0",
+      "sourceFolderUrl": "https://drive.google.com/drive/folders/1efWSwZQYiStuie3A24t46CozzofCc_T0"
+    },
+    {
+      "issueSequence": 6,
+      "issueId": "lemonpress:manga-index-001:issue-006",
+      "title": "SMALL THINGS GROW",
+      "pageCount": 3,
+      "manifestPath": "works/manga-index-001/issues/006.json",
+      "sourceFolderId": "1WJvjbNOhNLyFV3MNOlVRVjp0pvaJVkJI",
+      "sourceFolderUrl": "https://drive.google.com/drive/folders/1WJvjbNOhNLyFV3MNOlVRVjp0pvaJVkJI"
+    },
+    {
+      "issueSequence": 7,
+      "issueId": "lemonpress:manga-index-001:issue-007",
+      "title": "THERE WAS STILL A PLACE FOR MY VOICE",
+      "pageCount": 4,
+      "manifestPath": "works/manga-index-001/issues/007.json",
+      "sourceFolderId": "1GPHUWTj1iziHz4dqyD5TzosNpxDWBXPM",
+      "sourceFolderUrl": "https://drive.google.com/drive/folders/1GPHUWTj1iziHz4dqyD5TzosNpxDWBXPM"
+    },
+    {
+      "issueSequence": 8,
+      "issueId": "lemonpress:manga-index-001:issue-008",
+      "title": "LAST LIGHT OPEN CIRCUIT",
+      "pageCount": 5,
+      "manifestPath": "works/manga-index-001/issues/008.json",
+      "sourceFolderId": "1ICjZIYcwqlh4i0NWsJJSOxHqDXC4S38v",
+      "sourceFolderUrl": "https://drive.google.com/drive/folders/1ICjZIYcwqlh4i0NWsJJSOxHqDXC4S38v"
+    },
+    {
+      "issueSequence": 9,
+      "issueId": "lemonpress:manga-index-001:issue-009",
+      "title": "THE ROOM THAT REMEMBERS US",
+      "pageCount": 7,
+      "manifestPath": "works/manga-index-001/issues/009.json",
+      "sourceFolderId": "1RKTc5kUI-mkfzjkr-g3DlhdAA5SDTgsr",
+      "sourceFolderUrl": "https://drive.google.com/drive/folders/1RKTc5kUI-mkfzjkr-g3DlhdAA5SDTgsr"
+    },
+    {
+      "issueSequence": 10,
+      "issueId": "lemonpress:manga-index-001:issue-010",
+      "title": "STILL HERE STILL BUILDING",
+      "pageCount": 3,
+      "manifestPath": "works/manga-index-001/issues/010.json",
+      "sourceFolderId": "1N5YQtSbOHpckx34dVSI2q_n32JIl4YyY",
+      "sourceFolderUrl": "https://drive.google.com/drive/folders/1N5YQtSbOHpckx34dVSI2q_n32JIl4YyY"
+    },
+    {
+      "issueSequence": 11,
+      "issueId": "lemonpress:manga-index-001:issue-011",
+      "title": "022100 THE MARK THAT OPENS",
+      "pageCount": 3,
+      "manifestPath": "works/manga-index-001/issues/011.json",
+      "sourceFolderId": "1keSp8mPMj6f7Dr-7v9u0Ze1mlR6UbbaW",
+      "sourceFolderUrl": "https://drive.google.com/drive/folders/1keSp8mPMj6f7Dr-7v9u0Ze1mlR6UbbaW"
+    },
+    {
+      "issueSequence": 12,
+      "issueId": "lemonpress:manga-index-001:issue-012",
+      "title": "PSYCHEDELIC PUNK SANCTUARY",
+      "pageCount": 3,
+      "manifestPath": "works/manga-index-001/issues/012.json",
+      "sourceFolderId": "1JkQcU80tPGmnA4DIgv9YgWcZEQdJhNkH",
+      "sourceFolderUrl": "https://drive.google.com/drive/folders/1JkQcU80tPGmnA4DIgv9YgWcZEQdJhNkH"
+    },
+    {
+      "issueSequence": 13,
+      "issueId": "lemonpress:manga-index-001:issue-013",
+      "title": "WORLDS REMEMBER",
+      "pageCount": 5,
+      "manifestPath": "works/manga-index-001/issues/013.json",
+      "sourceFolderId": "1-nx274pqgUiRi5xn8MAshlGWA7dZOd6o",
+      "sourceFolderUrl": "https://drive.google.com/drive/folders/1-nx274pqgUiRi5xn8MAshlGWA7dZOd6o"
+    },
+    {
+      "issueSequence": 14,
+      "issueId": "lemonpress:manga-index-001:issue-014",
+      "title": "THE NARROW WAY THROUGH",
+      "pageCount": 6,
+      "manifestPath": "works/manga-index-001/issues/014.json",
+      "sourceFolderId": "1xSckhseTbgsIQ0_HNHMaCWFocAAZnE8C",
+      "sourceFolderUrl": "https://drive.google.com/drive/folders/1xSckhseTbgsIQ0_HNHMaCWFocAAZnE8C"
+    },
+    {
+      "issueSequence": 15,
+      "issueId": "lemonpress:manga-index-001:issue-015",
+      "title": "THE OTHER IS REAL",
+      "pageCount": 3,
+      "manifestPath": "works/manga-index-001/issues/015.json",
+      "sourceFolderId": "1C05XuX8SfMkDMAMo-emGkh9gRg9jQndl",
+      "sourceFolderUrl": "https://drive.google.com/drive/folders/1C05XuX8SfMkDMAMo-emGkh9gRg9jQndl"
+    },
+    {
+      "issueSequence": 16,
+      "issueId": "lemonpress:manga-index-001:issue-016",
+      "title": "WE PLAY WHERE WE ARRIVE",
+      "pageCount": 3,
+      "manifestPath": "works/manga-index-001/issues/016.json",
+      "sourceFolderId": "1wTp4v4sTuV5Y48l2c73QhmWZjWqMPf67",
+      "sourceFolderUrl": "https://drive.google.com/drive/folders/1wTp4v4sTuV5Y48l2c73QhmWZjWqMPf67"
+    },
+    {
+      "issueSequence": 17,
+      "issueId": "lemonpress:manga-index-001:issue-017",
+      "title": "IS IT SAFE IS IT ART",
+      "pageCount": 4,
+      "manifestPath": "works/manga-index-001/issues/017.json",
+      "sourceFolderId": "1QhgBifdvjHhuYOWlzn5WC7_AU1oH-eah",
+      "sourceFolderUrl": "https://drive.google.com/drive/folders/1QhgBifdvjHhuYOWlzn5WC7_AU1oH-eah"
+    },
+    {
+      "issueSequence": 18,
+      "issueId": "lemonpress:manga-index-001:issue-018",
+      "title": "REALITY HOLDS",
+      "pageCount": 5,
+      "manifestPath": "works/manga-index-001/issues/018.json",
+      "sourceFolderId": "12hIYJ4_Lb1dtzKl-auPHBMhqKuO0t1cZ",
+      "sourceFolderUrl": "https://drive.google.com/drive/folders/12hIYJ4_Lb1dtzKl-auPHBMhqKuO0t1cZ"
+    },
+    {
+      "issueSequence": 19,
+      "issueId": "lemonpress:manga-index-001:issue-019",
+      "title": "THE RESUME",
+      "pageCount": 1,
+      "manifestPath": "works/manga-index-001/issues/019.json",
+      "sourceFolderId": "1CBbv6iNFI6aflm4jaLW5-raEwxzTuJwT",
+      "sourceFolderUrl": "https://drive.google.com/drive/folders/1CBbv6iNFI6aflm4jaLW5-raEwxzTuJwT"
+    }
+  ],
+  "authority": {
+    "admission": false,
+    "publication": false,
+    "release": false
+  },
+  "laws": [
+    "ISSUE != FILE COLLECTION",
+    "INDEX != ADMISSION",
+    "DRIVE LOCATION != AUTHORITY",
+    "ORDER != ANCESTRY",
+    "OMISSION != DELETION",
+    "CANDIDATE != RELEASE"
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/the-static-collective/lemonPRESS/schemas/manga-source-issue-v0.schema.json",
+  "title": "lemonpress/manga-source-issue/v0",
+  "type": "object",
+  "properties": {
+    "schema": {
+      "const": "lemonpress/manga-source-issue/v0"
+    },
+    "corpusId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "issueId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "const": "ASSEMBLED_SOURCE"
+    },
+    "issueSequence": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sourceAssembly": {
+      "type": "object",
+      "properties": {
+        "provider": {
+          "const": "google-drive"
+        },
+        "folderId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "provider",
+        "folderId",
+        "url"
+      ],
+      "additionalProperties": false
+    },
+    "pageCount": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "pages": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "slot": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "pageId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "displayTitle": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "provider": {
+                "const": "google-drive"
+              },
+              "fileId": {
+                "type": "string",
+                "minLength": 1
+              },
+              "fileName": {
+                "type": "string",
+                "minLength": 1
+              },
+              "mimeType": {
+                "enum": [
+                  "image/png",
+                  "image/jpeg"
+                ]
+              },
+              "url": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "provider",
+              "fileId",
+              "fileName",
+              "mimeType",
+              "url"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "slot",
+          "pageId",
+          "displayTitle",
+          "source"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "authority": {
+      "type": "object",
+      "properties": {
+        "sourceMutation": {
+          "const": false
+        },
+        "admission": {
+          "const": false
+        },
+        "publication": {
+          "const": false
+        },
+        "release": {
+          "const": false
+        }
+      },
+      "required": [
+        "sourceMutation",
+        "admission",
+        "publication",
+        "release"
+      ],
+      "additionalProperties": false
+    },
+    "laws": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  },
+  "required": [
+    "schema",
+    "corpusId",
+    "issueId",
+    "status",
+    "issueSequence",
+    "title",
+    "sourceAssembly",
+    "pageCount",
+    "pages",
+    "authority",
+    "laws"
+  ],
+  "additionalProperties": false
+}

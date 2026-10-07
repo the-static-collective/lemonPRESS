@@ -1,0 +1,77 @@
+{
+  "schema": "lemonpress/manga-source-issue/v0",
+  "corpusId": "lemonpress:manga-index-001",
+  "issueId": "lemonpress:manga-index-001:issue-007",
+  "status": "ASSEMBLED_SOURCE",
+  "issueSequence": 7,
+  "title": "THERE WAS STILL A PLACE FOR MY VOICE",
+  "sourceAssembly": {
+    "provider": "google-drive",
+    "folderId": "1GPHUWTj1iziHz4dqyD5TzosNpxDWBXPM",
+    "url": "https://drive.google.com/drive/folders/1GPHUWTj1iziHz4dqyD5TzosNpxDWBXPM"
+  },
+  "pageCount": 4,
+  "pages": [
+    {
+      "slot": 1,
+      "pageId": "issue-007-page-001",
+      "displayTitle": "The House Was Quiet - I Wasn't",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1ACncwsdUu_-CIxAVvRm-5lxAtf0XW1Tj",
+        "fileName": "01 - The House Was Quiet - I Wasn't.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1ACncwsdUu_-CIxAVvRm-5lxAtf0XW1Tj/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 2,
+      "pageId": "issue-007-page-002",
+      "displayTitle": "Autodidacts - Something Was Still Growing",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "140lxSb6CWKBRXPEoy-U1wMz_QxrKTjn4",
+        "fileName": "02 - Autodidacts - Something Was Still Growing.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/140lxSb6CWKBRXPEoy-U1wMz_QxrKTjn4/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 3,
+      "pageId": "issue-007-page-003",
+      "displayTitle": "Black Swan 01 - What the Water Keeps",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1BEwCckL4k3Yo7s-rSDanRGZXhNkGst3R",
+        "fileName": "03 - Black Swan 01 - What the Water Keeps.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1BEwCckL4k3Yo7s-rSDanRGZXhNkGst3R/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 4,
+      "pageId": "issue-007-page-004",
+      "displayTitle": "Black Swan 02 - The Room Turns",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "13rbrCZ5Azrpo-1r9PmqeXGaUdwubN5jR",
+        "fileName": "04 - Black Swan 02 - The Room Turns.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/13rbrCZ5Azrpo-1r9PmqeXGaUdwubN5jR/view?usp=drivesdk"
+      }
+    }
+  ],
+  "authority": {
+    "sourceMutation": false,
+    "admission": false,
+    "publication": false,
+    "release": false
+  },
+  "laws": [
+    "ISSUE != FILE COLLECTION",
+    "DRIVE LOCATION != AUTHORITY",
+    "ORDER != ANCESTRY",
+    "INDEX != ADMISSION",
+    "SOURCE ASSEMBLY != PUBLICATION"
+  ]
+}

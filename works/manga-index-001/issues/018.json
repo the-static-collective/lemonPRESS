@@ -1,0 +1,89 @@
+{
+  "schema": "lemonpress/manga-source-issue/v0",
+  "corpusId": "lemonpress:manga-index-001",
+  "issueId": "lemonpress:manga-index-001:issue-018",
+  "status": "ASSEMBLED_SOURCE",
+  "issueSequence": 18,
+  "title": "REALITY HOLDS",
+  "sourceAssembly": {
+    "provider": "google-drive",
+    "folderId": "12hIYJ4_Lb1dtzKl-auPHBMhqKuO0t1cZ",
+    "url": "https://drive.google.com/drive/folders/12hIYJ4_Lb1dtzKl-auPHBMhqKuO0t1cZ"
+  },
+  "pageCount": 5,
+  "pages": [
+    {
+      "slot": 1,
+      "pageId": "issue-018-page-001",
+      "displayTitle": "Equalizer - Reality Holds",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1K_8TnQ2aJNTICq0rG03LEs4xt-v7BeP0",
+        "fileName": "01 - Equalizer - Reality Holds.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1K_8TnQ2aJNTICq0rG03LEs4xt-v7BeP0/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 2,
+      "pageId": "issue-018-page-002",
+      "displayTitle": "After the Festival",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1Lf186O2ZQu4psem8nvWkWks56vWWvW9q",
+        "fileName": "02 - After the Festival.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1Lf186O2ZQu4psem8nvWkWks56vWWvW9q/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 3,
+      "pageId": "issue-018-page-003",
+      "displayTitle": "Jubilee Engine - Year 00 Reset",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1AGYkSimmZ0ZOrBl9u7IrdyPsM2MZknvo",
+        "fileName": "03 - Jubilee Engine - Year 00 Reset.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1AGYkSimmZ0ZOrBl9u7IrdyPsM2MZknvo/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 4,
+      "pageId": "issue-018-page-004",
+      "displayTitle": "The Heart Rebuilds",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1PXnrNYlq7aDSEFCOjmZfndH4LD0upoJu",
+        "fileName": "04 - The Heart Rebuilds.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1PXnrNYlq7aDSEFCOjmZfndH4LD0upoJu/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 5,
+      "pageId": "issue-018-page-005",
+      "displayTitle": "eCODEsystem - Reorigin",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1ff3F00gIY1iTF6sE38MYAcC6Lfcn9jCQ",
+        "fileName": "05 - eCODEsystem - Reorigin.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1ff3F00gIY1iTF6sE38MYAcC6Lfcn9jCQ/view?usp=drivesdk"
+      }
+    }
+  ],
+  "authority": {
+    "sourceMutation": false,
+    "admission": false,
+    "publication": false,
+    "release": false
+  },
+  "laws": [
+    "ISSUE != FILE COLLECTION",
+    "DRIVE LOCATION != AUTHORITY",
+    "ORDER != ANCESTRY",
+    "INDEX != ADMISSION",
+    "SOURCE ASSEMBLY != PUBLICATION"
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "schema": "lemonpress/manga-source-issue/v0",
+  "corpusId": "lemonpress:manga-index-001",
+  "issueId": "lemonpress:manga-index-001:issue-008",
+  "status": "ASSEMBLED_SOURCE",
+  "issueSequence": 8,
+  "title": "LAST LIGHT OPEN CIRCUIT",
+  "sourceAssembly": {
+    "provider": "google-drive",
+    "folderId": "1ICjZIYcwqlh4i0NWsJJSOxHqDXC4S38v",
+    "url": "https://drive.google.com/drive/folders/1ICjZIYcwqlh4i0NWsJJSOxHqDXC4S38v"
+  },
+  "pageCount": 5,
+  "pages": [
+    {
+      "slot": 1,
+      "pageId": "issue-008-page-001",
+      "displayTitle": "Last Light - Open Circuit",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1YrefAZlDtG-O8IM1v31TB4kMYGR9S8J7",
+        "fileName": "01 - Last Light - Open Circuit.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1YrefAZlDtG-O8IM1v31TB4kMYGR9S8J7/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 2,
+      "pageId": "issue-008-page-002",
+      "displayTitle": "Rocket Step",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1A3jJSdemGlMadt5YhpCFbVHTEHQ5hFjs",
+        "fileName": "02 - Rocket Step.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1A3jJSdemGlMadt5YhpCFbVHTEHQ5hFjs/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 3,
+      "pageId": "issue-008-page-003",
+      "displayTitle": "Gods Got My Back",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "15QZeNA69cTGo_G1L_1QPffLU9sVeZc4k",
+        "fileName": "03 - Gods Got My Back.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/15QZeNA69cTGo_G1L_1QPffLU9sVeZc4k/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 4,
+      "pageId": "issue-008-page-004",
+      "displayTitle": "The Hedges Catch Fire",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "11pptVlpR2usEdryFxK_BxOFY8wGD97tb",
+        "fileName": "04 - The Hedges Catch Fire.jpg",
+        "mimeType": "image/jpeg",
+        "url": "https://drive.google.com/file/d/11pptVlpR2usEdryFxK_BxOFY8wGD97tb/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 5,
+      "pageId": "issue-008-page-005",
+      "displayTitle": "Two Shoes One Road",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1mvkAO96B7MB9h_1M-R_yiWbSwiPSHmJg",
+        "fileName": "05 - Two Shoes One Road.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1mvkAO96B7MB9h_1M-R_yiWbSwiPSHmJg/view?usp=drivesdk"
+      }
+    }
+  ],
+  "authority": {
+    "sourceMutation": false,
+    "admission": false,
+    "publication": false,
+    "release": false
+  },
+  "laws": [
+    "ISSUE != FILE COLLECTION",
+    "DRIVE LOCATION != AUTHORITY",
+    "ORDER != ANCESTRY",
+    "INDEX != ADMISSION",
+    "SOURCE ASSEMBLY != PUBLICATION"
+  ]
+}
