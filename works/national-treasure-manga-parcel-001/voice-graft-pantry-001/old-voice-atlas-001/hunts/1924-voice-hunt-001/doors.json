@@ -1,0 +1,26 @@
+{
+  "schema": "lemonpress.old-voice-year-doors/v0",
+  "year": 1924,
+  "doors": [
+    {
+      "name": "Wikimedia Commons — Audio files of 1924",
+      "url": "https://commons.wikimedia.org/wiki/Category:Audio_files_of_1924",
+      "note": "38 currently indexed files; includes Joyce, Coolidge, Piłsudski, Norman Clapham, several Sun Yat-sen speeches, and vocal/music recordings."
+    },
+    {
+      "name": "Library of Congress National Jukebox — Clancy's Minstrels",
+      "url": "https://www.loc.gov/item/jukebox-25436/",
+      "note": "Recorded 1924-10-28; category Spoken, genre Comedies; useful pointer into the 1924 spoken-comedy seam."
+    },
+    {
+      "name": "Library of Congress — National Jukebox spoken-word genres",
+      "url": "https://www.loc.gov/collections/national-jukebox/about-this-collection/genres/",
+      "note": "Spoken-word taxonomy includes comedies, descriptive specialties, ethnic spoken word, monologues/dialogues/recitations, and speeches."
+    },
+    {
+      "name": "Wikimedia Commons — sound-recording rights",
+      "url": "https://commons.wikimedia.org/wiki/Commons:Sound_recordings",
+      "note": "As of 2026, published sound recordings from 1925 and earlier are in the U.S. public domain; underlying works still need their own rights check."
+    }
+  ]
+}
