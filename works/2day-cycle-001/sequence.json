@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "sequence_id": "lemonpress:2day-cycle-001",
+  "title": "2DAY",
+  "subtitle": "a four-part record of one day",
+  "kind": "playlist-cycle",
+  "declared_origin_date": "2026-10-06",
+  "aggregate": {
+    "playlist_count": 4,
+    "track_count": 39,
+    "duration_minutes": 131
+  },
+  "order": [
+    {
+      "slot": 1,
+      "title": "2moreOhmorning!",
+      "public_url": "https://suno.com/s/zVsv2igtLOJDqzmX",
+      "suno_playlist_id": "de62b5a7-dea8-4342-9bec-1c6ef89888e7",
+      "track_count": 11,
+      "duration_minutes": 35
+    },
+    {
+      "slot": 2,
+      "title": "thenex2day",
+      "public_url": "https://suno.com/s/jLlQnaiqz9Bv5DNc",
+      "suno_playlist_id": "7328f8b6-c7a0-4498-b6f6-5065121d17fa",
+      "track_count": 7,
+      "duration_minutes": 23
+    },
+    {
+      "slot": 3,
+      "title": "2knite",
+      "public_url": "https://suno.com/s/TExxM9EQsSI0ORZS",
+      "suno_playlist_id": "3ad7e2de-601d-4d7c-a5b0-1c0fa1c99baa",
+      "track_count": 12,
+      "duration_minutes": 43
+    },
+    {
+      "slot": 4,
+      "title": "2day",
+      "public_url": "https://suno.com/s/xaTnyxQlNOLabzaf",
+      "suno_playlist_id": "f3125d63-33c7-4c77-acb1-257b70b5968d",
+      "track_count": 9,
+      "duration_minutes": 30
+    }
+  ],
+  "cycle": {
+    "enabled": true,
+    "from_slot": 4,
+    "to_slot": 1,
+    "meaning": "2day returns to 2moreOhmorning!"
+  },
+  "provenance": {
+    "creator_declared": {
+      "all_four_created_same_day": true,
+      "date": "2026-10-06"
+    },
+    "public_sources_observed": true,
+    "observation_date": "2026-10-07"
+  },
+  "laws": [
+    "PLAYLIST != SONG",
+    "UMBRELLA != SOURCE MUTATION",
+    "ORDER != ANCESTRY",
+    "CYCLE != DUPLICATION",
+    "REPEAT EDGE != NEW SOURCE",
+    "PUBLIC URL != RIGHTS GRANT",
+    "SOURCE PLAYLIST != LEMONPRESS ADMISSION"
+  ]
+}
