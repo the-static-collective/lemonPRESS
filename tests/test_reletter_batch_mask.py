@@ -2,8 +2,15 @@ import unittest, json
 from pathlib import Path
 import jsonschema
 ROOT=Path(__file__).resolve().parents[1]
+import sys
+sys.path.insert(0,str(ROOT/"tools"))
+import manga_reletter_batch
+import manga_mask_lettering
 
 class BatchMaskSchemas(unittest.TestCase):
+    def test_modules_import(self):
+        self.assertEqual(manga_reletter_batch.SPEC_SCHEMA,"lemonpress/manga-reletter-batch/v0")
+        self.assertEqual(manga_mask_lettering.SPEC_SCHEMA,"lemonpress/manga-mask-lettering/v0")
     def test_schemas_are_valid(self):
         for name in ("manga-reletter-batch-v0.schema.json","manga-reletter-batch-candidate-v0.schema.json","manga-mask-lettering-v0.schema.json","manga-mask-lettering-candidate-v0.schema.json"):
             d=json.loads((ROOT/"schemas"/name).read_text())
