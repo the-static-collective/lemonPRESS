@@ -1,0 +1,256 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/the-static-collective/lemonPRESS/schemas/manga-translation-relay-v0.schema.json",
+  "title": "lemonpress/manga-translation-relay/v0",
+  "type": "object",
+  "properties": {
+    "schema": {
+      "const": "lemonpress/manga-translation-relay/v0"
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "const": "EXECUTION_WITNESS"
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "source_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "kind": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "pages": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        }
+      },
+      "required": [
+        "source_id",
+        "kind",
+        "title",
+        "pages",
+        "sha256"
+      ],
+      "additionalProperties": false
+    },
+    "route": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "prefixItems": [
+        {
+          "type": "object",
+          "properties": {
+            "language": {
+              "const": "en"
+            },
+            "role": {
+              "const": "source"
+            }
+          },
+          "required": [
+            "language",
+            "role"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "language": {
+              "const": "ja"
+            },
+            "role": {
+              "const": "pivot"
+            }
+          },
+          "required": [
+            "language",
+            "role"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "language": {
+              "const": "en"
+            },
+            "role": {
+              "const": "return"
+            }
+          },
+          "required": [
+            "language",
+            "role"
+          ],
+          "additionalProperties": false
+        }
+      ],
+      "items": false
+    },
+    "segments": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "segment_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "page": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "locus": {
+            "type": "string",
+            "minLength": 1
+          },
+          "role": {
+            "enum": [
+              "heading",
+              "subheading",
+              "caption",
+              "dialogue",
+              "sign",
+              "embedded_source_text",
+              "receipt",
+              "brand",
+              "code"
+            ]
+          },
+          "visibility": {
+            "enum": [
+              "complete",
+              "clipped"
+            ]
+          },
+          "source": {
+            "type": "string"
+          },
+          "pivot": {
+            "type": "string"
+          },
+          "return": {
+            "type": "string"
+          },
+          "drift": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "kind": {
+                  "enum": [
+                    "none",
+                    "tense_shift",
+                    "agency_shift",
+                    "metaphor_shift",
+                    "clarification",
+                    "compression",
+                    "expansion",
+                    "register_shift",
+                    "spatial_shift",
+                    "epistemic_shift",
+                    "ownership_shift",
+                    "rhythm_shift",
+                    "loss",
+                    "other"
+                  ]
+                },
+                "note": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "kind",
+                "note"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "segment_id",
+          "page",
+          "locus",
+          "role",
+          "visibility",
+          "source",
+          "pivot",
+          "return",
+          "drift"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "authority": {
+      "type": "object",
+      "properties": {
+        "source_mutation": {
+          "const": false
+        },
+        "editorial_selection": {
+          "const": false
+        },
+        "edition_admission": {
+          "const": false
+        },
+        "publication": {
+          "const": false
+        },
+        "house_release": {
+          "const": false
+        }
+      },
+      "required": [
+        "source_mutation",
+        "editorial_selection",
+        "edition_admission",
+        "publication",
+        "house_release"
+      ],
+      "additionalProperties": false
+    },
+    "laws": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  },
+  "required": [
+    "schema",
+    "id",
+    "title",
+    "status",
+    "source",
+    "route",
+    "segments",
+    "authority",
+    "laws"
+  ],
+  "additionalProperties": false
+}

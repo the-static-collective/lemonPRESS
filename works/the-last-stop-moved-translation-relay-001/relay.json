@@ -1,0 +1,1134 @@
+{
+  "schema": "lemonpress/manga-translation-relay/v0",
+  "id": "the-last-stop-moved-translation-relay-001",
+  "title": "THE LAST STOP MOVED — Translation Relay 001",
+  "status": "EXECUTION_WITNESS",
+  "source": {
+    "source_id": "conversation-upload:THE_LAST_STOP_MOVED_Issue_Cut_001.pdf",
+    "kind": "manga-issue-cut",
+    "title": "THE LAST STOP MOVED — Issue Cut 001",
+    "pages": 10,
+    "sha256": "c14ec41badbdcddde6cc5006141e3181fe0917a86c67b1a85568d9b22e10051f"
+  },
+  "route": [
+    {
+      "language": "en",
+      "role": "source"
+    },
+    {
+      "language": "ja",
+      "role": "pivot"
+    },
+    {
+      "language": "en",
+      "role": "return"
+    }
+  ],
+  "segments": [
+    {
+      "segment_id": "p01-01",
+      "page": 1,
+      "locus": "cover.brand",
+      "role": "brand",
+      "visibility": "complete",
+      "source": "THE STATIC COLLECTIVE",
+      "pivot": "THE STATIC COLLECTIVE",
+      "return": "THE STATIC COLLECTIVE",
+      "drift": [
+        {
+          "kind": "none",
+          "note": "meaning retained"
+        }
+      ]
+    },
+    {
+      "segment_id": "p01-02",
+      "page": 1,
+      "locus": "cover.title",
+      "role": "heading",
+      "visibility": "complete",
+      "source": "THE LAST STOP MOVED",
+      "pivot": "最後の停留所は移動した",
+      "return": "THE LAST STOP HAS MOVED",
+      "drift": [
+        {
+          "kind": "tense_shift",
+          "note": "simple past returns as a present-perfect state"
+        }
+      ]
+    },
+    {
+      "segment_id": "p01-03",
+      "page": 1,
+      "locus": "cover.series",
+      "role": "subheading",
+      "visibility": "complete",
+      "source": "AN UNNUMBERED ROAD ISSUE",
+      "pivot": "番号のない道の一号",
+      "return": "AN ISSUE FROM AN UNNUMBERED ROAD",
+      "drift": [
+        {
+          "kind": "clarification",
+          "note": "Japanese makes the issue/road relation explicit"
+        }
+      ]
+    },
+    {
+      "segment_id": "p01-04",
+      "page": 1,
+      "locus": "cover.cut",
+      "role": "subheading",
+      "visibility": "complete",
+      "source": "ISSUE CUT 001",
+      "pivot": "号・編集版 001",
+      "return": "ISSUE CUT 001",
+      "drift": [
+        {
+          "kind": "none",
+          "note": "meaning retained"
+        }
+      ]
+    },
+    {
+      "segment_id": "p01-05",
+      "page": 1,
+      "locus": "cover.law",
+      "role": "caption",
+      "visibility": "complete",
+      "source": "particular before pattern / choice before meaning",
+      "pivot": "個別がパターンに先立つ／選択が意味に先立つ",
+      "return": "the particular comes before the pattern / choice comes before meaning",
+      "drift": [
+        {
+          "kind": "expansion",
+          "note": "Japanese requires the relation to be stated more explicitly"
+        }
+      ]
+    },
+    {
+      "segment_id": "p02-01",
+      "page": 2,
+      "locus": "section.title",
+      "role": "heading",
+      "visibility": "complete",
+      "source": "01 THE LATCH",
+      "pivot": "01 掛け金",
+      "return": "01 THE LATCH",
+      "drift": [
+        {
+          "kind": "none",
+          "note": "meaning retained"
+        }
+      ]
+    },
+    {
+      "segment_id": "p02-02",
+      "page": 2,
+      "locus": "section.subtitle",
+      "role": "subheading",
+      "visibility": "complete",
+      "source": "Maintenance before metaphor.",
+      "pivot": "比喩より先に整備。",
+      "return": "Maintenance comes before metaphor.",
+      "drift": [
+        {
+          "kind": "expansion",
+          "note": "elliptical English returns as a full relation"
+        }
+      ]
+    },
+    {
+      "segment_id": "p02-03",
+      "page": 2,
+      "locus": "body.caption",
+      "role": "caption",
+      "visibility": "complete",
+      "source": "The door resists. Somebody opens it. No symbol gets credit for the hinge.",
+      "pivot": "扉は抵抗する。誰かが開ける。蝶番の働きを象徴の手柄にはしない。",
+      "return": "The door resists. Someone opens it. The symbol gets no credit for the hinge's work.",
+      "drift": [
+        {
+          "kind": "clarification",
+          "note": "the hinge becomes an explicit worker/function rather than an abstract credit target"
+        }
+      ]
+    },
+    {
+      "segment_id": "p03-01",
+      "page": 3,
+      "locus": "section.title",
+      "role": "heading",
+      "visibility": "complete",
+      "source": "02 EVERYTHING MOVES AT ONCE",
+      "pivot": "02 すべてが一度に動く",
+      "return": "02 EVERYTHING MOVES AT ONCE",
+      "drift": [
+        {
+          "kind": "none",
+          "note": "meaning retained"
+        }
+      ]
+    },
+    {
+      "segment_id": "p03-02",
+      "page": 3,
+      "locus": "section.subtitle",
+      "role": "subheading",
+      "visibility": "complete",
+      "source": "A small jolt reorganizes bodies, objects, and plans.",
+      "pivot": "小さな揺れが、身体と物と予定を組み替える。",
+      "return": "A small jolt rearranges bodies, objects, and plans.",
+      "drift": [
+        {
+          "kind": "register_shift",
+          "note": "reorganizes softens to rearranges"
+        }
+      ]
+    },
+    {
+      "segment_id": "p03-03",
+      "page": 3,
+      "locus": "panel.1.title",
+      "role": "embedded_source_text",
+      "visibility": "complete",
+      "source": "THE LAST STOP MOVED",
+      "pivot": "最後の停留所は移動した",
+      "return": "THE LAST STOP HAS MOVED",
+      "drift": [
+        {
+          "kind": "tense_shift",
+          "note": "same title relay as cover"
+        }
+      ]
+    },
+    {
+      "segment_id": "p03-04",
+      "page": 3,
+      "locus": "panel.1.sfx",
+      "role": "embedded_source_text",
+      "visibility": "complete",
+      "source": "tik... tik... tik...",
+      "pivot": "カチ…カチ…カチ…",
+      "return": "tick... tick... tick...",
+      "drift": [
+        {
+          "kind": "clarification",
+          "note": "onomatopoeia is normalized to English tick"
+        }
+      ]
+    },
+    {
+      "segment_id": "p03-05",
+      "page": 3,
+      "locus": "panel.2.dialogue.1",
+      "role": "dialogue",
+      "visibility": "complete",
+      "source": "Parking brake.",
+      "pivot": "パーキングブレーキ。",
+      "return": "Parking brake.",
+      "drift": [
+        {
+          "kind": "none",
+          "note": "meaning retained"
+        }
+      ]
+    },
+    {
+      "segment_id": "p03-06",
+      "page": 3,
+      "locus": "panel.2.dialogue.2",
+      "role": "dialogue",
+      "visibility": "complete",
+      "source": "What?",
+      "pivot": "何？",
+      "return": "What?",
+      "drift": [
+        {
+          "kind": "none",
+          "note": "meaning retained"
+        }
+      ]
+    },
+    {
+      "segment_id": "p03-07",
+      "page": 3,
+      "locus": "panel.2.dialogue.3",
+      "role": "dialogue",
+      "visibility": "complete",
+      "source": "Unless you want your kitchen in my teeth.",
+      "pivot": "あんたの台所を俺の歯に突っ込みたいなら別だけど。",
+      "return": "Unless you want your kitchen shoved into my teeth.",
+      "drift": [
+        {
+          "kind": "expansion",
+          "note": "the Japanese verb makes the collision more physical"
+        }
+      ]
+    },
+    {
+      "segment_id": "p03-08",
+      "page": 3,
+      "locus": "panel.3.dialogue.1",
+      "role": "dialogue",
+      "visibility": "complete",
+      "source": "You're making the road?",
+      "pivot": "道を作ってるの？",
+      "return": "You're building the road?",
+      "drift": [
+        {
+          "kind": "register_shift",
+          "note": "making returns as building"
+        }
+      ]
+    },
+    {
+      "segment_id": "p03-09",
+      "page": 3,
+      "locus": "panel.3.dialogue.2",
+      "role": "dialogue",
+      "visibility": "complete",
+      "source": "Repairing.",
+      "pivot": "直してる。",
+      "return": "Repairing it.",
+      "drift": [
+        {
+          "kind": "expansion",
+          "note": "Japanese context supplies the omitted object"
+        }
+      ]
+    },
+    {
+      "segment_id": "p03-10",
+      "page": 3,
+      "locus": "panel.4.dialogue.fragment",
+      "role": "dialogue",
+      "visibility": "clipped",
+      "source": "What broke it?",
+      "pivot": "何が壊したの？",
+      "return": "What broke it?",
+      "drift": [
+        {
+          "kind": "none",
+          "note": "visible fragment is preserved without reconstruction"
+        }
+      ]
+    },
+    {
+      "segment_id": "p03-11",
+      "page": 3,
+      "locus": "body.caption",
+      "role": "caption",
+      "visibility": "complete",
+      "source": "Grip. Friction. Repair. The road changes because hands touch it.",
+      "pivot": "握る。摩擦。修理。手が触れるから、道は変わる。",
+      "return": "Grip. Friction. Repair. A road changes because hands touch it.",
+      "drift": [
+        {
+          "kind": "register_shift",
+          "note": "definite road returns as a general road"
+        }
+      ]
+    },
+    {
+      "segment_id": "p04-01",
+      "page": 4,
+      "locus": "section.title",
+      "role": "heading",
+      "visibility": "complete",
+      "source": "03 THE CATCH",
+      "pivot": "03 受け止め",
+      "return": "03 THE CATCH",
+      "drift": [
+        {
+          "kind": "none",
+          "note": "meaning retained"
+        }
+      ]
+    },
+    {
+      "segment_id": "p04-02",
+      "page": 4,
+      "locus": "section.subtitle",
+      "role": "subheading",
+      "visibility": "complete",
+      "source": "Motion becomes coordination.",
+      "pivot": "動きが連携になる。",
+      "return": "Movement becomes coordination.",
+      "drift": [
+        {
+          "kind": "register_shift",
+          "note": "motion returns as movement"
+        }
+      ]
+    },
+    {
+      "segment_id": "p04-03",
+      "page": 4,
+      "locus": "body.caption",
+      "role": "caption",
+      "visibility": "complete",
+      "source": "The thermos does not become a prophecy. It almost falls. A hand is there.",
+      "pivot": "魔法瓶は予言にはならない。落ちかける。そこに手がある。",
+      "return": "The thermos does not become an omen. It is about to fall. A hand is there.",
+      "drift": [
+        {
+          "kind": "epistemic_shift",
+          "note": "prophecy returns as omen; near-fall becomes imminent-fall"
+        }
+      ]
+    },
+    {
+      "segment_id": "p05-01",
+      "page": 5,
+      "locus": "section.title",
+      "role": "heading",
+      "visibility": "complete",
+      "source": "04 OUTSIDE IS NOT A COMMAND",
+      "pivot": "04 外は命令ではない",
+      "return": "04 OUTSIDE IS NOT AN ORDER",
+      "drift": [
+        {
+          "kind": "register_shift",
+          "note": "command returns as order"
+        }
+      ]
+    },
+    {
+      "segment_id": "p05-02",
+      "page": 5,
+      "locus": "section.subtitle",
+      "role": "subheading",
+      "visibility": "complete",
+      "source": "Possibility is not instruction.",
+      "pivot": "可能性は指示ではない。",
+      "return": "Possibility is not a directive.",
+      "drift": [
+        {
+          "kind": "register_shift",
+          "note": "instruction returns as directive"
+        }
+      ]
+    },
+    {
+      "segment_id": "p05-03",
+      "page": 5,
+      "locus": "panel.1.dialogue.fragment",
+      "role": "dialogue",
+      "visibility": "clipped",
+      "source": "to Bell Street?",
+      "pivot": "ベル通りへ？",
+      "return": "To Bell Street?",
+      "drift": [
+        {
+          "kind": "none",
+          "note": "only the visible fragment is relayed"
+        }
+      ]
+    },
+    {
+      "segment_id": "p05-04",
+      "page": 5,
+      "locus": "panel.1.dialogue.2",
+      "role": "dialogue",
+      "visibility": "complete",
+      "source": "It can.",
+      "pivot": "行ける。",
+      "return": "It can go there.",
+      "drift": [
+        {
+          "kind": "expansion",
+          "note": "Japanese contextual verb restores destination"
+        }
+      ]
+    },
+    {
+      "segment_id": "p05-05",
+      "page": 5,
+      "locus": "panel.1.dialogue.3",
+      "role": "dialogue",
+      "visibility": "complete",
+      "source": "That isn't what I asked.",
+      "pivot": "聞いたのはそれじゃない。",
+      "return": "That's not what I asked.",
+      "drift": [
+        {
+          "kind": "register_shift",
+          "note": "contraction/register shift only"
+        }
+      ]
+    },
+    {
+      "segment_id": "p05-06",
+      "page": 5,
+      "locus": "panel.2.dialogue.1",
+      "role": "dialogue",
+      "visibility": "complete",
+      "source": "Which way is Bell Street?",
+      "pivot": "ベル通りはどっち？",
+      "return": "Which way is Bell Street?",
+      "drift": [
+        {
+          "kind": "none",
+          "note": "meaning retained"
+        }
+      ]
+    },
+    {
+      "segment_id": "p05-07",
+      "page": 5,
+      "locus": "panel.3.dialogue.1",
+      "role": "dialogue",
+      "visibility": "complete",
+      "source": "You missed the turn.",
+      "pivot": "曲がるところを過ぎた。",
+      "return": "You passed the turn.",
+      "drift": [
+        {
+          "kind": "spatial_shift",
+          "note": "missed becomes passed"
+        }
+      ]
+    },
+    {
+      "segment_id": "p05-08",
+      "page": 5,
+      "locus": "panel.3.dialogue.2",
+      "role": "dialogue",
+      "visibility": "complete",
+      "source": "Of course I did.",
+      "pivot": "そりゃそうだ。",
+      "return": "Of course I did.",
+      "drift": [
+        {
+          "kind": "none",
+          "note": "meaning retained"
+        }
+      ]
+    },
+    {
+      "segment_id": "p05-09",
+      "page": 5,
+      "locus": "panel.3.caption.fragment",
+      "role": "caption",
+      "visibility": "clipped",
+      "source": "For now, one road",
+      "pivot": "今は、一本の道",
+      "return": "For now, one road.",
+      "drift": [
+        {
+          "kind": "none",
+          "note": "visible fragment is preserved and punctuated"
+        }
+      ]
+    },
+    {
+      "segment_id": "p05-10",
+      "page": 5,
+      "locus": "body.caption",
+      "role": "caption",
+      "visibility": "complete",
+      "source": "The road can go somewhere without telling you to follow it. An open way is still only an available way.",
+      "pivot": "道は、ついて来いと言わなくても、どこかへ続いていける。開いた道は、それでもただ利用できる道にすぎない。",
+      "return": "A road can lead somewhere without telling you to follow. An open way is still only a way available to you.",
+      "drift": [
+        {
+          "kind": "agency_shift",
+          "note": "the road leads rather than goes; availability becomes relation to the reader"
+        }
+      ]
+    },
+    {
+      "segment_id": "p06-01",
+      "page": 6,
+      "locus": "section.title",
+      "role": "heading",
+      "visibility": "complete",
+      "source": "05 THE ROAD RHYMES LATE",
+      "pivot": "05 道は遅れて韻を踏む",
+      "return": "05 THE ROAD RHYMES LATER",
+      "drift": [
+        {
+          "kind": "tense_shift",
+          "note": "late returns as later"
+        }
+      ]
+    },
+    {
+      "segment_id": "p06-02",
+      "page": 6,
+      "locus": "section.subtitle",
+      "role": "subheading",
+      "visibility": "complete",
+      "source": "Pattern follows the particular - never the other way around.",
+      "pivot": "パターンは個別のあとから来る。決して逆ではない。",
+      "return": "Pattern comes after the particular - never the reverse.",
+      "drift": [
+        {
+          "kind": "clarification",
+          "note": "follows becomes comes after"
+        }
+      ]
+    },
+    {
+      "segment_id": "p06-03",
+      "page": 6,
+      "locus": "panel.1.code.1",
+      "role": "code",
+      "visibility": "complete",
+      "source": "022100",
+      "pivot": "022100",
+      "return": "022100",
+      "drift": [
+        {
+          "kind": "none",
+          "note": "meaning retained"
+        }
+      ]
+    },
+    {
+      "segment_id": "p06-04",
+      "page": 6,
+      "locus": "panel.1.code.2",
+      "role": "code",
+      "visibility": "complete",
+      "source": "022000",
+      "pivot": "022000",
+      "return": "022000",
+      "drift": [
+        {
+          "kind": "none",
+          "note": "meaning retained"
+        }
+      ]
+    },
+    {
+      "segment_id": "p06-05",
+      "page": 6,
+      "locus": "panel.1.note",
+      "role": "embedded_source_text",
+      "visibility": "complete",
+      "source": "third?",
+      "pivot": "三つ目？",
+      "return": "third?",
+      "drift": [
+        {
+          "kind": "none",
+          "note": "meaning retained"
+        }
+      ]
+    },
+    {
+      "segment_id": "p06-06",
+      "page": 6,
+      "locus": "panel.1.fragment",
+      "role": "embedded_source_text",
+      "visibility": "clipped",
+      "source": "use remembered two shapes",
+      "pivot": "覚えていた二つの形を使う",
+      "return": "use the two remembered shapes",
+      "drift": [
+        {
+          "kind": "clarification",
+          "note": "article and object relation become explicit"
+        }
+      ]
+    },
+    {
+      "segment_id": "p06-07",
+      "page": 6,
+      "locus": "panel.2.sfx",
+      "role": "embedded_source_text",
+      "visibility": "complete",
+      "source": "KLANG",
+      "pivot": "ガン",
+      "return": "CLANG",
+      "drift": [
+        {
+          "kind": "register_shift",
+          "note": "sound effect crosses into an English onomatopoeic cognate"
+        }
+      ]
+    },
+    {
+      "segment_id": "p06-08",
+      "page": 6,
+      "locus": "panel.2.fragment",
+      "role": "embedded_source_text",
+      "visibility": "clipped",
+      "source": "...id not vanish.",
+      "pivot": "…消えなかった。",
+      "return": "...did not disappear.",
+      "drift": [
+        {
+          "kind": "clarification",
+          "note": "clipped fragment returns without pretending to recover the missing source letters"
+        }
+      ]
+    },
+    {
+      "segment_id": "p06-09",
+      "page": 6,
+      "locus": "panel.3.caption",
+      "role": "caption",
+      "visibility": "complete",
+      "source": "For now, one road was enough.",
+      "pivot": "今は、一本の道で十分だった。",
+      "return": "For now, one road was enough.",
+      "drift": [
+        {
+          "kind": "none",
+          "note": "meaning retained"
+        }
+      ]
+    },
+    {
+      "segment_id": "p06-10",
+      "page": 6,
+      "locus": "body.caption",
+      "role": "caption",
+      "visibility": "complete",
+      "source": "Only now does the road get to rhyme.",
+      "pivot": "今になってようやく、道は韻を踏める。",
+      "return": "Only now is the road allowed to rhyme.",
+      "drift": [
+        {
+          "kind": "agency_shift",
+          "note": "get to becomes is allowed to"
+        }
+      ]
+    },
+    {
+      "segment_id": "p07-01",
+      "page": 7,
+      "locus": "section.title",
+      "role": "heading",
+      "visibility": "complete",
+      "source": "06 THE PAUSE",
+      "pivot": "06 間",
+      "return": "06 THE INTERVAL",
+      "drift": [
+        {
+          "kind": "metaphor_shift",
+          "note": "Japanese ma carries pause, interval, and spatial gap"
+        }
+      ]
+    },
+    {
+      "segment_id": "p07-02",
+      "page": 7,
+      "locus": "section.subtitle",
+      "role": "subheading",
+      "visibility": "complete",
+      "source": "An open threshold does not decide who crosses.",
+      "pivot": "開かれた境界は、誰が越えるかを決めない。",
+      "return": "An open boundary does not decide who crosses it.",
+      "drift": [
+        {
+          "kind": "spatial_shift",
+          "note": "threshold broadens to boundary"
+        }
+      ]
+    },
+    {
+      "segment_id": "p07-03",
+      "page": 7,
+      "locus": "body.caption",
+      "role": "caption",
+      "visibility": "complete",
+      "source": "One boot in. One boot out. Stillness is an action when the next step is yours.",
+      "pivot": "片方のブーツは中。片方は外。次の一歩が自分のものなら、動かないことも行為になる。",
+      "return": "One boot inside. One boot outside. When the next step belongs to you, stillness is also an action.",
+      "drift": [
+        {
+          "kind": "ownership_shift",
+          "note": "yours becomes belongs to you; stillness gains explicit inclusion"
+        }
+      ]
+    },
+    {
+      "segment_id": "p08-01",
+      "page": 8,
+      "locus": "section.title",
+      "role": "heading",
+      "visibility": "complete",
+      "source": "07 TWO SHOES, ONE ROAD",
+      "pivot": "07 二つの靴、一本の道",
+      "return": "07 TWO SHOES, ONE ROAD",
+      "drift": [
+        {
+          "kind": "none",
+          "note": "meaning retained"
+        }
+      ]
+    },
+    {
+      "segment_id": "p08-02",
+      "page": 8,
+      "locus": "section.subtitle",
+      "role": "subheading",
+      "visibility": "complete",
+      "source": "Hospitality at road scale. Entry does not equal enrollment.",
+      "pivot": "道の尺度での歓待。入ることは加入することではない。",
+      "return": "Hospitality at the scale of a road. Entering is not the same as joining.",
+      "drift": [
+        {
+          "kind": "clarification",
+          "note": "abstract nouns return as actions"
+        }
+      ]
+    },
+    {
+      "segment_id": "p08-03",
+      "page": 8,
+      "locus": "panel.3.sign.1",
+      "role": "sign",
+      "visibility": "complete",
+      "source": "NO PERFECT HOUR",
+      "pivot": "完璧な時間なんてない",
+      "return": "THERE IS NO PERFECT HOUR",
+      "drift": [
+        {
+          "kind": "expansion",
+          "note": "Japanese turns the fragment into a full assertion"
+        }
+      ]
+    },
+    {
+      "segment_id": "p08-04",
+      "page": 8,
+      "locus": "panel.3.sign.2",
+      "role": "sign",
+      "visibility": "complete",
+      "source": "JUST THIS DIRT",
+      "pivot": "ただ、この土だけ",
+      "return": "ONLY THIS DIRT",
+      "drift": [
+        {
+          "kind": "register_shift",
+          "note": "just returns as only"
+        }
+      ]
+    },
+    {
+      "segment_id": "p08-05",
+      "page": 8,
+      "locus": "panel.3.sign.3",
+      "role": "sign",
+      "visibility": "complete",
+      "source": "AND WHAT LOVE ASKS NEXT",
+      "pivot": "そして、愛が次に求めるもの",
+      "return": "AND WHAT LOVE ASKS FOR NEXT",
+      "drift": [
+        {
+          "kind": "expansion",
+          "note": "for is made explicit"
+        }
+      ]
+    },
+    {
+      "segment_id": "p08-06",
+      "page": 8,
+      "locus": "body.caption",
+      "role": "caption",
+      "visibility": "complete",
+      "source": "A cup. A chair. A place by the screen. Enough welcome to make choice possible - not compulsory.",
+      "pivot": "一杯。椅子。スクリーンのそばの場所。選択を可能にするには十分な歓迎。強制するほどではない。",
+      "return": "A cup. A chair. A place by the screen. Enough welcome to make choice possible, not mandatory.",
+      "drift": [
+        {
+          "kind": "register_shift",
+          "note": "compulsory returns as mandatory"
+        }
+      ]
+    },
+    {
+      "segment_id": "p09-01",
+      "page": 9,
+      "locus": "section.title",
+      "role": "heading",
+      "visibility": "complete",
+      "source": "08 OPEN, EMPTY, AVAILABLE",
+      "pivot": "08 開いている、空いている、使える",
+      "return": "08 OPEN, UNOCCUPIED, AVAILABLE",
+      "drift": [
+        {
+          "kind": "spatial_shift",
+          "note": "empty returns as unoccupied"
+        }
+      ]
+    },
+    {
+      "segment_id": "p09-02",
+      "page": 9,
+      "locus": "section.subtitle",
+      "role": "subheading",
+      "visibility": "complete",
+      "source": "Leave one place unclaimed.",
+      "pivot": "ひとつの場所を、誰のものにもせず残しておく。",
+      "return": "Leave one place belonging to no one.",
+      "drift": [
+        {
+          "kind": "ownership_shift",
+          "note": "unclaimed becomes belonging to no one"
+        }
+      ]
+    },
+    {
+      "segment_id": "p09-03",
+      "page": 9,
+      "locus": "panel.3.caption",
+      "role": "caption",
+      "visibility": "complete",
+      "source": "It stayed.",
+      "pivot": "それは残った。",
+      "return": "It remained.",
+      "drift": [
+        {
+          "kind": "register_shift",
+          "note": "stayed returns as remained"
+        }
+      ]
+    },
+    {
+      "segment_id": "p09-04",
+      "page": 9,
+      "locus": "body.caption",
+      "role": "caption",
+      "visibility": "complete",
+      "source": "No narrator resolves the stop. The road continues. The place remains.",
+      "pivot": "語り手はこの停留を決着させない。道は続く。場所は残る。",
+      "return": "No narrator settles the stop. The road continues. The place remains.",
+      "drift": [
+        {
+          "kind": "register_shift",
+          "note": "resolves returns as settles"
+        }
+      ]
+    },
+    {
+      "segment_id": "p10-01",
+      "page": 10,
+      "locus": "receipt.title",
+      "role": "heading",
+      "visibility": "complete",
+      "source": "THE LAST STOP MOVED",
+      "pivot": "最後の停留所は移動した",
+      "return": "THE LAST STOP HAS MOVED",
+      "drift": [
+        {
+          "kind": "tense_shift",
+          "note": "same title relay as cover"
+        }
+      ]
+    },
+    {
+      "segment_id": "p10-02",
+      "page": 10,
+      "locus": "receipt.subtitle",
+      "role": "subheading",
+      "visibility": "complete",
+      "source": "ISSUE CUT 001 / EDITORIAL RECEIPT",
+      "pivot": "号・編集版 001／編集レシート",
+      "return": "ISSUE CUT 001 / EDITORIAL RECEIPT",
+      "drift": [
+        {
+          "kind": "none",
+          "note": "meaning retained"
+        }
+      ]
+    },
+    {
+      "segment_id": "p10-03",
+      "page": 10,
+      "locus": "receipt.spine.heading",
+      "role": "receipt",
+      "visibility": "complete",
+      "source": "SPINE",
+      "pivot": "背骨",
+      "return": "BACKBONE",
+      "drift": [
+        {
+          "kind": "metaphor_shift",
+          "note": "publishing spine crosses through anatomical Japanese and returns as backbone"
+        }
+      ]
+    },
+    {
+      "segment_id": "p10-04",
+      "page": 10,
+      "locus": "receipt.spine.value",
+      "role": "receipt",
+      "visibility": "complete",
+      "source": "latch -> motion -> catch -> threshold -> pattern -> pause -> hospitality -> open place",
+      "pivot": "掛け金 -> 動き -> 受け止め -> 境界 -> パターン -> 間 -> 歓待 -> 開いた場所",
+      "return": "latch -> movement -> catch -> boundary -> pattern -> interval -> hospitality -> open place",
+      "drift": [
+        {
+          "kind": "metaphor_shift",
+          "note": "motion/threshold/pause inherit the relay shifts"
+        }
+      ]
+    },
+    {
+      "segment_id": "p10-05",
+      "page": 10,
+      "locus": "receipt.donor.heading",
+      "role": "receipt",
+      "visibility": "complete",
+      "source": "DONOR FIELD",
+      "pivot": "提供元フィールド",
+      "return": "DONOR FIELD",
+      "drift": [
+        {
+          "kind": "none",
+          "note": "meaning retained"
+        }
+      ]
+    },
+    {
+      "segment_id": "p10-06",
+      "page": 10,
+      "locus": "receipt.donor.value",
+      "role": "receipt",
+      "visibility": "complete",
+      "source": "Finish Pressure 001 / The Last Stop Moved / The Road That Heard the Third - Part VI / Two Shoes, One Road / The Chair That Stayed",
+      "pivot": "フィニッシュ・プレッシャー 001／最後の停留所は移動した／第三を聞いた道 - 第VI部／二つの靴、一本の道／残った椅子",
+      "return": "Finish Pressure 001 / The Last Stop Has Moved / The Road That Heard the Third - Part VI / Two Shoes, One Road / The Chair That Remained",
+      "drift": [
+        {
+          "kind": "tense_shift",
+          "note": "two donor titles return with state-oriented tense"
+        }
+      ]
+    },
+    {
+      "segment_id": "p10-07",
+      "page": 10,
+      "locus": "receipt.edit.heading",
+      "role": "receipt",
+      "visibility": "complete",
+      "source": "EDIT",
+      "pivot": "編集",
+      "return": "EDIT",
+      "drift": [
+        {
+          "kind": "none",
+          "note": "meaning retained"
+        }
+      ]
+    },
+    {
+      "segment_id": "p10-08",
+      "page": 10,
+      "locus": "receipt.edit.value",
+      "role": "receipt",
+      "visibility": "complete",
+      "source": "Re-sequenced and selectively cropped into one descendant issue. Donor pages remain unchanged.",
+      "pivot": "一つの子孫号になるよう、順序を組み替え、選択的に切り抜いた。提供元ページは変更されていない。",
+      "return": "Reordered and selectively cropped into one descendant issue. The donor pages remain unchanged.",
+      "drift": [
+        {
+          "kind": "register_shift",
+          "note": "re-sequenced returns as reordered"
+        }
+      ]
+    },
+    {
+      "segment_id": "p10-09",
+      "page": 10,
+      "locus": "receipt.law.heading",
+      "role": "receipt",
+      "visibility": "complete",
+      "source": "LAW",
+      "pivot": "法則",
+      "return": "LAW",
+      "drift": [
+        {
+          "kind": "none",
+          "note": "meaning retained"
+        }
+      ]
+    },
+    {
+      "segment_id": "p10-10",
+      "page": 10,
+      "locus": "receipt.law.value",
+      "role": "receipt",
+      "visibility": "complete",
+      "source": "PARTICULAR BEFORE PATTERN. OPEN != COMMAND. HOSPITALITY != ENROLLMENT. PAUSE != FAILURE. REMIX != SOURCE MUTATION.",
+      "pivot": "個別はパターンに先立つ。OPEN != COMMAND。HOSPITALITY != ENROLLMENT。PAUSE != FAILURE。REMIX != SOURCE MUTATION。",
+      "return": "THE PARTICULAR PRECEDES THE PATTERN. OPEN != COMMAND. HOSPITALITY != ENROLLMENT. PAUSE != FAILURE. REMIX != SOURCE MUTATION.",
+      "drift": [
+        {
+          "kind": "expansion",
+          "note": "elliptical first law returns as a complete proposition"
+        }
+      ]
+    },
+    {
+      "segment_id": "p10-11",
+      "page": 10,
+      "locus": "receipt.status.heading",
+      "role": "receipt",
+      "visibility": "complete",
+      "source": "STATUS",
+      "pivot": "状態",
+      "return": "STATUS",
+      "drift": [
+        {
+          "kind": "none",
+          "note": "meaning retained"
+        }
+      ]
+    },
+    {
+      "segment_id": "p10-12",
+      "page": 10,
+      "locus": "receipt.status.value",
+      "role": "receipt",
+      "visibility": "complete",
+      "source": "Coherent issue cut. Final numbered placement remains deliberately unassigned.",
+      "pivot": "一貫した号の編集版。最終的な番号付き配置は、意図的に未割り当てのまま。",
+      "return": "A coherent issue cut. Final numbered placement remains intentionally unassigned.",
+      "drift": [
+        {
+          "kind": "register_shift",
+          "note": "deliberately returns as intentionally"
+        }
+      ]
+    },
+    {
+      "segment_id": "p10-13",
+      "page": 10,
+      "locus": "receipt.footer",
+      "role": "brand",
+      "visibility": "complete",
+      "source": "THE STATIC COLLECTIVE / LEMONPRESS DESCENDANT CARRIER",
+      "pivot": "THE STATIC COLLECTIVE / LEMONPRESS 子孫キャリア",
+      "return": "THE STATIC COLLECTIVE / LEMONPRESS DESCENDANT CARRIER",
+      "drift": [
+        {
+          "kind": "none",
+          "note": "meaning retained"
+        }
+      ]
+    }
+  ],
+  "authority": {
+    "source_mutation": false,
+    "editorial_selection": false,
+    "edition_admission": false,
+    "publication": false,
+    "house_release": false
+  },
+  "laws": [
+    "TRANSLATION != REPLACEMENT",
+    "RETURN != ORIGINAL",
+    "DRIFT != ERROR",
+    "LOSS MUST REMAIN VISIBLE",
+    "SOURCE SURVIVES RELAY",
+    "CLIPPED TEXT != LICENSE TO RECONSTRUCT",
+    "LANGUAGE ROUTE IS DECLARED",
+    "RENDERING != ADMISSION"
+  ]
+}
