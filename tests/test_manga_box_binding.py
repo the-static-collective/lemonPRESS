@@ -89,6 +89,16 @@ class BoxBinding(unittest.TestCase):
             document=json.loads((ROOT/"schemas"/name).read_text())
             jsonschema.Draft202012Validator.check_schema(document)
 
+    def test_last_stop_all_68_particulars_are_bound(self):
+        real = json.loads((ROOT/"works/the-last-stop-moved-box-binding-001/bindings.json").read_text())
+        candidate = boxes.build(ROOT, real)
+        self.assertEqual(candidate["particularCount"], 68)
+        self.assertEqual(candidate["pageCount"], 10)
+        self.assertEqual(candidate["solidPatchReadyCount"], 59)
+        self.assertEqual(candidate["surfaceCounts"], {"art": 6, "sign": 3, "solid-dark": 34, "solid-light": 25})
+        self.assertEqual(len(candidate["renderStrategyBlockers"]), 9)
+        self.assertEqual(len({item["segmentId"] for item in candidate["bindings"]}), 68)
+
 
 if __name__=="__main__":
     unittest.main()
