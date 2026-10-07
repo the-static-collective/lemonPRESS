@@ -63,7 +63,18 @@ jobs:
           print("og", [x for x in p.meta if (x.get("property") or "").startswith("og:")][:20])
           for needle in ["playlist","clip","__NEXT_DATA__","api/","trpc","graphql"]:
               print(needle, len(re.findall(re.escape(needle), text, re.I)))
-          print("head", text[:3000])
+          print("head", text[:1500])
+          for needle in ["Just in Time", "We’re Still Here Somehow", "We're Still Here Somehow", "playlist_clips", "playlistClips", "clip_id", "de62b5a7-dea8-4342-9bec-1c6ef89888e7"]:
+              pos=text.find(needle)
+              print("SNIP", needle, "at", pos)
+              if pos >= 0:
+                  print(text[max(0,pos-1200):pos+3500])
+          inline=re.findall(r'<script[^>]*>(.*?)</script>', text, re.S)
+          print("inline-count", len(inline))
+          for i, body in enumerate(inline):
+              if "__next_f.push" in body and ("Just in Time" in body or "playlist" in body.lower()):
+                  print("NEXTF", i, body[:12000])
+                  break
           PY
       - name: Crawl four public 2DAY playlists
         run: |
