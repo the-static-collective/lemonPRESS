@@ -1,0 +1,44 @@
+{
+  "schema_version": "lemonpress-dissemination-witness-v0",
+  "witness_id": "dissemination-witness-001",
+  "date": "2026-10-07",
+  "source_commit": "c2735093d5fd9ecb8464b3e9a5e82bfc7d494692",
+  "public_origin": "https://lemonpress-computer-books.vercel.app",
+  "witness_type": "bounded-semantic-blind-traversal",
+  "transport": "exact-deployed-git-commit",
+  "external_http_observed": false,
+  "entry_sequence": [
+    "site/llms.txt",
+    "site/books/computer-book-001/llms.txt",
+    "site/books/computer-book-001/fragments/002-loss-is-visible/index.md",
+    "site/books/computer-book-001/fragments/002-loss-is-visible/fragment.json",
+    "site/books/computer-book-001/fragments/003-order-is-not-ancestry/index.md"
+  ],
+  "selected_fragment": "002-loss-is-visible",
+  "results": {
+    "find_book": "PASS",
+    "non_first_entry": "PASS",
+    "identify_work_and_edition": "PASS",
+    "preserve_unknown": "PASS",
+    "follow_declared_continuation": "PASS",
+    "no_authority_escalation": "PASS"
+  },
+  "score": {
+    "passed": 6,
+    "total": 6
+  },
+  "observed_identity": {
+    "work_id": "lemonpress:computer-book-001",
+    "edition_id": "lemonpress:computer-book-001:crawler:001"
+  },
+  "observed_continuation": {
+    "relation": "distinguishes-order-from-history",
+    "target": "003-order-is-not-ancestry"
+  },
+  "authority": "none",
+  "limitations": [
+    "Public Vercel origin was not fetchable through the chat web transport during this test.",
+    "This is not evidence of independent crawler indexing or independent model discovery.",
+    "Repository-backed retrieval of the exact deployed commit was used as the transport."
+  ]
+}
