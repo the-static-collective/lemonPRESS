@@ -1,0 +1,32 @@
+{
+  "schema_version": "computer-book-manifest-v0",
+  "work_id": "lemonpress:computer-book-001",
+  "edition_id": "lemonpress:computer-book-001:crawler:001",
+  "lane": "crawler",
+  "status": "proof",
+  "title": "A Book That Can Be Entered Anywhere",
+  "source_ancestry": [
+    {
+      "type": "house-law",
+      "locator": "press/crawler:LANE.md",
+      "claims": ["RETRIEVED != READ", "CHUNK != BOOK", "FRAGMENT != CONTEXT"]
+    },
+    {
+      "type": "prior-specimen",
+      "locator": "press/crawler:works/another-clue",
+      "role": "demonstrates fragment-local identity and relation edges"
+    }
+  ],
+  "retrieval_contract": {
+    "retrieved_is_read": false,
+    "chunk_is_book": false,
+    "fragment_is_context": false,
+    "retrieval_order_is_authority": false,
+    "reading_order_is_ancestry": false
+  },
+  "fragments": [
+    {"fragment_id": "001-enter-anywhere", "path": "fragments/001-enter-anywhere.json"},
+    {"fragment_id": "002-loss-is-visible", "path": "fragments/002-loss-is-visible.json"},
+    {"fragment_id": "003-order-is-not-ancestry", "path": "fragments/003-order-is-not-ancestry.json"}
+  ]
+}
