@@ -1,0 +1,27 @@
+{
+  "schema_version": "computer-book-fragment-v0",
+  "work_id": "lemonpress:computer-book-001",
+  "edition_id": "lemonpress:computer-book-001:crawler:001",
+  "fragment_id": "001-enter-anywhere",
+  "title": "Enter Anywhere",
+  "carrier": "If this is the first page you found, you are not late. The book is required to identify itself before it asks you to know the path that led here.",
+  "retrieval": {
+    "warning": "FRAGMENT != BOOK",
+    "manifest": "../manifest.json",
+    "continuations": [
+      {"relation": "makes-loss-explicit", "target": "002-loss-is-visible", "scope": "local"}
+    ]
+  },
+  "ancestry": [
+    {"type": "house-law", "locator": "press/crawler:LANE.md"},
+    {"type": "spec", "locator": "docs/COMPUTER-BOOK-001.md"}
+  ],
+  "authority": {
+    "level": "none",
+    "does_not_grant": ["admission", "publication", "ownership", "source-authority"]
+  },
+  "uncertainty": [
+    "Arrival order is unknown.",
+    "The reader may never retrieve the other fragments."
+  ]
+}
