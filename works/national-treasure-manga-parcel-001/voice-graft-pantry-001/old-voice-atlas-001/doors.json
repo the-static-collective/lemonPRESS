@@ -1,0 +1,135 @@
+{
+  "schema": "lemonpress.old-voice-atlas/v0",
+  "name": "OLD VOICE ATLAS 001",
+  "status": "LINKED_DISCOVERY_FIELD",
+  "purpose": "Link broad historical-recording seams now; let later use cases perform targeted retrieval and custody.",
+  "legal_clock": {
+    "jurisdiction": "United States",
+    "as_of": "2026-10-06",
+    "rule": "Published U.S. sound recordings first published before 1926 are public domain under the Classics Protection and Access Act / Music Modernization Act schedule.",
+    "caution": "Public-domain status of the underlying recording does not automatically grant unrestricted reuse of every archive's modern transfer; obey item-level digitization terms."
+  },
+  "doors": [
+    {
+      "id": "ucsb-1925-newly-public-domain",
+      "name": "UCSB — 1925 recordings entering public domain in 2026",
+      "url": "https://www.library.ucsb.edu/1925-recordings-digitized-ucsb-entering-public-domain-january-1-2026",
+      "role": "freshest-old discovery",
+      "rights_posture": "UCSB explicitly identifies listed 1925 recordings as public domain as of 2026-01-01."
+    },
+    {
+      "id": "ucsb-1925-artists",
+      "name": "UCSB — artists with 1925 recordings entering public domain",
+      "url": "https://www.library.ucsb.edu/artists-1925-recordings-entering-public-domain",
+      "role": "artist-first freshest-old discovery",
+      "rights_posture": "Index into the same 1925 public-domain transition."
+    },
+    {
+      "id": "dahr-public-domain",
+      "name": "Discography of American Historical Recordings — public-domain discs",
+      "url": "https://adp.library.ucsb.edu/index.php/objects/publicDomain",
+      "role": "mass catalog / provenance / matrix / label lookup",
+      "rights_posture": "Filter objects explicitly marked PD; item-level audio-transfer terms still matter."
+    },
+    {
+      "id": "ucsb-cylinder-archive",
+      "name": "UCSB Cylinder Audio Archive",
+      "url": "https://www.library.ucsb.edu/special-collections/performing-arts/cylinders",
+      "role": "1890s–1920s cylinders, spoken selections, vernacular home recordings",
+      "rights_posture": "Excellent discovery corpus; modern UCSB transfer reuse can carry separate conditions, so do not auto-ingest without checking the specific transfer."
+    },
+    {
+      "id": "loc-national-jukebox",
+      "name": "Library of Congress — National Jukebox",
+      "url": "https://www.loc.gov/collections/national-jukebox/about-this-collection/",
+      "role": "1901–1925 commercial recordings, including spoken/comic/religious material",
+      "rights_posture": "Use LOC item rights plus public-domain date; pre-1926 published sound recordings are now public domain in the U.S."
+    },
+    {
+      "id": "loc-national-jukebox-browse",
+      "name": "Library of Congress — browse all National Jukebox recordings",
+      "url": "https://www.loc.gov/collections/national-jukebox/about-this-collection/browse-all-recordings/",
+      "role": "date / label / genre / repository drilling",
+      "rights_posture": "Rights vary by date; 1925-and-earlier published recordings are within the U.S. expired-recording window."
+    },
+    {
+      "id": "loc-jukebox-rights",
+      "name": "Library of Congress — National Jukebox rights and access",
+      "url": "https://www.loc.gov/collections/national-jukebox/about-this-collection/rights-and-access/",
+      "role": "legal clock / reuse check",
+      "rights_posture": "Authoritative collection-level rights guidance."
+    },
+    {
+      "id": "loc-citizen-dj-blues",
+      "name": "LOC Citizen DJ — National Jukebox Blues",
+      "url": "https://citizen-dj.labs.loc.gov/loc-jukebox-blues/use/",
+      "role": "production-ready public-domain excerpts and bulk WAV",
+      "rights_posture": "LOC states collection is public domain and free to use/reuse without restriction; bulk 16-bit WAV available."
+    },
+    {
+      "id": "loc-citizen-dj-jazz",
+      "name": "LOC Citizen DJ — National Jukebox Jazz",
+      "url": "https://citizen-dj.labs.loc.gov/loc-jukebox-jazz/use/",
+      "role": "production-ready jazz/ragtime slices",
+      "rights_posture": "LOC public-domain reuse statement."
+    },
+    {
+      "id": "loc-citizen-dj-popular",
+      "name": "LOC Citizen DJ — National Jukebox Popular Music",
+      "url": "https://citizen-dj.labs.loc.gov/loc-jukebox-popular/use/",
+      "role": "production-ready popular-song slices",
+      "rights_posture": "LOC public-domain reuse statement."
+    },
+    {
+      "id": "loc-citizen-dj-musical-theater",
+      "name": "LOC Citizen DJ — National Jukebox Musical Theater",
+      "url": "https://citizen-dj.labs.loc.gov/loc-jukebox-musical-theater/use/",
+      "role": "theatrical speech/song cadence",
+      "rights_posture": "LOC public-domain reuse statement."
+    },
+    {
+      "id": "commons-audio-1925",
+      "name": "Wikimedia Commons — Audio files of 1925",
+      "url": "https://commons.wikimedia.org/wiki/Category:Audio_files_of_1925",
+      "role": "freshest-old directly downloadable media",
+      "rights_posture": "Commons item pages expose recording/composition rights separately; use only files whose pages resolve both."
+    },
+    {
+      "id": "commons-sound-recording-rights",
+      "name": "Wikimedia Commons — Sound recordings copyright guide",
+      "url": "https://commons.wikimedia.org/wiki/Commons:Sound_recordings",
+      "role": "recording/composition rights sanity check",
+      "rights_posture": "As of 2026 Commons notes all published sound recordings from 1925 and before are public domain in the U.S.; underlying work must also be cleared."
+    },
+    {
+      "id": "commons-public-domain-day-2026",
+      "name": "Wikimedia Commons — Public Domain Day 2026",
+      "url": "https://commons.wikimedia.org/wiki/Commons:Public_Domain_Day/2026",
+      "role": "newly freed 1930 works and 1925 sound recordings",
+      "rights_posture": "Curated public-domain transition page; verify each item's exact tags."
+    },
+    {
+      "id": "internet-archive-great78",
+      "name": "Internet Archive — Great 78 Project",
+      "url": "https://great78.archive.org/",
+      "role": "massive research/discovery corpus of 78 rpm recordings",
+      "rights_posture": "DISCOVERY FIRST. Rights are item/date specific; do not treat the whole corpus as public domain."
+    },
+    {
+      "id": "internet-archive-78rpm",
+      "name": "Internet Archive — 78rpm collection",
+      "url": "https://archive.org/details/78rpm",
+      "role": "direct item discovery and multi-stylus transfers",
+      "rights_posture": "DISCOVERY FIRST; verify publication date and item rights before reuse."
+    }
+  ],
+  "laws": [
+    "LINK != LICENSE",
+    "OLD != PUBLIC DOMAIN",
+    "PUBLIC DOMAIN RECORDING != FREE ARCHIVE TRANSFER",
+    "RECORDING RIGHTS != COMPOSITION RIGHTS",
+    "DISCOVERY != CUSTODY",
+    "CUSTODY != LOCAL HASH",
+    "USE CASE SELECTS DIG"
+  ]
+}

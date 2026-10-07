@@ -1,0 +1,101 @@
+{
+  "schema": "lemonpress.old-voice-year-hunt/v0",
+  "year": 1924,
+  "name": "1924 VOICE HUNT 001",
+  "status": "DURABLE_CONNECTED_MEDIA_CUSTODY",
+  "housed_count": 7,
+  "selection_rule": "Prefer voice-bearing material: speech, author reading, comic monologue, self-recorded statesman voice, political speech, unusual folk vocal behavior, historically distinctive singing.",
+  "items": [
+    {
+      "id": "joe-murgatroyd-says",
+      "title": "Joe Murgatroyd Says",
+      "performer": "Norman Clapham as John Henry",
+      "form": "spoken comic monologue",
+      "source_page": "https://commons.wikimedia.org/wiki/Category:Norman_Clapham",
+      "year": 1924,
+      "connected_media_asset_id": "d85310e3-9b14-425c-b9d1-f514cfd0a772",
+      "durable_media_url": "https://cdn.creativeclaw.co/u/a76e32aa/audio/efdda1f4-2ab5-4fe8-a240-6d3bfadcaefc.mp3",
+      "rights_note": "1924 sound recording is within the U.S. public-domain cutoff as of 2026; Commons file was retained after earlier copyright scrutiny. Underlying script/source-country status not independently reverified in this pass.",
+      "local_sha256": null
+    },
+    {
+      "id": "james-joyce-ulysses",
+      "title": "James Joyce reads from Ulysses",
+      "performer": "James Joyce",
+      "form": "author reading",
+      "source_page": "https://commons.wikimedia.org/wiki/File:James_Joyce_reads_from_Ulysses.ogg",
+      "year": 1924,
+      "connected_media_asset_id": "edb787c6-f9f4-420b-9c3d-496c928f4589",
+      "durable_media_url": "https://cdn.creativeclaw.co/u/a76e32aa/audio/fd822389-e3d2-4993-8f4d-6f3a78eecc9b.wav",
+      "rights_note": "Commons marks sound recording public domain in U.S. and EU; Commons structured data also marks public-domain dedication.",
+      "local_sha256": null
+    },
+    {
+      "id": "calvin-coolidge-taxes-liberty-government",
+      "title": "Speech on Taxes, Liberty, and the Philosophy of Government",
+      "performer": "Calvin Coolidge",
+      "form": "political speech",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Speech_on_Taxes,_Liberty,_and_the_Philosophy_of_Government,_by_Calvin_Coolidge.ogg",
+      "recorded_date": "1924-08-11",
+      "connected_media_asset_id": "d1cf0190-4252-4ab8-8de9-5a1f17f045c5",
+      "durable_media_url": "https://cdn.creativeclaw.co/u/a76e32aa/audio/168b0e29-6953-4c80-b3cb-ebf45308ec63.wav",
+      "rights_note": "Commons identifies the file as a U.S. federal-government work/public domain.",
+      "local_sha256": null
+    },
+    {
+      "id": "pilsudski-self-recorded",
+      "title": "Voice of Józef Piłsudski recorded by himself on gramophone",
+      "performer": "Józef Piłsudski",
+      "form": "self-recorded spoken voice",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Pilsuds.ogg",
+      "year": 1924,
+      "connected_media_asset_id": "d9e7c5d1-632f-45b1-b8ff-75dded8e2b67",
+      "durable_media_url": "https://cdn.creativeclaw.co/u/a76e32aa/audio/189217fb-c6d6-4c34-99f3-9e3378693204.wav",
+      "rights_note": "Commons marks source-country public domain and U.S. public domain for the sound recording; source metadata on Commons is incomplete, so provenance uncertainty is retained.",
+      "local_sha256": null
+    },
+    {
+      "id": "sun-yat-sen-mandarin-speech",
+      "title": "Sun Yat-sen speech (Mandarin)",
+      "performer": "Sun Yat-sen",
+      "form": "political speech",
+      "source_page": "https://commons.wikimedia.org/wiki/Category:Audio_files_of_1924",
+      "year": 1924,
+      "connected_media_asset_id": "c570601b-9391-42c5-9191-cc41f4b78c39",
+      "durable_media_url": "https://cdn.creativeclaw.co/u/a76e32aa/audio/1e18e400-2019-417a-82e6-71f943a4c414.wav",
+      "rights_note": "Commons hosts the historical recording with public-domain markings; retain item-level jurisdictional verification before publication outside the U.S.",
+      "local_sha256": null
+    },
+    {
+      "id": "riley-puckett-little-old-cabin",
+      "title": "Little Old Cabin in the Lane",
+      "performer": "Riley Puckett with Gid Tanner",
+      "form": "folk vocal + fiddle + dog-like howl",
+      "recorded_date": "1924-03-03",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Riley_Puckett-Little_Old_Cabin_in_the_Lane.ogg",
+      "connected_media_asset_id": "c68e43a3-a0a0-4699-8aa2-61a1fd1b7680",
+      "durable_media_url": "https://cdn.creativeclaw.co/u/a76e32aa/audio/73c59611-f3df-43f5-b235-13759c69dc21.wav",
+      "rights_note": "Commons marks the 1924 recording public domain; notable for Gid Tanner's dog-like howling as reusable nonsemantic vocal tissue.",
+      "local_sha256": null
+    },
+    {
+      "id": "marian-anderson-go-down-moses",
+      "title": "Go Down Moses",
+      "performer": "Marian Anderson",
+      "form": "spiritual vocal",
+      "year": 1924,
+      "source_page": "https://commons.wikimedia.org/wiki/Category:Audio_files_of_1924",
+      "connected_media_asset_id": "3080b528-448b-4c13-a2fe-3ffe6bbbe2e4",
+      "durable_media_url": "https://cdn.creativeclaw.co/u/a76e32aa/audio/637f65f6-e4ed-44b0-8e0a-84ab4e855d2a.mp3",
+      "rights_note": "1924 historical sound recording; use item-level composition/transfer check when publishing derivatives.",
+      "local_sha256": null
+    }
+  ],
+  "laws": [
+    "YEAR != GENRE",
+    "HISTORICAL VOICE != CHARACTER IDENTITY",
+    "PROVENANCE UNCERTAINTY SURVIVES CUSTODY",
+    "PUBLIC DOMAIN RECORDING != AUTOMATIC GLOBAL CLEARANCE",
+    "DURABLE CUSTODY != LOCAL HASH"
+  ]
+}

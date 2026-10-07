@@ -1,0 +1,95 @@
+{
+  "schema": "lemonpress.manga-parcel-render-receipt/v0",
+  "parcel_id": "manga-parcel:7bf10323cac82bdb8a1d9d2fdf883b177a8888d04da28963963f87f837cf3656",
+  "source_sha256": "7531b551c433fe947658bb9731e9271a8636f1e3a5f57b41827c1925bed295ff",
+  "plan_sha256": "6f4defc2b216064cd48153cf08c3429679d9a03791b6ca39f97a3129724eb27c",
+  "render_kind": "exact-source-region-crops",
+  "source_pixel_mutation": false,
+  "pages": [
+    {
+      "page": 1,
+      "label": "OPENING_THE_QUESTION",
+      "file_name": "page-01-opening_the_question.png",
+      "sha256": "f69022ea1ebc9735eb6f30cb0f0bb9b7802f07fb94c0c519b8643fc5b875d2fe",
+      "byte_length": 731764,
+      "pixel_dimensions": {
+        "width": 1312,
+        "height": 274
+      },
+      "source_region_px": {
+        "x": 0,
+        "y": 0,
+        "width": 1312,
+        "height": 274
+      }
+    },
+    {
+      "page": 2,
+      "label": "CASES_1-4_CONTROL_PROJECTION",
+      "file_name": "page-02-cases_1-4_control_projection.png",
+      "sha256": "2b16bfd9f746b384499509f3d3b03f94fe18c8f7355f8afe962dff37a8ef1a88",
+      "byte_length": 812318,
+      "pixel_dimensions": {
+        "width": 1312,
+        "height": 284
+      },
+      "source_region_px": {
+        "x": 0,
+        "y": 274,
+        "width": 1312,
+        "height": 284
+      }
+    },
+    {
+      "page": 3,
+      "label": "CASES_5-8_MEMORY_ROAD",
+      "file_name": "page-03-cases_5-8_memory_road.png",
+      "sha256": "7b268159a971f47e916bcdd2b3f4a2b04f5ea2e4241688db452e22acfa5f3b88",
+      "byte_length": 785038,
+      "pixel_dimensions": {
+        "width": 1312,
+        "height": 279
+      },
+      "source_region_px": {
+        "x": 0,
+        "y": 558,
+        "width": 1312,
+        "height": 279
+      }
+    },
+    {
+      "page": 4,
+      "label": "CASES_9-12_PARTICULAR_PATTERN",
+      "file_name": "page-04-cases_9-12_particular_pattern.png",
+      "sha256": "9ef74a717f71c61968c2688037dafab5130faeb2aaabd5aa16930485a085895d",
+      "byte_length": 663837,
+      "pixel_dimensions": {
+        "width": 1312,
+        "height": 259
+      },
+      "source_region_px": {
+        "x": 0,
+        "y": 837,
+        "width": 1312,
+        "height": 259
+      }
+    },
+    {
+      "page": 5,
+      "label": "FIELD_NOTES_OPEN_ENDEDNESS",
+      "file_name": "page-05-field_notes_open_endedness.png",
+      "sha256": "8b4f0f92eb19f4d659107bdb1e94608258d0dfbd0c8aabe6711354b6906cba6a",
+      "byte_length": 256635,
+      "pixel_dimensions": {
+        "width": 1312,
+        "height": 103
+      },
+      "source_region_px": {
+        "x": 0,
+        "y": 1096,
+        "width": 1312,
+        "height": 103
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schema": "lemonpress.manga-cross-recipe/v0",
+  "name": "VOICE × GLITCH / hinge-rupture inheritance",
+  "parents": [
+    "manga-descendant:b199c792f3ffe320a576c2c3f9106a4b06ad6cccf1905a2741042b0137d671d5",
+    "manga-descendant:e8170f03392012bcf66facad89d484e38ecd8b81d9f50a588f1b08a155002580"
+  ],
+  "duration_seconds": 20.282,
+  "governing_clock": {
+    "parent": "manga-descendant:b199c792f3ffe320a576c2c3f9106a4b06ad6cccf1905a2741042b0137d671d5",
+    "source": "voice-timing-map",
+    "segment_boundaries_seconds": [
+      0,
+      4.868,
+      10.749,
+      15.009,
+      20.282
+    ]
+  },
+  "rupture_inheritance": {
+    "parent": "manga-descendant:e8170f03392012bcf66facad89d484e38ecd8b81d9f50a588f1b08a155002580",
+    "rule": "glitch material may appear only in bounded windows opened by voice timing hinges plus low-amplitude 96-BPM micro-openings",
+    "hinge_window_seconds": {
+      "pre": 0.18,
+      "post": 0.62
+    },
+    "micro_openings_bpm": 96
+  },
+  "visual_rule": "voice-child picture remains carrier; cropped glitch-child bands invade only during opened windows",
+  "audio_rule": "voice track remains intelligible carrier; glitch audio is amplitude-gated by the same inherited hinge structure",
+  "laws": [
+    "TWO PARENTS != BLEND",
+    "INHERITANCE != AVERAGE",
+    "PARENT != CHILD",
+    "ANCESTRY != AUTHORITY",
+    "CROSSING != ADMISSION"
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "schema": "lemonpress.panel-voice-score/v0",
+  "name": "ROOMLESS ORBIT 001",
+  "duration_seconds": 15.4,
+  "source": "authored virtual manga geometry; no source image claimed",
+  "panels": [
+    {
+      "id": "p1",
+      "time": [
+        0,
+        3.1
+      ],
+      "geometry": {
+        "shape": "wide",
+        "relative_width": 1
+      },
+      "acoustic_action": "open orbital communications ghost; wide moving field"
+    },
+    {
+      "id": "p2",
+      "time": [
+        3.1,
+        5.7
+      ],
+      "geometry": {
+        "shape": "narrow reaction box",
+        "relative_width": 0.34
+      },
+      "acoustic_action": "narrow-band relay shadow; field compresses toward mono"
+    },
+    {
+      "id": "p3",
+      "time": [
+        5.7,
+        8.8
+      ],
+      "geometry": {
+        "shape": "extreme wide void",
+        "relative_width": 1.35
+      },
+      "acoustic_action": "remote impossible reflection; reversed pre-echo before far-away phrase"
+    },
+    {
+      "id": "p4",
+      "time": [
+        8.8,
+        12.2
+      ],
+      "geometry": {
+        "shape": "diagonal speed-line panel",
+        "relative_width": 0.82
+      },
+      "acoustic_action": "faster orbital motion plus bounded pitch drift"
+    },
+    {
+      "id": "p5",
+      "time": [
+        12.2,
+        14.62
+      ],
+      "geometry": {
+        "shape": "black-bordered close panel",
+        "relative_width": 0.45
+      },
+      "acoustic_action": "all secondary field layers terminate; semantic carrier collapses dry to center"
+    },
+    {
+      "id": "gutter",
+      "time": [
+        14.62,
+        15.4
+      ],
+      "geometry": {
+        "shape": "black gutter"
+      },
+      "acoustic_action": "silence"
+    }
+  ],
+  "word_apertures": [
+    {
+      "word": "signal",
+      "approx_time": [
+        1.02,
+        1.72
+      ],
+      "action": "radio-band shadow + slight upward spectral displacement"
+    },
+    {
+      "word": "room",
+      "approx_time": [
+        3.36,
+        3.9
+      ],
+      "action": "radio-band shadow + slight downward spectral displacement"
+    },
+    {
+      "word": "listening",
+      "approx_time": [
+        6,
+        6.78
+      ],
+      "action": "radio-band shadow + slight upward spectral displacement"
+    }
+  ],
+  "laws": [
+    "PANEL GEOMETRY MAY SCORE SOUND",
+    "INTELLIGIBILITY != NORMALITY",
+    "STRANGENESS != RANDOMNESS",
+    "FIELD CHANGE != IDENTITY CHANGE"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "lemonpress.manga-trace-receipt/v0",
+  "child_id": "manga-trace-child:374696b249828dd1201c5da2decf4181e75c297f2e0227cb72488760057aeb79",
+  "parents": [
+    "manga-grandchild:14f2b4920b76cf0448b9251f25a93da2f0caed8808ad5a748c7ba00655b62804",
+    "manga-descendant:d214463302401bc85d2fdcc4f01f28e75929e8f52617f2db672c7770e4c22126"
+  ],
+  "parent_set_sha256": "66da597547d386789371de48dfaa7481e4e470ed78fb7b2b8053b2fa34297d4b",
+  "recipe_sha256": "7eb61dc49e3c203d13b4d29e4ff5bdbb0c6a6156f54a88beb34124e2b91e9561",
+  "manifest_sha256": "22c250403fc23c3e85ba20f9498a92ae018bee3d8888639ef6bd94b035c9037f",
+  "main_body_sha256": "cacf5d99ed05debf13c490791d908cb335d4f5cfc780bf2dc07065ebedee5aec",
+  "trace_body_sha256": "e12f0d41678c83592bb7c171332f4325e19ab5b2fc101c54d64bd443fc647165",
+  "recovery_result_sha256": "ae26957e4fc806847f388a8f3587bfc4aee20a95b352eab4a43847336c8230b1",
+  "recovery_test": {
+    "ok": true,
+    "child_id": "manga-trace-child:374696b249828dd1201c5da2decf4181e75c297f2e0227cb72488760057aeb79",
+    "parents": [
+      "manga-grandchild:14f2b4920b76cf0448b9251f25a93da2f0caed8808ad5a748c7ba00655b62804",
+      "manga-descendant:d214463302401bc85d2fdcc4f01f28e75929e8f52617f2db672c7770e4c22126"
+    ],
+    "novel_trait": "RUPTURE -> TRACE EMISSION",
+    "events": ["trace-001","trace-002","trace-003","trace-004"],
+    "main_body_present": false,
+    "recovered_without_main_body": true
+  },
+  "claim": "the retrieval body reconstructs child identity, both parents, event order, shard text, and novel trait after the main MP4 is removed"
+}

@@ -1,0 +1,182 @@
+{
+  "schema": "lemonpress.voice-field-score/v0",
+  "status": "APPROVED_UNRENDERED",
+  "name": "MANGA CROSS 002 / VOICE FIELD",
+  "temporal_authority": "voice-timing-map",
+  "intelligibility_core": {
+    "required": true,
+    "rule": "semantic carrier remains recoverable unless an explicitly bounded aperture declares otherwise"
+  },
+  "independent_axes": {
+    "performance": [
+      "neutral",
+      "whisper",
+      "incantatory",
+      "broadcast",
+      "fragmented",
+      "multi-performance"
+    ],
+    "body": [
+      "human",
+      "formant-expanded",
+      "formant-contracted",
+      "polyphase",
+      "choir-of-one"
+    ],
+    "transmission": [
+      "full-band",
+      "radio-narrow",
+      "relay",
+      "vocoder-sideband",
+      "spectral-carrier"
+    ],
+    "distance": [
+      "near",
+      "mid",
+      "remote",
+      "contradictory",
+      "moving"
+    ],
+    "spatial_trajectory": [
+      "fixed",
+      "orbital",
+      "radial",
+      "crossing",
+      "collapse-to-center"
+    ],
+    "spectral_behavior": [
+      "stable",
+      "freeze",
+      "granular-shed",
+      "harmonic-bloom",
+      "stress-triggered-sideband"
+    ],
+    "aperture_material": [
+      "glitch",
+      "music",
+      "silence",
+      "room",
+      "transmission",
+      "multiplicity",
+      "spectral-body"
+    ]
+  },
+  "hinge_aperture": {
+    "source": "speech segment boundaries plus donor-declared micro-openings",
+    "rule": "hinges may open bounded field-state changes; each opening must declare entry, exit, affected axes, and recovery state",
+    "default_recovery": "return to intelligibility core",
+    "inherited_from": "MANGA CROSS 001 / VOICE HINGE"
+  },
+  "organisms": [
+    {
+      "id": "orbital-operator",
+      "traits": [
+        "center intelligibility",
+        "communications ghost",
+        "slow orbital drift",
+        "bounded doppler slip"
+      ]
+    },
+    {
+      "id": "vacuum-cantor",
+      "traits": [
+        "dry near carrier",
+        "remote spectral body",
+        "contradictory scale"
+      ]
+    },
+    {
+      "id": "mercury-relay",
+      "traits": [
+        "human carrier",
+        "stress-triggered sidebands",
+        "relay topology"
+      ]
+    },
+    {
+      "id": "polyphase-witness",
+      "traits": [
+        "multiple performances",
+        "micro-offset separation",
+        "convergence",
+        "semantic unity"
+      ]
+    },
+    {
+      "id": "last-broadcast",
+      "traits": [
+        "mid-century future diction",
+        "tape instability",
+        "bandwidth switching",
+        "relay motion"
+      ]
+    },
+    {
+      "id": "formant-orbit",
+      "traits": [
+        "stable semantic pitch",
+        "moving apparent vocal-tract scale"
+      ]
+    },
+    {
+      "id": "signal-possession",
+      "traits": [
+        "secondary organism",
+        "consonant/breath/ending occupation",
+        "progressive bounded takeover"
+      ]
+    },
+    {
+      "id": "roomless-voice",
+      "traits": [
+        "near dry source",
+        "remote reflection",
+        "optional pre-echo",
+        "impossible room"
+      ]
+    },
+    {
+      "id": "choir-of-one",
+      "traits": [
+        "phoneme branching",
+        "micro-chorus",
+        "deterministic collapse"
+      ]
+    }
+  ],
+  "panel_voice": {
+    "enabled": true,
+    "rule": "visual manga geometry may score acoustic parameters without replacing the spoken semantic carrier",
+    "mappings": [
+      "wide panel -> wider field or greater distance",
+      "small reaction box -> narrowed bandwidth / reduced apparent space",
+      "black gutter -> silence or spectral freeze",
+      "speed lines -> bounded motion, doppler, or granular shedding",
+      "hard cut -> deterministic field-state reset or declared discontinuity"
+    ]
+  },
+  "provider_policy": {
+    "role": "replaceable performance donor",
+    "authority": "none over final composition grammar",
+    "requirements": [
+      "retain donor provenance",
+      "retain exact rendered bytes",
+      "content-address executed outputs",
+      "do not infer provider-specific semantics in reLATTE"
+    ]
+  },
+  "laws": [
+    "VOICE != PRESET",
+    "PERFORMANCE != BODY",
+    "BODY != SPACE",
+    "SPACE != TRANSMISSION",
+    "DONOR != AUTHORITY",
+    "INTELLIGIBILITY != NORMALITY",
+    "STRANGENESS != RANDOMNESS",
+    "HINGE != EFFECT",
+    "FIELD CHANGE != IDENTITY CHANGE",
+    "PANEL GEOMETRY MAY SCORE SOUND",
+    "CANDIDATE != RENDERED",
+    "RENDERED != ADMITTED"
+  ]
+}

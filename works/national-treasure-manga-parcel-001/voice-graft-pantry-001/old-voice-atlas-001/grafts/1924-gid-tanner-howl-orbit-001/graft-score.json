@@ -1,0 +1,61 @@
+{
+  "schema": "lemonpress.historical-voice-graft/v0",
+  "name": "1924 GID TANNER HOWL ORBIT 001",
+  "status": "RENDERED_CANDIDATE_CI",
+  "source": {
+    "title": "Little Old Cabin in the Lane",
+    "performer": "Riley Puckett",
+    "documented_secondary_performer": "Gid Tanner — fiddle and dog-like howling",
+    "recorded_date": "1924-03-03",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Riley_Puckett-Little_Old_Cabin_in_the_Lane.ogg",
+    "rights": "public domain / free of known restrictions per Commons item page"
+  },
+  "extraction": {
+    "rationale": "candidate non-speech windows inferred from transcript gaps; retain all until listening adjudication",
+    "windows_seconds": [
+      [
+        50,
+        53
+      ],
+      [
+        87,
+        90
+      ],
+      [
+        111,
+        114
+      ],
+      [
+        191,
+        198.1
+      ]
+    ]
+  },
+  "target_field": [
+    "fossil body",
+    "lowered orbit",
+    "high ghost",
+    "reversed pre-echo",
+    "collapse to center"
+  ],
+  "identity_policy": "nonsemantic historical vocal tissue only; no synthetic impersonation or semantic character identity",
+  "laws": [
+    "HISTORICAL PERSON != CHARACTER IDENTITY",
+    "NONSEMANTIC TISSUE != VOICE CLONE",
+    "SOURCE WINDOW != PERFECT ISOLATION",
+    "MATRIX NOISE != ERROR",
+    "PUBLIC DOMAIN != NO PROVENANCE",
+    "CANDIDATE WINDOW != CLAIMED EVENT",
+    "RENDERED != ADMITTED"
+  ],
+  "render": {
+    "workflow_run_id": 37551470515,
+    "artifact_id": 11452972540,
+    "source_sha256": "08baaa9bb3eb540370acd26dab1a1655a16c7c89193fd72482a1784c3ff8fced",
+    "fossil_sha256": "9ca4d01654e4ebd69f0e7f9ecd6dae934b75d5be356de7287a9f4dd9b4d50dfd",
+    "orbit_wav_sha256": "dd9e31dc044c679b1e2c70cb9be275b950fef4ee3e911ac9a538516d866e1dea",
+    "preview_mp3_sha256": "cf65335a4f3dc2776c1f6c7b39d4d1f5a7772d11dacd75636f5e0af5c1767c07",
+    "duration_seconds": 21.386875
+  },
+  "output_identity": "historical-howling-graft:dd9e31dc044c679b1e2c70cb9be275b950fef4ee3e911ac9a538516d866e1dea"
+}

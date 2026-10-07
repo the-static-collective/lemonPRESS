@@ -1,0 +1,19 @@
+{
+  "schema": "lemonpress.trace-body/v0",
+  "parents": [
+    "manga-grandchild:14f2b4920b76cf0448b9251f25a93da2f0caed8808ad5a748c7ba00655b62804",
+    "manga-descendant:d214463302401bc85d2fdcc4f01f28e75929e8f52617f2db672c7770e4c22126"
+  ],
+  "parent_set_sha256": "66da597547d386789371de48dfaa7481e4e470ed78fb7b2b8053b2fa34297d4b",
+  "recipe_sha256": "7eb61dc49e3c203d13b4d29e4ff5bdbb0c6a6156f54a88beb34124e2b91e9561",
+  "artifacts": {
+    "trace-recipe.json": "7eb61dc49e3c203d13b4d29e4ff5bdbb0c6a6156f54a88beb34124e2b91e9561",
+    "event-markers.json": "549635bbcce4afe9d8b241437e6cd281bd5dd19cb097ade35f0337b238ea0917",
+    "fragment-shards.json": "ed1631dba7f27592f89f62e88e9d482a35f9a3ee7a9da896dfe24633d2125678",
+    "trace-index.md": "d37648a548452d25cb053c3e03c4db7c36da87400e732295da6d838b762ce212",
+    "trace-stills/trace-001.png": "195b558428746c20ff2c52748b2b48b6d25ef40b9447802d8250772ea221aa77",
+    "trace-stills/trace-002.png": "f3fb8205f55c610e91d47a7a6abdb226b075b206f7bdf68853f082031b2f35bd",
+    "trace-stills/trace-003.png": "e52aec31cd09103dc9fe27ba861cfcafe051d81edb976f2a8d2140edc18f8338",
+    "trace-stills/trace-004.png": "84bad81055e813c2bc28c9538d3c060801c92b36d1fb276390320ef72d527cf8"
+  }
+}

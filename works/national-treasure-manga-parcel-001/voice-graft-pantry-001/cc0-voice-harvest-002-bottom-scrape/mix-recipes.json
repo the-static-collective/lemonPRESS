@@ -1,0 +1,93 @@
+{
+  "schema": "lemonpress.voice-graft-mix-recipes/v0",
+  "status": "READY_UNRENDERED",
+  "recipes": [
+    {
+      "id": "bottomless-crew-001",
+      "name": "BOTTOMLESS CREW 001",
+      "semantic_carrier": [
+        "pirate-jokes-cc0",
+        "shop-owner-goblin-voice",
+        "game-voice-stabs"
+      ],
+      "bodies": [
+        "male-grunt-yelling",
+        "demon-lord-voice-pack",
+        "ghost-lich-voice-pack"
+      ],
+      "punctures": [
+        "witch-cackle",
+        "evil-laugh-2",
+        "zombie-calls"
+      ],
+      "crowd": [
+        "crowd-shouting-speaking"
+      ],
+      "rule": "semantic carrier remains recoverable; dead-crew material may occupy breaths, phrase tails, gutters, and explicitly opened apertures"
+    },
+    {
+      "id": "phoneme-necromancer-001",
+      "name": "PHONEME NECROMANCER 001",
+      "semantic_clock": [
+        "dialog-vocal-phonemes"
+      ],
+      "bodies": [
+        "zombies-sound-pack",
+        "goblins-sound-pack",
+        "monster-sfx-pack",
+        "osare-minotaur"
+      ],
+      "air": [
+        "horror-breathing",
+        "ghost-breath"
+      ],
+      "rule": "speech identity emerges from sequencing tiny public-domain phoneme bodies; monster donors never become semantic authority"
+    },
+    {
+      "id": "black-star-arcade-001",
+      "name": "BLACK STAR ARCADE 001",
+      "carriers": [
+        "kenney-voiceover",
+        "game-voice-stabs",
+        "fresh-meat-vocals-2026"
+      ],
+      "sidebands": [
+        "japanese-female-alien-robot",
+        "male-alien-robot",
+        "female-alien-robot"
+      ],
+      "signals": [
+        "vocal-alarm",
+        "ai-interface"
+      ],
+      "crowd": [
+        "crowd-shouting-speaking"
+      ],
+      "rule": "arcade semantics pass through space-modern transmission organs; foreign-language/alien material acts as acoustic body unless explicitly authored as semantic speech"
+    },
+    {
+      "id": "flesh-radio-001",
+      "name": "FLESH RADIO 001",
+      "carrier": [
+        "male-adventurer",
+        "rpg-voice-starter"
+      ],
+      "damage_body": [
+        "male-death-pain-grunts",
+        "male-grunt-yelling",
+        "dying-female-rpg"
+      ],
+      "creature_body": [
+        "80-creature-sfx",
+        "mouthmade-sci-fi-alien-cow",
+        "monster-sfx-pack"
+      ],
+      "laugh_gate": [
+        "maniacal-laughter-pack-1",
+        "evil-laughs-pack"
+      ],
+      "rule": "human effort/death tissue becomes modulation and cadence material, not simulated injury claims or character identity"
+    }
+  ],
+  "law": "DONOR FAMILY != CHARACTER IDENTITY"
+}

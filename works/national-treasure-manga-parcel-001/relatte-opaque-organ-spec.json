@@ -1,0 +1,43 @@
+{
+  "schema": "relatte.opaque-organ-spec/v0",
+  "family_ref": "organ:lemonpress/manga-parcel",
+  "donor_contract_ref": "github:the-static-collective/lemonPRESS@experiment/manga-parcel-001#works/national-treasure-manga-parcel-001/README.md",
+  "artifact_kind": "manga-parcel",
+  "source_world": "world:lemonpress",
+  "source_particular": "manga-parcel:7bf10323cac82bdb8a1d9d2fdf883b177a8888d04da28963963f87f837cf3656",
+  "source_history_head": "sha256:7531b551c433fe947658bb9731e9271a8636f1e3a5f57b41827c1925bed295ff",
+  "payload_refs": [
+    {
+      "address": "sha256:7531b551c433fe947658bb9731e9271a8636f1e3a5f57b41827c1925bed295ff",
+      "role": "source-pixels",
+      "media_type": "image/png"
+    },
+    {
+      "address": "sha256:6f4defc2b216064cd48153cf08c3429679d9a03791b6ca39f97a3129724eb27c",
+      "role": "issue-plan",
+      "media_type": "application/json"
+    }
+  ],
+  "donor_claims": {
+    "status": "INCUBATING",
+    "source_sha256": "7531b551c433fe947658bb9731e9271a8636f1e3a5f57b41827c1925bed295ff",
+    "plan_sha256": "6f4defc2b216064cd48153cf08c3429679d9a03791b6ca39f97a3129724eb27c",
+    "virtual_page_count": 5,
+    "source_pixel_mutation": false,
+    "descendant_slots_state": "UNBORN",
+    "rights_basis": "user-declared-controlled-source",
+    "rights_verification": "not-independently-verified"
+  },
+  "requested_effect": {
+    "kind": "candidate-creative-incubation",
+    "authority": "receiver-local",
+    "allowed_local_dispositions": [
+      "HOLD",
+      "ADMIT",
+      "REFUSE",
+      "RETURN"
+    ]
+  },
+  "return_address": "relatte:return:lemonpress:manga-parcel-001",
+  "created_at": "2026-10-06T21:06:00.000Z"
+}

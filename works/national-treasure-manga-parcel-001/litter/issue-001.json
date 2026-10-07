@@ -1,0 +1,29 @@
+{
+  "schema": "lemonpress.manga-issue/v0",
+  "title": "National Treasure — Issue 001 / Seed Zero",
+  "parent_parcel_id": "manga-parcel:7bf10323cac82bdb8a1d9d2fdf883b177a8888d04da28963963f87f837cf3656",
+  "parents": [
+    "manga-descendant:9b798be1bf145749faa496e88e8493d0da277bd2206b511c6f173c3af445a00a",
+    "manga-descendant:b199c792f3ffe320a576c2c3f9106a4b06ad6cccf1905a2741042b0137d671d5",
+    "manga-descendant:fec77751e789336d41e9a3435fc379363e8e21d843d730f245b195f5f50219ca",
+    "manga-descendant:e8170f03392012bcf66facad89d484e38ecd8b81d9f50a588f1b08a155002580",
+    "manga-descendant:d214463302401bc85d2fdcc4f01f28e75929e8f52617f2db672c7770e4c22126"
+  ],
+  "reading_order": [
+    "manga-descendant:9b798be1bf145749faa496e88e8493d0da277bd2206b511c6f173c3af445a00a",
+    "manga-descendant:b199c792f3ffe320a576c2c3f9106a4b06ad6cccf1905a2741042b0137d671d5",
+    "manga-descendant:fec77751e789336d41e9a3435fc379363e8e21d843d730f245b195f5f50219ca",
+    "manga-descendant:e8170f03392012bcf66facad89d484e38ecd8b81d9f50a588f1b08a155002580",
+    "manga-descendant:d214463302401bc85d2fdcc4f01f28e75929e8f52617f2db672c7770e4c22126"
+  ],
+  "composition_law": "FAMILY != FLATTENING",
+  "issue_id": "manga-issue:432c93f1e797dbd486b8db4218cd4631380d1c0b35fed067dbadfe500763aa9c",
+  "status": "CANDIDATE",
+  "created_at": "2026-10-06T21:44:00.000Z",
+  "laws": [
+    "FAMILY != FLATTENING",
+    "ISSUE != SIBLING",
+    "COMPOSITION != SOURCE AUTHORITY",
+    "ANCESTRY != ADMISSION"
+  ]
+}

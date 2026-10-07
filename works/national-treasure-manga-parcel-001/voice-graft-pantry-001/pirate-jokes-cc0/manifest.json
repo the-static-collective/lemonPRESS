@@ -1,0 +1,222 @@
+{
+  "schema": "lemonpress.voice-graft-donor/v0",
+  "name": "Pirate Jokes Male Voice / CC0 donor",
+  "status": "INGESTED_LOCAL_RENDERED_CANDIDATE",
+  "source": {
+    "title": "Pirate Jokes Male Voice",
+    "creator": "SnowFightStudios",
+    "source_url": "https://freesound.org/people/SnowFightStudios/sounds/669885/",
+    "license": "CC0",
+    "license_verified": true,
+    "duration_seconds": 121.658,
+    "format": {
+      "codec": "mp3",
+      "sample_rate_hz": 44100,
+      "channels": 2
+    },
+    "sha256": "26a4365d32f379e6abe2b905f70d4c7597bf241c1d9a593d49512d177d5447f0"
+  },
+  "native_organs": [
+    {
+      "name": "01-shore-later.wav",
+      "kind": "source-native",
+      "semantic_label": "shore-later",
+      "source_range_seconds": {
+        "start": 4.68,
+        "end": 7.82
+      },
+      "sha256": "3c2b917c82e8dca42e20839d767dd4c44c00ea19cf54435a14d73c38a387331c"
+    },
+    {
+      "name": "02-hooked.wav",
+      "kind": "source-native",
+      "semantic_label": "hooked",
+      "source_range_seconds": {
+        "start": 17.18,
+        "end": 18.24
+      },
+      "sha256": "ca19fc236e52e72d3f09db586658c2ef030ded0096d489d039eb9fb14559ca46"
+    },
+    {
+      "name": "03-arrr.wav",
+      "kind": "source-native",
+      "semantic_label": "arrr",
+      "source_range_seconds": {
+        "start": 25.86,
+        "end": 27.22
+      },
+      "sha256": "893e15c2defe34cf4042f378fa0c7592d963309b8ba785b849795b59c89dd122"
+    },
+    {
+      "name": "04-on-sale.wav",
+      "kind": "source-native",
+      "semantic_label": "on-sale",
+      "source_range_seconds": {
+        "start": 32.94,
+        "end": 35.18
+      },
+      "sha256": "5a5911b3dade341b14b95833b316f01e081854e7fa0ee889e53853c2cddff00d"
+    },
+    {
+      "name": "05-eight-pirates.wav",
+      "kind": "source-native",
+      "semantic_label": "eight-pirates",
+      "source_range_seconds": {
+        "start": 44.76,
+        "end": 46.26
+      },
+      "sha256": "230de4fbe6a148e30b639e82a9f8d0e49c0ea141554abd447ea14574ede132ed"
+    },
+    {
+      "name": "06-rookie.wav",
+      "kind": "source-native",
+      "semantic_label": "rookie",
+      "source_range_seconds": {
+        "start": 52.44,
+        "end": 53.28
+      },
+      "sha256": "c2f56e34f4d945ac0b27268bdd3dc16e277b009cce7364496ef33b914bc01b95"
+    },
+    {
+      "name": "07-waved.wav",
+      "kind": "source-native",
+      "semantic_label": "waved",
+      "source_range_seconds": {
+        "start": 59.67,
+        "end": 61.03
+      },
+      "sha256": "9108f61edb22c843147a2976c4eee3e067cc27ff8940a382242deb62ac7c56f5"
+    },
+    {
+      "name": "08-nervous-wreck.wav",
+      "kind": "source-native",
+      "semantic_label": "nervous-wreck",
+      "source_range_seconds": {
+        "start": 67.74,
+        "end": 69.1
+      },
+      "sha256": "30faa96185f97355ddd79d784ff7f7575950bb859688d97a01150d03cbbed1c6"
+    },
+    {
+      "name": "09-buccaneer.wav",
+      "kind": "source-native",
+      "semantic_label": "buccaneer",
+      "source_range_seconds": {
+        "start": 75.28,
+        "end": 76.47
+      },
+      "sha256": "253538b9cc8dd1ea3f0f33d8028b55aee55dfda1b5eb840305b0fdc5a4fad8f8"
+    },
+    {
+      "name": "10-arm-and-a-leg.wav",
+      "kind": "source-native",
+      "semantic_label": "arm-and-a-leg",
+      "source_range_seconds": {
+        "start": 82.8,
+        "end": 84.2
+      },
+      "sha256": "10a552b71a224d8c6c05f7d24dd1a3311eaff9dda9ff3659b8c90ae194cdd5f6"
+    },
+    {
+      "name": "11-eye-to-eye.wav",
+      "kind": "source-native",
+      "semantic_label": "eye-to-eye",
+      "source_range_seconds": {
+        "start": 89.92,
+        "end": 91.47
+      },
+      "sha256": "fc071200da7253cc74586835a09664929c8255db4e96fb680890d096f3286402"
+    },
+    {
+      "name": "12-take-away-the-p.wav",
+      "kind": "source-native",
+      "semantic_label": "take-away-the-p",
+      "source_range_seconds": {
+        "start": 96.34,
+        "end": 97.8
+      },
+      "sha256": "30296d5c67be0915f5047afdcc8929ce16aa6d6c8e716b9609d0423dd001318e"
+    },
+    {
+      "name": "13-on-the-deck.wav",
+      "kind": "source-native",
+      "semantic_label": "on-the-deck",
+      "source_range_seconds": {
+        "start": 103.78,
+        "end": 105.82
+      },
+      "sha256": "eb5ce2b076360f615a0c35c8d1224943ed766118017167184cf635027cf7b212"
+    },
+    {
+      "name": "14-the-plank.wav",
+      "kind": "source-native",
+      "semantic_label": "the-plank",
+      "source_range_seconds": {
+        "start": 111.82,
+        "end": 112.8
+      },
+      "sha256": "4ac62463ddae05400173043d54772e864b53855f8d48cba8b0823b5936b5a262"
+    },
+    {
+      "name": "15-captain-hooky.wav",
+      "kind": "source-native",
+      "semantic_label": "captain-hooky",
+      "source_range_seconds": {
+        "start": 119.34,
+        "end": 120.84
+      },
+      "sha256": "a4049b3b7af05f37c2337df6aec70ce9c01cfec353c53870c260cd0fb02473e7"
+    }
+  ],
+  "derived_organs": [
+    {
+      "name": "16-arrr-ghost-bloom.wav",
+      "kind": "derived",
+      "acoustic_role": "stretched/lowered wide echo bloom",
+      "parent": "03-arrr.wav",
+      "sha256": "4949bc4dd204997d12c144ce6b5f87381a796178583f0f733d527e121dab3b35"
+    },
+    {
+      "name": "17-hooked-deck-body.wav",
+      "kind": "derived",
+      "acoustic_role": "lowered restrained slapback body",
+      "parent": "02-hooked.wav",
+      "sha256": "eed73e04ba0fcd0349fe01fbf6ed6d45b7785903213c90f9c3ebe440dff6c826"
+    },
+    {
+      "name": "18-buccaneer-relay.wav",
+      "kind": "derived",
+      "acoustic_role": "narrow-band phaser relay",
+      "parent": "09-buccaneer.wav",
+      "sha256": "c12bfc55ea4d06b08c76de58c2d3bf7b1a45df47b01fd55b9b025f75e06fe5da"
+    },
+    {
+      "name": "19-captain-hooky-choir-fracture.wav",
+      "kind": "derived",
+      "acoustic_role": "three-way micro-pitch/delay fracture",
+      "parent": "15-captain-hooky.wav",
+      "sha256": "cf3600b4c2d396428c7f0f6cc90fe605d8f3c58735b07cc82dc30729f8884d04"
+    },
+    {
+      "name": "20-eye-to-eye-roomless.wav",
+      "kind": "derived",
+      "acoustic_role": "slowed/lowered impossible-distance reflection",
+      "parent": "11-eye-to-eye.wav",
+      "sha256": "89d5efa910e413044edd03d81af32d19e4b849d577dd93a8136f706bc08bb365"
+    }
+  ],
+  "audition": {
+    "duration_seconds": 40.196,
+    "wav_sha256": "6fbe75af84b7c2b9f89b6c26022b52933fb42cf8b49e8be72c96374b6f4dbbd0",
+    "mp3_sha256": "4e689b54368b55112a4edc0780371f3f2407cf616daf82177caced3c765131a5"
+  },
+  "laws": [
+    "CC0 != NO PROVENANCE",
+    "SOURCE != ORGAN",
+    "ORGAN != CHARACTER",
+    "GRAFT != IMPERSONATION",
+    "TRANSFORMATION != ERASURE",
+    "HASH BEFORE MIX",
+    "CANDIDATE != ADMITTED"
+  ]
+}

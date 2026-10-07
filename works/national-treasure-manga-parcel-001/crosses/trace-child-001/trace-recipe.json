@@ -1,0 +1,31 @@
+{
+  "schema": "lemonpress.manga-trace-recipe/v0",
+  "name": "TRACE CHILD 001 / rupture leaves retrievable bones",
+  "parents": [
+    "manga-grandchild:14f2b4920b76cf0448b9251f25a93da2f0caed8808ad5a748c7ba00655b62804",
+    "manga-descendant:d214463302401bc85d2fdcc4f01f28e75929e8f52617f2db672c7770e4c22126"
+  ],
+  "duration_seconds": 20.291667,
+  "novel_trait": "RUPTURE -> TRACE EMISSION",
+  "rule": "Each inherited rupture hinge emits a retrievable shard, event record, and still witness while the audiovisual body continues.",
+  "events": [
+    {"event_id":"trace-001","at_seconds":4.868,"window_seconds":{"pre":0.34,"post":0.68},"crawler_fragment_ordinal":7,"fragment_text":"- Local access / lost media","display_label":"LOCAL ACCESS / LOST MEDIA","inherited_from":{"rupture_timing":"manga-grandchild:14f2b4920b76cf0448b9251f25a93da2f0caed8808ad5a748c7ba00655b62804","retrieval_fragment":"manga-descendant:d214463302401bc85d2fdcc4f01f28e75929e8f52617f2db672c7770e4c22126"}},
+    {"event_id":"trace-002","at_seconds":10.749,"window_seconds":{"pre":0.34,"post":0.68},"crawler_fragment_ordinal":8,"fragment_text":"- Pop culture as archaeology","display_label":"POP CULTURE AS ARCHAEOLOGY","inherited_from":{"rupture_timing":"manga-grandchild:14f2b4920b76cf0448b9251f25a93da2f0caed8808ad5a748c7ba00655b62804","retrieval_fragment":"manga-descendant:d214463302401bc85d2fdcc4f01f28e75929e8f52617f2db672c7770e4c22126"}},
+    {"event_id":"trace-003","at_seconds":15.009,"window_seconds":{"pre":0.34,"post":0.68},"crawler_fragment_ordinal":10,"fragment_text":"- The language of pattern","display_label":"THE LANGUAGE OF PATTERN","inherited_from":{"rupture_timing":"manga-grandchild:14f2b4920b76cf0448b9251f25a93da2f0caed8808ad5a748c7ba00655b62804","retrieval_fragment":"manga-descendant:d214463302401bc85d2fdcc4f01f28e75929e8f52617f2db672c7770e4c22126"}},
+    {"event_id":"trace-004","at_seconds":19.65,"window_seconds":{"pre":0.34,"post":0.68},"crawler_fragment_ordinal":13,"fragment_text":"- Modern ruins","display_label":"MODERN RUINS","inherited_from":{"rupture_timing":"manga-grandchild:14f2b4920b76cf0448b9251f25a93da2f0caed8808ad5a748c7ba00655b62804","retrieval_fragment":"manga-descendant:d214463302401bc85d2fdcc4f01f28e75929e8f52617f2db672c7770e4c22126"}}
+  ],
+  "visual_inheritance": {
+    "carrier": "Cross 001 audiovisual body",
+    "crawler_aperture": "Crawler preview appears only inside trace-emission windows",
+    "trace_card": "event id + crawler fragment are printed into the visible child during the same window"
+  },
+  "recovery_requirement": "Deleting the main MP4 must not prevent recovery of child identity, both parents, event order, or emitted shard text.",
+  "laws": [
+    "PARTIAL RETRIEVAL != DEATH",
+    "TRACE != WHOLE",
+    "WHOLE != ONLY FORM",
+    "GLITCH MAY LEAVE BONES",
+    "DESCENDANT MAY EMIT ITS OWN CRAWL SURFACE",
+    "TWO PARENTS != BLEND"
+  ]
+}

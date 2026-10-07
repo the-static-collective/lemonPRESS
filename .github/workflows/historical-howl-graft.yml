@@ -1,0 +1,38 @@
+name: Historical Howl Graft
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - experiment/manga-parcel-001
+    paths:
+      - 'works/national-treasure-manga-parcel-001/voice-graft-pantry-001/old-voice-atlas-001/grafts/1924-gid-tanner-howl-orbit-001/**'
+      - '.github/workflows/historical-howl-graft.yml'
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install FFmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - name: Render
+        run: |
+          bash works/national-treasure-manga-parcel-001/voice-graft-pantry-001/old-voice-atlas-001/grafts/1924-gid-tanner-howl-orbit-001/render.sh /tmp/howl-graft
+      - name: Witness
+        run: |
+          cat /tmp/howl-graft/source.sha256
+          cat /tmp/howl-graft/render.sha256
+          printf 'duration_seconds='
+          cat /tmp/howl-graft/duration.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: 1924-gid-tanner-howl-orbit-001
+          path: |
+            /tmp/howl-graft/gid-tanner-howl-fossil.wav
+            /tmp/howl-graft/gid-tanner-howl-orbit-001.wav
+            /tmp/howl-graft/gid-tanner-howl-orbit-001-preview.mp3
+            /tmp/howl-graft/source.sha256
+            /tmp/howl-graft/render.sha256
+            /tmp/howl-graft/duration.txt
+          if-no-files-found: error

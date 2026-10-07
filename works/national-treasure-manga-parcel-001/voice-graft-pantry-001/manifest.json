@@ -1,0 +1,205 @@
+{
+  "schema": "lemonpress.voice-graft-pantry/v0",
+  "name": "VOICE GRAFT PANTRY 001",
+  "status": "LOCAL_RENDERED_CANDIDATE",
+  "source": {
+    "display_name": "cowboysample.wav",
+    "provenance_class": "FIRST_PARTY_USER_RECORDING",
+    "external_location": "private Google Drive source; identifier intentionally not published",
+    "duration_seconds": 40.618667,
+    "format": {
+      "codec": "pcm_s16le",
+      "sample_rate_hz": 48000,
+      "channels": 2,
+      "bits_per_sample": 16
+    },
+    "sha256": "8ef767184f00c108f0688a5e501b3cfc7924881cbd7c1b9b2ca0c9903fd2704e"
+  },
+  "organs": [
+    {
+      "name": "01-deep-body.wav",
+      "kind": "source-native",
+      "acoustic_role": "low-mid voiced body",
+      "source_range_seconds": {
+        "start": 2.144,
+        "end": 3.552
+      },
+      "sha256": "fcdf8594a8b40250e57457c71bd6021be958b473eb98daf5cd5b20eb36cb5153"
+    },
+    {
+      "name": "02-grit-edge.wav",
+      "kind": "source-native",
+      "acoustic_role": "high-centroid grit/edge",
+      "source_range_seconds": {
+        "start": 4.618667,
+        "end": 4.992
+      },
+      "sha256": "0206affb88e9465bd50fa37ba82d642ea30879b4f8ed1f0a0cef07399f2e6957"
+    },
+    {
+      "name": "03-mid-rasp.wav",
+      "kind": "source-native",
+      "acoustic_role": "mid/high rasp body",
+      "source_range_seconds": {
+        "start": 6.954667,
+        "end": 7.637333
+      },
+      "sha256": "90dcf099715bcf88e80f363f01697c1eb3aa6cd1668b3734a9237ea88ac4aa9d"
+    },
+    {
+      "name": "04-low-body.wav",
+      "kind": "source-native",
+      "acoustic_role": "lowest-centroid voiced body",
+      "source_range_seconds": {
+        "start": 18.752,
+        "end": 19.914667
+      },
+      "sha256": "580501af6b9357b11ab0ad9d1dbf5996e94d13b782bb11306f94a65260f76d1c"
+    },
+    {
+      "name": "05-long-sustain.wav",
+      "kind": "source-native",
+      "acoustic_role": "long sustained speech body",
+      "source_range_seconds": {
+        "start": 22.357333,
+        "end": 25.792
+      },
+      "sha256": "8d66ad6051637aaeeb1411e50121efbc7d6943c122292a98922f4f0daabe182f"
+    },
+    {
+      "name": "06-tail-body.wav",
+      "kind": "source-native",
+      "acoustic_role": "late sustained/tail body",
+      "source_range_seconds": {
+        "start": 37.994667,
+        "end": 40.213333
+      },
+      "sha256": "7faba532c049ac60295c888c67195d757874a51e3356802c4343d0f9770ddc66"
+    },
+    {
+      "name": "07-air-edge.wav",
+      "kind": "source-native",
+      "acoustic_role": "low-energy high-centroid air/edge",
+      "source_range_seconds": {
+        "start": 40.224,
+        "end": 40.608
+      },
+      "sha256": "071cb94b060279dda3818f1b7174e92f0ee888b822314075ea92ad7a6a8a18b2"
+    },
+    {
+      "name": "08-ghost-bloom.wav",
+      "kind": "derived",
+      "acoustic_role": "time-stretched, pitch-lowered, long echo, stereo bloom from 05",
+      "sha256": "62c90947f940f1c31bf4cf7d1c908540208c00e0e9ba7c200ff797f53ed4f598"
+    },
+    {
+      "name": "09-deck-body.wav",
+      "kind": "derived",
+      "acoustic_role": "slightly pitch-lowered, slapback-compressed body from 04",
+      "sha256": "b20ad954b6a9e39d3e7c0d7685db8557d096318da9d3289eeeafb4a23b060d86"
+    },
+    {
+      "name": "10-choir-fracture.wav",
+      "kind": "derived",
+      "acoustic_role": "three-way micro-pitch/delay split from 06",
+      "sha256": "63566e2e19cb0f1809d7e2cf1a2d9b77b35ce9982c914f60048665d82ff01ee1"
+    },
+    {
+      "name": "11-relay-rasp.wav",
+      "kind": "derived",
+      "acoustic_role": "radio-band phaser relay from 03",
+      "sha256": "a3f0bd62c314a3ee04d6d3d21babebeb7024143427eb0cdb2fc52985c49bfca3"
+    }
+  ],
+  "audition": {
+    "wav": {
+      "duration_seconds": 23.679979,
+      "sha256": "7d36b18b7d8a730837db41d4b0b3b16db075bd53af648e83b8dd95721c0efeac"
+    },
+    "mp3": {
+      "sha256": "1500080d8d93fd4aa8ddb23923058354c5fe0d7092094bb8bed9c1c19ef8cf55"
+    }
+  },
+  "remote_donor_registry": [
+    {
+      "name": "Ghost Voice Pack",
+      "source": "https://opengameart.org/node/166918",
+      "license": "CC0",
+      "status": "LICENSE_VERIFIED_REMOTE_NOT_INGESTED"
+    },
+    {
+      "name": "Ghost Monster Voice Moaning & Growling",
+      "source": "https://opengameart.org/content/ghost-monster-voice-moaning-growling",
+      "license": "CC0",
+      "status": "LICENSE_VERIFIED_REMOTE_NOT_INGESTED"
+    },
+    {
+      "name": "Ghostly Whispering",
+      "source": "https://freesound.org/people/qubodup/sounds/194628/",
+      "license": "CC0",
+      "status": "LICENSE_VERIFIED_REMOTE_NOT_INGESTED"
+    },
+    {
+      "name": "Pirate Jokes Male Voice",
+      "source": "https://freesound.org/people/SnowFightStudios/sounds/669885/",
+      "license": "CC0",
+      "status": "INGESTED_LOCAL_RENDERED_CANDIDATE",
+      "source_sha256": "26a4365d32f379e6abe2b905f70d4c7597bf241c1d9a593d49512d177d5447f0"
+    }
+  ],
+  "laws": [
+    "SOURCE != ORGAN",
+    "ORGAN != CHARACTER",
+    "DONOR != AUTHORITY",
+    "LICENSE != PROVENANCE",
+    "GRAFT != IMPERSONATION",
+    "TRANSFORMATION != ERASURE",
+    "HASH BEFORE MIX",
+    "CANDIDATE != ADMITTED"
+  ],
+  "ingested_donors": [
+    {
+      "name": "Pirate Jokes Male Voice",
+      "creator": "SnowFightStudios",
+      "license": "CC0",
+      "source_url": "https://freesound.org/people/SnowFightStudios/sounds/669885/",
+      "source_sha256": "26a4365d32f379e6abe2b905f70d4c7597bf241c1d9a593d49512d177d5447f0",
+      "native_organs": 15,
+      "derived_organs": 5,
+      "witness_path": "pirate-jokes-cc0/manifest.json",
+      "status": "INGESTED_LOCAL_RENDERED_CANDIDATE"
+    }
+  ],
+  "harvests": [
+    {
+      "id": "cc0-voice-harvest-001",
+      "source_assets_or_packs": 23,
+      "status": "DURABLE_INGESTED_MIX_READY",
+      "manifest_path": "cc0-voice-harvest-001/manifest.json",
+      "mix_recipes_path": "cc0-voice-harvest-001/mix-recipes.json",
+      "note": "Connected-media custody exists; source hashes are intentionally null until local materialization."
+    },
+    {
+      "id": "cc0-voice-harvest-002-bottom-scrape",
+      "added_sources": 32,
+      "cumulative_connected_cc0_assets_or_packs": 55,
+      "cumulative_with_local_hashed_pirate_donor": 56,
+      "status": "DURABLE_INGESTED_MIX_READY",
+      "manifest_path": "cc0-voice-harvest-002-bottom-scrape/manifest.json",
+      "mix_recipes_path": "cc0-voice-harvest-002-bottom-scrape/mix-recipes.json"
+    }
+  ],
+  "atlases": [
+    {
+      "id": "old-voice-atlas-001",
+      "status": "LINKED_DISCOVERY_FIELD",
+      "archive_doors": 16,
+      "housed_historical_recordings": 10,
+      "newest_housed_year": 1925,
+      "deepest_housed_year": "1888–1890",
+      "manifest_path": "old-voice-atlas-001/doors.json",
+      "house_set_path": "old-voice-atlas-001/house-set-001.json",
+      "router_path": "old-voice-atlas-001/use-case-router.json"
+    }
+  ]
+}
