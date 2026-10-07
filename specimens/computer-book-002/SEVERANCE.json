@@ -1,0 +1,24 @@
+{
+  "schema_version": "computer-book-severance-v0",
+  "severance_id": "lemonpress:computer-book-002:severance:001",
+  "source": {
+    "repository": "the-static-collective/lemonPRESS",
+    "commit": "0195be74caf8e396a2e574c61d00c4f7fb9df57e",
+    "path": "specimens/computer-book-001/fragments/002-loss-is-visible.json"
+  },
+  "operation": "exact-copy-then-isolate",
+  "observed_carrier": "severed/fragment.json",
+  "withheld_from_observation_window": [
+    "manifest.json",
+    "relations.jsonl",
+    "001-enter-anywhere",
+    "003-order-is-not-ancestry"
+  ],
+  "claim": "The severed carrier remains an occurrence of the same declared fragment identity. The copy is not a new source occurrence.",
+  "laws": [
+    "COPY != NEW OCCURRENCE",
+    "SEVERANCE != ORPHANHOOD",
+    "UNAVAILABLE != NONEXISTENT",
+    "UNKNOWN != EMPTY"
+  ]
+}
