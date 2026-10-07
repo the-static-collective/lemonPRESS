@@ -1,0 +1,777 @@
+{
+  "schema": "lemonpress/manga-box-binding/v0",
+  "id": "the-last-stop-moved-box-binding-001",
+  "title": "THE LAST STOP MOVED - Box Binding 001",
+  "status": "EXECUTION_WITNESS",
+  "basis": "declared_visual_observation",
+  "relaySpec": "works/the-last-stop-moved-translation-relay-001/relay.json",
+  "pageIntakeSpec": "works/the-last-stop-moved-page-intake-001/spec.json",
+  "bindings": [
+    {
+      "segmentId": "p01-01",
+      "page": 1,
+      "rectPx": {
+        "x": 55,
+        "y": 62,
+        "width": 320,
+        "height": 30
+      },
+      "surfaceClass": "solid-dark"
+    },
+    {
+      "segmentId": "p01-02",
+      "page": 1,
+      "rectPx": {
+        "x": 50,
+        "y": 120,
+        "width": 730,
+        "height": 170
+      },
+      "surfaceClass": "solid-dark"
+    },
+    {
+      "segmentId": "p01-03",
+      "page": 1,
+      "rectPx": {
+        "x": 52,
+        "y": 785,
+        "width": 715,
+        "height": 52
+      },
+      "surfaceClass": "solid-dark"
+    },
+    {
+      "segmentId": "p01-04",
+      "page": 1,
+      "rectPx": {
+        "x": 52,
+        "y": 845,
+        "width": 350,
+        "height": 50
+      },
+      "surfaceClass": "solid-dark"
+    },
+    {
+      "segmentId": "p01-05",
+      "page": 1,
+      "rectPx": {
+        "x": 52,
+        "y": 1038,
+        "width": 515,
+        "height": 34
+      },
+      "surfaceClass": "solid-dark"
+    },
+    {
+      "segmentId": "p02-01",
+      "page": 2,
+      "rectPx": {
+        "x": 45,
+        "y": 25,
+        "width": 350,
+        "height": 55
+      },
+      "surfaceClass": "solid-dark"
+    },
+    {
+      "segmentId": "p02-02",
+      "page": 2,
+      "rectPx": {
+        "x": 145,
+        "y": 80,
+        "width": 335,
+        "height": 28
+      },
+      "surfaceClass": "solid-dark"
+    },
+    {
+      "segmentId": "p02-03",
+      "page": 2,
+      "rectPx": {
+        "x": 748,
+        "y": 300,
+        "width": 355,
+        "height": 145
+      },
+      "surfaceClass": "solid-light"
+    },
+    {
+      "segmentId": "p03-01",
+      "page": 3,
+      "rectPx": {
+        "x": 45,
+        "y": 25,
+        "width": 770,
+        "height": 55
+      },
+      "surfaceClass": "solid-dark"
+    },
+    {
+      "segmentId": "p03-02",
+      "page": 3,
+      "rectPx": {
+        "x": 145,
+        "y": 80,
+        "width": 520,
+        "height": 28
+      },
+      "surfaceClass": "solid-dark"
+    },
+    {
+      "segmentId": "p03-03",
+      "page": 3,
+      "rectPx": {
+        "x": 175,
+        "y": 150,
+        "width": 625,
+        "height": 52
+      },
+      "surfaceClass": "art"
+    },
+    {
+      "segmentId": "p03-04",
+      "page": 3,
+      "rectPx": {
+        "x": 880,
+        "y": 165,
+        "width": 205,
+        "height": 165
+      },
+      "surfaceClass": "art"
+    },
+    {
+      "segmentId": "p03-05",
+      "page": 3,
+      "rectPx": {
+        "x": 195,
+        "y": 440,
+        "width": 145,
+        "height": 85
+      },
+      "surfaceClass": "solid-light"
+    },
+    {
+      "segmentId": "p03-06",
+      "page": 3,
+      "rectPx": {
+        "x": 690,
+        "y": 445,
+        "width": 125,
+        "height": 85
+      },
+      "surfaceClass": "solid-light"
+    },
+    {
+      "segmentId": "p03-07",
+      "page": 3,
+      "rectPx": {
+        "x": 745,
+        "y": 530,
+        "width": 260,
+        "height": 135
+      },
+      "surfaceClass": "solid-light"
+    },
+    {
+      "segmentId": "p03-08",
+      "page": 3,
+      "rectPx": {
+        "x": 630,
+        "y": 695,
+        "width": 165,
+        "height": 120
+      },
+      "surfaceClass": "solid-light"
+    },
+    {
+      "segmentId": "p03-09",
+      "page": 3,
+      "rectPx": {
+        "x": 675,
+        "y": 835,
+        "width": 180,
+        "height": 90
+      },
+      "surfaceClass": "solid-light"
+    },
+    {
+      "segmentId": "p03-10",
+      "page": 3,
+      "rectPx": {
+        "x": 610,
+        "y": 945,
+        "width": 205,
+        "height": 55
+      },
+      "surfaceClass": "solid-light"
+    },
+    {
+      "segmentId": "p03-11",
+      "page": 3,
+      "rectPx": {
+        "x": 190,
+        "y": 1018,
+        "width": 775,
+        "height": 82
+      },
+      "surfaceClass": "solid-light"
+    },
+    {
+      "segmentId": "p04-01",
+      "page": 4,
+      "rectPx": {
+        "x": 45,
+        "y": 25,
+        "width": 350,
+        "height": 55
+      },
+      "surfaceClass": "solid-dark"
+    },
+    {
+      "segmentId": "p04-02",
+      "page": 4,
+      "rectPx": {
+        "x": 145,
+        "y": 80,
+        "width": 330,
+        "height": 28
+      },
+      "surfaceClass": "solid-dark"
+    },
+    {
+      "segmentId": "p04-03",
+      "page": 4,
+      "rectPx": {
+        "x": 190,
+        "y": 980,
+        "width": 775,
+        "height": 82
+      },
+      "surfaceClass": "solid-light"
+    },
+    {
+      "segmentId": "p05-01",
+      "page": 5,
+      "rectPx": {
+        "x": 45,
+        "y": 25,
+        "width": 735,
+        "height": 55
+      },
+      "surfaceClass": "solid-dark"
+    },
+    {
+      "segmentId": "p05-02",
+      "page": 5,
+      "rectPx": {
+        "x": 145,
+        "y": 80,
+        "width": 300,
+        "height": 28
+      },
+      "surfaceClass": "solid-dark"
+    },
+    {
+      "segmentId": "p05-03",
+      "page": 5,
+      "rectPx": {
+        "x": 100,
+        "y": 155,
+        "width": 205,
+        "height": 50
+      },
+      "surfaceClass": "solid-light"
+    },
+    {
+      "segmentId": "p05-04",
+      "page": 5,
+      "rectPx": {
+        "x": 730,
+        "y": 155,
+        "width": 140,
+        "height": 70
+      },
+      "surfaceClass": "solid-light"
+    },
+    {
+      "segmentId": "p05-05",
+      "page": 5,
+      "rectPx": {
+        "x": 755,
+        "y": 270,
+        "width": 225,
+        "height": 125
+      },
+      "surfaceClass": "solid-light"
+    },
+    {
+      "segmentId": "p05-06",
+      "page": 5,
+      "rectPx": {
+        "x": 360,
+        "y": 700,
+        "width": 150,
+        "height": 80
+      },
+      "surfaceClass": "solid-light"
+    },
+    {
+      "segmentId": "p05-07",
+      "page": 5,
+      "rectPx": {
+        "x": 960,
+        "y": 440,
+        "width": 130,
+        "height": 75
+      },
+      "surfaceClass": "solid-light"
+    },
+    {
+      "segmentId": "p05-08",
+      "page": 5,
+      "rectPx": {
+        "x": 985,
+        "y": 545,
+        "width": 100,
+        "height": 70
+      },
+      "surfaceClass": "solid-light"
+    },
+    {
+      "segmentId": "p05-09",
+      "page": 5,
+      "rectPx": {
+        "x": 935,
+        "y": 758,
+        "width": 170,
+        "height": 48
+      },
+      "surfaceClass": "solid-light"
+    },
+    {
+      "segmentId": "p05-10",
+      "page": 5,
+      "rectPx": {
+        "x": 95,
+        "y": 855,
+        "width": 965,
+        "height": 90
+      },
+      "surfaceClass": "solid-light"
+    },
+    {
+      "segmentId": "p06-01",
+      "page": 6,
+      "rectPx": {
+        "x": 45,
+        "y": 25,
+        "width": 660,
+        "height": 55
+      },
+      "surfaceClass": "solid-dark"
+    },
+    {
+      "segmentId": "p06-02",
+      "page": 6,
+      "rectPx": {
+        "x": 145,
+        "y": 80,
+        "width": 560,
+        "height": 28
+      },
+      "surfaceClass": "solid-dark"
+    },
+    {
+      "segmentId": "p06-03",
+      "page": 6,
+      "rectPx": {
+        "x": 105,
+        "y": 245,
+        "width": 185,
+        "height": 85
+      },
+      "surfaceClass": "art"
+    },
+    {
+      "segmentId": "p06-04",
+      "page": 6,
+      "rectPx": {
+        "x": 145,
+        "y": 370,
+        "width": 180,
+        "height": 75
+      },
+      "surfaceClass": "art"
+    },
+    {
+      "segmentId": "p06-05",
+      "page": 6,
+      "rectPx": {
+        "x": 335,
+        "y": 340,
+        "width": 90,
+        "height": 55
+      },
+      "surfaceClass": "art"
+    },
+    {
+      "segmentId": "p06-06",
+      "page": 6,
+      "rectPx": {
+        "x": 40,
+        "y": 452,
+        "width": 290,
+        "height": 38
+      },
+      "surfaceClass": "solid-light"
+    },
+    {
+      "segmentId": "p06-07",
+      "page": 6,
+      "rectPx": {
+        "x": 645,
+        "y": 180,
+        "width": 200,
+        "height": 60
+      },
+      "surfaceClass": "art"
+    },
+    {
+      "segmentId": "p06-08",
+      "page": 6,
+      "rectPx": {
+        "x": 555,
+        "y": 450,
+        "width": 155,
+        "height": 38
+      },
+      "surfaceClass": "solid-light"
+    },
+    {
+      "segmentId": "p06-09",
+      "page": 6,
+      "rectPx": {
+        "x": 840,
+        "y": 815,
+        "width": 260,
+        "height": 48
+      },
+      "surfaceClass": "solid-light"
+    },
+    {
+      "segmentId": "p06-10",
+      "page": 6,
+      "rectPx": {
+        "x": 333,
+        "y": 945,
+        "width": 490,
+        "height": 92
+      },
+      "surfaceClass": "solid-light"
+    },
+    {
+      "segmentId": "p07-01",
+      "page": 7,
+      "rectPx": {
+        "x": 45,
+        "y": 25,
+        "width": 350,
+        "height": 55
+      },
+      "surfaceClass": "solid-dark"
+    },
+    {
+      "segmentId": "p07-02",
+      "page": 7,
+      "rectPx": {
+        "x": 145,
+        "y": 80,
+        "width": 505,
+        "height": 28
+      },
+      "surfaceClass": "solid-dark"
+    },
+    {
+      "segmentId": "p07-03",
+      "page": 7,
+      "rectPx": {
+        "x": 192,
+        "y": 1010,
+        "width": 775,
+        "height": 88
+      },
+      "surfaceClass": "solid-light"
+    },
+    {
+      "segmentId": "p08-01",
+      "page": 8,
+      "rectPx": {
+        "x": 45,
+        "y": 25,
+        "width": 610,
+        "height": 55
+      },
+      "surfaceClass": "solid-dark"
+    },
+    {
+      "segmentId": "p08-02",
+      "page": 8,
+      "rectPx": {
+        "x": 145,
+        "y": 80,
+        "width": 620,
+        "height": 28
+      },
+      "surfaceClass": "solid-dark"
+    },
+    {
+      "segmentId": "p08-03",
+      "page": 8,
+      "rectPx": {
+        "x": 890,
+        "y": 585,
+        "width": 225,
+        "height": 85
+      },
+      "surfaceClass": "sign"
+    },
+    {
+      "segmentId": "p08-04",
+      "page": 8,
+      "rectPx": {
+        "x": 895,
+        "y": 675,
+        "width": 215,
+        "height": 80
+      },
+      "surfaceClass": "sign"
+    },
+    {
+      "segmentId": "p08-05",
+      "page": 8,
+      "rectPx": {
+        "x": 895,
+        "y": 755,
+        "width": 215,
+        "height": 130
+      },
+      "surfaceClass": "sign"
+    },
+    {
+      "segmentId": "p08-06",
+      "page": 8,
+      "rectPx": {
+        "x": 160,
+        "y": 972,
+        "width": 840,
+        "height": 90
+      },
+      "surfaceClass": "solid-light"
+    },
+    {
+      "segmentId": "p09-01",
+      "page": 9,
+      "rectPx": {
+        "x": 45,
+        "y": 25,
+        "width": 675,
+        "height": 55
+      },
+      "surfaceClass": "solid-dark"
+    },
+    {
+      "segmentId": "p09-02",
+      "page": 9,
+      "rectPx": {
+        "x": 145,
+        "y": 80,
+        "width": 320,
+        "height": 28
+      },
+      "surfaceClass": "solid-dark"
+    },
+    {
+      "segmentId": "p09-03",
+      "page": 9,
+      "rectPx": {
+        "x": 920,
+        "y": 800,
+        "width": 88,
+        "height": 58
+      },
+      "surfaceClass": "solid-light"
+    },
+    {
+      "segmentId": "p09-04",
+      "page": 9,
+      "rectPx": {
+        "x": 260,
+        "y": 965,
+        "width": 635,
+        "height": 90
+      },
+      "surfaceClass": "solid-light"
+    },
+    {
+      "segmentId": "p10-01",
+      "page": 10,
+      "rectPx": {
+        "x": 55,
+        "y": 65,
+        "width": 780,
+        "height": 55
+      },
+      "surfaceClass": "solid-dark"
+    },
+    {
+      "segmentId": "p10-02",
+      "page": 10,
+      "rectPx": {
+        "x": 55,
+        "y": 138,
+        "width": 845,
+        "height": 55
+      },
+      "surfaceClass": "solid-dark"
+    },
+    {
+      "segmentId": "p10-03",
+      "page": 10,
+      "rectPx": {
+        "x": 55,
+        "y": 248,
+        "width": 95,
+        "height": 32
+      },
+      "surfaceClass": "solid-dark"
+    },
+    {
+      "segmentId": "p10-04",
+      "page": 10,
+      "rectPx": {
+        "x": 55,
+        "y": 290,
+        "width": 900,
+        "height": 62
+      },
+      "surfaceClass": "solid-dark"
+    },
+    {
+      "segmentId": "p10-05",
+      "page": 10,
+      "rectPx": {
+        "x": 55,
+        "y": 405,
+        "width": 185,
+        "height": 32
+      },
+      "surfaceClass": "solid-dark"
+    },
+    {
+      "segmentId": "p10-06",
+      "page": 10,
+      "rectPx": {
+        "x": 55,
+        "y": 445,
+        "width": 915,
+        "height": 62
+      },
+      "surfaceClass": "solid-dark"
+    },
+    {
+      "segmentId": "p10-07",
+      "page": 10,
+      "rectPx": {
+        "x": 55,
+        "y": 560,
+        "width": 75,
+        "height": 32
+      },
+      "surfaceClass": "solid-dark"
+    },
+    {
+      "segmentId": "p10-08",
+      "page": 10,
+      "rectPx": {
+        "x": 55,
+        "y": 598,
+        "width": 920,
+        "height": 72
+      },
+      "surfaceClass": "solid-dark"
+    },
+    {
+      "segmentId": "p10-09",
+      "page": 10,
+      "rectPx": {
+        "x": 55,
+        "y": 712,
+        "width": 85,
+        "height": 32
+      },
+      "surfaceClass": "solid-dark"
+    },
+    {
+      "segmentId": "p10-10",
+      "page": 10,
+      "rectPx": {
+        "x": 55,
+        "y": 750,
+        "width": 1005,
+        "height": 68
+      },
+      "surfaceClass": "solid-dark"
+    },
+    {
+      "segmentId": "p10-11",
+      "page": 10,
+      "rectPx": {
+        "x": 55,
+        "y": 868,
+        "width": 110,
+        "height": 32
+      },
+      "surfaceClass": "solid-dark"
+    },
+    {
+      "segmentId": "p10-12",
+      "page": 10,
+      "rectPx": {
+        "x": 55,
+        "y": 905,
+        "width": 860,
+        "height": 70
+      },
+      "surfaceClass": "solid-dark"
+    },
+    {
+      "segmentId": "p10-13",
+      "page": 10,
+      "rectPx": {
+        "x": 55,
+        "y": 1050,
+        "width": 690,
+        "height": 32
+      },
+      "surfaceClass": "solid-dark"
+    }
+  ],
+  "authority": {
+    "editorialSelection": false,
+    "editionAdmission": false,
+    "publication": false,
+    "houseRelease": false
+  },
+  "laws": [
+    "TEXT ID != PIXEL REGION",
+    "BOX != SEMANTIC TRUTH",
+    "BINDING != SELECTION",
+    "BINDING != MASK",
+    "GEOMETRY != RENDER AUTHORITY",
+    "ONE PARTICULAR == ONE DECLARED REGION",
+    "CLIPPED SOURCE REMAINS CLIPPED",
+    "ART SURFACE REQUIRES EXPLICIT RENDER STRATEGY",
+    "ALL PARTICULARS MUST BE ACCOUNTED FOR",
+    "BOX BINDING != ADMISSION"
+  ]
+}
