@@ -49,6 +49,19 @@
         },
         "http_status": {
           "type": "integer"
+        },
+        "extraction": {
+          "type": "string",
+          "enum": [
+            "html-structured",
+            "public-playlist-api"
+          ]
+        },
+        "api_pages": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
         }
       },
       "additionalProperties": true
@@ -145,6 +158,18 @@
             "type": [
               "string",
               "null"
+            ]
+          },
+          "source_title": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "title_state": {
+            "enum": [
+              "source",
+              "ui-fallback"
             ]
           }
         },
