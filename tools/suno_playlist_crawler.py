@@ -306,19 +306,25 @@ def fetch_public_playlist_tracks(
         url = f"https://studio-api.prod.suno.com/api/playlist/{playlist_id}/?page={page}"
         fetched = json_fetcher(url)
         items = extract_api_items(fetched["data"])
-        pages.append(
-            {
-                "page": page,
-                "url": fetched["final_url"],
-                "status": fetched["status"],
-                "body_sha256": fetched["body_sha256"],
-                "item_count": len(items),
-            }
-        )
         if not items:
+            pages.append(
+                {
+                    "page": page,
+                    "url": fetched["final_url"],
+                    "status": fetched["status"],
+                    "body_sha256": fetched["body_sha256"],
+                    "item_count": 0,
+                    "public_track_item_count": 0,
+                    "omitted_item_count": 0,
+                }
+            )
             break
         added = 0
+        omitted = 0
         for item in items:
+            if not string_value(item, "title", "name"):
+                omitted += 1
+                continue
             sid = string_value(item, "id", "clip_id", "clipId", "song_id", "songId")
             identity = sid or sha256_text(json.dumps(item, ensure_ascii=False, sort_keys=True, default=str))
             if identity in seen:
@@ -326,6 +332,17 @@ def fetch_public_playlist_tracks(
             seen.add(identity)
             tracks.append(item)
             added += 1
+        pages.append(
+            {
+                "page": page,
+                "url": fetched["final_url"],
+                "status": fetched["status"],
+                "body_sha256": fetched["body_sha256"],
+                "item_count": len(items),
+                "public_track_item_count": added,
+                "omitted_item_count": omitted,
+            }
+        )
         if expected_count is not None and len(tracks) >= expected_count:
             break
         if added == 0:
