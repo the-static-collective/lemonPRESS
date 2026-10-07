@@ -22,3 +22,35 @@ jobs:
           python-version: "3.12"
       - name: Run crawler tests
         run: python -m unittest tests/test_suno_playlist_crawler.py -v
+
+  live-crawl:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Crawl four public 2DAY playlists
+        run: |
+          python tools/suno_playlist_crawler.py press \
+            works/2day-cycle-001/sources.json \
+            --out /tmp/2day-crawl
+      - name: Assert exact public-source result
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          crawl = json.loads(Path("/tmp/2day-crawl/crawl.json").read_text())
+          playdeck = json.loads(Path("/tmp/2day-crawl/playdeck-cycle.json").read_text())
+          assert crawl["track_count"] == 39, crawl["track_count"]
+          assert playdeck["track_count"] == 39, playdeck["track_count"]
+          assert playdeck["loop"] is True
+          assert [n["next_playlist_slot"] for n in playdeck["playlist_nodes"]] == [2, 3, 4, 1]
+          print("LIVE 2DAY CRAWL: 39 track occurrences; cycle 1->2->3->4->1")
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: 2day-live-crawl
+          path: /tmp/2day-crawl
+          if-no-files-found: error
