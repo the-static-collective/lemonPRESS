@@ -97,7 +97,7 @@ class SunoPlaylistCrawlerTests(unittest.TestCase):
             {
                 "playlist_clips": [
                     {"clip": {"id": "a", "title": "A"}},
-                    {"clip": {"id": "gone"}},
+                    {"clip": {"id": "gone", "status": "failed"}},
                     {"clip": {"id": "b", "title": "B"}},
                 ]
             }
@@ -109,6 +109,23 @@ class SunoPlaylistCrawlerTests(unittest.TestCase):
         )
         self.assertEqual([t["title"] for t in got["tracks"]], ["A", "B"])
         self.assertEqual(got["source"]["api_pages"][0]["omitted_item_count"], 1)
+
+    def test_complete_empty_title_survives_as_untitled_projection(self):
+        pages = [
+            {
+                "playlist_clips": [
+                    {"clip": {"id": "a", "title": "", "status": "complete"}}
+                ]
+            }
+        ]
+        got = crawler.crawl_source(
+            self.source(count=1),
+            html_fetcher=lambda _: self.html_result(),
+            json_fetcher=self.json_fetcher(pages),
+        )
+        self.assertEqual(got["tracks"][0]["source_title"], "")
+        self.assertEqual(got["tracks"][0]["title"], "Untitled")
+        self.assertEqual(got["tracks"][0]["title_state"], "ui-fallback")
 
     def test_count_drift_holds(self):
         pages = [{"playlist_clips": [{"clip": {"id": "a", "title": "A"}}]}]
