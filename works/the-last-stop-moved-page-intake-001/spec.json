@@ -1,0 +1,151 @@
+{
+  "schema": "lemonpress/manga-page-intake/v0",
+  "id": "the-last-stop-moved-page-intake-001",
+  "title": "THE LAST STOP MOVED - Page Intake 001",
+  "status": "EXECUTION_WITNESS",
+  "bundle_path": "works/the-last-stop-moved-page-intake-001/bundle",
+  "source": {
+    "path": "_external/THE_LAST_STOP_MOVED_Issue_Cut_001.pdf",
+    "sha256": "c14ec41badbdcddde6cc5006141e3181fe0917a86c67b1a85568d9b22e10051f",
+    "media_type": "application/pdf",
+    "page_count": 10,
+    "revision": "issue-cut-001-upload-2026-10-07"
+  },
+  "renderer": {
+    "engine": "pypdfium2",
+    "version": "5.8.0",
+    "scale_milli": 2000,
+    "pixel_mode": "RGB",
+    "png_encoder": "lemonpress-stored-deflate-rgb8-v0"
+  },
+  "manga": {
+    "work_id": "lemonpress:the-last-stop-moved",
+    "edition_id": "lemonpress:the-last-stop-moved:source-pages-001",
+    "issue_id": "lemonpress:the-last-stop-moved:issue-cut-001",
+    "page_prefix": "last-stop-source-page",
+    "geometry": {
+      "unit": "um",
+      "page": {
+        "x": 0,
+        "y": 0,
+        "width": 203200,
+        "height": 203200
+      },
+      "trim": {
+        "x": 0,
+        "y": 0,
+        "width": 203200,
+        "height": 203200
+      },
+      "bleed": {
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "bottom": 0
+      },
+      "safeArea": {
+        "x": 5000,
+        "y": 5000,
+        "width": 193200,
+        "height": 193200
+      }
+    }
+  },
+  "admission": {
+    "authority_ref": "human-approval:conversation:2026-10-07:page-intake-001",
+    "scope": "Exact user-supplied Issue Cut 001 bytes may be rasterized and used as parents for Translation Relay / RELETTER experimentation. No edition admission, publication, or house release is granted.",
+    "rights_note": "User explicitly approved PAGE INTAKE 001 and RELETTER work on the supplied issue in the source conversation.",
+    "grants": {
+      "pixelReuse": true,
+      "pixelHarvest": false,
+      "derivativeReuse": true,
+      "publicationReuse": false,
+      "motionAdaptation": false,
+      "synthesizedSound": false
+    }
+  },
+  "expected_pages": [
+    {
+      "page": 1,
+      "width": 1152,
+      "height": 1152,
+      "pixel_sha256": "9623c0be7ccfef7a6ca66bca50c4bcd4c36d34785380d65265f14868d9dbeb05",
+      "png_sha256": "bec70e289b679e50a613d3fa2c297dbd7ae89f2ffcc46d74c9e728a5ba36b883"
+    },
+    {
+      "page": 2,
+      "width": 1152,
+      "height": 1152,
+      "pixel_sha256": "9ecd57d0e9af82d1bbf3b3bc066b25dff3431297017a2ef111382ebf9205d16c",
+      "png_sha256": "85d792de7d4b0cb270869889de79e722aa3cbc51fd0d9a6dd9e5c23833c3375b"
+    },
+    {
+      "page": 3,
+      "width": 1152,
+      "height": 1152,
+      "pixel_sha256": "dd376f20acf13911f1488b956f70eb3a55805b9d727bab8ae87ab3b79fa5adfd",
+      "png_sha256": "640ee922b26c624729f9f8004025db9910e5f82e8f4319db131bdf05127c3719"
+    },
+    {
+      "page": 4,
+      "width": 1152,
+      "height": 1152,
+      "pixel_sha256": "0c87b2cf8840410b577c3d5e9c52c6e63d27e08ca9c7e342777904033cf85e2f",
+      "png_sha256": "45ae6d6e1d72b9afd51650a0e556b9c3bb670ba6da267a5aca41be09f4c692b8"
+    },
+    {
+      "page": 5,
+      "width": 1152,
+      "height": 1152,
+      "pixel_sha256": "f5fab83f53863228ea2948b91f22e37998d4623da482ca59ae92112d744c4340",
+      "png_sha256": "20ff25f1d77d4b3b5ee6fca527c10cc5d2d6c89bc1c783c57b1966333b9276b3"
+    },
+    {
+      "page": 6,
+      "width": 1152,
+      "height": 1152,
+      "pixel_sha256": "6333bd99fa9ba692a0594a783088968416ea81a6eee239e78ddab560ea66c0dc",
+      "png_sha256": "3cb74feef9807b381fca474f0f449697d3b94cc6ce04a071552f41bc0ba7c6bb"
+    },
+    {
+      "page": 7,
+      "width": 1152,
+      "height": 1152,
+      "pixel_sha256": "d4f3cec38da665ad55624427d6b0335e4eb6103e6fd9151d85e254e4770ade69",
+      "png_sha256": "f0542933355911bc7953671a2cc83476ed77a919c0eeae7c2e4fedcc4a1072df"
+    },
+    {
+      "page": 8,
+      "width": 1152,
+      "height": 1152,
+      "pixel_sha256": "7c9b668b72db972ff33b9453714e6c9cc2429e75e86617a7eae98697bbda1f7c",
+      "png_sha256": "84e711d0c0758ff72bca954d614b7398d606abbda8ccdab304702574f27a0cab"
+    },
+    {
+      "page": 9,
+      "width": 1152,
+      "height": 1152,
+      "pixel_sha256": "9b203e594db3f81adc4b226437026d164879a31784135dbc47446934b57129ca",
+      "png_sha256": "20329739bbc919296d79aadb32d7442de145b11c5419f46ddd598cf89573f2c9"
+    },
+    {
+      "page": 10,
+      "width": 1152,
+      "height": 1152,
+      "pixel_sha256": "460bbc991b3b0d0e031a7d55c3b76ce03b66f660cb00718d4149616e8e9eb35b",
+      "png_sha256": "9cb4b43be520487e9432007c6def0f22f6d26bd2c26570e1eb2789d80bf2b1e0"
+    }
+  ],
+  "laws": [
+    "PDF != PAGE",
+    "RENDER != SOURCE",
+    "RASTER != EDITION ADMISSION",
+    "RENDERER IS PART OF IDENTITY",
+    "SCALE IS DECLARED",
+    "PIXEL HASH != SEMANTIC IDENTITY",
+    "SOURCE BYTES SURVIVE DESCENDANT",
+    "SOURCE ADMISSION != PUBLICATION",
+    "PAGE CARRIER != HOUSE RELEASE",
+    "INTAKE != CANON"
+  ]
+}
