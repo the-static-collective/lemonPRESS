@@ -1,0 +1,40 @@
+work_id: lemonpress:2day-cycle-001
+title: "2DAY"
+subtitle: "a four-part record of one day"
+status: forming
+
+admission:
+  state: pending
+  receipt: null
+  source_revision: null
+
+lanes:
+  - digital
+  - crawler
+  - archive
+
+rights: "Public source URLs do not imply a license grant. Rights remain with the respective rightsholders."
+
+relations:
+  - type: source-playlist
+    target: "https://suno.com/s/zVsv2igtLOJDqzmX"
+  - type: source-playlist
+    target: "https://suno.com/s/jLlQnaiqz9Bv5DNc"
+  - type: source-playlist
+    target: "https://suno.com/s/TExxM9EQsSI0ORZS"
+  - type: source-playlist
+    target: "https://suno.com/s/xaTnyxQlNOLabzaf"
+
+declared_origin_date: "2026-10-06"
+declared_by: "The Static Collective"
+
+editorial_law:
+  - "The four playlists remain authored objects."
+  - "The umbrella declares traversal; it does not flatten the sources."
+  - "The final playlist returns to the first."
+  - "Creator-declared provenance and independently observed provenance remain distinct."
+
+notes:
+  - "39 songs total across four source playlists."
+  - "Observed aggregate duration: 131 minutes."
+  - "Formal LemonPRESS admission remains a later act."

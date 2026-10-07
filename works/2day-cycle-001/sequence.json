@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "sequence_id": "lemonpress:2day-cycle-001",
+  "title": "2DAY",
+  "subtitle": "a four-part record of one day",
+  "kind": "playlist-cycle",
+  "declared_origin_date": "2026-10-06",
+  "aggregate": {
+    "playlist_count": 4,
+    "track_count": 39,
+    "duration_minutes": 131
+  },
+  "order": [
+    {
+      "slot": 1,
+      "title": "2moreOhmorning!",
+      "public_url": "https://suno.com/s/zVsv2igtLOJDqzmX",
+      "source_playlist_id": null,
+      "source_playlist_id_state": "unobserved",
+      "track_count": 11,
+      "duration_minutes": 35
+    },
+    {
+      "slot": 2,
+      "title": "thenex2day",
+      "public_url": "https://suno.com/s/jLlQnaiqz9Bv5DNc",
+      "source_playlist_id": null,
+      "source_playlist_id_state": "unobserved",
+      "track_count": 7,
+      "duration_minutes": 23
+    },
+    {
+      "slot": 3,
+      "title": "2knite",
+      "public_url": "https://suno.com/s/TExxM9EQsSI0ORZS",
+      "source_playlist_id": null,
+      "source_playlist_id_state": "unobserved",
+      "track_count": 12,
+      "duration_minutes": 43
+    },
+    {
+      "slot": 4,
+      "title": "2day",
+      "public_url": "https://suno.com/s/xaTnyxQlNOLabzaf",
+      "source_playlist_id": null,
+      "source_playlist_id_state": "unobserved",
+      "track_count": 9,
+      "duration_minutes": 30
+    }
+  ],
+  "cycle": {
+    "enabled": true,
+    "from_slot": 4,
+    "to_slot": 1,
+    "meaning": "2day returns to 2moreOhmorning!"
+  },
+  "provenance": {
+    "creator_declared": {
+      "all_four_created_same_day": true,
+      "date": "2026-10-06"
+    },
+    "share_urls_supplied_by_creator": true,
+    "visual_playlist_metadata_observed": true,
+    "canonical_source_ids_observed": false,
+    "observation_date": "2026-10-07"
+  },
+  "laws": [
+    "PLAYLIST != SONG",
+    "UMBRELLA != SOURCE MUTATION",
+    "ORDER != ANCESTRY",
+    "CYCLE != DUPLICATION",
+    "REPEAT EDGE != NEW SOURCE",
+    "PUBLIC URL != RIGHTS GRANT",
+    "SOURCE PLAYLIST != LEMONPRESS ADMISSION",
+    "UNOBSERVED ID != INFERRED ID"
+  ]
+}
