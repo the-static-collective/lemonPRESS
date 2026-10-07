@@ -1,0 +1,69 @@
+{
+  "schema": "lemonpress/manga-physical-brief/v0",
+  "briefId": "lemonpress:manga-index-001:physical-brief-001",
+  "status": "PROPOSAL",
+  "title": "THE HOUSE TAKES ATTENDANCE",
+  "sourceIndexCommit": "66105ac2276414a5ebdb9baae048147880f50d52",
+  "sourceIssueCount": 19,
+  "sourcePageCount": 100,
+  "observedOrientationProfile": {
+    "portrait": 57,
+    "landscape": 30,
+    "square": 13
+  },
+  "requiredBehavior": {
+    "preserveIssueBoundaries": true,
+    "preserveSourceSlotOrder": true,
+    "sourceCrop": false,
+    "sourceMutation": false,
+    "furnitureMustBeDeclared": true
+  },
+  "proposals": [
+    {
+      "proposalId": "square-atlas-8x8",
+      "trimInches": [
+        8,
+        8
+      ],
+      "readingDirection": "ltr",
+      "sourcePlacement": "contain",
+      "interiorPlan": "100 source pages + 19 issue gates + 1 colophon = 120 interior pages",
+      "reason": "square body gives portrait, landscape, and square pages comparable visual dignity without cropping"
+    },
+    {
+      "proposalId": "portrait-8.5x11",
+      "trimInches": [
+        8.5,
+        11
+      ],
+      "readingDirection": "ltr",
+      "sourcePlacement": "contain",
+      "interiorPlan": "100 source pages + 19 issue gates + 1 colophon = 120 interior pages",
+      "reason": "large conventional page favors the portrait majority while retaining landscape pages as uncropped plates"
+    }
+  ],
+  "heldDecisions": [
+    "trim selection",
+    "binding",
+    "paper stock",
+    "cover construction",
+    "color process",
+    "issue-gate visual design",
+    "printer/vendor",
+    "bleed strategy",
+    "publication/admission"
+  ],
+  "authority": {
+    "selection": false,
+    "admission": false,
+    "publication": false,
+    "release": false
+  },
+  "laws": [
+    "RECOMMENDATION != SELECTION",
+    "PHYSICAL FORM != SOURCE AUTHORITY",
+    "FURNITURE != SOURCE PAGE",
+    "PROOF != PUBLICATION",
+    "CANDIDATE != RELEASE"
+  ]
+}
