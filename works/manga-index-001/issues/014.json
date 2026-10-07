@@ -1,0 +1,101 @@
+{
+  "schema": "lemonpress/manga-source-issue/v0",
+  "corpusId": "lemonpress:manga-index-001",
+  "issueId": "lemonpress:manga-index-001:issue-014",
+  "status": "ASSEMBLED_SOURCE",
+  "issueSequence": 14,
+  "title": "THE NARROW WAY THROUGH",
+  "sourceAssembly": {
+    "provider": "google-drive",
+    "folderId": "1xSckhseTbgsIQ0_HNHMaCWFocAAZnE8C",
+    "url": "https://drive.google.com/drive/folders/1xSckhseTbgsIQ0_HNHMaCWFocAAZnE8C"
+  },
+  "pageCount": 6,
+  "pages": [
+    {
+      "slot": 1,
+      "pageId": "issue-014-page-001",
+      "displayTitle": "Keeping Going Is Bravery",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1WN6aAsGIddm-Xnkbk_Bli0S2jRll2cSA",
+        "fileName": "01 - Keeping Going Is Bravery.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1WN6aAsGIddm-Xnkbk_Bli0S2jRll2cSA/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 2,
+      "pageId": "issue-014-page-002",
+      "displayTitle": "Narrow Way Through",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1hMdv_dRZ4if-Br4aGH1TeZS5b6oL1roN",
+        "fileName": "02 - Page.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1hMdv_dRZ4if-Br4aGH1TeZS5b6oL1roN/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 3,
+      "pageId": "issue-014-page-003",
+      "displayTitle": "Ash in My Teeth",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1jKTbLWk_4Wkkg_R-2oj5TPsqS72w6hXh",
+        "fileName": "03 - Page.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1jKTbLWk_4Wkkg_R-2oj5TPsqS72w6hXh/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 4,
+      "pageId": "issue-014-page-004",
+      "displayTitle": "Rosemary Roses",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "15Dckc5Hwc0Zy2FPCQ50bMFuK8F3y-VvN",
+        "fileName": "04 - Page.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/15Dckc5Hwc0Zy2FPCQ50bMFuK8F3y-VvN/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 5,
+      "pageId": "issue-014-page-005",
+      "displayTitle": "Folding Chairs and Fish Fry",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "19s-alwoDcQctqq8ccLI50Af2au60bTit",
+        "fileName": "05 - Page.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/19s-alwoDcQctqq8ccLI50Af2au60bTit/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 6,
+      "pageId": "issue-014-page-006",
+      "displayTitle": "Rosemary Violet Home",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "17qqx3ciVluMewFkBfxNNjSV9ppIzsBm1",
+        "fileName": "06 - Page.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/17qqx3ciVluMewFkBfxNNjSV9ppIzsBm1/view?usp=drivesdk"
+      }
+    }
+  ],
+  "authority": {
+    "sourceMutation": false,
+    "admission": false,
+    "publication": false,
+    "release": false
+  },
+  "laws": [
+    "ISSUE != FILE COLLECTION",
+    "DRIVE LOCATION != AUTHORITY",
+    "ORDER != ANCESTRY",
+    "INDEX != ADMISSION",
+    "SOURCE ASSEMBLY != PUBLICATION"
+  ]
+}

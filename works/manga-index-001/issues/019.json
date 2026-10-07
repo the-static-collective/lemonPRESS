@@ -1,0 +1,41 @@
+{
+  "schema": "lemonpress/manga-source-issue/v0",
+  "corpusId": "lemonpress:manga-index-001",
+  "issueId": "lemonpress:manga-index-001:issue-019",
+  "status": "ASSEMBLED_SOURCE",
+  "issueSequence": 19,
+  "title": "THE RESUME",
+  "sourceAssembly": {
+    "provider": "google-drive",
+    "folderId": "1CBbv6iNFI6aflm4jaLW5-raEwxzTuJwT",
+    "url": "https://drive.google.com/drive/folders/1CBbv6iNFI6aflm4jaLW5-raEwxzTuJwT"
+  },
+  "pageCount": 1,
+  "pages": [
+    {
+      "slot": 1,
+      "pageId": "issue-019-page-001",
+      "displayTitle": "The Resume",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1jdA2eQY3SGVhwck1Ln9D0eZz-UFSttfZ",
+        "fileName": "01 - Lucas Vasquez - The Resume.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1jdA2eQY3SGVhwck1Ln9D0eZz-UFSttfZ/view?usp=drivesdk"
+      }
+    }
+  ],
+  "authority": {
+    "sourceMutation": false,
+    "admission": false,
+    "publication": false,
+    "release": false
+  },
+  "laws": [
+    "ISSUE != FILE COLLECTION",
+    "DRIVE LOCATION != AUTHORITY",
+    "ORDER != ANCESTRY",
+    "INDEX != ADMISSION",
+    "SOURCE ASSEMBLY != PUBLICATION"
+  ]
+}

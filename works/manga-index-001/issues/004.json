@@ -1,0 +1,89 @@
+{
+  "schema": "lemonpress/manga-source-issue/v0",
+  "corpusId": "lemonpress:manga-index-001",
+  "issueId": "lemonpress:manga-index-001:issue-004",
+  "status": "ASSEMBLED_SOURCE",
+  "issueSequence": 4,
+  "title": "THE THIRD WAS THE INVITATION",
+  "sourceAssembly": {
+    "provider": "google-drive",
+    "folderId": "1t497dIZ1H5OzjMNbi8y9MJwHDvPOI3YO",
+    "url": "https://drive.google.com/drive/folders/1t497dIZ1H5OzjMNbi8y9MJwHDvPOI3YO"
+  },
+  "pageCount": 5,
+  "pages": [
+    {
+      "slot": 1,
+      "pageId": "issue-004-page-001",
+      "displayTitle": "The Third Was the Invitation",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1P3UdOLodaAkkzPzbfKpjjLPvUuPu_Ers",
+        "fileName": "01 - The Third Was the Invitation.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1P3UdOLodaAkkzPzbfKpjjLPvUuPu_Ers/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 2,
+      "pageId": "issue-004-page-002",
+      "displayTitle": "The Garden That Answered - Part IV",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1a8uV1n0Nky8lFlGhuVxPvEiv6a59ARge",
+        "fileName": "02 - The Garden That Answered - Part IV.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1a8uV1n0Nky8lFlGhuVxPvEiv6a59ARge/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 3,
+      "pageId": "issue-004-page-003",
+      "displayTitle": "The Bus Plays the Third - Part V",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1Pjkkh81V_-yecCwMBLe6EduBFjNcJnnM",
+        "fileName": "03 - The Bus Plays the Third - Part V.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1Pjkkh81V_-yecCwMBLe6EduBFjNcJnnM/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 4,
+      "pageId": "issue-004-page-004",
+      "displayTitle": "The Road That Heard the Third - Part VI",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1DsqnPCGSsmCBwfY7-txS7CQpLKarkZbY",
+        "fileName": "04 - The Road That Heard the Third - Part VI.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1DsqnPCGSsmCBwfY7-txS7CQpLKarkZbY/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 5,
+      "pageId": "issue-004-page-005",
+      "displayTitle": "The Last Stop Moved",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1-K-K9j7I138uFd1zp9ByaQLeprWGCRAq",
+        "fileName": "05 - The Last Stop Moved.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1-K-K9j7I138uFd1zp9ByaQLeprWGCRAq/view?usp=drivesdk"
+      }
+    }
+  ],
+  "authority": {
+    "sourceMutation": false,
+    "admission": false,
+    "publication": false,
+    "release": false
+  },
+  "laws": [
+    "ISSUE != FILE COLLECTION",
+    "DRIVE LOCATION != AUTHORITY",
+    "ORDER != ANCESTRY",
+    "INDEX != ADMISSION",
+    "SOURCE ASSEMBLY != PUBLICATION"
+  ]
+}

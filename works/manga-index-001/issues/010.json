@@ -1,0 +1,65 @@
+{
+  "schema": "lemonpress/manga-source-issue/v0",
+  "corpusId": "lemonpress:manga-index-001",
+  "issueId": "lemonpress:manga-index-001:issue-010",
+  "status": "ASSEMBLED_SOURCE",
+  "issueSequence": 10,
+  "title": "STILL HERE STILL BUILDING",
+  "sourceAssembly": {
+    "provider": "google-drive",
+    "folderId": "1N5YQtSbOHpckx34dVSI2q_n32JIl4YyY",
+    "url": "https://drive.google.com/drive/folders/1N5YQtSbOHpckx34dVSI2q_n32JIl4YyY"
+  },
+  "pageCount": 3,
+  "pages": [
+    {
+      "slot": 1,
+      "pageId": "issue-010-page-001",
+      "displayTitle": "Still Here",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1Yrxk4G0uLn3og7Et-gt4pJIm_UKGfAao",
+        "fileName": "01 - Still Here.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1Yrxk4G0uLn3og7Et-gt4pJIm_UKGfAao/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 2,
+      "pageId": "issue-010-page-002",
+      "displayTitle": "Still Here Still Building Still Grateful",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1K1XTBF7JKCLT6BkM-Xo-79yg0iIR-I7e",
+        "fileName": "02 - Still Here Still Building Still Grateful.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1K1XTBF7JKCLT6BkM-Xo-79yg0iIR-I7e/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 3,
+      "pageId": "issue-010-page-003",
+      "displayTitle": "Humble Genius",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1ZfdJTAjU1YVfNFLkvZ2zFbu3Ngv2dNSs",
+        "fileName": "03 - Humble Genius.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1ZfdJTAjU1YVfNFLkvZ2zFbu3Ngv2dNSs/view?usp=drivesdk"
+      }
+    }
+  ],
+  "authority": {
+    "sourceMutation": false,
+    "admission": false,
+    "publication": false,
+    "release": false
+  },
+  "laws": [
+    "ISSUE != FILE COLLECTION",
+    "DRIVE LOCATION != AUTHORITY",
+    "ORDER != ANCESTRY",
+    "INDEX != ADMISSION",
+    "SOURCE ASSEMBLY != PUBLICATION"
+  ]
+}

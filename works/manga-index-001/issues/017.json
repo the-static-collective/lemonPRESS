@@ -1,0 +1,77 @@
+{
+  "schema": "lemonpress/manga-source-issue/v0",
+  "corpusId": "lemonpress:manga-index-001",
+  "issueId": "lemonpress:manga-index-001:issue-017",
+  "status": "ASSEMBLED_SOURCE",
+  "issueSequence": 17,
+  "title": "IS IT SAFE IS IT ART",
+  "sourceAssembly": {
+    "provider": "google-drive",
+    "folderId": "1QhgBifdvjHhuYOWlzn5WC7_AU1oH-eah",
+    "url": "https://drive.google.com/drive/folders/1QhgBifdvjHhuYOWlzn5WC7_AU1oH-eah"
+  },
+  "pageCount": 4,
+  "pages": [
+    {
+      "slot": 1,
+      "pageId": "issue-017-page-001",
+      "displayTitle": "Hot Matcha Cannon",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1fKQFDqdpuKvcmFxhCUv7dC1wIqzEdiL9",
+        "fileName": "01 - Hot Matcha Cannon.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1fKQFDqdpuKvcmFxhCUv7dC1wIqzEdiL9/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 2,
+      "pageId": "issue-017-page-002",
+      "displayTitle": "The Mark",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "14ri_9jD7Y8xV2UCQ9HXdNJO6ErDRvEQw",
+        "fileName": "02 - The Mark.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/14ri_9jD7Y8xV2UCQ9HXdNJO6ErDRvEQw/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 3,
+      "pageId": "issue-017-page-003",
+      "displayTitle": "The Mark Inverted",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1dtIR_Dk5LJag2pNaAjWIjvmsSwNaKe1T",
+        "fileName": "03 - The Mark Inverted.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1dtIR_Dk5LJag2pNaAjWIjvmsSwNaKe1T/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 4,
+      "pageId": "issue-017-page-004",
+      "displayTitle": "The Mark by Hand",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1hEeNdAuBNBMExBYf1KL4QOSB3tu4HuUa",
+        "fileName": "04 - The Mark by Hand.jpg",
+        "mimeType": "image/jpeg",
+        "url": "https://drive.google.com/file/d/1hEeNdAuBNBMExBYf1KL4QOSB3tu4HuUa/view?usp=drivesdk"
+      }
+    }
+  ],
+  "authority": {
+    "sourceMutation": false,
+    "admission": false,
+    "publication": false,
+    "release": false
+  },
+  "laws": [
+    "ISSUE != FILE COLLECTION",
+    "DRIVE LOCATION != AUTHORITY",
+    "ORDER != ANCESTRY",
+    "INDEX != ADMISSION",
+    "SOURCE ASSEMBLY != PUBLICATION"
+  ]
+}

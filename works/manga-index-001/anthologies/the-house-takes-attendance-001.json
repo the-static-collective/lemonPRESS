@@ -1,0 +1,1651 @@
+{
+  "schema": "lemonpress/manga-anthology-sequence/v0",
+  "sequenceId": "lemonpress:manga-index-001:anthology-001",
+  "status": "CANDIDATE",
+  "title": "THE HOUSE TAKES ATTENDANCE",
+  "subtitle": "Collected Manga 001–019",
+  "sourceIndex": {
+    "path": "works/manga-index-001/index.json",
+    "corpusId": "lemonpress:manga-index-001"
+  },
+  "issueCount": 19,
+  "pageCount": 100,
+  "issueOrder": [
+    "lemonpress:manga-index-001:issue-001",
+    "lemonpress:manga-index-001:issue-002",
+    "lemonpress:manga-index-001:issue-003",
+    "lemonpress:manga-index-001:issue-004",
+    "lemonpress:manga-index-001:issue-005",
+    "lemonpress:manga-index-001:issue-006",
+    "lemonpress:manga-index-001:issue-007",
+    "lemonpress:manga-index-001:issue-008",
+    "lemonpress:manga-index-001:issue-009",
+    "lemonpress:manga-index-001:issue-010",
+    "lemonpress:manga-index-001:issue-011",
+    "lemonpress:manga-index-001:issue-012",
+    "lemonpress:manga-index-001:issue-013",
+    "lemonpress:manga-index-001:issue-014",
+    "lemonpress:manga-index-001:issue-015",
+    "lemonpress:manga-index-001:issue-016",
+    "lemonpress:manga-index-001:issue-017",
+    "lemonpress:manga-index-001:issue-018",
+    "lemonpress:manga-index-001:issue-019"
+  ],
+  "slots": [
+    {
+      "slot": 1,
+      "issueSequence": 1,
+      "pageSequence": 1,
+      "issueId": "lemonpress:manga-index-001:issue-001",
+      "pageId": "issue-001-page-001",
+      "issueManifestPath": "works/manga-index-001/issues/001.json",
+      "displayTitle": "Rosemary Violet Home",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "17SVY1L0VJ_7Q6ROY5vidmLCMUuXxNzfH",
+        "fileName": "01 - Rosemary Violet Home.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/17SVY1L0VJ_7Q6ROY5vidmLCMUuXxNzfH/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 2,
+      "issueSequence": 1,
+      "pageSequence": 2,
+      "issueId": "lemonpress:manga-index-001:issue-001",
+      "pageId": "issue-001-page-002",
+      "issueManifestPath": "works/manga-index-001/issues/001.json",
+      "displayTitle": "Folding Chairs and Fish Fry",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1aif6aHmOF9ljZO75INfJ_JEzP8o6nw4S",
+        "fileName": "02 - Folding Chairs and Fish Fry.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1aif6aHmOF9ljZO75INfJ_JEzP8o6nw4S/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 3,
+      "issueSequence": 1,
+      "pageSequence": 3,
+      "issueId": "lemonpress:manga-index-001:issue-001",
+      "pageId": "issue-001-page-003",
+      "issueManifestPath": "works/manga-index-001/issues/001.json",
+      "displayTitle": "Rosemary Roses - Learning to Sing",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1R-jFfLER5EXgn0uum7UIW0RCTAQFGDNa",
+        "fileName": "03 - Rosemary Roses - Learning to Sing.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1R-jFfLER5EXgn0uum7UIW0RCTAQFGDNa/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 4,
+      "issueSequence": 1,
+      "pageSequence": 4,
+      "issueId": "lemonpress:manga-index-001:issue-001",
+      "pageId": "issue-001-page-004",
+      "issueManifestPath": "works/manga-index-001/issues/001.json",
+      "displayTitle": "Ash in My Teeth",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1oAKttwAvfBwPWmVuZzGBg8i4joKBqJFk",
+        "fileName": "04 - Ash in My Teeth.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1oAKttwAvfBwPWmVuZzGBg8i4joKBqJFk/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 5,
+      "issueSequence": 1,
+      "pageSequence": 5,
+      "issueId": "lemonpress:manga-index-001:issue-001",
+      "pageId": "issue-001-page-005",
+      "issueManifestPath": "works/manga-index-001/issues/001.json",
+      "displayTitle": "Narrow Way Through",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1vS7xOvCgt9HYrvHbQAbpLw0amFiPvzVp",
+        "fileName": "05 - Narrow Way Through.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1vS7xOvCgt9HYrvHbQAbpLw0amFiPvzVp/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 6,
+      "issueSequence": 1,
+      "pageSequence": 6,
+      "issueId": "lemonpress:manga-index-001:issue-001",
+      "pageId": "issue-001-page-006",
+      "issueManifestPath": "works/manga-index-001/issues/001.json",
+      "displayTitle": "Keeping Going Is Bravery",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1h6fi3NEHmZEHvTSZcneqmaLbKGvoN_1q",
+        "fileName": "06 - Keeping Going Is Bravery.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1h6fi3NEHmZEHvTSZcneqmaLbKGvoN_1q/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 7,
+      "issueSequence": 1,
+      "pageSequence": 7,
+      "issueId": "lemonpress:manga-index-001:issue-001",
+      "pageId": "issue-001-page-007",
+      "issueManifestPath": "works/manga-index-001/issues/001.json",
+      "displayTitle": "The Static Collective Front Room",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1w5bFCTAUe1yZnGOO2e5raWd5H1aVm_qW",
+        "fileName": "07 - The Static Collective Front Room.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1w5bFCTAUe1yZnGOO2e5raWd5H1aVm_qW/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 8,
+      "issueSequence": 1,
+      "pageSequence": 8,
+      "issueId": "lemonpress:manga-index-001:issue-001",
+      "pageId": "issue-001-page-008",
+      "issueManifestPath": "works/manga-index-001/issues/001.json",
+      "displayTitle": "Mission WebZ",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "11dIUlIgS_pdX5Y0W_KtyZ9R5u5wOGi33",
+        "fileName": "08 - Mission WebZ.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/11dIUlIgS_pdX5Y0W_KtyZ9R5u5wOGi33/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 9,
+      "issueSequence": 1,
+      "pageSequence": 9,
+      "issueId": "lemonpress:manga-index-001:issue-001",
+      "pageId": "issue-001-page-009",
+      "issueManifestPath": "works/manga-index-001/issues/001.json",
+      "displayTitle": "The Seed Vault",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1whGSYF1GZzd9lvWSR8dY6eEUTyW9Kb6B",
+        "fileName": "09 - The Seed Vault.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1whGSYF1GZzd9lvWSR8dY6eEUTyW9Kb6B/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 10,
+      "issueSequence": 1,
+      "pageSequence": 10,
+      "issueId": "lemonpress:manga-index-001:issue-001",
+      "pageId": "issue-001-page-010",
+      "issueManifestPath": "works/manga-index-001/issues/001.json",
+      "displayTitle": "The Orchard of Living Signals",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "17OSw-B6ZZzOQ508hY1vdTKwbjwJJJAUf",
+        "fileName": "10 - The Orchard of Living Signals.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/17OSw-B6ZZzOQ508hY1vdTKwbjwJJJAUf/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 11,
+      "issueSequence": 1,
+      "pageSequence": 11,
+      "issueId": "lemonpress:manga-index-001:issue-001",
+      "pageId": "issue-001-page-011",
+      "issueManifestPath": "works/manga-index-001/issues/001.json",
+      "displayTitle": "Psychedelic Sanctuary",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1y4_CoKxP-H4P1YmpgGjYTNQ1zm529Yoi",
+        "fileName": "11 - Psychedelic Sanctuary.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1y4_CoKxP-H4P1YmpgGjYTNQ1zm529Yoi/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 12,
+      "issueSequence": 1,
+      "pageSequence": 12,
+      "issueId": "lemonpress:manga-index-001:issue-001",
+      "pageId": "issue-001-page-012",
+      "issueManifestPath": "works/manga-index-001/issues/001.json",
+      "displayTitle": "STORYSHIP - Worlds Remember",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1PvST-mnOza0sOQnSMBAGl1RVbeDAzUIk",
+        "fileName": "12 - STORYSHIP - Worlds Remember.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1PvST-mnOza0sOQnSMBAGl1RVbeDAzUIk/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 13,
+      "issueSequence": 2,
+      "pageSequence": 1,
+      "issueId": "lemonpress:manga-index-001:issue-002",
+      "pageId": "issue-002-page-001",
+      "issueManifestPath": "works/manga-index-001/issues/002.json",
+      "displayTitle": "The Sky Wants In",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1pvOGgfC-3oXEHZmRLEENLcGg8mlYrh_r",
+        "fileName": "01 - The Sky Wants In.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1pvOGgfC-3oXEHZmRLEENLcGg8mlYrh_r/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 14,
+      "issueSequence": 2,
+      "pageSequence": 2,
+      "issueId": "lemonpress:manga-index-001:issue-002",
+      "pageId": "issue-002-page-002",
+      "issueManifestPath": "works/manga-index-001/issues/002.json",
+      "displayTitle": "The Bus That Joined the Band",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1-r1KRhDX7b3b-v9AdKdI7S79nVev8tz0",
+        "fileName": "02 - The Bus That Joined the Band.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1-r1KRhDX7b3b-v9AdKdI7S79nVev8tz0/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 15,
+      "issueSequence": 2,
+      "pageSequence": 3,
+      "issueId": "lemonpress:manga-index-001:issue-002",
+      "pageId": "issue-002-page-003",
+      "issueManifestPath": "works/manga-index-001/issues/002.json",
+      "displayTitle": "The Chair That Arrived First",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1MMTLyREAR92pZMJNKr4ahr4w6E8e8iEj",
+        "fileName": "03 - The Chair That Arrived First.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1MMTLyREAR92pZMJNKr4ahr4w6E8e8iEj/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 16,
+      "issueSequence": 2,
+      "pageSequence": 4,
+      "issueId": "lemonpress:manga-index-001:issue-002",
+      "pageId": "issue-002-page-004",
+      "issueManifestPath": "works/manga-index-001/issues/002.json",
+      "displayTitle": "The Dog Park Soundcheck",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "19qR0PsCGczjZyRHANkM_T6J1saVIDcuP",
+        "fileName": "04 - The Dog Park Soundcheck.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/19qR0PsCGczjZyRHANkM_T6J1saVIDcuP/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 17,
+      "issueSequence": 2,
+      "pageSequence": 5,
+      "issueId": "lemonpress:manga-index-001:issue-002",
+      "pageId": "issue-002-page-005",
+      "issueManifestPath": "works/manga-index-001/issues/002.json",
+      "displayTitle": "The Thirteenth Cup - Leave It Open",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1A3FJ4aiON21QEHOFI_-lelvwK1Ezu_bU",
+        "fileName": "05 - The Thirteenth Cup - Leave It Open.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1A3FJ4aiON21QEHOFI_-lelvwK1Ezu_bU/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 18,
+      "issueSequence": 2,
+      "pageSequence": 6,
+      "issueId": "lemonpress:manga-index-001:issue-002",
+      "pageId": "issue-002-page-006",
+      "issueManifestPath": "works/manga-index-001/issues/002.json",
+      "displayTitle": "The Thirteenth Cup - More Chairs",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1XlardMuU1uRSeaioz9VHbcKwqLtqZ2Ec",
+        "fileName": "06 - The Thirteenth Cup - More Chairs.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1XlardMuU1uRSeaioz9VHbcKwqLtqZ2Ec/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 19,
+      "issueSequence": 2,
+      "pageSequence": 7,
+      "issueId": "lemonpress:manga-index-001:issue-002",
+      "pageId": "issue-002-page-007",
+      "issueManifestPath": "works/manga-index-001/issues/002.json",
+      "displayTitle": "The Thirteenth Cup - Jubilee Engine",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1-cZS1SZLZZ_CScLCsvtaFY-HFbdd-HS4",
+        "fileName": "07 - The Thirteenth Cup - Jubilee Engine.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1-cZS1SZLZZ_CScLCsvtaFY-HFbdd-HS4/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 20,
+      "issueSequence": 2,
+      "pageSequence": 8,
+      "issueId": "lemonpress:manga-index-001:issue-002",
+      "pageId": "issue-002-page-008",
+      "issueManifestPath": "works/manga-index-001/issues/002.json",
+      "displayTitle": "The Thirteenth Cup - There Were",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1AY5lLzgNjpgqYeSctieHBMSQ-G-XAV9f",
+        "fileName": "08 - The Thirteenth Cup - There Were.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1AY5lLzgNjpgqYeSctieHBMSQ-G-XAV9f/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 21,
+      "issueSequence": 2,
+      "pageSequence": 9,
+      "issueId": "lemonpress:manga-index-001:issue-002",
+      "pageId": "issue-002-page-009",
+      "issueManifestPath": "works/manga-index-001/issues/002.json",
+      "displayTitle": "The Chair That Stayed",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "16sZ6WkXNPOQRMGrlnCZbArKgptwSuUDe",
+        "fileName": "09 - The Chair That Stayed.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/16sZ6WkXNPOQRMGrlnCZbArKgptwSuUDe/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 22,
+      "issueSequence": 2,
+      "pageSequence": 10,
+      "issueId": "lemonpress:manga-index-001:issue-002",
+      "pageId": "issue-002-page-010",
+      "issueManifestPath": "works/manga-index-001/issues/002.json",
+      "displayTitle": "The Page That Needed a Stone",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1vt6Mb78KHyz4ksFS4NjmTzYNgiCcqrzo",
+        "fileName": "10 - The Page That Needed a Stone.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1vt6Mb78KHyz4ksFS4NjmTzYNgiCcqrzo/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 23,
+      "issueSequence": 2,
+      "pageSequence": 11,
+      "issueId": "lemonpress:manga-index-001:issue-002",
+      "pageId": "issue-002-page-011",
+      "issueManifestPath": "works/manga-index-001/issues/002.json",
+      "displayTitle": "The Floor Doesn't Sleep",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1b5R-t3G2_8c7z8i-hW3_St29Uw5Ig-HY",
+        "fileName": "11 - The Floor Doesn't Sleep.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1b5R-t3G2_8c7z8i-hW3_St29Uw5Ig-HY/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 24,
+      "issueSequence": 2,
+      "pageSequence": 12,
+      "issueId": "lemonpress:manga-index-001:issue-002",
+      "pageId": "issue-002-page-012",
+      "issueManifestPath": "works/manga-index-001/issues/002.json",
+      "displayTitle": "Wednesday Transmission",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1feHfLGRrJiFGltfeT4EPb6oPEK9m3-ek",
+        "fileName": "12 - Wednesday Transmission.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1feHfLGRrJiFGltfeT4EPb6oPEK9m3-ek/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 25,
+      "issueSequence": 3,
+      "pageSequence": 1,
+      "issueId": "lemonpress:manga-index-001:issue-003",
+      "pageId": "issue-003-page-001",
+      "issueManifestPath": "works/manga-index-001/issues/003.json",
+      "displayTitle": "Wednesday Transmission - Cover",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1a8fU-cwHTrYPtlilI1nhcEYFfWtE7PVl",
+        "fileName": "01 - Wednesday Transmission - Cover.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1a8fU-cwHTrYPtlilI1nhcEYFfWtE7PVl/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 26,
+      "issueSequence": 3,
+      "pageSequence": 2,
+      "issueId": "lemonpress:manga-index-001:issue-003",
+      "pageId": "issue-003-page-002",
+      "issueManifestPath": "works/manga-index-001/issues/003.json",
+      "displayTitle": "Wednesday Transmission - Field Notes",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1Pnl4jWNb_bxyr-Z83fSbgbPSmbvGN1Qj",
+        "fileName": "02 - Wednesday Transmission - Field Notes.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1Pnl4jWNb_bxyr-Z83fSbgbPSmbvGN1Qj/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 27,
+      "issueSequence": 3,
+      "pageSequence": 3,
+      "issueId": "lemonpress:manga-index-001:issue-003",
+      "pageId": "issue-003-page-003",
+      "issueManifestPath": "works/manga-index-001/issues/003.json",
+      "displayTitle": "Everybody Is an Instrument Until It Rests",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1kumyn3Lj7HL1NxhKf5B9P9busYzeIPIy",
+        "fileName": "03 - Everybody Is an Instrument Until It Rests.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1kumyn3Lj7HL1NxhKf5B9P9busYzeIPIy/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 28,
+      "issueSequence": 3,
+      "pageSequence": 4,
+      "issueId": "lemonpress:manga-index-001:issue-003",
+      "pageId": "issue-003-page-004",
+      "issueManifestPath": "works/manga-index-001/issues/003.json",
+      "displayTitle": "The Air Remembers",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1blVwfTJM7-O6WJ7eLSLUwjAERIgMihtP",
+        "fileName": "04 - The Air Remembers.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1blVwfTJM7-O6WJ7eLSLUwjAERIgMihtP/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 29,
+      "issueSequence": 3,
+      "pageSequence": 5,
+      "issueId": "lemonpress:manga-index-001:issue-003",
+      "pageId": "issue-003-page-005",
+      "issueManifestPath": "works/manga-index-001/issues/003.json",
+      "displayTitle": "The Static Collective - Equinox Equalizer",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1ONol8secjNrSEtGNsYWH1i-z8TU7u5Qd",
+        "fileName": "05 - The Static Collective - Equinox Equalizer.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1ONol8secjNrSEtGNsYWH1i-z8TU7u5Qd/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 30,
+      "issueSequence": 3,
+      "pageSequence": 6,
+      "issueId": "lemonpress:manga-index-001:issue-003",
+      "pageId": "issue-003-page-006",
+      "issueManifestPath": "works/manga-index-001/issues/003.json",
+      "displayTitle": "The Bus Joins the Band - Tik Tok",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1dWsmzgAWyiyq2SFgP1PVOM5EDtZJ68MQ",
+        "fileName": "06 - The Bus Joins the Band - Tik Tok.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1dWsmzgAWyiyq2SFgP1PVOM5EDtZJ68MQ/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 31,
+      "issueSequence": 3,
+      "pageSequence": 7,
+      "issueId": "lemonpress:manga-index-001:issue-003",
+      "pageId": "issue-003-page-007",
+      "issueManifestPath": "works/manga-index-001/issues/003.json",
+      "displayTitle": "The Wave Comes Through",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1lax33xMD0uctm0Z7Xrfc0hAGNB2ca72t",
+        "fileName": "07 - The Wave Comes Through.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1lax33xMD0uctm0Z7Xrfc0hAGNB2ca72t/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 32,
+      "issueSequence": 3,
+      "pageSequence": 8,
+      "issueId": "lemonpress:manga-index-001:issue-003",
+      "pageId": "issue-003-page-008",
+      "issueManifestPath": "works/manga-index-001/issues/003.json",
+      "displayTitle": "The House Receives the Wave",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "102LHiRhol53d228uM0VeK8U5AWJywkRX",
+        "fileName": "08 - The House Receives the Wave.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/102LHiRhol53d228uM0VeK8U5AWJywkRX/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 33,
+      "issueSequence": 3,
+      "pageSequence": 9,
+      "issueId": "lemonpress:manga-index-001:issue-003",
+      "pageId": "issue-003-page-009",
+      "issueManifestPath": "works/manga-index-001/issues/003.json",
+      "displayTitle": "The Page That Needed a Stone - Part II",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1LXav0cv0X3xV6EdTqGLRZR0gcJhjilq4",
+        "fileName": "09 - The Page That Needed a Stone - Part II.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1LXav0cv0X3xV6EdTqGLRZR0gcJhjilq4/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 34,
+      "issueSequence": 3,
+      "pageSequence": 10,
+      "issueId": "lemonpress:manga-index-001:issue-003",
+      "pageId": "issue-003-page-010",
+      "issueManifestPath": "works/manga-index-001/issues/003.json",
+      "displayTitle": "The Note That Refused the Staff",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1-qrcoNa_UNF-ybgZo-YfT76ezdNBeB2Y",
+        "fileName": "10 - The Note That Refused the Staff.jpg",
+        "mimeType": "image/jpeg",
+        "url": "https://drive.google.com/file/d/1-qrcoNa_UNF-ybgZo-YfT76ezdNBeB2Y/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 35,
+      "issueSequence": 3,
+      "pageSequence": 11,
+      "issueId": "lemonpress:manga-index-001:issue-003",
+      "pageId": "issue-003-page-011",
+      "issueManifestPath": "works/manga-index-001/issues/003.json",
+      "displayTitle": "The Song That Arrived Before It Was Written",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1yRa1QzRJ4RV2iaXQX9SXgLkBadoLzNbS",
+        "fileName": "11 - The Song That Arrived Before It Was Written.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1yRa1QzRJ4RV2iaXQX9SXgLkBadoLzNbS/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 36,
+      "issueSequence": 3,
+      "pageSequence": 12,
+      "issueId": "lemonpress:manga-index-001:issue-003",
+      "pageId": "issue-003-page-012",
+      "issueManifestPath": "works/manga-index-001/issues/003.json",
+      "displayTitle": "The Chord That Remembered - Part III",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1Mg_jh-vFfQo-RzFa4LEPPhMz5opj0o6L",
+        "fileName": "12 - The Chord That Remembered - Part III.jpg",
+        "mimeType": "image/jpeg",
+        "url": "https://drive.google.com/file/d/1Mg_jh-vFfQo-RzFa4LEPPhMz5opj0o6L/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 37,
+      "issueSequence": 4,
+      "pageSequence": 1,
+      "issueId": "lemonpress:manga-index-001:issue-004",
+      "pageId": "issue-004-page-001",
+      "issueManifestPath": "works/manga-index-001/issues/004.json",
+      "displayTitle": "The Third Was the Invitation",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1P3UdOLodaAkkzPzbfKpjjLPvUuPu_Ers",
+        "fileName": "01 - The Third Was the Invitation.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1P3UdOLodaAkkzPzbfKpjjLPvUuPu_Ers/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 38,
+      "issueSequence": 4,
+      "pageSequence": 2,
+      "issueId": "lemonpress:manga-index-001:issue-004",
+      "pageId": "issue-004-page-002",
+      "issueManifestPath": "works/manga-index-001/issues/004.json",
+      "displayTitle": "The Garden That Answered - Part IV",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1a8uV1n0Nky8lFlGhuVxPvEiv6a59ARge",
+        "fileName": "02 - The Garden That Answered - Part IV.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1a8uV1n0Nky8lFlGhuVxPvEiv6a59ARge/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 39,
+      "issueSequence": 4,
+      "pageSequence": 3,
+      "issueId": "lemonpress:manga-index-001:issue-004",
+      "pageId": "issue-004-page-003",
+      "issueManifestPath": "works/manga-index-001/issues/004.json",
+      "displayTitle": "The Bus Plays the Third - Part V",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1Pjkkh81V_-yecCwMBLe6EduBFjNcJnnM",
+        "fileName": "03 - The Bus Plays the Third - Part V.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1Pjkkh81V_-yecCwMBLe6EduBFjNcJnnM/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 40,
+      "issueSequence": 4,
+      "pageSequence": 4,
+      "issueId": "lemonpress:manga-index-001:issue-004",
+      "pageId": "issue-004-page-004",
+      "issueManifestPath": "works/manga-index-001/issues/004.json",
+      "displayTitle": "The Road That Heard the Third - Part VI",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1DsqnPCGSsmCBwfY7-txS7CQpLKarkZbY",
+        "fileName": "04 - The Road That Heard the Third - Part VI.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1DsqnPCGSsmCBwfY7-txS7CQpLKarkZbY/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 41,
+      "issueSequence": 4,
+      "pageSequence": 5,
+      "issueId": "lemonpress:manga-index-001:issue-004",
+      "pageId": "issue-004-page-005",
+      "issueManifestPath": "works/manga-index-001/issues/004.json",
+      "displayTitle": "The Last Stop Moved",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1-K-K9j7I138uFd1zp9ByaQLeprWGCRAq",
+        "fileName": "05 - The Last Stop Moved.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1-K-K9j7I138uFd1zp9ByaQLeprWGCRAq/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 42,
+      "issueSequence": 5,
+      "pageSequence": 1,
+      "issueId": "lemonpress:manga-index-001:issue-005",
+      "pageId": "issue-005-page-001",
+      "issueManifestPath": "works/manga-index-001/issues/005.json",
+      "displayTitle": "End of Radio Silence",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1njVKRV5xQ3sv5t1Dsjw34sGt0Uk6xOQe",
+        "fileName": "01 - End of Radio Silence.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1njVKRV5xQ3sv5t1Dsjw34sGt0Uk6xOQe/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 43,
+      "issueSequence": 5,
+      "pageSequence": 2,
+      "issueId": "lemonpress:manga-index-001:issue-005",
+      "pageId": "issue-005-page-002",
+      "issueManifestPath": "works/manga-index-001/issues/005.json",
+      "displayTitle": "Quantum Code - It Writes Itself",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1_AvQXKCfdQnQWhXDKUE35ofA7Ebm54u5",
+        "fileName": "02 - Quantum Code - It Writes Itself.jpg",
+        "mimeType": "image/jpeg",
+        "url": "https://drive.google.com/file/d/1_AvQXKCfdQnQWhXDKUE35ofA7Ebm54u5/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 44,
+      "issueSequence": 5,
+      "pageSequence": 3,
+      "issueId": "lemonpress:manga-index-001:issue-005",
+      "pageId": "issue-005-page-003",
+      "issueManifestPath": "works/manga-index-001/issues/005.json",
+      "displayTitle": "Quantum Code - Make It Real",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1Y3BY2a007gYZ9GBmqdA-dwIPL1QaHqgF",
+        "fileName": "03 - Quantum Code - Make It Real.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1Y3BY2a007gYZ9GBmqdA-dwIPL1QaHqgF/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 45,
+      "issueSequence": 5,
+      "pageSequence": 4,
+      "issueId": "lemonpress:manga-index-001:issue-005",
+      "pageId": "issue-005-page-004",
+      "issueManifestPath": "works/manga-index-001/issues/005.json",
+      "displayTitle": "L to U - Proof of Quantum Code",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1DgnQRwZpUHeuYjJW5oaS1Z4Dla7Rd5Ai",
+        "fileName": "04 - L to U - Proof of Quantum Code.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1DgnQRwZpUHeuYjJW5oaS1Z4Dla7Rd5Ai/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 46,
+      "issueSequence": 6,
+      "pageSequence": 1,
+      "issueId": "lemonpress:manga-index-001:issue-006",
+      "pageId": "issue-006-page-001",
+      "issueManifestPath": "works/manga-index-001/issues/006.json",
+      "displayTitle": "The Wrecking Crew - Vol 1",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1ezCl-io7CrFk1rpUqfPpXxbrwh0zgB7Y",
+        "fileName": "01 - The Wrecking Crew - Vol 1.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1ezCl-io7CrFk1rpUqfPpXxbrwh0zgB7Y/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 47,
+      "issueSequence": 6,
+      "pageSequence": 2,
+      "issueId": "lemonpress:manga-index-001:issue-006",
+      "pageId": "issue-006-page-002",
+      "issueManifestPath": "works/manga-index-001/issues/006.json",
+      "displayTitle": "Fidelity Friday - Small Things Grow",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1udYnJhcl23vFeyzdHA1IkEzW7oV8FBSa",
+        "fileName": "02 - Fidelity Friday - Small Things Grow.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1udYnJhcl23vFeyzdHA1IkEzW7oV8FBSa/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 48,
+      "issueSequence": 6,
+      "pageSequence": 3,
+      "issueId": "lemonpress:manga-index-001:issue-006",
+      "pageId": "issue-006-page-003",
+      "issueManifestPath": "works/manga-index-001/issues/006.json",
+      "displayTitle": "The First Morning Yashi - Part I - The Night That Held",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1U1aHI3tnqM-DspFk6o8KPj5ZeJY6r9tK",
+        "fileName": "03 - The First Morning Yashi - Part I - The Night That Held.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1U1aHI3tnqM-DspFk6o8KPj5ZeJY6r9tK/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 49,
+      "issueSequence": 7,
+      "pageSequence": 1,
+      "issueId": "lemonpress:manga-index-001:issue-007",
+      "pageId": "issue-007-page-001",
+      "issueManifestPath": "works/manga-index-001/issues/007.json",
+      "displayTitle": "The House Was Quiet - I Wasn't",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1ACncwsdUu_-CIxAVvRm-5lxAtf0XW1Tj",
+        "fileName": "01 - The House Was Quiet - I Wasn't.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1ACncwsdUu_-CIxAVvRm-5lxAtf0XW1Tj/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 50,
+      "issueSequence": 7,
+      "pageSequence": 2,
+      "issueId": "lemonpress:manga-index-001:issue-007",
+      "pageId": "issue-007-page-002",
+      "issueManifestPath": "works/manga-index-001/issues/007.json",
+      "displayTitle": "Autodidacts - Something Was Still Growing",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "140lxSb6CWKBRXPEoy-U1wMz_QxrKTjn4",
+        "fileName": "02 - Autodidacts - Something Was Still Growing.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/140lxSb6CWKBRXPEoy-U1wMz_QxrKTjn4/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 51,
+      "issueSequence": 7,
+      "pageSequence": 3,
+      "issueId": "lemonpress:manga-index-001:issue-007",
+      "pageId": "issue-007-page-003",
+      "issueManifestPath": "works/manga-index-001/issues/007.json",
+      "displayTitle": "Black Swan 01 - What the Water Keeps",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1BEwCckL4k3Yo7s-rSDanRGZXhNkGst3R",
+        "fileName": "03 - Black Swan 01 - What the Water Keeps.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1BEwCckL4k3Yo7s-rSDanRGZXhNkGst3R/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 52,
+      "issueSequence": 7,
+      "pageSequence": 4,
+      "issueId": "lemonpress:manga-index-001:issue-007",
+      "pageId": "issue-007-page-004",
+      "issueManifestPath": "works/manga-index-001/issues/007.json",
+      "displayTitle": "Black Swan 02 - The Room Turns",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "13rbrCZ5Azrpo-1r9PmqeXGaUdwubN5jR",
+        "fileName": "04 - Black Swan 02 - The Room Turns.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/13rbrCZ5Azrpo-1r9PmqeXGaUdwubN5jR/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 53,
+      "issueSequence": 8,
+      "pageSequence": 1,
+      "issueId": "lemonpress:manga-index-001:issue-008",
+      "pageId": "issue-008-page-001",
+      "issueManifestPath": "works/manga-index-001/issues/008.json",
+      "displayTitle": "Last Light - Open Circuit",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1YrefAZlDtG-O8IM1v31TB4kMYGR9S8J7",
+        "fileName": "01 - Last Light - Open Circuit.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1YrefAZlDtG-O8IM1v31TB4kMYGR9S8J7/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 54,
+      "issueSequence": 8,
+      "pageSequence": 2,
+      "issueId": "lemonpress:manga-index-001:issue-008",
+      "pageId": "issue-008-page-002",
+      "issueManifestPath": "works/manga-index-001/issues/008.json",
+      "displayTitle": "Rocket Step",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1A3jJSdemGlMadt5YhpCFbVHTEHQ5hFjs",
+        "fileName": "02 - Rocket Step.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1A3jJSdemGlMadt5YhpCFbVHTEHQ5hFjs/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 55,
+      "issueSequence": 8,
+      "pageSequence": 3,
+      "issueId": "lemonpress:manga-index-001:issue-008",
+      "pageId": "issue-008-page-003",
+      "issueManifestPath": "works/manga-index-001/issues/008.json",
+      "displayTitle": "Gods Got My Back",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "15QZeNA69cTGo_G1L_1QPffLU9sVeZc4k",
+        "fileName": "03 - Gods Got My Back.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/15QZeNA69cTGo_G1L_1QPffLU9sVeZc4k/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 56,
+      "issueSequence": 8,
+      "pageSequence": 4,
+      "issueId": "lemonpress:manga-index-001:issue-008",
+      "pageId": "issue-008-page-004",
+      "issueManifestPath": "works/manga-index-001/issues/008.json",
+      "displayTitle": "The Hedges Catch Fire",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "11pptVlpR2usEdryFxK_BxOFY8wGD97tb",
+        "fileName": "04 - The Hedges Catch Fire.jpg",
+        "mimeType": "image/jpeg",
+        "url": "https://drive.google.com/file/d/11pptVlpR2usEdryFxK_BxOFY8wGD97tb/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 57,
+      "issueSequence": 8,
+      "pageSequence": 5,
+      "issueId": "lemonpress:manga-index-001:issue-008",
+      "pageId": "issue-008-page-005",
+      "issueManifestPath": "works/manga-index-001/issues/008.json",
+      "displayTitle": "Two Shoes One Road",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1mvkAO96B7MB9h_1M-R_yiWbSwiPSHmJg",
+        "fileName": "05 - Two Shoes One Road.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1mvkAO96B7MB9h_1M-R_yiWbSwiPSHmJg/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 58,
+      "issueSequence": 9,
+      "pageSequence": 1,
+      "issueId": "lemonpress:manga-index-001:issue-009",
+      "pageId": "issue-009-page-001",
+      "issueManifestPath": "works/manga-index-001/issues/009.json",
+      "displayTitle": "Grace Sets the Table - The Room That Remembers Us",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1W3fGpU1Vezaw-mIKA_IGhzaq4Jyrixz6",
+        "fileName": "01 - Grace Sets the Table - The Room That Remembers Us.jpg",
+        "mimeType": "image/jpeg",
+        "url": "https://drive.google.com/file/d/1W3fGpU1Vezaw-mIKA_IGhzaq4Jyrixz6/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 59,
+      "issueSequence": 9,
+      "pageSequence": 2,
+      "issueId": "lemonpress:manga-index-001:issue-009",
+      "pageId": "issue-009-page-002",
+      "issueManifestPath": "works/manga-index-001/issues/009.json",
+      "displayTitle": "Goosez Works",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1H6cXlVDicRqUYAzMkheXzFx_qfaXodkL",
+        "fileName": "02 - Goosez Works.jpg",
+        "mimeType": "image/jpeg",
+        "url": "https://drive.google.com/file/d/1H6cXlVDicRqUYAzMkheXzFx_qfaXodkL/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 60,
+      "issueSequence": 9,
+      "pageSequence": 3,
+      "issueId": "lemonpress:manga-index-001:issue-009",
+      "pageId": "issue-009-page-003",
+      "issueManifestPath": "works/manga-index-001/issues/009.json",
+      "displayTitle": "We Took the Long Way",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1_NFzBJT9dtl0dWhwEdxXrk2-9DVal-h0",
+        "fileName": "03 - We Took the Long Way.jpg",
+        "mimeType": "image/jpeg",
+        "url": "https://drive.google.com/file/d/1_NFzBJT9dtl0dWhwEdxXrk2-9DVal-h0/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 61,
+      "issueSequence": 9,
+      "pageSequence": 4,
+      "issueId": "lemonpress:manga-index-001:issue-009",
+      "pageId": "issue-009-page-004",
+      "issueManifestPath": "works/manga-index-001/issues/009.json",
+      "displayTitle": "Census 18 - A Page You Can Hear",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1ZXIJ1jFCYsPWEx3tCIzWSJBvBhG4N9yB",
+        "fileName": "04 - Census 18 - A Page You Can Hear.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1ZXIJ1jFCYsPWEx3tCIzWSJBvBhG4N9yB/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 62,
+      "issueSequence": 9,
+      "pageSequence": 5,
+      "issueId": "lemonpress:manga-index-001:issue-009",
+      "pageId": "issue-009-page-005",
+      "issueManifestPath": "works/manga-index-001/issues/009.json",
+      "displayTitle": "Thirteenth Circle",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1tNKFAy-xrtDRfWYIjgVPzlbCoMETChI-",
+        "fileName": "05 - Thirteenth Circle.jpg",
+        "mimeType": "image/jpeg",
+        "url": "https://drive.google.com/file/d/1tNKFAy-xrtDRfWYIjgVPzlbCoMETChI-/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 63,
+      "issueSequence": 9,
+      "pageSequence": 6,
+      "issueId": "lemonpress:manga-index-001:issue-009",
+      "pageId": "issue-009-page-006",
+      "issueManifestPath": "works/manga-index-001/issues/009.json",
+      "displayTitle": "Four Days of Grace - Before Noon",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1sje5iGxXPXOpPjJ55tr6ZghfPYTk6b5D",
+        "fileName": "06 - Four Days of Grace - Before Noon.jpg",
+        "mimeType": "image/jpeg",
+        "url": "https://drive.google.com/file/d/1sje5iGxXPXOpPjJ55tr6ZghfPYTk6b5D/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 64,
+      "issueSequence": 9,
+      "pageSequence": 7,
+      "issueId": "lemonpress:manga-index-001:issue-009",
+      "pageId": "issue-009-page-007",
+      "issueManifestPath": "works/manga-index-001/issues/009.json",
+      "displayTitle": "12-01 Shift",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1sJSa0Jktl4rVGgm6A3TFF5zKoluw5rVt",
+        "fileName": "07 - 12-01 Shift.jpg",
+        "mimeType": "image/jpeg",
+        "url": "https://drive.google.com/file/d/1sJSa0Jktl4rVGgm6A3TFF5zKoluw5rVt/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 65,
+      "issueSequence": 10,
+      "pageSequence": 1,
+      "issueId": "lemonpress:manga-index-001:issue-010",
+      "pageId": "issue-010-page-001",
+      "issueManifestPath": "works/manga-index-001/issues/010.json",
+      "displayTitle": "Still Here",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1Yrxk4G0uLn3og7Et-gt4pJIm_UKGfAao",
+        "fileName": "01 - Still Here.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1Yrxk4G0uLn3og7Et-gt4pJIm_UKGfAao/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 66,
+      "issueSequence": 10,
+      "pageSequence": 2,
+      "issueId": "lemonpress:manga-index-001:issue-010",
+      "pageId": "issue-010-page-002",
+      "issueManifestPath": "works/manga-index-001/issues/010.json",
+      "displayTitle": "Still Here Still Building Still Grateful",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1K1XTBF7JKCLT6BkM-Xo-79yg0iIR-I7e",
+        "fileName": "02 - Still Here Still Building Still Grateful.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1K1XTBF7JKCLT6BkM-Xo-79yg0iIR-I7e/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 67,
+      "issueSequence": 10,
+      "pageSequence": 3,
+      "issueId": "lemonpress:manga-index-001:issue-010",
+      "pageId": "issue-010-page-003",
+      "issueManifestPath": "works/manga-index-001/issues/010.json",
+      "displayTitle": "Humble Genius",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1ZfdJTAjU1YVfNFLkvZ2zFbu3Ngv2dNSs",
+        "fileName": "03 - Humble Genius.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1ZfdJTAjU1YVfNFLkvZ2zFbu3Ngv2dNSs/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 68,
+      "issueSequence": 11,
+      "pageSequence": 1,
+      "issueId": "lemonpress:manga-index-001:issue-011",
+      "pageId": "issue-011-page-001",
+      "issueManifestPath": "works/manga-index-001/issues/011.json",
+      "displayTitle": "022100 - The Mark at the Table",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1KGeCc7za-TCMtJvu6MhIkvPEMgddQimK",
+        "fileName": "01 - 022100 - The Mark at the Table.jpg",
+        "mimeType": "image/jpeg",
+        "url": "https://drive.google.com/file/d/1KGeCc7za-TCMtJvu6MhIkvPEMgddQimK/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 69,
+      "issueSequence": 11,
+      "pageSequence": 2,
+      "issueId": "lemonpress:manga-index-001:issue-011",
+      "pageId": "issue-011-page-002",
+      "issueManifestPath": "works/manga-index-001/issues/011.json",
+      "displayTitle": "022100 - The Spiral Crossing",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1MY83rXLqh2PfmqHDSdZITkoibhX3Hpqw",
+        "fileName": "02 - 022100 - The Spiral Crossing.jpg",
+        "mimeType": "image/jpeg",
+        "url": "https://drive.google.com/file/d/1MY83rXLqh2PfmqHDSdZITkoibhX3Hpqw/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 70,
+      "issueSequence": 11,
+      "pageSequence": 3,
+      "issueId": "lemonpress:manga-index-001:issue-011",
+      "pageId": "issue-011-page-003",
+      "issueManifestPath": "works/manga-index-001/issues/011.json",
+      "displayTitle": "022100 - Return to the Mark",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "15YSBAfTWhAd_oTJoSo94zySBkmjLACnt",
+        "fileName": "03 - 022100 - Return to the Mark.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/15YSBAfTWhAd_oTJoSo94zySBkmjLACnt/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 71,
+      "issueSequence": 12,
+      "pageSequence": 1,
+      "issueId": "lemonpress:manga-index-001:issue-012",
+      "pageId": "issue-012-page-001",
+      "issueManifestPath": "works/manga-index-001/issues/012.json",
+      "displayTitle": "Psychedelic Punk Sanctuary - Come In",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1E58fVf9hsSRClENDB32n4GfwVZQfpNct",
+        "fileName": "01 - Psychedelic Punk Sanctuary - Come In.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1E58fVf9hsSRClENDB32n4GfwVZQfpNct/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 72,
+      "issueSequence": 12,
+      "pageSequence": 2,
+      "issueId": "lemonpress:manga-index-001:issue-012",
+      "pageId": "issue-012-page-002",
+      "issueManifestPath": "works/manga-index-001/issues/012.json",
+      "displayTitle": "Psychedelic Punk Sanctuary - Sweet Reality Fruit",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1Fle43E8jX7MdlBVhQ8qV_6kq-5huALQ9",
+        "fileName": "02 - Psychedelic Punk Sanctuary - Sweet Reality Fruit.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1Fle43E8jX7MdlBVhQ8qV_6kq-5huALQ9/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 73,
+      "issueSequence": 12,
+      "pageSequence": 3,
+      "issueId": "lemonpress:manga-index-001:issue-012",
+      "pageId": "issue-012-page-003",
+      "issueManifestPath": "works/manga-index-001/issues/012.json",
+      "displayTitle": "Psychedelic Punk Sanctuary - A Joyful Cloud",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1_6wqGlNk63VlwpZ-DhUCtNB5kuUcbiBG",
+        "fileName": "03 - Psychedelic Punk Sanctuary - A Joyful Cloud.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1_6wqGlNk63VlwpZ-DhUCtNB5kuUcbiBG/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 74,
+      "issueSequence": 13,
+      "pageSequence": 1,
+      "issueId": "lemonpress:manga-index-001:issue-013",
+      "pageId": "issue-013-page-001",
+      "issueManifestPath": "works/manga-index-001/issues/013.json",
+      "displayTitle": "STORYSHIP - Worlds Remember",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "133B5a58kbJVbEoy-ubbD9mNCiLFigHZh",
+        "fileName": "01 - STORYSHIP - Worlds Remember.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/133B5a58kbJVbEoy-ubbD9mNCiLFigHZh/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 75,
+      "issueSequence": 13,
+      "pageSequence": 2,
+      "issueId": "lemonpress:manga-index-001:issue-013",
+      "pageId": "issue-013-page-002",
+      "issueManifestPath": "works/manga-index-001/issues/013.json",
+      "displayTitle": "The Static Collective Front Room",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1xxYbjjZ6YAYh_pO0FU77eilwSvPeckXX",
+        "fileName": "02 - The Static Collective Front Room.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1xxYbjjZ6YAYh_pO0FU77eilwSvPeckXX/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 76,
+      "issueSequence": 13,
+      "pageSequence": 3,
+      "issueId": "lemonpress:manga-index-001:issue-013",
+      "pageId": "issue-013-page-003",
+      "issueManifestPath": "works/manga-index-001/issues/013.json",
+      "displayTitle": "The Orchard of Living Signals - WebZ Protocol",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1Sg05kebwqGp1s-YywtFW0kHuVF_Ahefm",
+        "fileName": "03 - The Orchard of Living Signals - WebZ Protocol.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1Sg05kebwqGp1s-YywtFW0kHuVF_Ahefm/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 77,
+      "issueSequence": 13,
+      "pageSequence": 4,
+      "issueId": "lemonpress:manga-index-001:issue-013",
+      "pageId": "issue-013-page-004",
+      "issueManifestPath": "works/manga-index-001/issues/013.json",
+      "displayTitle": "Mission WebZ - Architecture for a Living Web",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "19RKSA304Ur5w4BBvAM1CB6Hmk5OVQ1Oi",
+        "fileName": "04 - Mission WebZ - Architecture for a Living Web.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/19RKSA304Ur5w4BBvAM1CB6Hmk5OVQ1Oi/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 78,
+      "issueSequence": 13,
+      "pageSequence": 5,
+      "issueId": "lemonpress:manga-index-001:issue-013",
+      "pageId": "issue-013-page-005",
+      "issueManifestPath": "works/manga-index-001/issues/013.json",
+      "displayTitle": "The Seed Vault - A FatherHand Chronicle",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1iW8W493y2xkCyBmMvbNJO8S-thtYeqNb",
+        "fileName": "05 - The Seed Vault - A FatherHand Chronicle.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1iW8W493y2xkCyBmMvbNJO8S-thtYeqNb/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 79,
+      "issueSequence": 14,
+      "pageSequence": 1,
+      "issueId": "lemonpress:manga-index-001:issue-014",
+      "pageId": "issue-014-page-001",
+      "issueManifestPath": "works/manga-index-001/issues/014.json",
+      "displayTitle": "Keeping Going Is Bravery",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1WN6aAsGIddm-Xnkbk_Bli0S2jRll2cSA",
+        "fileName": "01 - Keeping Going Is Bravery.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1WN6aAsGIddm-Xnkbk_Bli0S2jRll2cSA/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 80,
+      "issueSequence": 14,
+      "pageSequence": 2,
+      "issueId": "lemonpress:manga-index-001:issue-014",
+      "pageId": "issue-014-page-002",
+      "issueManifestPath": "works/manga-index-001/issues/014.json",
+      "displayTitle": "Narrow Way Through",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1hMdv_dRZ4if-Br4aGH1TeZS5b6oL1roN",
+        "fileName": "02 - Page.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1hMdv_dRZ4if-Br4aGH1TeZS5b6oL1roN/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 81,
+      "issueSequence": 14,
+      "pageSequence": 3,
+      "issueId": "lemonpress:manga-index-001:issue-014",
+      "pageId": "issue-014-page-003",
+      "issueManifestPath": "works/manga-index-001/issues/014.json",
+      "displayTitle": "Ash in My Teeth",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1jKTbLWk_4Wkkg_R-2oj5TPsqS72w6hXh",
+        "fileName": "03 - Page.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1jKTbLWk_4Wkkg_R-2oj5TPsqS72w6hXh/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 82,
+      "issueSequence": 14,
+      "pageSequence": 4,
+      "issueId": "lemonpress:manga-index-001:issue-014",
+      "pageId": "issue-014-page-004",
+      "issueManifestPath": "works/manga-index-001/issues/014.json",
+      "displayTitle": "Rosemary Roses",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "15Dckc5Hwc0Zy2FPCQ50bMFuK8F3y-VvN",
+        "fileName": "04 - Page.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/15Dckc5Hwc0Zy2FPCQ50bMFuK8F3y-VvN/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 83,
+      "issueSequence": 14,
+      "pageSequence": 5,
+      "issueId": "lemonpress:manga-index-001:issue-014",
+      "pageId": "issue-014-page-005",
+      "issueManifestPath": "works/manga-index-001/issues/014.json",
+      "displayTitle": "Folding Chairs and Fish Fry",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "19s-alwoDcQctqq8ccLI50Af2au60bTit",
+        "fileName": "05 - Page.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/19s-alwoDcQctqq8ccLI50Af2au60bTit/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 84,
+      "issueSequence": 14,
+      "pageSequence": 6,
+      "issueId": "lemonpress:manga-index-001:issue-014",
+      "pageId": "issue-014-page-006",
+      "issueManifestPath": "works/manga-index-001/issues/014.json",
+      "displayTitle": "Rosemary Violet Home",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "17qqx3ciVluMewFkBfxNNjSV9ppIzsBm1",
+        "fileName": "06 - Page.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/17qqx3ciVluMewFkBfxNNjSV9ppIzsBm1/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 85,
+      "issueSequence": 15,
+      "pageSequence": 1,
+      "issueId": "lemonpress:manga-index-001:issue-015",
+      "pageId": "issue-015-page-001",
+      "issueManifestPath": "works/manga-index-001/issues/015.json",
+      "displayTitle": "Truth Don’t Hurry",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1jmtp2_e63ioJgWGf31c99rwOl-F0XV9T",
+        "fileName": "01 - Truth Dont Hurry.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1jmtp2_e63ioJgWGf31c99rwOl-F0XV9T/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 86,
+      "issueSequence": 15,
+      "pageSequence": 2,
+      "issueId": "lemonpress:manga-index-001:issue-015",
+      "pageId": "issue-015-page-002",
+      "issueManifestPath": "works/manga-index-001/issues/015.json",
+      "displayTitle": "The Arc Opens Here",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1fyiFaGHMLLOMKZcI7-kEpbdDoylbwD8q",
+        "fileName": "02 - The Arc Opens Here.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1fyiFaGHMLLOMKZcI7-kEpbdDoylbwD8q/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 87,
+      "issueSequence": 15,
+      "pageSequence": 3,
+      "issueId": "lemonpress:manga-index-001:issue-015",
+      "pageId": "issue-015-page-003",
+      "issueManifestPath": "works/manga-index-001/issues/015.json",
+      "displayTitle": "The Other Is Real",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1xIZ6VRZT-b1ygeYpjZvGRyQ46J8_02If",
+        "fileName": "03 - The Other Is Real.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1xIZ6VRZT-b1ygeYpjZvGRyQ46J8_02If/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 88,
+      "issueSequence": 16,
+      "pageSequence": 1,
+      "issueId": "lemonpress:manga-index-001:issue-016",
+      "pageId": "issue-016-page-001",
+      "issueManifestPath": "works/manga-index-001/issues/016.json",
+      "displayTitle": "The Static Collective - A More Livable Signal",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1v5O0d9xs2I9ZLdnXXDXxQwC5HDiSVqcQ",
+        "fileName": "01 - The Static Collective - A More Livable Signal.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1v5O0d9xs2I9ZLdnXXDXxQwC5HDiSVqcQ/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 89,
+      "issueSequence": 16,
+      "pageSequence": 2,
+      "issueId": "lemonpress:manga-index-001:issue-016",
+      "pageId": "issue-016-page-002",
+      "issueManifestPath": "works/manga-index-001/issues/016.json",
+      "displayTitle": "The Static Collective - A More Human Signal",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1d404DughX9j_2PPMb1DcCJOccsOXbdxF",
+        "fileName": "02 - The Static Collective - A More Human Signal.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1d404DughX9j_2PPMb1DcCJOccsOXbdxF/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 90,
+      "issueSequence": 16,
+      "pageSequence": 3,
+      "issueId": "lemonpress:manga-index-001:issue-016",
+      "pageId": "issue-016-page-003",
+      "issueManifestPath": "works/manga-index-001/issues/016.json",
+      "displayTitle": "eQuinox - Daughter’s Home",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1LXkUYzMOEbqC8CbRo0YTq-n8okpCbiQo",
+        "fileName": "03 - eQuinox - Daughters Home.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1LXkUYzMOEbqC8CbRo0YTq-n8okpCbiQo/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 91,
+      "issueSequence": 17,
+      "pageSequence": 1,
+      "issueId": "lemonpress:manga-index-001:issue-017",
+      "pageId": "issue-017-page-001",
+      "issueManifestPath": "works/manga-index-001/issues/017.json",
+      "displayTitle": "Hot Matcha Cannon",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1fKQFDqdpuKvcmFxhCUv7dC1wIqzEdiL9",
+        "fileName": "01 - Hot Matcha Cannon.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1fKQFDqdpuKvcmFxhCUv7dC1wIqzEdiL9/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 92,
+      "issueSequence": 17,
+      "pageSequence": 2,
+      "issueId": "lemonpress:manga-index-001:issue-017",
+      "pageId": "issue-017-page-002",
+      "issueManifestPath": "works/manga-index-001/issues/017.json",
+      "displayTitle": "The Mark",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "14ri_9jD7Y8xV2UCQ9HXdNJO6ErDRvEQw",
+        "fileName": "02 - The Mark.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/14ri_9jD7Y8xV2UCQ9HXdNJO6ErDRvEQw/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 93,
+      "issueSequence": 17,
+      "pageSequence": 3,
+      "issueId": "lemonpress:manga-index-001:issue-017",
+      "pageId": "issue-017-page-003",
+      "issueManifestPath": "works/manga-index-001/issues/017.json",
+      "displayTitle": "The Mark Inverted",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1dtIR_Dk5LJag2pNaAjWIjvmsSwNaKe1T",
+        "fileName": "03 - The Mark Inverted.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1dtIR_Dk5LJag2pNaAjWIjvmsSwNaKe1T/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 94,
+      "issueSequence": 17,
+      "pageSequence": 4,
+      "issueId": "lemonpress:manga-index-001:issue-017",
+      "pageId": "issue-017-page-004",
+      "issueManifestPath": "works/manga-index-001/issues/017.json",
+      "displayTitle": "The Mark by Hand",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1hEeNdAuBNBMExBYf1KL4QOSB3tu4HuUa",
+        "fileName": "04 - The Mark by Hand.jpg",
+        "mimeType": "image/jpeg",
+        "url": "https://drive.google.com/file/d/1hEeNdAuBNBMExBYf1KL4QOSB3tu4HuUa/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 95,
+      "issueSequence": 18,
+      "pageSequence": 1,
+      "issueId": "lemonpress:manga-index-001:issue-018",
+      "pageId": "issue-018-page-001",
+      "issueManifestPath": "works/manga-index-001/issues/018.json",
+      "displayTitle": "Equalizer - Reality Holds",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1K_8TnQ2aJNTICq0rG03LEs4xt-v7BeP0",
+        "fileName": "01 - Equalizer - Reality Holds.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1K_8TnQ2aJNTICq0rG03LEs4xt-v7BeP0/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 96,
+      "issueSequence": 18,
+      "pageSequence": 2,
+      "issueId": "lemonpress:manga-index-001:issue-018",
+      "pageId": "issue-018-page-002",
+      "issueManifestPath": "works/manga-index-001/issues/018.json",
+      "displayTitle": "After the Festival",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1Lf186O2ZQu4psem8nvWkWks56vWWvW9q",
+        "fileName": "02 - After the Festival.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1Lf186O2ZQu4psem8nvWkWks56vWWvW9q/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 97,
+      "issueSequence": 18,
+      "pageSequence": 3,
+      "issueId": "lemonpress:manga-index-001:issue-018",
+      "pageId": "issue-018-page-003",
+      "issueManifestPath": "works/manga-index-001/issues/018.json",
+      "displayTitle": "Jubilee Engine - Year 00 Reset",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1AGYkSimmZ0ZOrBl9u7IrdyPsM2MZknvo",
+        "fileName": "03 - Jubilee Engine - Year 00 Reset.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1AGYkSimmZ0ZOrBl9u7IrdyPsM2MZknvo/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 98,
+      "issueSequence": 18,
+      "pageSequence": 4,
+      "issueId": "lemonpress:manga-index-001:issue-018",
+      "pageId": "issue-018-page-004",
+      "issueManifestPath": "works/manga-index-001/issues/018.json",
+      "displayTitle": "The Heart Rebuilds",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1PXnrNYlq7aDSEFCOjmZfndH4LD0upoJu",
+        "fileName": "04 - The Heart Rebuilds.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1PXnrNYlq7aDSEFCOjmZfndH4LD0upoJu/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 99,
+      "issueSequence": 18,
+      "pageSequence": 5,
+      "issueId": "lemonpress:manga-index-001:issue-018",
+      "pageId": "issue-018-page-005",
+      "issueManifestPath": "works/manga-index-001/issues/018.json",
+      "displayTitle": "eCODEsystem - Reorigin",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1ff3F00gIY1iTF6sE38MYAcC6Lfcn9jCQ",
+        "fileName": "05 - eCODEsystem - Reorigin.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1ff3F00gIY1iTF6sE38MYAcC6Lfcn9jCQ/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 100,
+      "issueSequence": 19,
+      "pageSequence": 1,
+      "issueId": "lemonpress:manga-index-001:issue-019",
+      "pageId": "issue-019-page-001",
+      "issueManifestPath": "works/manga-index-001/issues/019.json",
+      "displayTitle": "The Resume",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1jdA2eQY3SGVhwck1Ln9D0eZz-UFSttfZ",
+        "fileName": "01 - Lucas Vasquez - The Resume.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1jdA2eQY3SGVhwck1Ln9D0eZz-UFSttfZ/view?usp=drivesdk"
+      }
+    }
+  ],
+  "authority": {
+    "sourceMutation": false,
+    "admission": false,
+    "publication": false,
+    "release": false
+  },
+  "laws": [
+    "ANTHOLOGY != SOURCE MUTATION",
+    "READING ORDER != OWNERSHIP",
+    "ORDER != ANCESTRY",
+    "SLOT != PAGE IDENTITY",
+    "DUPLICATION != NEW SOURCE",
+    "SEQUENCE != ADMISSION",
+    "CANDIDATE != RELEASE"
+  ]
+}

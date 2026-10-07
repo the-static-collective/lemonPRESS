@@ -1,0 +1,65 @@
+{
+  "schema": "lemonpress/manga-source-issue/v0",
+  "corpusId": "lemonpress:manga-index-001",
+  "issueId": "lemonpress:manga-index-001:issue-012",
+  "status": "ASSEMBLED_SOURCE",
+  "issueSequence": 12,
+  "title": "PSYCHEDELIC PUNK SANCTUARY",
+  "sourceAssembly": {
+    "provider": "google-drive",
+    "folderId": "1JkQcU80tPGmnA4DIgv9YgWcZEQdJhNkH",
+    "url": "https://drive.google.com/drive/folders/1JkQcU80tPGmnA4DIgv9YgWcZEQdJhNkH"
+  },
+  "pageCount": 3,
+  "pages": [
+    {
+      "slot": 1,
+      "pageId": "issue-012-page-001",
+      "displayTitle": "Psychedelic Punk Sanctuary - Come In",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1E58fVf9hsSRClENDB32n4GfwVZQfpNct",
+        "fileName": "01 - Psychedelic Punk Sanctuary - Come In.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1E58fVf9hsSRClENDB32n4GfwVZQfpNct/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 2,
+      "pageId": "issue-012-page-002",
+      "displayTitle": "Psychedelic Punk Sanctuary - Sweet Reality Fruit",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1Fle43E8jX7MdlBVhQ8qV_6kq-5huALQ9",
+        "fileName": "02 - Psychedelic Punk Sanctuary - Sweet Reality Fruit.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1Fle43E8jX7MdlBVhQ8qV_6kq-5huALQ9/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 3,
+      "pageId": "issue-012-page-003",
+      "displayTitle": "Psychedelic Punk Sanctuary - A Joyful Cloud",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1_6wqGlNk63VlwpZ-DhUCtNB5kuUcbiBG",
+        "fileName": "03 - Psychedelic Punk Sanctuary - A Joyful Cloud.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1_6wqGlNk63VlwpZ-DhUCtNB5kuUcbiBG/view?usp=drivesdk"
+      }
+    }
+  ],
+  "authority": {
+    "sourceMutation": false,
+    "admission": false,
+    "publication": false,
+    "release": false
+  },
+  "laws": [
+    "ISSUE != FILE COLLECTION",
+    "DRIVE LOCATION != AUTHORITY",
+    "ORDER != ANCESTRY",
+    "INDEX != ADMISSION",
+    "SOURCE ASSEMBLY != PUBLICATION"
+  ]
+}

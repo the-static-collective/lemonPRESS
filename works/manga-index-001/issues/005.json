@@ -1,0 +1,77 @@
+{
+  "schema": "lemonpress/manga-source-issue/v0",
+  "corpusId": "lemonpress:manga-index-001",
+  "issueId": "lemonpress:manga-index-001:issue-005",
+  "status": "ASSEMBLED_SOURCE",
+  "issueSequence": 5,
+  "title": "END OF RADIO SILENCE",
+  "sourceAssembly": {
+    "provider": "google-drive",
+    "folderId": "1efWSwZQYiStuie3A24t46CozzofCc_T0",
+    "url": "https://drive.google.com/drive/folders/1efWSwZQYiStuie3A24t46CozzofCc_T0"
+  },
+  "pageCount": 4,
+  "pages": [
+    {
+      "slot": 1,
+      "pageId": "issue-005-page-001",
+      "displayTitle": "End of Radio Silence",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1njVKRV5xQ3sv5t1Dsjw34sGt0Uk6xOQe",
+        "fileName": "01 - End of Radio Silence.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1njVKRV5xQ3sv5t1Dsjw34sGt0Uk6xOQe/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 2,
+      "pageId": "issue-005-page-002",
+      "displayTitle": "Quantum Code - It Writes Itself",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1_AvQXKCfdQnQWhXDKUE35ofA7Ebm54u5",
+        "fileName": "02 - Quantum Code - It Writes Itself.jpg",
+        "mimeType": "image/jpeg",
+        "url": "https://drive.google.com/file/d/1_AvQXKCfdQnQWhXDKUE35ofA7Ebm54u5/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 3,
+      "pageId": "issue-005-page-003",
+      "displayTitle": "Quantum Code - Make It Real",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1Y3BY2a007gYZ9GBmqdA-dwIPL1QaHqgF",
+        "fileName": "03 - Quantum Code - Make It Real.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1Y3BY2a007gYZ9GBmqdA-dwIPL1QaHqgF/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 4,
+      "pageId": "issue-005-page-004",
+      "displayTitle": "L to U - Proof of Quantum Code",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1DgnQRwZpUHeuYjJW5oaS1Z4Dla7Rd5Ai",
+        "fileName": "04 - L to U - Proof of Quantum Code.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1DgnQRwZpUHeuYjJW5oaS1Z4Dla7Rd5Ai/view?usp=drivesdk"
+      }
+    }
+  ],
+  "authority": {
+    "sourceMutation": false,
+    "admission": false,
+    "publication": false,
+    "release": false
+  },
+  "laws": [
+    "ISSUE != FILE COLLECTION",
+    "DRIVE LOCATION != AUTHORITY",
+    "ORDER != ANCESTRY",
+    "INDEX != ADMISSION",
+    "SOURCE ASSEMBLY != PUBLICATION"
+  ]
+}

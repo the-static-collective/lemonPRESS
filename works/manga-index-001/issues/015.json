@@ -1,0 +1,65 @@
+{
+  "schema": "lemonpress/manga-source-issue/v0",
+  "corpusId": "lemonpress:manga-index-001",
+  "issueId": "lemonpress:manga-index-001:issue-015",
+  "status": "ASSEMBLED_SOURCE",
+  "issueSequence": 15,
+  "title": "THE OTHER IS REAL",
+  "sourceAssembly": {
+    "provider": "google-drive",
+    "folderId": "1C05XuX8SfMkDMAMo-emGkh9gRg9jQndl",
+    "url": "https://drive.google.com/drive/folders/1C05XuX8SfMkDMAMo-emGkh9gRg9jQndl"
+  },
+  "pageCount": 3,
+  "pages": [
+    {
+      "slot": 1,
+      "pageId": "issue-015-page-001",
+      "displayTitle": "Truth Don’t Hurry",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1jmtp2_e63ioJgWGf31c99rwOl-F0XV9T",
+        "fileName": "01 - Truth Dont Hurry.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1jmtp2_e63ioJgWGf31c99rwOl-F0XV9T/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 2,
+      "pageId": "issue-015-page-002",
+      "displayTitle": "The Arc Opens Here",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1fyiFaGHMLLOMKZcI7-kEpbdDoylbwD8q",
+        "fileName": "02 - The Arc Opens Here.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1fyiFaGHMLLOMKZcI7-kEpbdDoylbwD8q/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 3,
+      "pageId": "issue-015-page-003",
+      "displayTitle": "The Other Is Real",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1xIZ6VRZT-b1ygeYpjZvGRyQ46J8_02If",
+        "fileName": "03 - The Other Is Real.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/1xIZ6VRZT-b1ygeYpjZvGRyQ46J8_02If/view?usp=drivesdk"
+      }
+    }
+  ],
+  "authority": {
+    "sourceMutation": false,
+    "admission": false,
+    "publication": false,
+    "release": false
+  },
+  "laws": [
+    "ISSUE != FILE COLLECTION",
+    "DRIVE LOCATION != AUTHORITY",
+    "ORDER != ANCESTRY",
+    "INDEX != ADMISSION",
+    "SOURCE ASSEMBLY != PUBLICATION"
+  ]
+}

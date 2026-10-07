@@ -1,0 +1,65 @@
+{
+  "schema": "lemonpress/manga-source-issue/v0",
+  "corpusId": "lemonpress:manga-index-001",
+  "issueId": "lemonpress:manga-index-001:issue-011",
+  "status": "ASSEMBLED_SOURCE",
+  "issueSequence": 11,
+  "title": "022100 THE MARK THAT OPENS",
+  "sourceAssembly": {
+    "provider": "google-drive",
+    "folderId": "1keSp8mPMj6f7Dr-7v9u0Ze1mlR6UbbaW",
+    "url": "https://drive.google.com/drive/folders/1keSp8mPMj6f7Dr-7v9u0Ze1mlR6UbbaW"
+  },
+  "pageCount": 3,
+  "pages": [
+    {
+      "slot": 1,
+      "pageId": "issue-011-page-001",
+      "displayTitle": "022100 - The Mark at the Table",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1KGeCc7za-TCMtJvu6MhIkvPEMgddQimK",
+        "fileName": "01 - 022100 - The Mark at the Table.jpg",
+        "mimeType": "image/jpeg",
+        "url": "https://drive.google.com/file/d/1KGeCc7za-TCMtJvu6MhIkvPEMgddQimK/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 2,
+      "pageId": "issue-011-page-002",
+      "displayTitle": "022100 - The Spiral Crossing",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "1MY83rXLqh2PfmqHDSdZITkoibhX3Hpqw",
+        "fileName": "02 - 022100 - The Spiral Crossing.jpg",
+        "mimeType": "image/jpeg",
+        "url": "https://drive.google.com/file/d/1MY83rXLqh2PfmqHDSdZITkoibhX3Hpqw/view?usp=drivesdk"
+      }
+    },
+    {
+      "slot": 3,
+      "pageId": "issue-011-page-003",
+      "displayTitle": "022100 - Return to the Mark",
+      "source": {
+        "provider": "google-drive",
+        "fileId": "15YSBAfTWhAd_oTJoSo94zySBkmjLACnt",
+        "fileName": "03 - 022100 - Return to the Mark.png",
+        "mimeType": "image/png",
+        "url": "https://drive.google.com/file/d/15YSBAfTWhAd_oTJoSo94zySBkmjLACnt/view?usp=drivesdk"
+      }
+    }
+  ],
+  "authority": {
+    "sourceMutation": false,
+    "admission": false,
+    "publication": false,
+    "release": false
+  },
+  "laws": [
+    "ISSUE != FILE COLLECTION",
+    "DRIVE LOCATION != AUTHORITY",
+    "ORDER != ANCESTRY",
+    "INDEX != ADMISSION",
+    "SOURCE ASSEMBLY != PUBLICATION"
+  ]
+}
