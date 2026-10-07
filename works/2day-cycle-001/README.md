@@ -1,6 +1,6 @@
 # 2DAY — one-day four-part cycle
 
-A LemonPRESS umbrella work made from four already-public Suno playlists created on 2026-10-06.
+A LemonPRESS umbrella work made from four public Suno playlists that the creator declares were all made on 2026-10-06.
 
 The umbrella does not rewrite, flatten, copy, or republish the source playlists. It declares a reading/listening order across them and preserves each playlist as its own authored object.
 
@@ -47,6 +47,6 @@ That makes 2DAY a compact real-world test for:
 - future direct playlist pressing;
 - future Playdeck traversal without collapsing source identity.
 
-The process provenance matters: the creator states that all four playlists were made on 2026-10-06. That declaration is preserved as creator-supplied provenance, distinct from what can be independently reconstructed from the public Suno pages.
+The process provenance matters: the creator states that all four playlists were made on 2026-10-06. That declaration is preserved as creator-supplied provenance, distinct from what the crawler can independently reconstruct from the public Suno pages.
 
-See `sequence.json` for the machine-readable order and `RECEIPT.md` for the observed-source receipt.
+See `sequence.json` for the machine-readable order, `sources.json` for the crawler intake, `playdeck-cycle.json` for the playlist-level loop handoff, `CRAWLER.md` for the executable expansion seam, and `RECEIPT.md` for the observed-source receipt.
