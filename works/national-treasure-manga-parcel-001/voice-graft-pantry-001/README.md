@@ -80,3 +80,12 @@ New mix-ready recipes:
 - FLESH RADIO 001
 
 The scrape explicitly rejects the inference that collection membership implies the license of an individual item.
+
+
+## OLD VOICE ATLAS 001
+
+`old-voice-atlas-001/` links 16 historical-audio discovery doors and routes later use cases into targeted digs rather than bulk-hoarding the entire corpus.
+
+`FRESHEST OLD HOUSE SET 001` already holds ten durable historical voice-bearing recordings: four from 1925 plus six from 1888–1900.
+
+The atlas preserves the distinction `PUBLIC DOMAIN RECORDING != FREE ARCHIVE TRANSFER` and leaves connected-media hashes null until exact bytes are materialized locally.
