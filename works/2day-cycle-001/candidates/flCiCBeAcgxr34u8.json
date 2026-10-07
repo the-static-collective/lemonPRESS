@@ -1,0 +1,61 @@
+{
+  "schema_version": "suno-playlist-candidate-v0",
+  "candidate_id": "suno-share:flCiCBeAcgxr34u8",
+  "share_url": "https://suno.com/s/flCiCBeAcgxr34u8",
+  "source_playlist_id": "72ed9301-f88e-4a86-9a8f-bddda956e758",
+  "title": "midwestern post-internet ecclesiastical dadcore",
+  "track_count": 9,
+  "tracks": [
+    {
+      "source_position": 1,
+      "title": "Where the Folding Chairs Lean"
+    },
+    {
+      "source_position": 2,
+      "title": "Rosemary Violet Home"
+    },
+    {
+      "source_position": 3,
+      "title": "MaraJohn"
+    },
+    {
+      "source_position": 4,
+      "title": "Spring Sunday"
+    },
+    {
+      "source_position": 5,
+      "title": "Three Dollar Cash"
+    },
+    {
+      "source_position": 6,
+      "title": "Grainy Neon Doorways"
+    },
+    {
+      "source_position": 7,
+      "title": "Grainy Neon Doorways"
+    },
+    {
+      "source_position": 8,
+      "title": "My Way Back Is You"
+    },
+    {
+      "source_position": 9,
+      "title": "MaraJohn (Futurist Swingheart Mix)"
+    }
+  ],
+  "relation_to_2day": "candidate-neighbor-not-admitted-to-cycle",
+  "sequence_position": null,
+  "admission": "pending",
+  "observation": {
+    "method": "live-public-probe",
+    "workflow_run_id": 37703326846,
+    "artifact_id": 11519035017
+  },
+  "laws": [
+    "DISCOVERY != ADMISSION",
+    "CANDIDATE != SEQUENCE SLOT",
+    "PUBLIC URL != RIGHTS GRANT",
+    "NEIGHBOR != MEMBER",
+    "NEW DAY != RETROACTIVE 2DAY"
+  ]
+}

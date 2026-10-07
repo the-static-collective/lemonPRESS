@@ -1,0 +1,184 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/the-static-collective/lemonPRESS/schemas/suno-playlist-crawl-v0.schema.json",
+  "title": "LemonPRESS Suno Playlist Crawl v0",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "source",
+    "playlist",
+    "tracks",
+    "authority"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "suno-playlist-crawl-v0"
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "share_url",
+        "final_url",
+        "source_playlist_id",
+        "page_sha256"
+      ],
+      "properties": {
+        "share_url": {
+          "type": "string",
+          "minLength": 1
+        },
+        "final_url": {
+          "type": "string",
+          "minLength": 1
+        },
+        "canonical_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_playlist_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "page_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "http_status": {
+          "type": "integer"
+        },
+        "extraction": {
+          "type": "string",
+          "enum": [
+            "html-structured",
+            "public-playlist-api"
+          ]
+        },
+        "api_pages": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "playlist": {
+      "type": "object",
+      "required": [
+        "title",
+        "track_count"
+      ],
+      "properties": {
+        "title": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "track_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "expected_track_count": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "expected_duration_minutes": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        }
+      },
+      "additionalProperties": true
+    },
+    "tracks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "occurrence_id",
+          "source_id",
+          "source_position",
+          "title"
+        ],
+        "properties": {
+          "occurrence_id": {
+            "type": "string",
+            "pattern": "^lp-occurrence:[0-9a-f]{64}$"
+          },
+          "source_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "source_position": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "duration_seconds": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "public_url": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "audio_url": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "image_url": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "created_at": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "source_title": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "title_state": {
+            "enum": [
+              "source",
+              "ui-fallback"
+            ]
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "authority": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": "playdeck-cycle-v0",
+  "work_id": "lemonpress:2day-cycle-001",
+  "title": "2DAY",
+  "entry_playlist_slot": 1,
+  "loop": true,
+  "mode": "playlist-level-declared-cycle",
+  "playlist_nodes": [
+    {
+      "slot": 1,
+      "title": "2moreOhmorning!",
+      "share_url": "https://suno.com/s/zVsv2igtLOJDqzmX",
+      "expected_track_count": 11,
+      "next_playlist_slot": 2
+    },
+    {
+      "slot": 2,
+      "title": "thenex2day",
+      "share_url": "https://suno.com/s/jLlQnaiqz9Bv5DNc",
+      "expected_track_count": 7,
+      "next_playlist_slot": 3
+    },
+    {
+      "slot": 3,
+      "title": "2knite",
+      "share_url": "https://suno.com/s/TExxM9EQsSI0ORZS",
+      "expected_track_count": 12,
+      "next_playlist_slot": 4
+    },
+    {
+      "slot": 4,
+      "title": "2day",
+      "share_url": "https://suno.com/s/xaTnyxQlNOLabzaf",
+      "expected_track_count": 9,
+      "next_playlist_slot": 1
+    }
+  ],
+  "track_expansion": {
+    "state": "pending-public-crawl",
+    "expected_track_count": 39,
+    "producer": "tools/suno_playlist_crawler.py"
+  },
+  "authority": {
+    "selection": "declared-by-lemonpress-work",
+    "admission": "pending",
+    "transport": "external-public-source",
+    "source_mutation": false
+  }
+}

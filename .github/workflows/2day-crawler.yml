@@ -1,0 +1,93 @@
+name: 2DAY crawler
+
+on:
+  pull_request:
+    paths:
+      - "tools/suno_playlist_crawler.py"
+      - "tests/test_suno_playlist_crawler.py"
+      - "schemas/suno-playlist-crawl-v0.schema.json"
+      - "works/2day-cycle-001/**"
+      - ".github/workflows/2day-crawler.yml"
+  push:
+    branches:
+      - "feat/2day-crawler-001"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run crawler tests
+        run: python -m unittest tests/test_suno_playlist_crawler.py -v
+
+  live-crawl:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Crawl four public 2DAY playlists
+        run: |
+          python tools/suno_playlist_crawler.py press \
+            works/2day-cycle-001/sources.json \
+            --out /tmp/2day-crawl
+      - name: Assert exact public-source result
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          crawl = json.loads(Path("/tmp/2day-crawl/crawl.json").read_text())
+          playdeck = json.loads(Path("/tmp/2day-crawl/playdeck-cycle.json").read_text())
+          assert crawl["track_count"] == 39, crawl["track_count"]
+          assert playdeck["track_count"] == 39, playdeck["track_count"]
+          assert playdeck["loop"] is True
+          assert [n["next_playlist_slot"] for n in playdeck["playlist_nodes"]] == [2, 3, 4, 1]
+          print("LIVE 2DAY CRAWL: 39 track occurrences; cycle 1->2->3->4->1")
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: 2day-live-crawl
+          path: /tmp/2day-crawl
+          if-no-files-found: error
+
+  probe-candidate:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Probe newest public playlist candidate
+        run: |
+          URL="$(python - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path("works/2day-cycle-001/candidates/flCiCBeAcgxr34u8.json")
+          print(json.loads(p.read_text())["share_url"])
+          PY
+          )"
+          python tools/suno_playlist_crawler.py probe "$URL" --out /tmp/new-candidate.json
+      - name: Print candidate summary
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          d = json.loads(Path("/tmp/new-candidate.json").read_text())
+          print("CANDIDATE PLAYLIST:", d["playlist"]["title"])
+          print("TRACK COUNT:", d["playlist"]["track_count"])
+          print("SOURCE PLAYLIST ID:", d["source_playlist_id"])
+          print("TRACKS:")
+          for t in d["tracks"]:
+              print(f'{t["source_position"]:02d}. {t["title"]}')
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: suno-candidate-flCiCBeAcgxr34u8
+          path: /tmp/new-candidate.json
+          if-no-files-found: error
