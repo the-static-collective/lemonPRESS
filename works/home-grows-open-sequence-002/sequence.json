@@ -1,0 +1,74 @@
+{
+  "schema": "lemonpress/manga-remix-sequence/v0",
+  "id": "home-grows-open-sequence-002",
+  "title": "HOME GROWS OPEN — Sequence 002",
+  "status": "EXECUTION_WITNESS",
+  "parents": [
+    {
+      "parent_id": "drive:17SVY1L0VJ_7Q6ROY5vidmLCMUuXxNzfH",
+      "kind": "page",
+      "title": "Rosemary Violet Home"
+    },
+    {
+      "parent_id": "witness:home-grows-open-001:small-things-grow",
+      "kind": "page",
+      "title": "Fidelity Friday — Small Things Grow"
+    },
+    {
+      "parent_id": "witness:home-grows-open-001:last-light-open-circuit",
+      "kind": "page",
+      "title": "Last Light / Open Circuit"
+    },
+    {
+      "parent_id": "witness:home-grows-open-001:remix-candidate",
+      "kind": "candidate",
+      "title": "HOME GROWS OPEN remix candidate"
+    }
+  ],
+  "sequence": [
+    {
+      "slot": 1,
+      "source_ref": "drive:17SVY1L0VJ_7Q6ROY5vidmLCMUuXxNzfH",
+      "selection": {
+        "kind": "whole"
+      }
+    },
+    {
+      "slot": 2,
+      "source_ref": "witness:home-grows-open-001:remix-candidate",
+      "selection": {
+        "kind": "whole"
+      }
+    },
+    {
+      "slot": 3,
+      "source_ref": "witness:home-grows-open-001:small-things-grow",
+      "selection": {
+        "kind": "whole"
+      }
+    },
+    {
+      "slot": 4,
+      "source_ref": "witness:home-grows-open-001:last-light-open-circuit",
+      "selection": {
+        "kind": "whole"
+      }
+    }
+  ],
+  "authority": {
+    "editorial_selection": false,
+    "edition_admission": false,
+    "publication": false,
+    "house_release": false
+  },
+  "laws": [
+    "REORDER != SOURCE MUTATION",
+    "ORDER != ANCESTRY",
+    "READING ORDER != OWNERSHIP",
+    "SEQUENCE != ADMISSION",
+    "OMISSION != DELETION",
+    "DUPLICATION != NEW SOURCE",
+    "SLOT != PAGE IDENTITY",
+    "CANDIDATE != ISSUE"
+  ]
+}
