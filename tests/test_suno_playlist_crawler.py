@@ -92,6 +92,24 @@ class SunoPlaylistCrawlerTests(unittest.TestCase):
         self.assertEqual(got["source"]["extraction"], "html-structured")
         self.assertEqual(got["tracks"][0]["source_id"], "a")
 
+    def test_untitled_api_tombstone_is_not_promoted_to_public_track(self):
+        pages = [
+            {
+                "playlist_clips": [
+                    {"clip": {"id": "a", "title": "A"}},
+                    {"clip": {"id": "gone"}},
+                    {"clip": {"id": "b", "title": "B"}},
+                ]
+            }
+        ]
+        got = crawler.crawl_source(
+            self.source(count=2),
+            html_fetcher=lambda _: self.html_result(),
+            json_fetcher=self.json_fetcher(pages),
+        )
+        self.assertEqual([t["title"] for t in got["tracks"]], ["A", "B"])
+        self.assertEqual(got["source"]["api_pages"][0]["omitted_item_count"], 1)
+
     def test_count_drift_holds(self):
         pages = [{"playlist_clips": [{"clip": {"id": "a", "title": "A"}}]}]
         with self.assertRaises(ValueError):
