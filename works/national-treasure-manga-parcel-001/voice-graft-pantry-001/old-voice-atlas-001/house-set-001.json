@@ -1,0 +1,158 @@
+{
+  "schema": "lemonpress.old-voice-house-set/v0",
+  "name": "FRESHEST OLD HOUSE SET 001",
+  "status": "DURABLE_CONNECTED_MEDIA_CUSTODY",
+  "count": 10,
+  "policy": "Select a small representative set from the newest public-domain boundary (1925) and the deep recorded-voice boundary (1888–1900). Preserve source/license pages and uncertainty.",
+  "items": [
+    {
+      "id": "1925-curtain-lecture",
+      "year": 1925,
+      "title": "A Curtain Lecture",
+      "people": [
+        "Norman Clapham (John Henry)",
+        "Gladys Horridge (Blossom)"
+      ],
+      "form": "spoken comic dialogue / 78 rpm",
+      "source_page": "https://commons.wikimedia.org/wiki/Category:Audio_files_of_1925",
+      "rights": "Wikimedia Commons public-domain 1925 audio; recorded 31 Aug 1925",
+      "connected_media_asset_id": "0934838a-f63d-401c-8c52-decc59e5d4da",
+      "durable_media_url": "https://cdn.creativeclaw.co/u/a76e32aa/audio/60e1bd26-7bb1-44e4-95d6-d2b07f0eeb26.mp3",
+      "local_sha256": null
+    },
+    {
+      "id": "1925-carl-sprague",
+      "year": 1925,
+      "title": "When the Work's All Done This Fall",
+      "people": [
+        "Carl T. Sprague"
+      ],
+      "form": "cowboy vocal / Victor disc",
+      "source_page": "https://commons.wikimedia.org/wiki/File:WhenTheWorksAllDoneThisFall(Carl_T._Sprague).ogg",
+      "rights": "Commons marks file public domain; 1925 U.S. sound-recording rights expired",
+      "connected_media_asset_id": "6f78038a-e26f-4beb-bd91-4f9233853160",
+      "durable_media_url": "https://cdn.creativeclaw.co/u/a76e32aa/audio/dbdd7976-e494-451b-9960-ade5a7c6f7a6.wav",
+      "local_sha256": null
+    },
+    {
+      "id": "1925-gid-tanner",
+      "year": 1925,
+      "title": "Bully of the Town",
+      "people": [
+        "Gid Tanner"
+      ],
+      "form": "old-time vocal / Columbia disc",
+      "source_page": "https://commons.wikimedia.org/wiki/File:BullyOfTheTown.ogg",
+      "rights": "Commons marks recording public domain",
+      "connected_media_asset_id": "ead9f444-ede7-48aa-8760-4471e5497840",
+      "durable_media_url": "https://cdn.creativeclaw.co/u/a76e32aa/audio/ff945142-1e11-4a23-8dac-47d44c56a2a4.wav",
+      "local_sha256": null
+    },
+    {
+      "id": "1925-ben-harney",
+      "year": 1925,
+      "title": "The Wagon",
+      "people": [
+        "Ben Harney"
+      ],
+      "form": "phonograph-cylinder recording",
+      "source_page": "https://commons.wikimedia.org/wiki/File:TheWagon.ogg",
+      "rights": "Commons marks sound recording public domain in the U.S.",
+      "connected_media_asset_id": "cce3a814-c7c9-43d0-9e74-558a240a755e",
+      "durable_media_url": "https://cdn.creativeclaw.co/u/a76e32aa/audio/c2649962-3bee-4315-91f6-04dd02e8ad16.wav",
+      "local_sha256": null
+    },
+    {
+      "id": "1890-tennyson",
+      "year": 1890,
+      "title": "The Charge of the Light Brigade",
+      "people": [
+        "Alfred Tennyson"
+      ],
+      "form": "author reading / wax cylinder",
+      "source_page": "https://commons.wikimedia.org/wiki/File:LightBrigade-Tennyson.ogg",
+      "rights": "Commons public domain",
+      "connected_media_asset_id": "a72028a9-61e5-4e11-94fe-d579ce9ea7be",
+      "durable_media_url": "https://cdn.creativeclaw.co/u/a76e32aa/audio/14a23b39-8e9d-47d0-a35d-62d86b2b6322.wav",
+      "local_sha256": null
+    },
+    {
+      "id": "1890-whitman-attributed",
+      "year": 1890,
+      "title": "America",
+      "people": [
+        "voice attributed to Walt Whitman"
+      ],
+      "form": "poem reading / wax cylinder",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Walt_Whitman_-_America.ogg",
+      "rights": "Underlying poem and historical recording public domain; attribution to Whitman is not certain",
+      "confidence": "ATTRIBUTION_UNCERTAIN",
+      "connected_media_asset_id": "c417f268-da61-4ae8-bd23-21a6b8e793d8",
+      "durable_media_url": "https://cdn.creativeclaw.co/u/a76e32aa/audio/1bb88f76-ac18-4665-8a71-e5822cfb9853.wav",
+      "local_sha256": null
+    },
+    {
+      "id": "1888-1890-gladstone",
+      "year": "1888–1890",
+      "title": "William Ewart Gladstone voice",
+      "people": [
+        "William Ewart Gladstone"
+      ],
+      "form": "historical spoken voice",
+      "source_page": "https://commons.wikimedia.org/wiki/File:William_Ewart_Gladstone_voice.ogg",
+      "rights": "Commons public domain",
+      "connected_media_asset_id": "2e9649de-691b-4257-909a-f14dbc4e205a",
+      "durable_media_url": "https://cdn.creativeclaw.co/u/a76e32aa/audio/b4c21f1d-51ef-4bc8-9959-058f8c6bc98f.wav",
+      "local_sha256": null
+    },
+    {
+      "id": "1900-franz-josef",
+      "year": 1900,
+      "title": "Franz Joseph I voice recording",
+      "people": [
+        "Franz Joseph I of Austria"
+      ],
+      "form": "spoken demonstration / wire recording",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Franz_Josef_I_of_Austria_-_voice_recording_(1900).ogg",
+      "rights": "Commons marks public domain / free of known restrictions",
+      "connected_media_asset_id": "08b28032-48ec-4b98-9fea-ffe70f0cf36c",
+      "durable_media_url": "https://cdn.creativeclaw.co/u/a76e32aa/audio/ed93449e-c88d-4122-a2f3-23d184f97927.wav",
+      "local_sha256": null
+    },
+    {
+      "id": "1890-talking-doll-jack-jill",
+      "year": 1890,
+      "title": "Jack and Jill",
+      "people": [
+        "unknown Talking Doll performer"
+      ],
+      "form": "Edison Talking Doll recitation",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jack_and_Jill_(1890).ogg",
+      "rights": "Commons marks U.S. sound recording public domain; avoid substituting UCSB's separately restricted modern cylinder transfer",
+      "connected_media_asset_id": "9c427707-8acd-4ae9-99d4-d9872bfce557",
+      "durable_media_url": "https://cdn.creativeclaw.co/u/a76e32aa/audio/4bdf5c3b-253b-4142-95ad-1933d22bc5c5.wav",
+      "local_sha256": null
+    },
+    {
+      "id": "1890-talking-doll-prayer",
+      "year": 1890,
+      "title": "Now I lay me down to sleep",
+      "people": [
+        "unknown Talking Doll performer"
+      ],
+      "form": "Edison Talking Doll recitation",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Now_I_lay_me_down_to_sleep_(1890).ogg",
+      "rights": "Commons marks U.S. sound recording public domain; archive-transfer caution retained",
+      "connected_media_asset_id": "4678c666-7c4d-4805-8108-6685d19efcab",
+      "durable_media_url": "https://cdn.creativeclaw.co/u/a76e32aa/audio/3c15d8d2-3997-4b60-8d4b-d0f1676ca541.wav",
+      "local_sha256": null
+    }
+  ],
+  "laws": [
+    "FRESHEST OLD != ONLY OLD",
+    "ATTRIBUTION UNCERTAINTY SURVIVES INGESTION",
+    "ARCHIVE TRANSFER TERMS SURVIVE PUBLIC-DOMAIN STATUS",
+    "DURABLE CUSTODY != LOCAL HASH",
+    "HOUSE SET != CANONICAL CHARACTER"
+  ]
+}
