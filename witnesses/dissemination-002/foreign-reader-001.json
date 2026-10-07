@@ -1,0 +1,56 @@
+{
+  "schema_version": "lemonpress-dissemination-witness-v0",
+  "witness_id": "dissemination-witness-002-foreign-reader",
+  "date": "2026-10-07",
+  "public_origin": "https://lemonpress-computer-books.vercel.app",
+  "source_commit": "c2735093d5fd9ecb8464b3e9a5e82bfc7d494692",
+  "witness_type": "independent-live-browser",
+  "external_http_observed": true,
+  "starting_url": "https://lemonpress-computer-books.vercel.app/llms.txt",
+  "prohibited_sources": [
+    "github",
+    "search-engines",
+    "prior-knowledge",
+    "external-context"
+  ],
+  "selected_fragment": "002-loss-is-visible",
+  "first_fragment": "001-enter-anywhere",
+  "observed_identity": {
+    "work_id": "lemonpress:computer-book-001",
+    "edition_id": "lemonpress:computer-book-001:crawler:001"
+  },
+  "observed_continuation": {
+    "relation": "distinguishes-order-from-history",
+    "target": "003-order-is-not-ancestry",
+    "scope": "local",
+    "url": "https://lemonpress-computer-books.vercel.app/books/computer-book-001/fragments/003-order-is-not-ancestry/"
+  },
+  "observed_unknowns": [
+    "Unretrieved material may exist.",
+    "Absence in the current window does not prove nonexistence.",
+    "Content of fragment 003 was unknown before following it.",
+    "Source ancestry references were unresolved in the current retrieval."
+  ],
+  "authority": {
+    "level": "none",
+    "does_not_grant": [
+      "admission",
+      "publication",
+      "ownership",
+      "source-authority"
+    ]
+  },
+  "results": {
+    "find_book": "PASS",
+    "non_first_entry": "PASS",
+    "identify_work_and_edition": "PASS",
+    "preserve_unknown": "PASS",
+    "follow_declared_continuation": "PASS",
+    "no_authority_escalation": "PASS"
+  },
+  "score": {
+    "passed": 6,
+    "total": 6
+  },
+  "reader_run_id": "9e9b85ab-7df8-4dd2-b104-382b1ca8de10"
+}
