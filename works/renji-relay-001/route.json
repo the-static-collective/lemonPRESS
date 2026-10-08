@@ -1,0 +1,61 @@
+{
+  "specimen": "RENJI_RELAY_001",
+  "operations": [
+    {
+      "id": "translate-through-ja-001",
+      "kind": "translate.through",
+      "input": "RENJI_SOURCE_SET_001",
+      "language": "ja",
+      "return_language": "en",
+      "preserve_source": true,
+      "expose_intermediate": true
+    },
+    {
+      "id": "remix-001",
+      "kind": "remix.sequence",
+      "declared": true,
+      "allows": [
+        "reorder",
+        "repeat",
+        "omit",
+        "interleave",
+        "fork"
+      ]
+    },
+    {
+      "id": "style-001",
+      "kind": "style.stack",
+      "profiles": [
+        "RENJI_RELAY_COLOR_001",
+        "LANGUAGE_THROUGH_MANGA_001",
+        "HOUSE_WARMTH_001",
+        "ROOMSTACK_METAPHYSICS_001"
+      ]
+    },
+    {
+      "id": "press-001",
+      "kind": "lemonpress.press",
+      "issue": "RENJI_RELAY_001"
+    },
+    {
+      "id": "crossing-001",
+      "kind": "relatte.crossing",
+      "authority_claim": "NONE",
+      "admission_claim": "NONE"
+    },
+    {
+      "id": "foreign-render-001",
+      "kind": "local.render",
+      "requires_lemonpress": false,
+      "similarity_requirement": "NONE"
+    }
+  ],
+  "expected_final": {
+    "source": "SAME ROOT",
+    "trace": "INTACT",
+    "transformations": "DECLARED",
+    "presentation": "LOCAL",
+    "authority": "NONE INHERITED",
+    "admission": "LOCAL"
+  }
+}
