@@ -1,0 +1,49 @@
+{
+  "schema_version": "lemonpress-skypaper-claims-v0",
+  "paper_id": "lemonpress:skypaper:computer-books:001",
+  "claims": [
+    {
+      "id": "C1",
+      "statement": "A fragment can preserve declared work and edition identity while explicitly remaining less than the whole book.",
+      "status": "observed",
+      "evidence": [
+        "COMPUTER BOOK 001",
+        "COMPUTER BOOK 002"
+      ]
+    },
+    {
+      "id": "C2",
+      "statement": "Local unavailability can be represented without asserting global nonexistence.",
+      "status": "observed",
+      "evidence": [
+        "COMPUTER BOOK 002"
+      ]
+    },
+    {
+      "id": "C3",
+      "statement": "The specimen can be published on ordinary HTTPS with independently addressable human and machine carriers.",
+      "status": "observed",
+      "evidence": [
+        "DISSEMINATION 001"
+      ]
+    },
+    {
+      "id": "C4",
+      "statement": "An independent live-browser reader starting only from the public llms.txt can enter a non-first fragment and preserve identity, uncertainty, continuation, and no-authority state.",
+      "status": "observed",
+      "evidence": [
+        "DISSEMINATION WITNESS 002"
+      ],
+      "score": {
+        "passed": 6,
+        "total": 6
+      }
+    },
+    {
+      "id": "C5",
+      "statement": "The format is a universal standard for computer-native literature.",
+      "status": "not_claimed",
+      "evidence": []
+    }
+  ]
+}

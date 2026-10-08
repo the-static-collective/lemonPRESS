@@ -12,5 +12,18 @@
       "manifest": "https://lemonpress-computer-books.vercel.app/books/computer-book-001/manifest.json",
       "machine_orientation": "https://lemonpress-computer-books.vercel.app/books/computer-book-001/llms.txt"
     }
+  ],
+  "papers": [
+    {
+      "paper_id": "lemonpress:skypaper:computer-books:001",
+      "series": "SKYPAPER",
+      "number": 1,
+      "version": "0.1",
+      "title": "A Book That Can Be Entered Anywhere: Computer-Native Literature Under Partial Retrieval",
+      "status": "public-preprint",
+      "href": "https://lemonpress-computer-books.vercel.app/papers/computer-books-001/",
+      "metadata": "https://lemonpress-computer-books.vercel.app/papers/computer-books-001/metadata.json",
+      "claims": "https://lemonpress-computer-books.vercel.app/papers/computer-books-001/claims.json"
+    }
   ]
 }

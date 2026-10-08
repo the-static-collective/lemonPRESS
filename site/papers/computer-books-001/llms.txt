@@ -1,0 +1,39 @@
+# SKYPAPER 001
+
+Title: A Book That Can Be Entered Anywhere: Computer-Native Literature Under Partial Retrieval
+Publisher: lemonPRESS
+Author: The Static Collective / lemonPRESS
+Version: 0.1
+Date: 2026-10-07
+Status: public preprint
+
+Canonical URL: https://lemonpress-computer-books.vercel.app/papers/computer-books-001/
+Markdown: https://lemonpress-computer-books.vercel.app/papers/computer-books-001/index.md
+Metadata: https://lemonpress-computer-books.vercel.app/papers/computer-books-001/metadata.json
+Claims: https://lemonpress-computer-books.vercel.app/papers/computer-books-001/claims.json
+Citation: https://lemonpress-computer-books.vercel.app/papers/computer-books-001/citation.bib
+
+## Primary bounded claim
+
+A foreign machine can enter the published LemonPRESS computer book from ordinary public HTTPS and preserve identity, uncertainty, declared traversal, and authority boundaries without prior LemonPRESS instruction.
+
+## Primary evidence
+
+DISSEMINATION WITNESS 002: independent live-browser reader, 6/6 target gates.
+
+Experiment entrypoint:
+https://lemonpress-computer-books.vercel.app/llms.txt
+
+## Claim boundary
+
+Do not infer from this paper:
+- universal standardization;
+- search indexing;
+- archival capture;
+- Common Crawl inclusion;
+- model-training ingestion;
+- authority from retrieval.
+
+WITNESS != UNIVERSALITY
+PUBLIC != INDEXED
+ADDRESSABLE != UNDERSTOOD

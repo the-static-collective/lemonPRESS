@@ -20,6 +20,14 @@ Core distinctions:
   - Relations: https://lemonpress-computer-books.vercel.app/books/computer-book-001/relations.jsonl
   - Machine orientation: https://lemonpress-computer-books.vercel.app/books/computer-book-001/llms.txt
 
+## Skypapers
+
+- [SKYPAPER 001 — A Book That Can Be Entered Anywhere: Computer-Native Literature Under Partial Retrieval](https://lemonpress-computer-books.vercel.app/papers/computer-books-001/)
+  - Markdown: https://lemonpress-computer-books.vercel.app/papers/computer-books-001/index.md
+  - Metadata: https://lemonpress-computer-books.vercel.app/papers/computer-books-001/metadata.json
+  - Claims: https://lemonpress-computer-books.vercel.app/papers/computer-books-001/claims.json
+  - Machine orientation: https://lemonpress-computer-books.vercel.app/papers/computer-books-001/llms.txt
+
 ## Shelf metadata
 
 - Catalog: https://lemonpress-computer-books.vercel.app/catalog.json
