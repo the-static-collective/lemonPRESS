@@ -1,0 +1,60 @@
+{
+  "schema": "lemonpress/manga-style-profile/v0",
+  "id": "RENJI_RELAY_COLOR_001",
+  "title": "RENJI RELAY COLOR 001",
+  "description": "Palette and panel rhythm evidenced by luminous bilingual dimensional pages; story content remains independent.",
+  "tags": [
+    "declared-behavior",
+    "founding-witness"
+  ],
+  "laws": [
+    "STYLE != CONTENT",
+    "STYLE != AUTHORITY",
+    "STYLE != ADMISSION",
+    "COMPOSITION != COLLAPSE",
+    "LAYER != REPLACEMENT",
+    "PRIMARY != GLOSS",
+    "GLOSS != REPLACEMENT",
+    "WORLD TEXT != DIALOGUE",
+    "STYLE CONFLICT MUST BE RESOLVED EXPLICITLY",
+    "SOURCE TRACE MAY SURVIVE",
+    "LANGUAGE PASSAGE MAY REMAIN VISIBLE",
+    "STACK CHANGE != SAME CANDIDATE"
+  ],
+  "domains": {
+    "languageBehavior": "none",
+    "textChannels": "none",
+    "visualPalette": "own",
+    "panelBehavior": "own",
+    "tone": "suggest",
+    "worldMotifs": "none"
+  },
+  "behavior": {
+    "visualPalette": {
+      "colors": [
+        "#ed9955",
+        "#745987",
+        "#f8d9b0"
+      ],
+      "contrast": "warm dusk with orange-violet thresholds",
+      "light": "luminous"
+    },
+    "panelBehavior": {
+      "rhythm": "dimensional collage",
+      "insets": "elegant documentary insets",
+      "architecture": "clear room and city geometry"
+    },
+    "tone": {
+      "presence": "emotionally soft"
+    }
+  },
+  "composition": {
+    "layer": "bounded behavior overlay",
+    "replacesSource": false
+  },
+  "authority": {
+    "semanticAuthority": false,
+    "admission": false,
+    "publication": false
+  }
+}
