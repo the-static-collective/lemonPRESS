@@ -1,0 +1,46 @@
+{
+  "schema": "lemonpress/manga-style-profile/v0",
+  "id": "SCREEN_UI_001",
+  "title": "SCREEN UI 001",
+  "description": "Screen/chat panes are a separable motif; screen_ui remains a distinct text channel.",
+  "tags": [
+    "declared-behavior",
+    "founding-witness"
+  ],
+  "laws": [
+    "STYLE != CONTENT",
+    "STYLE != AUTHORITY",
+    "STYLE != ADMISSION",
+    "COMPOSITION != COLLAPSE",
+    "LAYER != REPLACEMENT",
+    "PRIMARY != GLOSS",
+    "GLOSS != REPLACEMENT",
+    "WORLD TEXT != DIALOGUE",
+    "STYLE CONFLICT MUST BE RESOLVED EXPLICITLY",
+    "SOURCE TRACE MAY SURVIVE",
+    "LANGUAGE PASSAGE MAY REMAIN VISIBLE",
+    "STACK CHANGE != SAME CANDIDATE"
+  ],
+  "domains": {
+    "languageBehavior": "none",
+    "textChannels": "none",
+    "visualPalette": "none",
+    "panelBehavior": "none",
+    "tone": "none",
+    "worldMotifs": "own"
+  },
+  "behavior": {
+    "worldMotifs": {
+      "screens": "screen and chat panes retain local origin"
+    }
+  },
+  "composition": {
+    "layer": "bounded behavior overlay",
+    "replacesSource": false
+  },
+  "authority": {
+    "semanticAuthority": false,
+    "admission": false,
+    "publication": false
+  }
+}

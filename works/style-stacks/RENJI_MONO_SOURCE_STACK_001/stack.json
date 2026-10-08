@@ -1,0 +1,78 @@
+{
+  "schema": "lemonpress/manga-style-stack/v0",
+  "id": "RENJI_MONO_SOURCE_STACK_001",
+  "title": "RENJI MONO SOURCE STACK 001",
+  "styles": [
+    {
+      "styleId": "RENJI_MONO_SOURCE_001",
+      "priority": 10,
+      "mode": "global",
+      "domainMask": [
+        "languageBehavior",
+        "textChannels",
+        "visualPalette",
+        "panelBehavior",
+        "tone",
+        "worldMotifs"
+      ],
+      "overrides": {}
+    },
+    {
+      "styleId": "LANGUAGE_THROUGH_MANGA_001",
+      "priority": 11,
+      "mode": "global",
+      "domainMask": [
+        "languageBehavior",
+        "textChannels",
+        "visualPalette",
+        "panelBehavior",
+        "tone",
+        "worldMotifs"
+      ],
+      "overrides": {}
+    },
+    {
+      "styleId": "BUREAUCRATIC_RECEIPT_001",
+      "priority": 12,
+      "mode": "global",
+      "domainMask": [
+        "languageBehavior",
+        "textChannels",
+        "visualPalette",
+        "panelBehavior",
+        "tone",
+        "worldMotifs"
+      ],
+      "overrides": {}
+    },
+    {
+      "styleId": "SCREEN_UI_001",
+      "priority": 13,
+      "mode": "global",
+      "domainMask": [
+        "languageBehavior",
+        "textChannels",
+        "visualPalette",
+        "panelBehavior",
+        "tone",
+        "worldMotifs"
+      ],
+      "overrides": {}
+    }
+  ],
+  "resolutionPolicy": "refuse-conflicts",
+  "laws": [
+    "STYLE != CONTENT",
+    "STYLE != AUTHORITY",
+    "STYLE != ADMISSION",
+    "COMPOSITION != COLLAPSE",
+    "LAYER != REPLACEMENT",
+    "PRIMARY != GLOSS",
+    "GLOSS != REPLACEMENT",
+    "WORLD TEXT != DIALOGUE",
+    "STYLE CONFLICT MUST BE RESOLVED EXPLICITLY",
+    "SOURCE TRACE MAY SURVIVE",
+    "LANGUAGE PASSAGE MAY REMAIN VISIBLE",
+    "STACK CHANGE != SAME CANDIDATE"
+  ]
+}

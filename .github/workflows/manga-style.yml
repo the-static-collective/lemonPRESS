@@ -1,0 +1,14 @@
+name: Manga style profiles
+on: [push, pull_request]
+jobs:
+  style:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements-style.txt
+      - run: python -m unittest discover -s tests -p 'test_manga_style_*.py'
+      - run: python tools/manga_style_lint.py works/style-stacks/RENJI_JP_RELAY_COLOR_001/stack.json
+      - run: python tools/manga_style_lint.py works/style-stacks/RENJI_MONO_SOURCE_STACK_001/stack.json
