@@ -1,0 +1,16 @@
+name: Manga root fork
+on: [push, pull_request]
+jobs:
+  fork:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements-root-fork.txt
+      - run: python -m unittest discover -s tests -p 'test_manga_root_fork.py'
+      - run: python tools/manga_root_fork.py compose works/jubilee-engine-root-fork-001 out/packet.json
+      - run: python tools/manga_root_fork.py verify works/jubilee-engine-root-fork-001 out/packet.json
+      - run: python tools/manga_root_fork.py export out/packet.json out/branch-b.json --branch branch:jubilee-engine
+      - run: python tools/manga_root_fork.py cold out/branch-b.json

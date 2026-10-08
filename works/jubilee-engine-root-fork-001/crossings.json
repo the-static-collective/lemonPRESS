@@ -1,0 +1,8 @@
+[
+  {
+    "receiptId": "story-receipt:empty-chair-001",
+    "receiver": "branch:jubilee-engine",
+    "disposition": "HOLD",
+    "reason": "someone may still be coming"
+  }
+]

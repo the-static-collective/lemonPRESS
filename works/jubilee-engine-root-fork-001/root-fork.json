@@ -1,0 +1,87 @@
+{
+  "schema": "lemonpress/manga-root-fork/v0",
+  "id": "ROOT-FORK-JUBILEE-ENGINE-001",
+  "donor": {
+    "workId": "lemonpress:the-last-stop-moved",
+    "artifact": "THE_LAST_STOP_MOVED_Issue_Cut_001.pdf",
+    "sha256": "c14ec41badbdcddde6cc5006141e3181fe0917a86c67b1a85568d9b22e10051f",
+    "bytes": 9433611,
+    "pages": 10,
+    "sourceState": "Issue Cut 001; exact external PDF declaration inherited from PAGE INTAKE 001",
+    "byteVerification": "external-declaration"
+  },
+  "siblings": [
+    {
+      "id": "branch:the-last-stop-moved",
+      "title": "THE LAST STOP MOVED",
+      "declaration": "branch-a.json",
+      "admission": {
+        "state": "pending",
+        "receipt": null
+      }
+    },
+    {
+      "id": "branch:jubilee-engine",
+      "title": "JUBILEE ENGINE / THE ROAD HOME MOVED",
+      "declaration": "branch-b.json",
+      "admission": {
+        "state": "pending",
+        "receipt": null
+      }
+    }
+  ],
+  "sharedRegions": [
+    {
+      "page": 1,
+      "region": "whole-page donor substrate"
+    },
+    {
+      "page": 2,
+      "region": "whole-page donor substrate"
+    },
+    {
+      "page": 3,
+      "region": "whole-page donor substrate"
+    },
+    {
+      "page": 4,
+      "region": "whole-page donor substrate"
+    },
+    {
+      "page": 5,
+      "region": "whole-page donor substrate"
+    },
+    {
+      "page": 6,
+      "region": "whole-page donor substrate"
+    },
+    {
+      "page": 7,
+      "region": "whole-page donor substrate"
+    },
+    {
+      "page": 8,
+      "region": "whole-page donor substrate"
+    },
+    {
+      "page": 9,
+      "region": "whole-page donor substrate"
+    },
+    {
+      "page": 10,
+      "region": "whole-page donor substrate"
+    }
+  ],
+  "laws": [
+    "ROOT != BRANCH",
+    "SHARED SUBSTRATE != SHARED EVENT",
+    "CROSSING != CANON COLLAPSE",
+    "RECEIPT != SHARED POV",
+    "SHARED PARTICULAR != SHARED HISTORY"
+  ],
+  "authority": {
+    "houseAdmission": false,
+    "publication": false,
+    "canonOverSibling": false
+  }
+}
