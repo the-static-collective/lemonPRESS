@@ -1,0 +1,51 @@
+{
+  "schema": "relatte.crossing-envelope/v0",
+  "protocol_version": "0",
+  "source_particular": "sha256:865a39a55a137e23a3babeb95f9e3116196e90740a26f5cbb327e486efe269c2",
+  "source_world": "world:lemonpress-renji-experiment",
+  "source_history_head": "sha256:865a39a55a137e23a3babeb95f9e3116196e90740a26f5cbb327e486efe269c2",
+  "parents": [
+    "sha256:bf872940599f2af4114bf75653655dd22e8441bfe436d5d3e53252eb4e3307d5"
+  ],
+  "declared_kind": "RENJI_RELAY_DRAFT",
+  "payload_refs": [
+    {
+      "address": "sha256:a5f0d46df315c1f9a78315e1fcef70699066fb18bf435bc1985f94b4b390a70a",
+      "role": "press-candidate",
+      "media_type": "application/json"
+    }
+  ],
+  "requested_effect": {
+    "kind": "local-render-request",
+    "authority": "receiver-local"
+  },
+  "capability_ref": null,
+  "privacy_policy": {
+    "scope": "user-directed private experiment"
+  },
+  "audience_policy": null,
+  "return_address": null,
+  "created_at": "2026-10-08T08:25:08.605Z",
+  "extensions": {
+    "renji_relay": {
+      "schema": "lemonpress/renji-crossing/v0",
+      "packet_sha256": "ed8fb77a216fc2ff208063bdd06d81af23d58dc00e50d09d840cfe53255c2f71",
+      "source_sha256": "bf872940599f2af4114bf75653655dd22e8441bfe436d5d3e53252eb4e3307d5",
+      "authority_claim": "NONE",
+      "admission_claim": "NONE",
+      "relatte_commit": "dcc8cdca84c440aa4294134f020fb7095bf87f24"
+    }
+  },
+  "crossing_id": "relatte-crossing-v0:21bfc4a073d204cd2d658811d59a316403cb36c8f195134de25c66140193afe2",
+  "signing": {
+    "algorithm": "ECDSA-P256-SHA256",
+    "public_key": {
+      "kty": "EC",
+      "crv": "P-256",
+      "x": "waffcX_B2KH_qibyp2as75_lXNp_ptLFrGmtzn-ysYk",
+      "y": "UXXcmVOUHIzUDWVv48hPNtxlpxC6TipUxqTbfhgR3i4"
+    },
+    "signature": "4hlu9Mc7Qsl5W0jVVJydv5kXX5Rx51ckOA8eztSkjOtNvNECvVVFbVrFSnpp_yeZ3EcIR2rTvz_ebwPqKpbNLA",
+    "domain": "relatte.crossing-signature/v0"
+  }
+}

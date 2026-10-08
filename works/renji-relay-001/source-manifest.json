@@ -38,5 +38,6 @@
       "sha256": "e73e006e3b14096cfb989d18e81d25879ba1861473c7ee222df0e6aa0c315242",
       "bytes": 3053267
     }
-  ]
+  ],
+  "verification_scope": "This run byte-verified RENJI_SOURCE_001 only; other four entries remain prior external digest declarations."
 }

@@ -1,0 +1,101 @@
+{
+  "specimen": "RENJI_RELAY_001",
+  "sourceSha256": "bf872940599f2af4114bf75653655dd22e8441bfe436d5d3e53252eb4e3307d5",
+  "suites": [
+    "synthetic",
+    "exact real donor"
+  ],
+  "cases": [
+    {
+      "id": "H01",
+      "expected": "FAIL",
+      "observed": "FAIL",
+      "test": "RelayTests.test_H01_source_mutation",
+      "assertion": "PASS"
+    },
+    {
+      "id": "H02",
+      "expected": "FAIL",
+      "observed": "FAIL",
+      "test": "RelayTests.test_H02_missing_japanese_intermediate",
+      "assertion": "PASS"
+    },
+    {
+      "id": "H03",
+      "expected": "FAIL",
+      "observed": "FAIL",
+      "test": "RelayTests.test_H03_original_identity_claim",
+      "assertion": "PASS"
+    },
+    {
+      "id": "H04",
+      "expected": "FAIL",
+      "observed": "FAIL",
+      "test": "RelayTests.test_H04_undeclared_reorder",
+      "assertion": "PASS"
+    },
+    {
+      "id": "H05",
+      "expected": "PASS",
+      "observed": "PASS",
+      "test": "RelayTests.test_H05_declared_reorder",
+      "assertion": "PASS"
+    },
+    {
+      "id": "H06",
+      "expected": "PASS",
+      "observed": "PASS",
+      "test": "RelayTests.test_H06_declared_renderer_replacement",
+      "assertion": "PASS"
+    },
+    {
+      "id": "H07",
+      "expected": "PASS",
+      "observed": "PASS",
+      "test": "RelayTests.test_H07_unrecognizable_render_complete_ancestry",
+      "assertion": "PASS"
+    },
+    {
+      "id": "H08",
+      "expected": "PASS",
+      "observed": "PASS",
+      "test": "RelayTests.test_H08_no_lemonpress_foreign_machine",
+      "assertion": "PASS"
+    },
+    {
+      "id": "H09",
+      "expected": "VALID_REFUSAL",
+      "observed": "VALID_REFUSAL",
+      "test": "RelayTests.test_H09_valid_local_refusal",
+      "assertion": "PASS"
+    },
+    {
+      "id": "H10",
+      "expected": "VALID_ADMISSION",
+      "observed": "VALID_ADMISSION",
+      "test": "RelayTests.test_H10_valid_local_admission",
+      "assertion": "PASS"
+    },
+    {
+      "id": "H11",
+      "expected": "FAIL",
+      "observed": "FAIL",
+      "test": "RelayTests.test_H11_forged_source_with_identical_bytes",
+      "assertion": "PASS"
+    },
+    {
+      "id": "H12",
+      "expected": "FAIL",
+      "observed": "FAIL",
+      "test": "RelayTests.test_H12_pixel_identical_broken_ancestry",
+      "assertion": "PASS"
+    },
+    {
+      "id": "H13",
+      "expected": "PASS",
+      "observed": "PASS",
+      "test": "RelayTests.test_H13_radically_different_complete_ancestry",
+      "assertion": "PASS"
+    }
+  ]
+}

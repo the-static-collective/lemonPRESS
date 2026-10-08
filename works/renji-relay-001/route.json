@@ -1,61 +1,75 @@
 {
   "specimen": "RENJI_RELAY_001",
+  "status": "EXECUTED_BOUNDED_EXPERIMENT",
+  "recipeRef": "recipe.json",
   "operations": [
     {
-      "id": "translate-through-ja-001",
-      "kind": "translate.through",
-      "input": "RENJI_SOURCE_SET_001",
-      "language": "ja",
-      "return_language": "en",
-      "preserve_source": true,
-      "expose_intermediate": true
+      "kind": "source.png",
+      "identity": "a8cbeb75db0f5ac7d114407e9b4821d6eb32a368286fab9020b71dd24a811fd0",
+      "inputParent": null
     },
     {
-      "id": "remix-001",
+      "kind": "text.transcription",
+      "identity": "d20f8eae906e20ca028764d3183c2ed2df0bebd9bd797d683b6e03e9b7fe7000",
+      "inputParent": "a8cbeb75db0f5ac7d114407e9b4821d6eb32a368286fab9020b71dd24a811fd0"
+    },
+    {
+      "kind": "translate.pivot",
+      "identity": "38ca07850a925b1e55f34c2a2f723ff26c58f075551f1d68dcd6fb021a414bae",
+      "inputParent": "d20f8eae906e20ca028764d3183c2ed2df0bebd9bd797d683b6e03e9b7fe7000"
+    },
+    {
+      "kind": "translate.return",
+      "identity": "eaebc9d166296cc227bffa1ce89970f42f82906c58b02f618fe186c6fbe11091",
+      "inputParent": "38ca07850a925b1e55f34c2a2f723ff26c58f075551f1d68dcd6fb021a414bae"
+    },
+    {
       "kind": "remix.sequence",
-      "declared": true,
-      "allows": [
-        "reorder",
-        "repeat",
-        "omit",
-        "interleave",
-        "fork"
-      ]
+      "identity": "8f20190b88c62554845b998b7c0001b852c6867a1bda8b84604ae260d064f0a1",
+      "inputParent": "eaebc9d166296cc227bffa1ce89970f42f82906c58b02f618fe186c6fbe11091"
     },
     {
-      "id": "style-001",
       "kind": "style.stack",
-      "profiles": [
-        "RENJI_RELAY_COLOR_001",
-        "LANGUAGE_THROUGH_MANGA_001",
-        "HOUSE_WARMTH_001",
-        "ROOMSTACK_METAPHYSICS_001"
-      ]
+      "identity": "9fb38603dda399546f22383a3dff62ec0063e03948d1c669b1526f847fffeda2",
+      "inputParent": "8f20190b88c62554845b998b7c0001b852c6867a1bda8b84604ae260d064f0a1"
     },
     {
-      "id": "press-001",
       "kind": "lemonpress.press",
-      "issue": "RENJI_RELAY_001"
+      "identity": "865a39a55a137e23a3babeb95f9e3116196e90740a26f5cbb327e486efe269c2",
+      "inputParent": "9fb38603dda399546f22383a3dff62ec0063e03948d1c669b1526f847fffeda2"
     },
     {
-      "id": "crossing-001",
       "kind": "relatte.crossing",
+      "identity": "relatte-crossing-v0:21bfc4a073d204cd2d658811d59a316403cb36c8f195134de25c66140193afe2",
       "authority_claim": "NONE",
-      "admission_claim": "NONE"
+      "admission_claim": "NONE",
+      "runtimeCommit": "dcc8cdca84c440aa4294134f020fb7095bf87f24"
     },
     {
-      "id": "foreign-render-001",
       "kind": "local.render",
+      "renderer": "foreign:receipt-scroll/v0",
       "requires_lemonpress": false,
-      "similarity_requirement": "NONE"
+      "similarity_requirement": "NONE",
+      "outputSha256": "e3c318d2b1354197671bae149b8f59e6110dd0bf4f85646cb854995a96067155"
+    },
+    {
+      "kind": "local.disposition",
+      "world": "world:renji-receipt-scroll-experiment",
+      "disposition": "ADMIT",
+      "houseAdmission": false
     }
   ],
-  "expected_final": {
-    "source": "SAME ROOT",
-    "trace": "INTACT",
-    "transformations": "DECLARED",
-    "presentation": "LOCAL",
-    "authority": "NONE INHERITED",
-    "admission": "LOCAL"
-  }
+  "boundedClaims": [
+    "byte-bound declared ancestry",
+    "frozen EN -> JA -> EN intermediate",
+    "standalone incapable foreign renderer",
+    "signed experimental local disposition"
+  ],
+  "unearnedClaims": [
+    "semantic equivalence",
+    "independent translation quality",
+    "owner identity",
+    "native Manga Press edition admission",
+    "publication"
+  ]
 }

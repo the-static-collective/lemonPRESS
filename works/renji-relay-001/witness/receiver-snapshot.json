@@ -1,0 +1,16 @@
+{
+  "schema": "relatte.local-receiver-snapshot/v0",
+  "world_id": "world:renji-receipt-scroll-experiment",
+  "receiver_particular": "particular:experimental-arrival-room",
+  "history_head": "relatte-local-event-v0:edddb2fb4186193948b22b939c6caf5520156e520f37a8e47a778c911ca1924f",
+  "received": [
+    "relatte-crossing-v0:21bfc4a073d204cd2d658811d59a316403cb36c8f195134de25c66140193afe2"
+  ],
+  "held": [],
+  "admitted": [
+    "relatte-crossing-v0:21bfc4a073d204cd2d658811d59a316403cb36c8f195134de25c66140193afe2"
+  ],
+  "refused": [],
+  "returned": [],
+  "state_ref": "relatte-local-state-v0:ff867be351a0f983d840422372f4d9e0ecea81d39cf9a914c07003c9ffcffeca"
+}

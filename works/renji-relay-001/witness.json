@@ -1,0 +1,52 @@
+{
+  "specimen": "RENJI_RELAY_001",
+  "date": "2026-10-08",
+  "sourceSha256": "bf872940599f2af4114bf75653655dd22e8441bfe436d5d3e53252eb4e3307d5",
+  "sourceBytes": 3806655,
+  "sourceDimensions": [
+    1086,
+    1448
+  ],
+  "verifiedDonors": [
+    "RENJI_SOURCE_001"
+  ],
+  "otherDonors": "not rematerialized in this run",
+  "recipeSha256": "e4a6675fa06256bb50b21df51969ce995c31ea8146106581779a83f13fdf961c",
+  "packetSha256": "ed8fb77a216fc2ff208063bdd06d81af23d58dc00e50d09d840cfe53255c2f71",
+  "pressHead": "865a39a55a137e23a3babeb95f9e3116196e90740a26f5cbb327e486efe269c2",
+  "crossingId": "relatte-crossing-v0:21bfc4a073d204cd2d658811d59a316403cb36c8f195134de25c66140193afe2",
+  "arrivalSha256": "e3c318d2b1354197671bae149b8f59e6110dd0bf4f85646cb854995a96067155",
+  "renderReceiptSha256": "65f7ab6341827649d6b753cd46086cd671b1add48ae5e29e891e8612673dada0",
+  "relatteCommit": "dcc8cdca84c440aa4294134f020fb7095bf87f24",
+  "nativeSignatureAudit": "PASS",
+  "independentColdAudit": "VALID_ADMISSION",
+  "restartReplay": "PASS",
+  "tests": {
+    "synthetic": 18,
+    "realDonor": 18,
+    "hostileCases": 13
+  },
+  "houseAdmission": false,
+  "publication": false,
+  "artifactFiles": {
+    "crossing.json": "0f440b2bfa501bdbe89b003e2baa0ff3609d9f15aaf84fa301a4ef4b6e0ac926",
+    "receive-receipt.json": "d99d29468d524dca1bfd44cc3b9468e6520ff63dc6f81f5e4df1ede20d90aa20",
+    "local-disposition.json": "22d41ef6f78287232cdfd8e42b27b9711c8dbeb8ff53bd886b35be4ebe0c1d8e",
+    "receiver-snapshot.json": "06830486049812f49f4e92ca976d50c6489de14f4945884a328041f954c217bf",
+    "receiver-journal.jsonl": "55b52daf47262215168437a1071d425a273c33f8cc873640ee8585011461c7f5",
+    "render-receipt.json": "65f7ab6341827649d6b753cd46086cd671b1add48ae5e29e891e8612673dada0"
+  },
+  "visualChecks": {
+    "placements": 10,
+    "JapanesePrimary": 10,
+    "desktopOverflow": false,
+    "mobileOverflow": false
+  },
+  "arrivalFolder": "https://drive.google.com/drive/folders/11rnI12fpU8-9xeOA0YrxgTI6x2MKzp34",
+  "arrivalFiles": {
+    "html": "https://drive.google.com/file/d/12PQeTvFBBc2OY27v96O60vCfxerdL3tE/view",
+    "receipt": "https://drive.google.com/file/d/1DljrKFQadK9nzVKZMN9yLkkg6Th6byxF/view",
+    "bundle": "https://drive.google.com/file/d/18K4UDK0JR0NnXCwuXKHEw3QEkTHXl_co/view"
+  },
+  "bundleSha256": "65249a94fadb7b7ac103d4e8b4a21b22cc723bf2a53be01645fa760c8689fd8a"
+}

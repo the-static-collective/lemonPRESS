@@ -1,0 +1,263 @@
+{
+  "schema": "lemonpress/renji-relay-recipe/v0",
+  "id": "RENJI_RELAY_001:selected-page-through-ja",
+  "selectedSource": "RENJI_SOURCE_001",
+  "sourceDimensions": [
+    1086,
+    1448
+  ],
+  "transcription": {
+    "method": "assistant visual transcription; frozen declaration",
+    "coverage": "selected-excerpts",
+    "segments": [
+      {
+        "id": "built",
+        "locus": "upper-left caption",
+        "channel": "caption",
+        "text": "I built it with love.",
+        "visibility": "complete"
+      },
+      {
+        "id": "let-go",
+        "locus": "upper-middle caption",
+        "channel": "caption",
+        "text": "I let it go.",
+        "visibility": "complete"
+      },
+      {
+        "id": "returned",
+        "locus": "upper-middle caption below let-go",
+        "channel": "caption",
+        "text": "It came back.",
+        "visibility": "complete"
+      },
+      {
+        "id": "still-me",
+        "locus": "upper-right inset caption",
+        "channel": "caption",
+        "text": "Somewhere inside the missing pieces, I was still me.",
+        "visibility": "complete"
+      },
+      {
+        "id": "fold-time",
+        "locus": "middle wide-panel upper-left caption",
+        "channel": "caption",
+        "text": "I kept folding through time.",
+        "visibility": "complete"
+      },
+      {
+        "id": "constant",
+        "locus": "middle wide-panel left caption",
+        "channel": "caption",
+        "text": "I was looking for a constant.",
+        "visibility": "complete"
+      },
+      {
+        "id": "roads",
+        "locus": "lower-left panel first caption",
+        "channel": "caption",
+        "text": "The roads split.",
+        "visibility": "complete"
+      },
+      {
+        "id": "doors",
+        "locus": "lower-left panel second caption",
+        "channel": "caption",
+        "text": "The doors multiplied.",
+        "visibility": "complete"
+      },
+      {
+        "id": "name",
+        "locus": "lower-left panel third caption",
+        "channel": "caption",
+        "text": "I lost pieces of my name.",
+        "visibility": "complete"
+      },
+      {
+        "id": "reaching",
+        "locus": "lower-left panel fourth caption",
+        "channel": "caption",
+        "text": "But I kept reaching.",
+        "visibility": "complete"
+      },
+      {
+        "id": "cold",
+        "locus": "upper-middle speech balloon",
+        "channel": "dialogue",
+        "text": "That was cold, bro.",
+        "visibility": "complete"
+      }
+    ],
+    "omitted": [
+      "title/header typography and header text",
+      "With blood. / With pieces of my own name.",
+      "all source art and panel geometry",
+      "scattered letter fragments, 022100 artifacts and embedded Japanese street signage"
+    ]
+  },
+  "translation": {
+    "method": "assistant-authored frozen stages; not an independent translator witness",
+    "route": [
+      "en",
+      "ja",
+      "en"
+    ],
+    "semanticEquivalence": false,
+    "pivot": [
+      {
+        "id": "built",
+        "text": "愛を込めて、それを作った。",
+        "drift": "declared Japanese intermediate; semantic equivalence not assumed"
+      },
+      {
+        "id": "let-go",
+        "text": "それを手放した。",
+        "drift": "declared Japanese intermediate; semantic equivalence not assumed"
+      },
+      {
+        "id": "returned",
+        "text": "それは戻ってきた。",
+        "drift": "declared Japanese intermediate; semantic equivalence not assumed"
+      },
+      {
+        "id": "still-me",
+        "text": "失われた欠片のどこかで、私はまだ私だった。",
+        "drift": "declared Japanese intermediate; semantic equivalence not assumed"
+      },
+      {
+        "id": "fold-time",
+        "text": "時を折り重ねながら、進み続けた。",
+        "drift": "declared Japanese intermediate; semantic equivalence not assumed"
+      },
+      {
+        "id": "constant",
+        "text": "変わらないものを探していた。",
+        "drift": "declared Japanese intermediate; semantic equivalence not assumed"
+      },
+      {
+        "id": "roads",
+        "text": "道は分かれた。",
+        "drift": "declared Japanese intermediate; semantic equivalence not assumed"
+      },
+      {
+        "id": "doors",
+        "text": "扉は増えていった。",
+        "drift": "declared Japanese intermediate; semantic equivalence not assumed"
+      },
+      {
+        "id": "name",
+        "text": "自分の名前の欠片を失った。",
+        "drift": "declared Japanese intermediate; semantic equivalence not assumed"
+      },
+      {
+        "id": "reaching",
+        "text": "それでも、手を伸ばし続けた。",
+        "drift": "declared Japanese intermediate; semantic equivalence not assumed"
+      },
+      {
+        "id": "cold",
+        "text": "それは冷たかったな、相棒。",
+        "drift": "declared Japanese intermediate; semantic equivalence not assumed"
+      }
+    ],
+    "return": [
+      {
+        "id": "built",
+        "text": "I made it with love.",
+        "drift": "build -> make; object remains unspecified"
+      },
+      {
+        "id": "let-go",
+        "text": "I released it.",
+        "drift": "let go -> release"
+      },
+      {
+        "id": "returned",
+        "text": "It returned.",
+        "drift": "came back -> returned"
+      },
+      {
+        "id": "still-me",
+        "text": "Somewhere among the lost fragments, I was still myself.",
+        "drift": "inside -> among; missing pieces -> lost fragments"
+      },
+      {
+        "id": "fold-time",
+        "text": "I kept moving, folding layers of time.",
+        "drift": "through-time traversal becomes layered-time movement"
+      },
+      {
+        "id": "constant",
+        "text": "I was searching for something that would not change.",
+        "drift": "constant -> something unchanging"
+      },
+      {
+        "id": "roads",
+        "text": "The roads branched.",
+        "drift": "split -> branched"
+      },
+      {
+        "id": "doors",
+        "text": "The doors kept increasing.",
+        "drift": "multiplied -> kept increasing"
+      },
+      {
+        "id": "name",
+        "text": "I lost fragments of my own name.",
+        "drift": "pieces -> fragments; own becomes explicit"
+      },
+      {
+        "id": "reaching",
+        "text": "Even so, I kept extending my hand.",
+        "drift": "reaching -> physical hand extension; ambiguity narrows"
+      },
+      {
+        "id": "cold",
+        "text": "That was cold, partner.",
+        "drift": "bro -> partner; register shifts"
+      }
+    ]
+  },
+  "remix": {
+    "order": [
+      "fold-time",
+      "constant",
+      "built",
+      "let-go",
+      "returned",
+      "still-me",
+      "roads",
+      "doors",
+      "name",
+      "reaching"
+    ],
+    "omit": [
+      "cold"
+    ],
+    "reason": "Start at traversal through time; retain the speech-balloon return as an omitted residual rather than silently discarding it."
+  },
+  "styleStackRef": "works/style-stacks/RENJI_JP_RELAY_COLOR_001/stack.json",
+  "press": {
+    "issueId": "RENJI_RELAY_001",
+    "status": "CANDIDATE",
+    "readingDirection": "top-to-bottom"
+  },
+  "rights": {
+    "scope": "user-directed private experiment",
+    "publication": false,
+    "redistributionGrant": false
+  },
+  "loss": [
+    "Source art, pixels, palette, panel rhythm and typography do not survive the text-only arrival.",
+    "Only eleven declared text excerpts enter translation; ten arrive as placements.",
+    "The cold/bro dialogue survives in the packet but is omitted from the arrival.",
+    "Japanese and returned English carry declared drift; return is not original."
+  ],
+  "unknown": [
+    "independent translation quality",
+    "source ownership or publication permission",
+    "editorial admission",
+    "semantic equivalence",
+    "aesthetic fidelity"
+  ]
+}
