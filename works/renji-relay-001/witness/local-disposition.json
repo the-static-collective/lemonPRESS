@@ -1,0 +1,43 @@
+{
+  "schema": "relatte.receipt/v0",
+  "crossing_id": "relatte-crossing-v0:21bfc4a073d204cd2d658811d59a316403cb36c8f195134de25c66140193afe2",
+  "world_id": "world:renji-receipt-scroll-experiment",
+  "receiver_particular": "particular:experimental-arrival-room",
+  "kind": "R3_ADMIT",
+  "semantic_effect": "experimental-local-render-retained",
+  "contract_ref": "contract:private-draft-render/v0",
+  "pre_state_ref": "relatte-local-state-v0:55c1fb467146fbe5f27ad8ef74cd262a4fd54a0d98b0dfb4c789eb981e6482a5",
+  "post_state_ref": "relatte-local-state-v0:ff867be351a0f983d840422372f4d9e0ecea81d39cf9a914c07003c9ffcffeca",
+  "descendant_refs": [
+    "sha256:e3c318d2b1354197671bae149b8f59e6110dd0bf4f85646cb854995a96067155"
+  ],
+  "residual_refs": [],
+  "note": "render-receipt-sha256:65f7ab6341827649d6b753cd46086cd671b1add48ae5e29e891e8612673dada0; experimental local ADMIT; no LemonPRESS house admission, source authority or publication.",
+  "created_at": "2026-10-08T08:25:09.147Z",
+  "extensions": {
+    "local_receiver": {
+      "disposition": "ADMIT",
+      "receive_receipt_id": "relatte-receipt-v0:ee82e6af5bb45deaae46276450bc3ffff905582472e26f3521a997b5662c8a25",
+      "protected_payload_effect": true,
+      "history_head_before": "relatte-local-event-v0:693dc56d00e6296718f503f362a3ab9935f83035740e89846fba623e1af8c1c3",
+      "laws": [
+        "RECEIPT != ADMISSION",
+        "REFUSE != DELETE",
+        "HOLD != ADMIT",
+        "RETURN != TRANSFER OF AUTHORITY"
+      ]
+    }
+  },
+  "receipt_id": "relatte-receipt-v0:147306f5d69fcf782ac25c65ce54530f71b9a5834ed8e4999275c770ebe3ee60",
+  "signing": {
+    "algorithm": "ECDSA-P256-SHA256",
+    "public_key": {
+      "kty": "EC",
+      "crv": "P-256",
+      "x": "AHgsPq4n56DCqDcDjUCh6NGi8PoDKidmdNZnwPzfIIs",
+      "y": "q4DmcYwqUHnG9UfE7jyPHQ5ZZ_9SmIZl2tF8upfRjA0"
+    },
+    "signature": "orZZXYYZS4Mguc65I0KFn4IwKs7vFaxZpyjzlgAy3gJmHaTzFTd3l3BRlO0NvEWmBss8NPWUpStpefc8im-xPA",
+    "domain": "relatte.receipt-signature/v0"
+  }
+}

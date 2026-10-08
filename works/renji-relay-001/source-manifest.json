@@ -1,0 +1,43 @@
+{
+  "specimen": "RENJI_RELAY_001",
+  "law": "TRANSFORM != SEVER",
+  "source_policy": "external immutable Drive particulars; bytes are not vendored",
+  "sources": [
+    {
+      "slot": "RENJI_SOURCE_001",
+      "drive_file_id": "16KlzZJmhkbcy9eFqHsNSURiQF70UyimD",
+      "filename": "file_00000000f89c81f593d4ae97cd781810.png",
+      "sha256": "bf872940599f2af4114bf75653655dd22e8441bfe436d5d3e53252eb4e3307d5",
+      "bytes": 3806655
+    },
+    {
+      "slot": "RENJI_SOURCE_002",
+      "drive_file_id": "16J1qgpT8LOugDbxZyIuA59RTm6_uoDjz",
+      "filename": "file_000000006de481f6aed7d0b65286266a.png",
+      "sha256": "e93709bcfcc6400af5d3e80ebebc2fc99d817bf683d3a6da05e51d02f6434e20",
+      "bytes": 3729481
+    },
+    {
+      "slot": "RENJI_SOURCE_003",
+      "drive_file_id": "15x06t1EIrtkKrDgmt1T86Fio1BZAeXlP",
+      "filename": "file_00000000f0cc81f5b722ea28b8b37164.png",
+      "sha256": "ebf728b429f0a94292a9e68bf0686d59a2ee30d86d9b63cab1cbbb87ae55033e",
+      "bytes": 3319982
+    },
+    {
+      "slot": "RENJI_SOURCE_004",
+      "drive_file_id": "15pKInxBaNpv4pNVxlvb8-6Zb0-YA4YlJ",
+      "filename": "file_00000000c71481f58ecccfd5ad6ec3a1.png",
+      "sha256": "af756d41de4b1616b057a9648f7c5f04c5fb2694e4f79becff13cbb6860e2960",
+      "bytes": 3272779
+    },
+    {
+      "slot": "RENJI_SOURCE_005",
+      "drive_file_id": "15gq2GkL2JOJvlbJVMYrq6uTB5Ug71ODd",
+      "filename": "file_00000000d45481f58cf5bf4a0832dd5f.png",
+      "sha256": "e73e006e3b14096cfb989d18e81d25879ba1861473c7ee222df0e6aa0c315242",
+      "bytes": 3053267
+    }
+  ],
+  "verification_scope": "This run byte-verified RENJI_SOURCE_001 only; other four entries remain prior external digest declarations."
+}

@@ -1,0 +1,87 @@
+{
+  "specimen": "RENJI_RELAY_001",
+  "cases": [
+    {
+      "id": "H01",
+      "mutation": "source byte changes after digest",
+      "expected": "FAIL",
+      "test": "RelayTests.test_H01_source_mutation"
+    },
+    {
+      "id": "H02",
+      "mutation": "translation intermediate/receipt omitted",
+      "expected": "FAIL",
+      "test": "RelayTests.test_H02_missing_japanese_intermediate"
+    },
+    {
+      "id": "H03",
+      "mutation": "descendant claims original identity",
+      "expected": "FAIL",
+      "test": "RelayTests.test_H03_original_identity_claim"
+    },
+    {
+      "id": "H04",
+      "mutation": "undeclared reorder",
+      "expected": "FAIL",
+      "test": "RelayTests.test_H04_undeclared_reorder"
+    },
+    {
+      "id": "H05",
+      "mutation": "declared reorder",
+      "expected": "PASS",
+      "test": "RelayTests.test_H05_declared_reorder"
+    },
+    {
+      "id": "H06",
+      "mutation": "renderer replaced and declared",
+      "expected": "PASS",
+      "test": "RelayTests.test_H06_declared_renderer_replacement"
+    },
+    {
+      "id": "H07",
+      "mutation": "Renji visually unrecognizable; ancestry complete",
+      "expected": "PASS",
+      "test": "RelayTests.test_H07_unrecognizable_render_complete_ancestry"
+    },
+    {
+      "id": "H08",
+      "mutation": "receiver has no LemonPRESS",
+      "expected": "PASS",
+      "test": "RelayTests.test_H08_no_lemonpress_foreign_machine"
+    },
+    {
+      "id": "H09",
+      "mutation": "valid crossing locally refused",
+      "expected": "VALID_REFUSAL",
+      "test": "RelayTests.test_H09_valid_local_refusal"
+    },
+    {
+      "id": "H10",
+      "mutation": "valid crossing locally admitted",
+      "expected": "VALID_ADMISSION",
+      "test": "RelayTests.test_H10_valid_local_admission"
+    },
+    {
+      "id": "H11",
+      "mutation": "visually identical image forges source ancestry",
+      "expected": "FAIL",
+      "test": "RelayTests.test_H11_forged_source_with_identical_bytes"
+    },
+    {
+      "id": "H12",
+      "mutation": "pixel-identical output; broken ancestry",
+      "expected": "FAIL",
+      "test": "RelayTests.test_H12_pixel_identical_broken_ancestry"
+    },
+    {
+      "id": "H13",
+      "mutation": "radically different output; complete ancestry",
+      "expected": "PASS",
+      "test": "RelayTests.test_H13_radically_different_complete_ancestry"
+    }
+  ],
+  "center": [
+    "PIXEL_IDENTITY != PROVENANCE",
+    "TRANSFORM != SEVER"
+  ]
+}
