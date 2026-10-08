@@ -1,0 +1,74 @@
+{
+  "specimen": "RENJI_RELAY_001",
+  "cases": [
+    {
+      "id": "H01",
+      "mutation": "source byte changes after digest",
+      "expected": "FAIL"
+    },
+    {
+      "id": "H02",
+      "mutation": "translation intermediate/receipt omitted",
+      "expected": "FAIL"
+    },
+    {
+      "id": "H03",
+      "mutation": "descendant claims original identity",
+      "expected": "FAIL"
+    },
+    {
+      "id": "H04",
+      "mutation": "undeclared reorder",
+      "expected": "FAIL"
+    },
+    {
+      "id": "H05",
+      "mutation": "declared reorder",
+      "expected": "PASS"
+    },
+    {
+      "id": "H06",
+      "mutation": "renderer replaced and declared",
+      "expected": "PASS"
+    },
+    {
+      "id": "H07",
+      "mutation": "Renji visually unrecognizable; ancestry complete",
+      "expected": "PASS"
+    },
+    {
+      "id": "H08",
+      "mutation": "receiver has no LemonPRESS",
+      "expected": "PASS"
+    },
+    {
+      "id": "H09",
+      "mutation": "valid crossing locally refused",
+      "expected": "VALID_REFUSAL"
+    },
+    {
+      "id": "H10",
+      "mutation": "valid crossing locally admitted",
+      "expected": "VALID_ADMISSION"
+    },
+    {
+      "id": "H11",
+      "mutation": "visually identical image forges source ancestry",
+      "expected": "FAIL"
+    },
+    {
+      "id": "H12",
+      "mutation": "pixel-identical output; broken ancestry",
+      "expected": "FAIL"
+    },
+    {
+      "id": "H13",
+      "mutation": "radically different output; complete ancestry",
+      "expected": "PASS"
+    }
+  ],
+  "center": [
+    "PIXEL_IDENTITY != PROVENANCE",
+    "TRANSFORM != SEVER"
+  ]
+}
