@@ -1,0 +1,165 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "sequence": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "page": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "region": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "page",
+          "region"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "crop": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "page": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "region": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "page",
+          "region"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "captions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "narration": {
+      "type": "string",
+      "minLength": 1
+    },
+    "interpretation": {
+      "type": "string",
+      "minLength": 1
+    },
+    "pov": {
+      "type": "string",
+      "minLength": 1
+    },
+    "localChronology": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "admission": {
+      "type": "object",
+      "properties": {
+        "state": {
+          "enum": [
+            "pending",
+            "admitted"
+          ]
+        },
+        "receipt": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "state",
+        "receipt"
+      ],
+      "additionalProperties": false
+    },
+    "received": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "receiptRef": {
+            "type": "string",
+            "pattern": "^sha256:[0-9a-f]{64}$"
+          },
+          "emissionRef": {
+            "type": "string",
+            "pattern": "^sha256:[0-9a-f]{64}$"
+          },
+          "disposition": {
+            "enum": [
+              "HOLD",
+              "ADMIT",
+              "REFUSE",
+              "RETURN"
+            ]
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "receiptRef",
+          "emissionRef",
+          "disposition",
+          "reason"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "authority": {
+      "type": "object",
+      "properties": {
+        "houseAdmission": {
+          "const": false
+        },
+        "publication": {
+          "const": false
+        },
+        "canonOverSibling": {
+          "const": false
+        }
+      },
+      "required": [
+        "houseAdmission",
+        "publication",
+        "canonOverSibling"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "sequence",
+    "crop",
+    "captions",
+    "narration",
+    "interpretation",
+    "pov",
+    "localChronology",
+    "admission",
+    "received",
+    "authority"
+  ],
+  "additionalProperties": false
+}

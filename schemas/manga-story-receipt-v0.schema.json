@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "schema": {
+      "const": "lemonpress/manga-story-receipt/v0"
+    },
+    "identity": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-f]{64}$"
+    },
+    "forkRef": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-f]{64}$"
+    },
+    "donorFingerprint": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "originBranch": {
+      "type": "string",
+      "minLength": 1
+    },
+    "originHistoryHead": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-f]{64}$"
+    },
+    "particular": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "body": {
+          "type": "string",
+          "minLength": 1
+        },
+        "mediaType": {
+          "const": "text/plain"
+        },
+        "meaning": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "id",
+        "body",
+        "mediaType",
+        "meaning"
+      ],
+      "additionalProperties": false
+    },
+    "authority": {
+      "type": "object",
+      "properties": {
+        "houseAdmission": {
+          "const": false
+        },
+        "publication": {
+          "const": false
+        },
+        "canonOverSibling": {
+          "const": false
+        }
+      },
+      "required": [
+        "houseAdmission",
+        "publication",
+        "canonOverSibling"
+      ],
+      "additionalProperties": false
+    },
+    "identification": {
+      "const": "content-addressed; not a cryptographic signature"
+    }
+  },
+  "required": [
+    "schema",
+    "identity",
+    "forkRef",
+    "donorFingerprint",
+    "originBranch",
+    "originHistoryHead",
+    "particular",
+    "authority",
+    "identification"
+  ],
+  "additionalProperties": false
+}

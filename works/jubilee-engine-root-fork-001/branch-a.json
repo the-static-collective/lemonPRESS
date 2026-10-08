@@ -1,0 +1,75 @@
+{
+  "initial": {
+    "sequence": [
+      {
+        "page": 1,
+        "region": "whole-page donor substrate"
+      },
+      {
+        "page": 2,
+        "region": "whole-page donor substrate"
+      },
+      {
+        "page": 3,
+        "region": "whole-page donor substrate"
+      },
+      {
+        "page": 4,
+        "region": "whole-page donor substrate"
+      },
+      {
+        "page": 5,
+        "region": "whole-page donor substrate"
+      },
+      {
+        "page": 6,
+        "region": "whole-page donor substrate"
+      },
+      {
+        "page": 7,
+        "region": "whole-page donor substrate"
+      },
+      {
+        "page": 8,
+        "region": "whole-page donor substrate"
+      },
+      {
+        "page": 9,
+        "region": "whole-page donor substrate"
+      },
+      {
+        "page": 10,
+        "region": "whole-page donor substrate"
+      }
+    ],
+    "crop": [],
+    "captions": [
+      "022100"
+    ],
+    "narration": "The last stop has moved.",
+    "interpretation": "Branch A retains its own reading of the journey.",
+    "pov": "the traveler of THE LAST STOP MOVED",
+    "localChronology": [
+      "local opening; no global clock asserted"
+    ],
+    "admission": {
+      "state": "pending",
+      "receipt": null
+    },
+    "received": [],
+    "authority": {
+      "houseAdmission": false,
+      "publication": false,
+      "canonOverSibling": false
+    }
+  },
+  "mutations": [],
+  "emissions": [
+    {
+      "id": "story-receipt:empty-chair-001",
+      "body": "RECEIVED:\none empty chair",
+      "mediaType": "text/plain",
+      "meaning": "A records an empty chair. Its meaning in B is not commanded by A."
+    }
+  ]
+}

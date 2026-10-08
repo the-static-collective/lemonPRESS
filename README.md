@@ -67,3 +67,7 @@ The physical arm begins as an approved 6 × 9 print proof; **proof is not public
 The recovered book shelf is registered under [`library/`](library/README.md). Registration gives a work a house address without automatically publishing its private source body.
 
 See [`library/catalog.yaml`](library/catalog.yaml) for the current machine-readable register.
+
+## Manga root fork
+
+[ROOT-FORK-JUBILEE-ENGINE-001](works/jubilee-engine-root-fork-001/README.md) gives two sibling draft stories independent histories over one declared donor substrate. Exact identified receipts cross branches with local dispositions; ancestry survives without importing a sibling's POV, chronology or admission.

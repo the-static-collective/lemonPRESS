@@ -1,0 +1,137 @@
+{
+  "initial": {
+    "sequence": [
+      {
+        "page": 1,
+        "region": "whole-page donor substrate"
+      },
+      {
+        "page": 2,
+        "region": "whole-page donor substrate"
+      },
+      {
+        "page": 3,
+        "region": "whole-page donor substrate"
+      },
+      {
+        "page": 4,
+        "region": "whole-page donor substrate"
+      },
+      {
+        "page": 5,
+        "region": "whole-page donor substrate"
+      },
+      {
+        "page": 6,
+        "region": "whole-page donor substrate"
+      },
+      {
+        "page": 7,
+        "region": "whole-page donor substrate"
+      },
+      {
+        "page": 8,
+        "region": "whole-page donor substrate"
+      },
+      {
+        "page": 9,
+        "region": "whole-page donor substrate"
+      },
+      {
+        "page": 10,
+        "region": "whole-page donor substrate"
+      }
+    ],
+    "crop": [],
+    "captions": [
+      "022100"
+    ],
+    "narration": "The traveler seeks a scattered reality-restoring Engine to get home.",
+    "interpretation": "022100 may be a coordinate, an Engine checksum, or the traveler’s continuity checksum; these remain branch-local hypotheses.",
+    "pov": "the stranded traveler of JUBILEE ENGINE",
+    "localChronology": [
+      "local opening; no global clock asserted"
+    ],
+    "admission": {
+      "state": "pending",
+      "receipt": null
+    },
+    "received": [],
+    "authority": {
+      "houseAdmission": false,
+      "publication": false,
+      "canonOverSibling": false
+    }
+  },
+  "mutations": [
+    {
+      "state": {
+        "sequence": [
+          {
+            "page": 10,
+            "region": "whole-page donor substrate"
+          },
+          {
+            "page": 9,
+            "region": "whole-page donor substrate"
+          },
+          {
+            "page": 8,
+            "region": "whole-page donor substrate"
+          },
+          {
+            "page": 7,
+            "region": "whole-page donor substrate"
+          },
+          {
+            "page": 6,
+            "region": "whole-page donor substrate"
+          },
+          {
+            "page": 5,
+            "region": "whole-page donor substrate"
+          },
+          {
+            "page": 4,
+            "region": "whole-page donor substrate"
+          },
+          {
+            "page": 3,
+            "region": "whole-page donor substrate"
+          },
+          {
+            "page": 2,
+            "region": "whole-page donor substrate"
+          },
+          {
+            "page": 1,
+            "region": "whole-page donor substrate"
+          }
+        ],
+        "crop": [],
+        "captions": [
+          "HOME != ORIGINAL COORDINATE",
+          "022100"
+        ],
+        "narration": "The traveler seeks a scattered reality-restoring Engine to get home.",
+        "interpretation": "The relationships between independently constituted participants are the Engine; return cannot erase history, force reconciliation, or manufacture love.",
+        "pov": "the stranded traveler of JUBILEE ENGINE",
+        "localChronology": [
+          "a receipt consequence appears before its generating event is narrated in A"
+        ],
+        "admission": {
+          "state": "pending",
+          "receipt": null
+        },
+        "received": [],
+        "authority": {
+          "houseAdmission": false,
+          "publication": false,
+          "canonOverSibling": false
+        }
+      },
+      "reason": "B independently changes captions and reading order; no A event is rewritten."
+    }
+  ],
+  "emissions": []
+}
