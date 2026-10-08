@@ -1,0 +1,45 @@
+{
+  "schema_version": "lemonpress-skypaper-v0",
+  "paper_id": "lemonpress:skypaper:computer-books:001",
+  "title": "A Book That Can Be Entered Anywhere: Computer-Native Literature Under Partial Retrieval",
+  "short_title": "Computer Books Under Partial Retrieval",
+  "series": "SKYPAPER",
+  "number": 1,
+  "version": "0.1",
+  "date": "2026-10-07",
+  "status": "public-preprint",
+  "publisher": "lemonPRESS",
+  "authors": [
+    "The Static Collective / lemonPRESS"
+  ],
+  "canonical_url": "https://lemonpress-computer-books.vercel.app/papers/computer-books-001/",
+  "abstract": "A bounded executable experiment showing that a foreign machine reader can enter a small computer-native book from ordinary public HTTPS while preserving work/edition identity, uncertainty, declared traversal, and no-authority boundaries.",
+  "keywords": [
+    "computer-native literature",
+    "partial retrieval",
+    "machine-readable publication",
+    "provenance",
+    "uncertainty",
+    "llms.txt",
+    "fragment-addressable books"
+  ],
+  "artifacts": {
+    "markdown": "https://lemonpress-computer-books.vercel.app/papers/computer-books-001/index.md",
+    "claims": "https://lemonpress-computer-books.vercel.app/papers/computer-books-001/claims.json",
+    "citation": "https://lemonpress-computer-books.vercel.app/papers/computer-books-001/citation.bib",
+    "machine_orientation": "https://lemonpress-computer-books.vercel.app/papers/computer-books-001/llms.txt",
+    "experiment_entrypoint": "https://lemonpress-computer-books.vercel.app/llms.txt"
+  },
+  "primary_result": {
+    "witness": "DISSEMINATION WITNESS 002",
+    "score": "6/6",
+    "external_http_observed": true
+  },
+  "claim_boundary": [
+    "not a universal standard",
+    "not evidence of search indexing",
+    "not evidence of Common Crawl inclusion",
+    "not evidence of archival capture",
+    "not evidence of model-training ingestion"
+  ]
+}
