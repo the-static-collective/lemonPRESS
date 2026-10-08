@@ -1,0 +1,114 @@
+{
+  "schema": "lemonpress/manga-style-profile/v0",
+  "id": "LANGUAGE_THROUGH_MANGA_001",
+  "title": "LANGUAGE THROUGH MANGA 001",
+  "description": "Japanese is primary; English is a secondary witness. Channels keep distinct identities.",
+  "tags": [
+    "declared-behavior",
+    "founding-witness"
+  ],
+  "laws": [
+    "STYLE != CONTENT",
+    "STYLE != AUTHORITY",
+    "STYLE != ADMISSION",
+    "COMPOSITION != COLLAPSE",
+    "LAYER != REPLACEMENT",
+    "PRIMARY != GLOSS",
+    "GLOSS != REPLACEMENT",
+    "WORLD TEXT != DIALOGUE",
+    "STYLE CONFLICT MUST BE RESOLVED EXPLICITLY",
+    "SOURCE TRACE MAY SURVIVE",
+    "LANGUAGE PASSAGE MAY REMAIN VISIBLE",
+    "STACK CHANGE != SAME CANDIDATE"
+  ],
+  "domains": {
+    "languageBehavior": "own",
+    "textChannels": "own",
+    "visualPalette": "none",
+    "panelBehavior": "none",
+    "tone": "none",
+    "worldMotifs": "suggest"
+  },
+  "behavior": {
+    "languageBehavior": {
+      "primaryLanguage": "ja",
+      "glossLanguage": "en",
+      "routeVisible": true,
+      "sourceTraceVisible": true
+    },
+    "textChannels": {
+      "caption": {
+        "primary": "ja",
+        "gloss": "en",
+        "relation": "witness",
+        "purpose": "caption"
+      },
+      "dialogue": {
+        "primary": "ja",
+        "gloss": "en",
+        "relation": "witness",
+        "purpose": "dialogue"
+      },
+      "embedded_source_text": {
+        "primary": "ja",
+        "gloss": "en",
+        "relation": "witness",
+        "purpose": "embedded_source_text"
+      },
+      "handwriting": {
+        "primary": "ja",
+        "gloss": "en",
+        "relation": "witness",
+        "purpose": "handwriting"
+      },
+      "meta_text": {
+        "primary": "ja",
+        "gloss": "en",
+        "relation": "witness",
+        "purpose": "meta_text"
+      },
+      "screen_ui": {
+        "primary": "ja",
+        "gloss": "en",
+        "relation": "witness",
+        "purpose": "screen_ui"
+      },
+      "sfx": {
+        "primary": "ja",
+        "gloss": "en",
+        "relation": "witness",
+        "purpose": "sfx"
+      },
+      "signage": {
+        "primary": "ja",
+        "gloss": "en",
+        "relation": "witness",
+        "purpose": "signage"
+      },
+      "title_card": {
+        "primary": "ja",
+        "gloss": "en",
+        "relation": "witness",
+        "purpose": "title_card"
+      },
+      "world_text": {
+        "primary": "ja",
+        "gloss": "en",
+        "relation": "witness",
+        "purpose": "world_text"
+      }
+    },
+    "worldMotifs": {
+      "receipts": "language-route witness may remain visible"
+    }
+  },
+  "composition": {
+    "layer": "bounded behavior overlay",
+    "replacesSource": false
+  },
+  "authority": {
+    "semanticAuthority": false,
+    "admission": false,
+    "publication": false
+  }
+}

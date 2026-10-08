@@ -1,0 +1,536 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema": {
+      "const": "lemonpress/manga-style-profile/v0"
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "laws": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "domains": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "languageBehavior": {
+          "enum": [
+            "own",
+            "suggest",
+            "none"
+          ]
+        },
+        "textChannels": {
+          "enum": [
+            "own",
+            "suggest",
+            "none"
+          ]
+        },
+        "visualPalette": {
+          "enum": [
+            "own",
+            "suggest",
+            "none"
+          ]
+        },
+        "panelBehavior": {
+          "enum": [
+            "own",
+            "suggest",
+            "none"
+          ]
+        },
+        "tone": {
+          "enum": [
+            "own",
+            "suggest",
+            "none"
+          ]
+        },
+        "worldMotifs": {
+          "enum": [
+            "own",
+            "suggest",
+            "none"
+          ]
+        }
+      },
+      "required": [
+        "languageBehavior",
+        "textChannels",
+        "visualPalette",
+        "panelBehavior",
+        "tone",
+        "worldMotifs"
+      ]
+    },
+    "behavior": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "languageBehavior": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "primaryLanguage": {
+              "type": "string",
+              "minLength": 1
+            },
+            "glossLanguage": {
+              "type": "string",
+              "minLength": 1
+            },
+            "routeVisible": {
+              "type": "boolean"
+            },
+            "sourceTraceVisible": {
+              "type": "boolean"
+            }
+          },
+          "required": []
+        },
+        "textChannels": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "handwriting": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "primary": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "gloss": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "relation": {
+                  "const": "witness"
+                },
+                "purpose": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "primary",
+                "gloss",
+                "relation",
+                "purpose"
+              ]
+            },
+            "meta_text": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "primary": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "gloss": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "relation": {
+                  "const": "witness"
+                },
+                "purpose": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "primary",
+                "gloss",
+                "relation",
+                "purpose"
+              ]
+            },
+            "caption": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "primary": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "gloss": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "relation": {
+                  "const": "witness"
+                },
+                "purpose": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "primary",
+                "gloss",
+                "relation",
+                "purpose"
+              ]
+            },
+            "screen_ui": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "primary": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "gloss": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "relation": {
+                  "const": "witness"
+                },
+                "purpose": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "primary",
+                "gloss",
+                "relation",
+                "purpose"
+              ]
+            },
+            "title_card": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "primary": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "gloss": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "relation": {
+                  "const": "witness"
+                },
+                "purpose": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "primary",
+                "gloss",
+                "relation",
+                "purpose"
+              ]
+            },
+            "signage": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "primary": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "gloss": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "relation": {
+                  "const": "witness"
+                },
+                "purpose": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "primary",
+                "gloss",
+                "relation",
+                "purpose"
+              ]
+            },
+            "embedded_source_text": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "primary": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "gloss": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "relation": {
+                  "const": "witness"
+                },
+                "purpose": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "primary",
+                "gloss",
+                "relation",
+                "purpose"
+              ]
+            },
+            "world_text": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "primary": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "gloss": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "relation": {
+                  "const": "witness"
+                },
+                "purpose": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "primary",
+                "gloss",
+                "relation",
+                "purpose"
+              ]
+            },
+            "dialogue": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "primary": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "gloss": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "relation": {
+                  "const": "witness"
+                },
+                "purpose": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "primary",
+                "gloss",
+                "relation",
+                "purpose"
+              ]
+            },
+            "sfx": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "primary": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "gloss": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "relation": {
+                  "const": "witness"
+                },
+                "purpose": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "primary",
+                "gloss",
+                "relation",
+                "purpose"
+              ]
+            }
+          },
+          "required": []
+        },
+        "visualPalette": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "colors": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "string",
+                "pattern": "^#[0-9a-fA-F]{6}$"
+              }
+            },
+            "light": {
+              "type": "string",
+              "minLength": 1
+            },
+            "contrast": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": []
+        },
+        "panelBehavior": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "insets": {
+              "type": "string",
+              "minLength": 1
+            },
+            "rhythm": {
+              "type": "string",
+              "minLength": 1
+            },
+            "architecture": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": []
+        },
+        "tone": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "warmth": {
+              "type": "string",
+              "minLength": 1
+            },
+            "presence": {
+              "type": "string",
+              "minLength": 1
+            },
+            "tension": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": []
+        },
+        "worldMotifs": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "rooms": {
+              "type": "string",
+              "minLength": 1
+            },
+            "artifacts": {
+              "type": "string",
+              "minLength": 1
+            },
+            "doors": {
+              "type": "string",
+              "minLength": 1
+            },
+            "receipts": {
+              "type": "string",
+              "minLength": 1
+            },
+            "screens": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": []
+        }
+      },
+      "required": []
+    },
+    "composition": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "layer": {
+          "type": "string",
+          "minLength": 1
+        },
+        "replacesSource": {
+          "const": false
+        }
+      },
+      "required": [
+        "layer",
+        "replacesSource"
+      ]
+    },
+    "authority": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "semanticAuthority": {
+          "const": false
+        },
+        "admission": {
+          "const": false
+        },
+        "publication": {
+          "const": false
+        }
+      },
+      "required": [
+        "semanticAuthority",
+        "admission",
+        "publication"
+      ]
+    }
+  },
+  "required": [
+    "schema",
+    "id",
+    "title",
+    "description",
+    "tags",
+    "laws",
+    "domains",
+    "behavior",
+    "composition",
+    "authority"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "schema": "lemonpress/manga-style-profile/v0",
+  "id": "HOUSE_WARMTH_001",
+  "title": "HOUSE WARMTH 001",
+  "description": "Soft presence is separate from palette.",
+  "tags": [
+    "declared-behavior",
+    "founding-witness"
+  ],
+  "laws": [
+    "STYLE != CONTENT",
+    "STYLE != AUTHORITY",
+    "STYLE != ADMISSION",
+    "COMPOSITION != COLLAPSE",
+    "LAYER != REPLACEMENT",
+    "PRIMARY != GLOSS",
+    "GLOSS != REPLACEMENT",
+    "WORLD TEXT != DIALOGUE",
+    "STYLE CONFLICT MUST BE RESOLVED EXPLICITLY",
+    "SOURCE TRACE MAY SURVIVE",
+    "LANGUAGE PASSAGE MAY REMAIN VISIBLE",
+    "STACK CHANGE != SAME CANDIDATE"
+  ],
+  "domains": {
+    "languageBehavior": "none",
+    "textChannels": "none",
+    "visualPalette": "none",
+    "panelBehavior": "none",
+    "tone": "own",
+    "worldMotifs": "none"
+  },
+  "behavior": {
+    "tone": {
+      "presence": "emotionally soft",
+      "warmth": "welcoming"
+    }
+  },
+  "composition": {
+    "layer": "bounded behavior overlay",
+    "replacesSource": false
+  },
+  "authority": {
+    "semanticAuthority": false,
+    "admission": false,
+    "publication": false
+  }
+}

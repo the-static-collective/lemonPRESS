@@ -67,3 +67,7 @@ The physical arm begins as an approved 6 × 9 print proof; **proof is not public
 The recovered book shelf is registered under [`library/`](library/README.md). Registration gives a work a house address without automatically publishing its private source body.
 
 See [`library/catalog.yaml`](library/catalog.yaml) for the current machine-readable register.
+
+## Declared manga style
+
+[MANGA STYLE PROFILE 001](docs/MANGA-STYLE-PROFILE-001.md) separates reusable language, palette, panel and motif behavior from content. Frozen profiles and scoped stacks resolve deterministically, preserve style ancestry and contribute to candidate identity. Resolution grants no admission or publication.

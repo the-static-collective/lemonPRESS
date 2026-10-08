@@ -1,0 +1,46 @@
+{
+  "schema": "lemonpress/manga-style-profile/v0",
+  "id": "ARTIFACT_COLLAGE_001",
+  "title": "ARTIFACT COLLAGE 001",
+  "description": "Books, sketches and photos remain identifiable artifacts.",
+  "tags": [
+    "declared-behavior",
+    "founding-witness"
+  ],
+  "laws": [
+    "STYLE != CONTENT",
+    "STYLE != AUTHORITY",
+    "STYLE != ADMISSION",
+    "COMPOSITION != COLLAPSE",
+    "LAYER != REPLACEMENT",
+    "PRIMARY != GLOSS",
+    "GLOSS != REPLACEMENT",
+    "WORLD TEXT != DIALOGUE",
+    "STYLE CONFLICT MUST BE RESOLVED EXPLICITLY",
+    "SOURCE TRACE MAY SURVIVE",
+    "LANGUAGE PASSAGE MAY REMAIN VISIBLE",
+    "STACK CHANGE != SAME CANDIDATE"
+  ],
+  "domains": {
+    "languageBehavior": "none",
+    "textChannels": "none",
+    "visualPalette": "none",
+    "panelBehavior": "none",
+    "tone": "none",
+    "worldMotifs": "own"
+  },
+  "behavior": {
+    "worldMotifs": {
+      "artifacts": "books, sketches, photos remain distinct in collage"
+    }
+  },
+  "composition": {
+    "layer": "bounded behavior overlay",
+    "replacesSource": false
+  },
+  "authority": {
+    "semanticAuthority": false,
+    "admission": false,
+    "publication": false
+  }
+}

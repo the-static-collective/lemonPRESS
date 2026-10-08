@@ -1,0 +1,46 @@
+{
+  "schema": "lemonpress/manga-style-profile/v0",
+  "id": "BUREAUCRATIC_RECEIPT_001",
+  "title": "BUREAUCRATIC RECEIPT 001",
+  "description": "Receipts may be visible as documentary artifacts.",
+  "tags": [
+    "declared-behavior",
+    "founding-witness"
+  ],
+  "laws": [
+    "STYLE != CONTENT",
+    "STYLE != AUTHORITY",
+    "STYLE != ADMISSION",
+    "COMPOSITION != COLLAPSE",
+    "LAYER != REPLACEMENT",
+    "PRIMARY != GLOSS",
+    "GLOSS != REPLACEMENT",
+    "WORLD TEXT != DIALOGUE",
+    "STYLE CONFLICT MUST BE RESOLVED EXPLICITLY",
+    "SOURCE TRACE MAY SURVIVE",
+    "LANGUAGE PASSAGE MAY REMAIN VISIBLE",
+    "STACK CHANGE != SAME CANDIDATE"
+  ],
+  "domains": {
+    "languageBehavior": "none",
+    "textChannels": "none",
+    "visualPalette": "none",
+    "panelBehavior": "none",
+    "tone": "none",
+    "worldMotifs": "own"
+  },
+  "behavior": {
+    "worldMotifs": {
+      "receipts": "bounded documentary evidence without admission"
+    }
+  },
+  "composition": {
+    "layer": "bounded behavior overlay",
+    "replacesSource": false
+  },
+  "authority": {
+    "semanticAuthority": false,
+    "admission": false,
+    "publication": false
+  }
+}
