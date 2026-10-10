@@ -1,0 +1,33 @@
+{
+  "cycle_version": "letter-cycle-001",
+  "state": "candidate",
+  "issue_id": "LP-LTR-001",
+  "series": "The Static Letter",
+  "work_id": "lemonpress:another-clue",
+  "selection": "editorial proposal only",
+  "letter": {
+    "title": "A Clue Changes What Comes Next",
+    "body": "A book looks like something that ends. A cover opens, a page turns, and eventually the last page closes. But a reader never encounters a book in the same room where its writer began.\n\nThe first clue in this particular house was not a prediction. It was a way to preserve an encounter without quietly rewriting it. A wrong turn could remain wrong and still become useful. A returned letter might not solve the original question; it might change which question deserves a card.\n\nOur first index card has an address. You can write it on an envelope, copy it onto paper, or keep it in a box. The address points back to this particular idea and invites a new branch. It does not tell you what to believe.\n\nHere is the experiment: follow a thought out of the book. Notice one thing it failed to include. Write back with your own question, correction, objection, drawing, or observation. You do not owe the publisher a contribution. Nothing becomes public without separate permission and editorial decision.\n\nA book can become a letter. A letter can become a meeting. Whether anything new becomes a book again is still an open question."
+  },
+  "card": {
+    "address": "SC.LP.001",
+    "parent": "SC.LP",
+    "claim": "A publication can keep its source while inviting a genuinely new encounter.",
+    "branch_address": "SC.LP.001a",
+    "branch_question": "Which particular did this letter overlook? What would change if it were added?"
+  },
+  "sources": [
+    {
+      "label": "Admitted book proof, not a released edition",
+      "locus": "works/another-clue/physical-proof-001/interior.md",
+      "state": "admitted_proof",
+      "role": "ancestry_not_reprint"
+    },
+    {
+      "label": "Public dated witness, not project authority",
+      "locus": "the-daily-slice/slices/2026/08/2026-08-29/the-road-drew-itself.md",
+      "state": "public_witness",
+      "role": "context"
+    }
+  ]
+}

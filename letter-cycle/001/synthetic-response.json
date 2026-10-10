@@ -1,0 +1,11 @@
+{
+  "issue_id": "LP-LTR-001",
+  "kind": "synthetic",
+  "channel": "simulation",
+  "message": "The card says a letter can preserve an encounter. Can the physical crease on my copy become a source without pretending every other copy changed?",
+  "consent": {
+    "may_quote_publicly": true,
+    "may_credit_name": false
+  },
+  "note": "FICTIONAL TEST FIXTURE. NOT AN ACTUAL READER OR POSTAL EVENT."
+}

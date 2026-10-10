@@ -1,0 +1,20 @@
+name: Letter Cycle 001
+on:
+  push:
+    branches:
+      - experiment/letter-cycle-001
+  pull_request:
+    paths:
+      - "tools/letter_cycle.py"
+      - "letter-cycle/**"
+      - ".github/workflows/letter-cycle.yml"
+jobs:
+  proof-and-return:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Prepare proof and test private return seam
+        run: python -m unittest discover -s letter-cycle/tests -v
