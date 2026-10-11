@@ -1,0 +1,38 @@
+name: LemonPRESS Marginalia Three Doors 002
+on:
+  push:
+    branches:
+      - experiment/marginalia-three-doors-002
+  pull_request:
+    paths:
+      - "tools/marginalia_three_doors.mjs"
+      - "tools/marginalia_three_doors_cli.mjs"
+      - "tests/marginalia_three_doors.test.mjs"
+      - "tests/goatnote_real_export_interop.test.mjs"
+      - "docs/MARGINALIA-THREE-DOORS-002.md"
+      - ".github/workflows/marginalia-three-doors.yml"
+jobs:
+  three-doors:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - name: Checkout exact public GOATnote 004 exporter
+        uses: actions/checkout@v4
+        with:
+          repository: the-static-collective/GOATnote
+          ref: 95e63de4fdbbe1132294a5798a81b8d1a745fb18
+          path: goatnote-source
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: "Syntax and private publishing candidate refusal checks"
+        run: |
+          node --check tools/marginalia_three_doors.mjs
+          node --check tools/marginalia_three_doors_cli.mjs
+          node --test tests/goatnote_marginalia.test.mjs
+          node --test tests/marginalia_three_doors.test.mjs
+      - name: "Actual GOATnote exporter to LemonPRESS importer cold replay"
+        run: node --test tests/goatnote_real_export_interop.test.mjs
