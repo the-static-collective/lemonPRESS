@@ -141,7 +141,7 @@ class ProofTest(unittest.TestCase):
         text="\n".join(p.extract_text() for p in pdf.pages)
         normalized=re.sub(r"\\s+"," ",text)
         self.assertGreaterEqual(normalized.count("The house takes attendance."),60)
-        self.assertGreaterEqual(normalized.count("A later human margin that refuses"),70)
+        self.assertGreaterEqual(normalized.count("A later human margin that refuses"),70,\n            "PDF_PAGES="+str(len(pdf.pages))+" EXTRACT_LEN="+str(len(normalized))+\n            " PREFIX="+repr(normalized[:400])+" TAIL="+repr(normalized[-1000:]))
         self.assertIn("Full version bytes are omitted",text)
         self.command(sys.executable,RENDER,"verify",score,proof)
 
