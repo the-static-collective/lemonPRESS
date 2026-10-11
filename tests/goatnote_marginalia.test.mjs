@@ -66,7 +66,7 @@ test('create-only private candidate carries a deterministic editable manuscript'
  }finally{await rm(base,{recursive:true,force:true});}
 });
 test('broken hashes and claims refuse even if checksum is recomputed',()=>{
- assert.throws(()=>inspectSelectedMargin(JSON.stringify({...packet,source:{...packet.source,excerpt:'altered'}})),/CHECKSUM/);
+ assert.throws(()=>inspectSelectedMargin(JSON.stringify({...packet,source:{...packet.source,excerpt:'altered'}})),/SOURCE_EXCERPT_NOT_BOUND|PACKET_CHECKSUM_MISMATCH/);
  const modified=seal({...unsigned,source:{...unsigned.source,excerpt:'altered!'}});
  assert.throws(()=>inspectSelectedMargin(JSON.stringify(modified)),/SOURCE_EXCERPT_NOT_BOUND/);
  for(const change of [
