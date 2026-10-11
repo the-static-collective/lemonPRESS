@@ -42,3 +42,18 @@ jobs:
           node --test tests/goatnote_real_export_interop.test.mjs
       - name: "Physical PDF raster QA, private HTML, replay, human HOLD/review refusal"
         run: python -m unittest -v tests/test_marginalia_render_proof.py
+      - name: "Generate actual downloadable synthetic page + fragment proof"
+        run: |
+          node tests/helpers/prepare_marginalia_print_fixture.mjs "$RUNNER_TEMP/marginalia-synthetic"
+          python tools/marginalia_render_proof.py render "$RUNNER_TEMP/marginalia-synthetic/score" "$RUNNER_TEMP/marginalia-synthetic/proof"
+          python tools/marginalia_render_proof.py verify "$RUNNER_TEMP/marginalia-synthetic/score" "$RUNNER_TEMP/marginalia-synthetic/proof"
+      - name: "Attach synthetic proof PDF and HTML (no private source records)"
+        uses: actions/upload-artifact@v4
+        with:
+          name: marginalia-render-proof-003-SYNTHETIC
+          path: |
+            ${{ runner.temp }}/marginalia-synthetic/proof/page.pdf
+            ${{ runner.temp }}/marginalia-synthetic/proof/fragment.html
+            ${{ runner.temp }}/marginalia-synthetic/proof/proof-manifest.json
+          if-no-files-found: error
+          retention-days: 7
