@@ -139,7 +139,7 @@ class ProofTest(unittest.TestCase):
         pdf=PdfReader(proof/"page.pdf")
         self.assertGreater(len(pdf.pages),1)
         text="\n".join(p.extract_text() for p in pdf.pages)
-        normalized=re.sub(r"\\s+"," ",text)
+        normalized=re.sub(r"\s+"," ",text)
         self.assertGreaterEqual(normalized.count("The house takes attendance."),60)
         self.assertGreaterEqual(normalized.count("A later human margin that refuses"),70,
             "PDF_PAGES="+str(len(pdf.pages))+" EXTRACT_LEN="+str(len(normalized))+
