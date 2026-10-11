@@ -4,6 +4,7 @@ Includes rendered PDF page inspection and explicit held/editorial decision gates
 """
 from __future__ import annotations
 import json
+import re
 import subprocess
 import sys
 import tempfile
@@ -138,8 +139,9 @@ class ProofTest(unittest.TestCase):
         pdf=PdfReader(proof/"page.pdf")
         self.assertGreater(len(pdf.pages),1)
         text="\n".join(p.extract_text() for p in pdf.pages)
-        self.assertGreaterEqual(text.count("The house takes attendance."),60)
-        self.assertGreaterEqual(text.count("A later human margin that refuses"),70)
+        normalized=re.sub(r"\\s+"," ",text)
+        self.assertGreaterEqual(normalized.count("The house takes attendance."),60)
+        self.assertGreaterEqual(normalized.count("A later human margin that refuses"),70)
         self.assertIn("Full version bytes are omitted",text)
         self.command(sys.executable,RENDER,"verify",score,proof)
 
