@@ -1,0 +1,27 @@
+name: LemonPRESS GOATnote Marginalia 001 — private candidate
+on:
+  push:
+    branches:
+      - experiment/goatnote-marginalia-press-001
+  pull_request:
+    paths:
+      - "tools/goatnote_marginalia.mjs"
+      - "tools/goatnote_margin_cli.mjs"
+      - "tests/goatnote_marginalia.test.mjs"
+      - "docs/GOATNOTE-MARGINALIA-PRESS-001.md"
+      - ".github/workflows/goatnote-marginalia.yml"
+jobs:
+  press-candidate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Syntax, source refusal and deterministic private candidate
+        run: |
+          node --check tools/goatnote_marginalia.mjs
+          node --check tools/goatnote_margin_cli.mjs
+          node --test tests/goatnote_marginalia.test.mjs
