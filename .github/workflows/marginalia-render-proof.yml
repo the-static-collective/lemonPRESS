@@ -1,0 +1,44 @@
+name: LemonPRESS Marginalia Rendered Proof 003
+on:
+  push:
+    branches:
+      - experiment/marginalia-printproof-review-003
+  pull_request:
+    paths:
+      - "tools/marginalia_render_proof.py"
+      - "tests/test_marginalia_render_proof.py"
+      - "tests/helpers/prepare_marginalia_print_fixture.mjs"
+      - "docs/MARGINALIA-RENDER-PROOF-003.md"
+      - ".github/workflows/marginalia-render-proof.yml"
+jobs:
+  real-render:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - name: Checkout exact pinned GOATnote selected-margin exporter
+        uses: actions/checkout@v4
+        with:
+          repository: the-static-collective/GOATnote
+          ref: 95e63de4fdbbe1132294a5798a81b8d1a745fb18
+          path: goatnote-source
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install proof tooling and Unicode fonts
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y fonts-dejavu-core
+          python -m pip install reportlab==4.4.9 pypdf==5.9.0 pypdfium2==4.30.0 pillow==11.3.0
+      - name: Prior native candidate, three-door and GOATnote exporter gates
+        run: |
+          node --test tests/goatnote_marginalia.test.mjs
+          node --test tests/marginalia_three_doors.test.mjs
+          node --test tests/goatnote_real_export_interop.test.mjs
+      - name: "Physical PDF raster QA, private HTML, replay, human HOLD/review refusal"
+        run: python -m unittest -v tests/test_marginalia_render_proof.py
