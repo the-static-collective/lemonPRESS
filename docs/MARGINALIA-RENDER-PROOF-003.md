@@ -61,3 +61,12 @@ The CI PDF pixel witness is **not real handset visual QA**, nor does it prove hi
 The larger press topology remains distinct: **PRIVATE DRAFT → RENDERED PRIVATE PROOF → LOCAL HUMAN REVIEW → (SEPARATE HOUSE ADMISSION / EDITION / RIGHTS / RELEASE GATES)**.
 
 **PAGE PROOF ≠ PRINT RUN · HTML PROOF ≠ PUBLIC WEB PAGE · SCRIPT ≠ RECORDED AUDIO · LOCAL EDITORIAL SELECTION ≠ PRESS ADMISSION · RENDER ≠ RELEASE.**
+
+## Inspectable CI specimen
+
+A successful workflow run includes a short-lived downloadable artifact named
+`marginalia-render-proof-003-SYNTHETIC`, containing a real rendered `page.pdf`,
+`fragment.html`, and their `proof-manifest.json`. The specimen is deliberately
+fabricated for automated QA (not a user's private GOATnote reading). Artifacts
+expire after seven days. The synthetic proof is not a house publication or edition
+admission; individual private proofs are never uploaded by the CLI.
