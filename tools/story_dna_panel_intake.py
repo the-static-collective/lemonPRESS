@@ -17,8 +17,8 @@ SOURCE_SHA = "7f16ead290a86a5997e714e1280befe282b4047c1d40de07e36849521cd304d1"
 SOURCE_BYTES = 4586389
 EXPECTED = [f"KP{i:02}" for i in range(1, 6)]
 DANGEROUS = re.compile(
-    r"<!DOCTYPE|<!ENTITY|<script\\b|<foreignObject\\b|<iframe\\b|"
-    r"\\bon[a-z]+\\s*=|\\b(?:href|xlink:href)\\s*=|\\burl\\s*\\(\\s*['\"]?\\s*(?:https?:|data:|javascript:)",
+    r"<!DOCTYPE|<!ENTITY|<script\b|<foreignObject\b|<iframe\b|"
+    r"\bon[a-z]+\s*=|\b(?:href|xlink:href)\s*=|\burl\s*\(\s*['\"]?\s*(?:https?:|data:|javascript:)",
     re.IGNORECASE
 )
 
