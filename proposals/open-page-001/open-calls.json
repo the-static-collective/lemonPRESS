@@ -11,7 +11,7 @@
   "consentPolicy": "Public cards describe capability types, not individual recipients, personal hardship, private partner data or accepted job vacancies. Anyone responding opts in voluntarily through the separate Abundent contact desk.",
   "verifiedInstitutionalVacancies": 0,
   "formalCoalitionRequests": 0,
-  "independentRequests": 2,
+  "independentRequests": 3,
   "openCalls": [
     {
       "id": "LP-OC-001",
@@ -145,6 +145,25 @@
       "institutionalSponsor": true,
       "permission": "Printed placement needs permission from the owner of the physical location.",
       "source": "https://kbhqacsdvjsstzyplqij.supabase.co/functions/v1/lemon-grocery"
+    },
+    {
+      "id": "LP-OC-008",
+      "category": "FAITH / FOOD",
+      "region": "Waseca area",
+      "title": "Neighbors of faith willing to share a common table",
+      "why": "Independent idea: invite Waseca congregations to help residents learn about the community grocery and, with permission, tackle one practical food-access problem together. Open to other neighbors too.",
+      "expertise": [
+        "Interchurch introductions",
+        "Volunteer coordination",
+        "Community food access"
+      ],
+      "oneQuestion": "Would your congregation or community group consider one no-obligation conversation about helping neighbors build a community-owned grocery?",
+      "starter": "Read the One Town, Many Congregations feature; ask one person for a voluntary introduction, then invite up to two more willing contacts. No commitment, enrollment, or group endorsement assumed.",
+      "status": "INDEPENDENT_EDITORIAL_PROPOSAL_NOT_PARTNER_RECRUITMENT",
+      "institution": "No church, co-op, or food shelf has signed onto this request",
+      "institutionalSponsor": false,
+      "permission": "The Static Collective / Abundent invites responses independently; contact each institution directly and obtain permission before assigning tasks or reporting participation. Official memberships and votes belong to the co-op's verified process.",
+      "source": "https://github.com/the-static-collective/lemonPRESS/blob/experiment/community-open-calls-001/proposals/open-page-001/features/churches-common-table.md"
     }
   ]
 }
