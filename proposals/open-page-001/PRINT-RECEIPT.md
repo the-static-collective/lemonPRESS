@@ -1,7 +1,7 @@
 # lemonPRESS / THE OPEN PAGE / PRINT RECEIPT 001
 
-- **PDF proof:** `lemonPRESS_The_Open_Page_Issue_001_Print_Kit.pdf`
-- **SHA-256:** `1e63f4b9809c8b51c3879a8fd5ceba08eae64e01efba1ae9f604a2cbaf8d494c`
+- **PDF proof:** `lemonPRESS_Open_Page_001_Eight_Calls_Oct25.pdf`
+- **SHA-256:** `989730e6e78afab5ad5c82931ad75f5fbe0d8392eb6d9de120828a714a955401`
 - **Exact bytes:** 138510
 - **Page size:** 3 pages, US Letter 612 × 792 pt.
 - **Page 1:** newspaper front with locally sourced reporting and editorial status.
