@@ -41,5 +41,16 @@
     "co_op_endorsement": false,
     "press_run_authorized": false
   },
-  "next_issue_policy": "Use separate, consented public-safe reviewed source cut and actual editor permission; no automatic ingestion of PENDING Garden responses."
+  "next_issue_policy": "Use separate, consented public-safe reviewed source cut and actual editor permission; no automatic ingestion of PENDING Garden responses.",
+  "digital_supplement": {
+    "id": "lemonpress:the-open-page-001:churches-common-table",
+    "created": "2026-10-25",
+    "status": "independent_editorial_proposal_not_house_admitted",
+    "source": "proposals/open-page-001/features/churches-common-table.md",
+    "render": "proposals/open-page-001/features/churches-common-table.html",
+    "included_in": "proposals/waseca-grocery-issue-000/index.html",
+    "impact_on_original_issue_000_print": "none; original broadsheet and cards intentionally unchanged",
+    "institutional_endorsements": 0,
+    "confirmed_memberships": 0
+  }
 }
