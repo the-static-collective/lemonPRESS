@@ -16,7 +16,18 @@
     "evidence_class": "source-claimed",
     "media_bytes": "not obtained",
     "audio_listened": "not verified",
-    "exact_artist_credit": "not independently verified"
+    "exact_artist_credit": "Displayed creator: Hailey Lu (as shown on Suno; not independently authenticated as all rightsholders)",
+    "displayed_creator": "Hailey Lu",
+    "displayed_model": "V6-WILD",
+    "live_check": {
+      "date": "2026-10-26",
+      "method": "read-only public Suno song and embed page retrieval",
+      "song_page_title": "Rosemary Bloom",
+      "song_page_displays_creator": "Hailey Lu",
+      "embed_page_title": "Rosemary Bloom",
+      "audio_playback": "not tested",
+      "creator_identity_or_rights_authenticated": false
+    }
   },
   "edition": {
     "kind": "linked-listening-room",
@@ -49,9 +60,9 @@
     {
       "gear": "SIA",
       "status": "REFERENCED",
-      "input": "SIA golden visual recipe: title, URL, source object ID",
+      "input": "SIA golden visual recipe: title, URL, source object ID; subsequent read-only current Suno page check",
       "transformation": "Select exactly one already-preserved source claim",
-      "output": "Attributable single-song intake record",
+      "output": "Attributable single-song source reference plus current displayed creator/model",
       "loss": "No audio, lyrics, master, verified credit or rights"
     },
     {
@@ -113,7 +124,7 @@
     "output": "Browsable prototype and machine-readable gates",
     "residual": "Uninspected song audio and unverified author/ownership",
     "loss": "No sonic analysis or portable listening file",
-    "unknown": "Playback access, exact rights, artist credit, physical feasibility, pricing",
+    "unknown": "Whether embedded audio plays on users' devices; master/ownership, licensing, physical feasibility, pricing",
     "stop": "This is a reversible experiment, not a licensed record or house-level admission"
   },
   "privacy": "No cookies, analytics, account creation, or remote submission. Suno iframe only requested after explicit click."
