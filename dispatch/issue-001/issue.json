@@ -1,0 +1,62 @@
+{
+  "schema": "lemonpress/rural-dispatch-issue/v0",
+  "id": "LRD-2026-001",
+  "issue_date": "2026-11 (TARGET; NOT PUBLISHED)",
+  "title": "The Infrastructure of Neighborliness",
+  "masthead": "The Living Rural Dispatch",
+  "imprint": "PENNY PRESS / lemonPRESS",
+  "state": "DRAFT_HOLD",
+  "publisher": "independent experimental publishing project; not SMIF / Coalition / co-op publication",
+  "editions": {
+    "web": "SOURCE_ONLY_NOT_DEPLOYED",
+    "email": "UNSENT_PREVIEW",
+    "print": "PROOF_NOT_PRINT_RUN"
+  },
+  "stories": [
+    {
+      "page": 1,
+      "desk": "WHAT'S GROWING",
+      "working_title": "A Grocery That Doesn't Exist Yet",
+      "state": "REPORTING_PENDING",
+      "source_kind": "2026-10-25 participant meeting recollections; external sourcing and publication consent pending"
+    },
+    {
+      "page": 2,
+      "desk": "PEOPLE AND PLACES",
+      "working_title": "Places Make Room for People",
+      "state": "RESEARCH_PENDING",
+      "source_kind": "local public information; no outlets or venues confirmed as participants"
+    },
+    {
+      "page": 3,
+      "desk": "THE WORKBENCH",
+      "working_title": "What Is the Smallest Useful Next Step?",
+      "state": "INVITATIONS_UNISSUED"
+    },
+    {
+      "page": 4,
+      "desk": "THE PENNY PAGE",
+      "working_title": "One Penny. Small Things Count.",
+      "state": "COIN_RITUAL_NOT_OPERATING"
+    }
+  ],
+  "constraints": [
+    "FREE_COPY_WITHOUT_PENNY",
+    "NO_AUTO_PUBLICATION",
+    "NO_UNCONSENTED_IDENTITIES",
+    "NO_PARTNER_CLAIMS",
+    "NO_BACKED_PENNY_ISSUANCE",
+    "PUBLIC_SOURCES_ONLY",
+    "CORRECTIONS_VISIBLE"
+  ],
+  "ledger": {
+    "copies_printed": null,
+    "copies_distributed": null,
+    "cost_usd": null,
+    "penny_count_observed": null,
+    "confirmed_outcomes": 0
+  },
+  "contact": "us@abundent.org",
+  "updated_utc": "2026-10-26",
+  "source_draft_only": true
+}
