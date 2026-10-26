@@ -17,7 +17,7 @@ Open [index.html](index.html) locally in a browser. It is a standalone responsiv
 | **GRAFT / physical** | No source code run; no master, format timings, quote or test pressing. | NOT RUN. |
 | **JAR;VIS / return** | Show an invitation draft without sending it or retaining responses. | UI ONLY. |
 
-The [manifest](edition.json) lists every passage, loss, uncertainty, and gate before physical release. In particular, **a public Suno URL is not a manufacturing license**. The caption `The Static Collective` is a curatorial label from surrounding context, not independent verification of final songwriter/performer/owner credit.
+The [manifest](edition.json) lists every passage, loss, uncertainty, and gate before physical release. In particular, **a public Suno URL is not a manufacturing license**. The Suno page currently displays creator **Hailey Lu** and model **V6-WILD**; this is a platform observation, not independently authenticated ownership.
 
 ## Why this belongs on an experiment branch
 
