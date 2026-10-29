@@ -1,0 +1,23 @@
+name: Culture Receiver 002 — independently held work candidates
+on:
+  push:
+    branches: ['experiment/culture-forge-002-independent-hold']
+  pull_request:
+    paths:
+      - 'intake/held-culture.mjs'
+      - 'intake/held-culture-cli.mjs'
+      - 'tests/held-culture.test.mjs'
+      - '.github/workflows/culture-receiver-002.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  receiver-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Independently test receive HOLD REFUSE and cold replay
+        run: node --test tests/held-culture.test.mjs
