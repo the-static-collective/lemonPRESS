@@ -193,7 +193,7 @@ export function verify(outdir){
     check(['data-fsk.wav','payload.bin','groovevault-manifest.json'].includes(name),'UNSAFE_FILE');
     check(sha(readFileSync(join(out,name)))===hash,'TAMPER_'+name);
   }
-  const wav=readFileSync(join(out,'data-fsk.wav'),payload=readFileSync(join(out,'payload.bin'));
+  const wav=readFileSync(join(out,'data-fsk.wav')),payload=readFileSync(join(out,'payload.bin'));
   check(decode(wav).payload.equals(payload),'DIGITAL_ROUNDTRIP');
   return {status:'GROOVEVAULT_COLD_DIGITAL_ROUNDTRIP_VERIFIED',receiptId,bytes:payload.length,physicalRecords:0};
 }
