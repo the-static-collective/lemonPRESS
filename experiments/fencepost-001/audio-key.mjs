@@ -75,10 +75,10 @@ function splitCap(wav){
   assertMaster(wav);
   const whole=wav.subarray(44);
   const markerBytesLen=MARKER_SAMPLES*2;
-  hold(whole.length >= markerBytesLen*2+GAP_SAMPLES*4+2,'CAPSULE_DURATION');
+  hold(whole.length >= markerBytesLen*2+GAP_SAMPLES*8+2,'CAPSULE_DURATION');
   const front=whole.subarray(0,markerBytesLen);
   const back=whole.subarray(whole.length-markerBytesLen);
-  const body=whole.subarray(markerBytesLen+2*GAP_SAMPLES,whole.length-markerBytesLen-2*GAP_SAMPLES);
+  const body=whole.subarray(markerBytesLen+4*GAP_SAMPLES,whole.length-markerBytesLen-4*GAP_SAMPLES);
   return {front:waveWithPayload(front),back:waveWithPayload(back),body};
 }
 export function assemble(master,manifest){
