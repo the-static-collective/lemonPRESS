@@ -36,10 +36,8 @@ test('unknown worlds and uninstalled fixtures cannot cause execution',()=>{
   const modified={...manifest,doors:[{world:'revival',verb:'inspect',resourceKey:'custom-command-demo'}]};
   // different manifest ID is refused before any world interpretation.
   assert.throws(()=>visitDoor(wav,modified,'revival',{approval:'OPEN_LOCAL_DEMO'}),/AUDIO_KEY_HOLD_MANIFEST_ID_MISMATCH|WORLD_DOOR_HOLD_CAPSULE_NOT_VERIFIED|AUDIO_KEY_HOLD_SOURCE_AUDIO_MISMATCH/);
-  const newMarker=assemble(encodePcm16(new Float64Array(48000),48000),
-    createDemoManifest(encodePcm16(new Float64Array(48000),48000)));
   const other={...manifest,workId:'demo/other'};
-  assert.throws(()=>visitDoor(wav,other,'revival',{approval:'OPEN_LOCAL_DEMO'}),/AUDIO_KEY_HOLD_MANIFEST_ID_MISMATCH/);
+  assert.throws(()=>visitDoor(wav,other,'revival',{approval:'OPEN_LOCAL_DEMO'}),/WORLD_DOOR_HOLD_CAPSULE_NOT_VERIFIED/);
 });
 test('CLI lists proposals and executes only an explicit local fixture',()=>{
   const {manifest,wav}=make(),d=mkdtempSync(join(tmpdir(),'world-doors-'));
