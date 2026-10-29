@@ -60,9 +60,6 @@ test('conflicting head/tail marker fails, rather than trusting first marker',()=
   const m2={...m,workId:'demo/alternate-sound'};
   const b=assemble(s,m2);
   const altered=Buffer.from(a.capsuleWav);
-  const region=(b.capsuleWav.length-44-a.markerDurationSeconds*2*RATE);
-  const start=44+Math.round(region);
-  b.capsuleWav.copy(altered,start,start);
   // Copy just B's encoded tail into A's tail.
   const markerByteLength=Math.round(a.markerDurationSeconds*RATE)*2;
   b.capsuleWav.copy(altered,altered.length-markerByteLength,b.capsuleWav.length-markerByteLength);
