@@ -1,0 +1,78 @@
+{
+  "schema": "fencepost/thermo-stylus-002/v1",
+  "status": "RESEARCH_HOLD_NO_ACTUATION",
+  "insight": "Three revolutions at 45 rpm are four seconds of one continuous, inward-moving spiral. Multiple recuts on an identical groove are not recommended.",
+  "heaterArchitecture": {
+    "heater": "INDEPENDENT_SENSOR_CONTROLLED_HEATER_NOT_IMPLEMENTED",
+    "audio": "SEPARATE_CALIBRATED_VOICE_COIL_NOT_IMPLEMENTED",
+    "batteryDirectToNeedle": false,
+    "setpointC": null,
+    "electricalOutputCommands": [],
+    "guardrails": [
+      "heater circuit isolated from recording-head amplifier",
+      "normally-off heater with current limit, fuse and independent thermal cutoff",
+      "temperature sensing and logging",
+      "raise head and power-down on loss of spindle index",
+      "no processing reclaimed PVC in maker apparatus"
+    ]
+  },
+  "material": {
+    "firstCandidate": "commercially specified unheated embossing blank",
+    "pvcFenceOrPipe": "HOLD_LAB_MATERIAL_CHARACTERIZATION",
+    "outdoorWork": "NOT_SUFFICIENT_FUME_CONTROL"
+  },
+  "experiment": {
+    "phaseA": "Three independent sample regions or blanks, same audio clip and heat OFF; compare only calibrated drive level, not repeated machining of same groove.",
+    "baselineTemperature": "HEATER_OFF",
+    "trials": [
+      {
+        "id": "A",
+        "signalGainDbRelativeToDigitalSource": -18,
+        "track": "SEPARATE",
+        "material": "SAME_SPECIFIED_BATCH",
+        "heat": "OFF",
+        "recordingExecuted": false
+      },
+      {
+        "id": "B",
+        "signalGainDbRelativeToDigitalSource": -12,
+        "track": "SEPARATE",
+        "material": "SAME_SPECIFIED_BATCH",
+        "heat": "OFF",
+        "recordingExecuted": false
+      },
+      {
+        "id": "C",
+        "signalGainDbRelativeToDigitalSource": -6,
+        "track": "SEPARATE",
+        "material": "SAME_SPECIFIED_BATCH",
+        "heat": "OFF",
+        "recordingExecuted": false
+      }
+    ],
+    "phaseB": "Only after phase A and independent material/electrical review, compare heater OFF vs an independently calibrated LOW heater on new blanks at a FIXED signal level.",
+    "phaseBApproval": "HOLD_FOR_MATERIAL_AND_HARDWARE_REVIEW",
+    "neededObservations": [
+      "actual tip temperature measured rather than inferred from battery voltage",
+      "spindle phase/index and radial speed",
+      "cutting/embossing load and resulting groove width",
+      "surface noise and distortion on sacrificial playback rig",
+      "visible melting, charring, smoke, and material degradation; stop on any such indication"
+    ],
+    "directSameGrooveRetraceAllowed": false,
+    "printerCommands": [],
+    "heaterCommands": [],
+    "audioAmplifierCommands": []
+  },
+  "roles": {
+    "lemonPRESS": "publishing/rights/sleeves after human approval",
+    "FENCEPOST": "offline modeling and evidence only",
+    "CANNON": "candidate integration receipts, not authorization to run machinery"
+  },
+  "references": [
+    "https://reccut-audio.com/en/home/products/technical_data",
+    "https://patents.google.com/patent/US2627416A/en",
+    "https://patents.google.com/patent/US2746130A/en",
+    "https://chemicalsafety.ilo.org/dyn/icsc/showcard.display?p_card_id=1487&p_lang=en&p_version=2"
+  ]
+}
