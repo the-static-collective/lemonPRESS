@@ -6,6 +6,7 @@ on:
   pull_request:
     paths:
       - 'experiments/fencepost-001/audio-key*'
+      - 'experiments/fencepost-001/world-doors*'
       - 'experiments/fencepost-001/AUDIO-KEY-005.md'
       - '.github/workflows/audio-key-005.yml'
 jobs:
@@ -18,6 +19,6 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: node --test experiments/fencepost-001/audio-key.test.mjs
+      - run: node --test experiments/fencepost-001/audio-key.test.mjs experiments/fencepost-001/world-doors.test.mjs
       - run: node experiments/fencepost-001/audio-key.mjs demo /tmp/audio-key-proof
       - run: node experiments/fencepost-001/audio-key.mjs verify /tmp/audio-key-proof
