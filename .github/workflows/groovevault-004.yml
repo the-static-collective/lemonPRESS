@@ -1,0 +1,23 @@
+name: GROOVEVAULT-004 offline data-to-audio proof
+on:
+  push:
+    branches:
+      - experiment/fencepost-groovevault-004
+  pull_request:
+    paths:
+      - 'experiments/fencepost-001/groovevault*'
+      - 'experiments/fencepost-001/GROOVEVAULT-004.md'
+      - '.github/workflows/groovevault-004.yml'
+jobs:
+  digital-roundtrip:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --test experiments/fencepost-001/groovevault.test.mjs
+      - run: node experiments/fencepost-001/groovevault.mjs demo /tmp/groovevault
+      - run: node experiments/fencepost-001/groovevault.mjs verify /tmp/groovevault
