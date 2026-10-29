@@ -1,0 +1,28 @@
+name: RETURN PRESS 006 synthetic musical lineage proof
+on:
+  push:
+    branches:
+      - experiment/fencepost-return-press-006
+  pull_request:
+    paths:
+      - 'experiments/fencepost-001/return-press*'
+      - 'experiments/fencepost-001/RETURN-PRESS-006.md'
+      - '.github/workflows/return-press-006.yml'
+jobs:
+  replay:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --test experiments/fencepost-001/return-press.test.mjs
+      - run: node experiments/fencepost-001/return-press.mjs demo /tmp/return-press-demo
+      - run: node experiments/fencepost-001/return-press.mjs verify /tmp/return-press-demo
+      - uses: actions/upload-artifact@v4
+        with:
+          name: return-press-006-demo-original-and-two-new-remixes
+          path: /tmp/return-press-demo
+          if-no-files-found: error
