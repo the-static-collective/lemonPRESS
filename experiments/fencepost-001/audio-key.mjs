@@ -19,6 +19,7 @@ const json=o=>JSON.stringify(o,null,2)+'\n';
 const hold=(ok,code)=>{if(!ok)throw Error('AUDIO_KEY_HOLD_'+code);};
 const keys=(value,accepted)=>Object.keys(value).sort().join('|')===accepted.slice().sort().join('|');
 const validText=s=>typeof s==='string' && s.length>0 && s.length<=100 && /^[\w .:/-]+$/.test(s);
+const validResourceKey=s=>typeof s==='string' && /^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$/.test(s);
 function assertMaster(buf){
   hold(Buffer.isBuffer(buf)&&buf.length>=46&&buf.length<30000000,'MASTER_SIZE');
   const d=decodePcm16(buf);
@@ -43,7 +44,7 @@ function manifestCheck(m){
   for(const d of m.doors){
     hold(d&&typeof d==='object'&&!Array.isArray(d)&&
       keys(d,['world','verb','resourceKey'])&&WORLDS.has(d.world) &&
-      READONLY_VERBS.has(d.verb) && validText(d.resourceKey),'DOOR_SCHEMA');
+      READONLY_VERBS.has(d.verb) && validResourceKey(d.resourceKey),'DOOR_SCHEMA');
     const identity=d.world+'/'+d.verb+'/'+d.resourceKey;
     hold(!seen.has(identity),'DUPLICATE_DOOR'); seen.add(identity);
   }
