@@ -17,6 +17,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: node --test experiments/fencepost-001/fencepost.test.mjs experiments/fencepost-001/thermo-stylus.test.mjs
+      - run: node --test experiments/fencepost-001/fencepost.test.mjs experiments/fencepost-001/thermo-stylus.test.mjs experiments/fencepost-001/fusion.test.mjs
       - run: node experiments/fencepost-001/fencepost.mjs demo /tmp/fencepost-proof
       - run: node experiments/fencepost-001/fencepost.mjs verify /tmp/fencepost-proof
+      - run: node experiments/fencepost-001/fusion.mjs demo /tmp/fencepost-fusion tandem
+      - run: node experiments/fencepost-001/fusion.mjs verify /tmp/fencepost-fusion
