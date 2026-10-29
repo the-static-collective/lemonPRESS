@@ -1,0 +1,48 @@
+{
+  "schema": "fencepost/offline-extension/v1",
+  "id": "reverse-seismograph",
+  "version": "0.1.0-experiment",
+  "label": "Reverse Seismograph (offline groove planner)",
+  "state": "LOCAL_SIMULATION_ONLY",
+  "entrypoint": "node fencepost.mjs plan <input-PCM16-WAV> <output-dir> [rpm]",
+  "acceptedSources": [
+    "PCM_16LE_MONO_WAV",
+    "PCM_16LE_STEREO_WAV"
+  ],
+  "emits": [
+    "plan.json",
+    "radial-axis-plan.json",
+    "groove-preview.svg",
+    "head-reference.wav",
+    "receipt.json"
+  ],
+  "applicableHosts": [
+    "cli",
+    "future-3d-printer-extension-adapter"
+  ],
+  "unsupportedHosts": [
+    "direct-Klipper-control",
+    "direct-Marlin-control",
+    "slicer-generated-machine-motion"
+  ],
+  "permissions": {
+    "network": false,
+    "hardwareActuation": false,
+    "spindleControl": false,
+    "toolheadControl": false,
+    "heaterControl": false,
+    "extrusionControl": false
+  },
+  "requiresForPhysicalHardware": [
+    "identified-printer-model",
+    "external-indexed-spindle",
+    "calibrated-recording-head",
+    "independent-e-stop",
+    "endstops",
+    "stylus-lift",
+    "thermal-protection",
+    "material-assessment",
+    "human-approval"
+  ],
+  "caution": "This extension does not produce machine-ready G-code or record-ready mastered audio."
+}
