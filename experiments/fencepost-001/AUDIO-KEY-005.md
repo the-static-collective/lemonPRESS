@@ -55,6 +55,16 @@ Example proof routes (all synthetic, untrusted and non-actuating):
 
 This code creates **no live adapters** to those repositories, Supabase, games, user accounts or hardware. A future receiver must independently decide whether it recognizes the manifest publisher, whether the specific user is authorized, and whether a stated action is allowable. An audible marker is a **public link**, never a bearer capability secret.
 
+## Actual code invocation: local demo interpreter, not privileges
+
+The `world-doors.mjs` interpreter recognizes **only five hard-coded local fixtures** and runs their bounded JSON-view generators. This is actual deterministic Node code reached via the captured sound ID, but not any source-provided code, live game logic or external service. Nothing touches Revival, Reality 2.0's database, a Pokémon service, CANNON admission or Haunted Toaster's real render path.
+
+    node experiments/fencepost-001/world-doors.mjs list /tmp/audio-key-demo/audio-capsule.wav /tmp/audio-key-demo/manifest.json
+    node experiments/fencepost-001/world-doors.mjs visit /tmp/audio-key-demo/audio-capsule.wav /tmp/audio-key-demo/manifest.json creature-world OPEN_LOCAL_DEMO
+    node --test experiments/fencepost-001/world-doors.test.mjs
+
+**The explicit `OPEN_LOCAL_DEMO` argument is a simulation switch, not identity or security authentication.** A real receiver would require separately verified owner signing keys, a scoped user grant, replay/idempotency rules and an auditable executable package pinned to its approved publisher. The audio capsule should never contain secrets, shell commands or transferable capabilities.
+
 ## Why NOT just one ultrasonic frequency?
 
 One frequency is mostly a recognizable tone, not a reliable ID. An inaudible watermark could use spread-spectrum coding, repeated synchronization blocks, psychoacoustic masking, and timebase compensation. Analog vinyl adds wow, flutter, scratches, noise, distortion, and filtering. A strong robust audio watermark suitable for repeated detection through a record player is **research work**, not implemented. The usable first experiment is explicit header/outro FSK, with a fingerprint-based *fallback* for song identity.
