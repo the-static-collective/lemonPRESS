@@ -1,0 +1,17 @@
+name: lemonPRESS Minute Mail local interactive art and reviewed edition
+on:
+  push:
+    branches: [experiment/minute-mail-house-001]
+  pull_request:
+    paths: ['src/minute-mail-house.mjs', 'scripts/minute-mail-house.mjs', 'test/minute-mail-house.test.mjs', '.github/workflows/minute-mail-house.yml']
+  workflow_dispatch:
+permissions: {contents: read}
+jobs:
+  edition:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {persist-credentials: false}
+      - uses: actions/setup-node@v4
+        with: {node-version: '24'}
+      - run: node --test test/minute-mail-house.test.mjs test/screening-program.test.mjs
