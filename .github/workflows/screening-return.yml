@@ -1,0 +1,28 @@
+name: lemonPRESS original film screening program and JARVIS editorial return
+on:
+  push:
+    branches: [experiment/screening-return-001]
+  pull_request:
+    paths:
+      - src/screening-program.mjs
+      - scripts/screening-program.mjs
+      - test/screening-program.test.mjs
+      - .github/workflows/screening-return.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  screening:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Native lemonPRESS editorial, rights and return tests
+        run: |
+          node --check src/screening-program.mjs
+          node --check scripts/screening-program.mjs
+          node --test test/screening-program.test.mjs test/vinyl-preflight.test.mjs
