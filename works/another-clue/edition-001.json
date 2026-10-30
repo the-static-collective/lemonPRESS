@@ -1,0 +1,14 @@
+{
+  "edition_id": "lemonpress:another-clue:digital:001",
+  "work_id": "lemonpress:another-clue",
+  "kind": "digital-reading-package",
+  "status": "proof",
+  "source": "Another Clue — Carrier Cut 001",
+  "source_sha256": "unavailable",
+  "files": [
+    "READER-001.txt",
+    "ROUTES-001.md",
+    "WRENCH-001.md"
+  ],
+  "law": "NAVIGATION != NARRATIVE ORIGIN"
+}

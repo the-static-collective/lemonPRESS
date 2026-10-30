@@ -1,0 +1,30 @@
+name: PRESS 001 vinyl preflight native proof
+on:
+  push:
+    branches: ['experiment/opf-vinyl-preflight-001']
+  pull_request:
+    paths: ['src/vinyl-proof.mjs','scripts/vinyl-preflight.mjs','test/vinyl-preflight.test.mjs','test/fixtures/synthetic-room-review.json','.github/workflows/vinyl-preflight-001.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  held-proof:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: node --test test/vinyl-preflight.test.mjs
+      - name: Native draft, cold recompute, and deliberate tamper refusal
+        run: |
+          node scripts/vinyl-preflight.mjs build --edition works/other-peoples-fire/press-000/edition.json --room test/fixtures/synthetic-room-review.json --out "$RUNNER_TEMP/vinyl" --authorize LOCAL_DRAFT_ONLY
+          node scripts/vinyl-preflight.mjs verify --edition works/other-peoples-fire/press-000/edition.json --room test/fixtures/synthetic-room-review.json --out "$RUNNER_TEMP/vinyl"
+          printf 'forged' >> "$RUNNER_TEMP/vinyl/proof.json"
+          if node scripts/vinyl-preflight.mjs verify --edition works/other-peoples-fire/press-000/edition.json --room test/fixtures/synthetic-room-review.json --out "$RUNNER_TEMP/vinyl"; then echo 'forgery accepted';exit 1; fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: press-001-vinyl-proposal-not-for-manufacture
+          path: ${{ runner.temp }}/vinyl/
+          retention-days: 30
+          if-no-files-found: error

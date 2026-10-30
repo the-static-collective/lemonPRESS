@@ -1,0 +1,37 @@
+{
+  "schema": "band-runtime/room-encounter-review/v1",
+  "status": "SYNTHETIC_WITNESS_ONLY",
+  "semanticInputs": 0,
+  "actualRoomWrites": 0,
+  "sourceAuthenticated": false,
+  "published": false,
+  "rightsVerified": false,
+  "humanActs": 0,
+  "witnessEvents": [
+    {
+      "type": "session.opened"
+    },
+    {
+      "type": "capture.recorded"
+    },
+    {
+      "type": "handoff.recorded",
+      "payload": {
+        "delivery": {
+          "status": "DECLARED"
+        }
+      }
+    },
+    {
+      "type": "return.recorded",
+      "payload": {
+        "relation": {
+          "status": "CLAIMED"
+        }
+      }
+    },
+    {
+      "type": "decision.recorded"
+    }
+  ]
+}

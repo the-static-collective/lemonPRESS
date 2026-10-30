@@ -1,0 +1,131 @@
+{
+  "schema": "opf/press-000/v0",
+  "id": "opf:press-000:rosemary-bloom",
+  "date": "2026-10-26",
+  "state": "EXPERIMENT_HOLD",
+  "title": "Rosemary Bloom",
+  "subtitle": "The First Spark",
+  "curatorial_imprint": "Other People's Fire / candidate lemonPRESS imprint",
+  "source": {
+    "title": "Rosemary Bloom",
+    "kind": "song",
+    "url": "https://suno.com/song/70b1d32e-21b6-4340-990d-1a4ef67cfc42",
+    "source_record": "the-static-collective/SIA@main:examples/golden.visual.recipe.json",
+    "source_object_id": "sha256:8dbe6070ba203c1799ea2e1fc17b4c755bf34824c18953c28570fe36408acb98",
+    "observed_via": "first listening letter at https://abundent.org/week/",
+    "evidence_class": "source-claimed",
+    "media_bytes": "not obtained",
+    "audio_listened": "not verified",
+    "exact_artist_credit": "Displayed creator: Hailey Lu (as shown on Suno; not independently authenticated as all rightsholders)",
+    "displayed_creator": "Hailey Lu",
+    "displayed_model": "V6-WILD",
+    "live_check": {
+      "date": "2026-10-26",
+      "method": "read-only public Suno song and embed page retrieval",
+      "song_page_title": "Rosemary Bloom",
+      "song_page_displays_creator": "Hailey Lu",
+      "embed_page_title": "Rosemary Bloom",
+      "audio_playback": "not tested",
+      "creator_identity_or_rights_authenticated": false
+    }
+  },
+  "edition": {
+    "kind": "linked-listening-room",
+    "carrier": "single self-contained HTML file plus optional Suno-hosted embed",
+    "format": "one-song pseudo-vinyl",
+    "side_a": [
+      {
+        "slot": "A1",
+        "title": "Rosemary Bloom",
+        "source_url": "https://suno.com/song/70b1d32e-21b6-4340-990d-1a4ef67cfc42"
+      }
+    ],
+    "side_b": [],
+    "side_b_note": "Open groove is an invitation, not an audio recording.",
+    "sleeve_art": "CSS-originated experimental graphic; no original song artwork copied",
+    "playback": "Original external source / optional Suno embed; not independently verified",
+    "physical_master": null
+  },
+  "rights": {
+    "known_grant": "links-only as labeled in SIA source",
+    "creator_identified_and_contacted": false,
+    "creator_approval": "UNKNOWN",
+    "master_copy_license": "NOT_GRANTED",
+    "physical_manufacture_approval": "NOT_GRANTED",
+    "distribution_approval": "NOT_GRANTED",
+    "monetization": "NOT_AUTHORIZED",
+    "interpretation": "A publicly reachable URL does not supply a copyright license, Suno entitlement, artist agreement or manufacture permission."
+  },
+  "gear_receipts": [
+    {
+      "gear": "SIA",
+      "status": "REFERENCED",
+      "input": "SIA golden visual recipe: title, URL, source object ID; subsequent read-only current Suno page check",
+      "transformation": "Select exactly one already-preserved source claim",
+      "output": "Attributable single-song source reference plus current displayed creator/model",
+      "loss": "No audio, lyrics, master, verified credit or rights"
+    },
+    {
+      "gear": "Curator",
+      "status": "PROPOSED",
+      "input": "One linked song",
+      "transformation": "Place song in tentative A1; leave B-side unrecorded",
+      "output": "One-song sequencing proposal",
+      "loss": "No listening-based mood, duration or analysis asserted"
+    },
+    {
+      "gear": "Rights",
+      "status": "HOLD",
+      "input": "Public Suno URL and SIA links-only rights tag",
+      "transformation": "Refuse to turn link into distribution authorization",
+      "output": "No media copied or manufactured",
+      "loss": "Cannot ship physical editions"
+    },
+    {
+      "gear": "lemonPRESS/digital",
+      "status": "PROTOTYPE_BUILT",
+      "input": "SIA reference and editorial proposal",
+      "transformation": "Render original CSS sleeve and clickable hosted-source player",
+      "output": "index.html; edition.json",
+      "loss": "Playback reliant on Suno; current availability unknown"
+    },
+    {
+      "gear": "GRAFT / physical manufacture",
+      "status": "NOT_RUN",
+      "input": "No permitted master; no timing, side plan or manufacturing quote",
+      "transformation": "No action",
+      "output": "Manufacture HOLD",
+      "loss": "No cost estimate, test pressing or physical artifact"
+    },
+    {
+      "gear": "JAR;VIS / return",
+      "status": "INVITATION_UI_ONLY",
+      "input": "Candidate open groove",
+      "transformation": "Draft shareable invitation; no personal data collection",
+      "output": "Invitation UI",
+      "loss": "No live invitation routing, artist enrollment or receipts"
+    }
+  ],
+  "release_gates": {
+    "current_state": "HOLD",
+    "required_before_physical_release": [
+      "Artist identity and exact credit verified",
+      "Master/source producer rights and artist compilation permission documented",
+      "Suno generation/download/distribution eligibility verified for this recording",
+      "Licensed media master supplied and listened to",
+      "A/B timing, mastering, artwork and physical-format proof approved",
+      "Manufacturing quote, returns, artist copies and accounting approved",
+      "Explicit local human admission in lemonPRESS"
+    ]
+  },
+  "wrench_receipt": {
+    "input": "One SIA catalogued song-link claim",
+    "transformation": "KEEP title/source; MOVE to digital single; ADD proposed CSS sleeve and listener invitation; HOLD audio copying and manufacture",
+    "output": "Browsable prototype and machine-readable gates",
+    "residual": "Uninspected song audio and unverified author/ownership",
+    "loss": "No sonic analysis or portable listening file",
+    "unknown": "Whether embedded audio plays on users' devices; master/ownership, licensing, physical feasibility, pricing",
+    "stop": "This is a reversible experiment, not a licensed record or house-level admission"
+  },
+  "privacy": "No cookies, analytics, account creation, or remote submission. Suno iframe only requested after explicit click."
+}

@@ -1,0 +1,22 @@
+name: nunuMATH Playground
+
+on:
+  push:
+    branches:
+      - 'instrument/nunumath-playground-001'
+  pull_request:
+    paths:
+      - 'works/nunumath-playground-001/**'
+      - '.github/workflows/nunumath-playground.yml'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate FIR specimens
+        working-directory: works/nunumath-playground-001
+        run: npm test
